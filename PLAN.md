@@ -84,6 +84,20 @@ Your Leitner boxes (0 to 8) are the plant's growth stages:
 - Tiny chiptune sound effects and an optional soft ambient loop, made in code (no audio files).
 - Settings: reduce motion and text size.
 
+## Mood from your reference pictures
+
+I studied the 5 pictures you sent. They're for **mood only**: I'm taking the feeling and colors from them, not their characters or drawings.
+
+1. **Pink dream town**: lavender buildings, round pink trees, a winding gray track, a heart and score counter in the corner. → Inspires **El Cielo and El Barrio**: soft pink town and a heart-and-stars counter.
+2. **Pink cloud sky**: chunky pixel clouds shaded pink to lavender to white, a thin crescent moon, 4-point sparkles, tiny dot stars. → The **main sky** and the El Jardín background.
+3. **Night over the sea**: deep navy sky, big yellow stars, then stripy dithered bands of navy, lavender, pink and white at the horizon, over bright blue water with a splashing wave. → **La Isla de Inmersión** and the evening sky.
+4. **Deep space**: black sky full of purple and magenta star bursts, a glowing star with a sparkle trail. → **El Duelo** arena and the star-burst screen change.
+5. **Bright day sky**: sky blue with tiny white stars, little colored stars, and swirly white wind ribbons. → **Daytime** sky and floating between realms.
+
+The colors I sampled from them match your SPEC palette exactly (pink `#fc9dcd`/`#fcb4db`, cream-lavender `#f1d1ed`, navy `#000099`, sky `#20a2ff`), so I'll use your palette as written.
+
+**About the picture files:** three of them show Nintendo's Kirby, one shows another company's character, and one is an artist's signed artwork. Your repo is public, so I **won't add these pictures to it**. That would be sharing other people's art. These written notes replace the `reference/` folder, and the Gemini prompts in `ART_PROMPTS.md` will describe the style in words only. They won't name those characters or artists.
+
 ## Your phone
 
 - Installable from iPhone Safari (Share → Add to Home Screen), works offline, portrait.
@@ -160,7 +174,7 @@ Every realm gets a smoke test that plays it start to finish automatically.
 
 ## Questions for you
 
-1. **Files:** I still need `pics.json` (the 73 pictures) and the `reference/` art pictures. These aren't needed until M3 (pictures) and M4 (art prompts).
+1. **Files:** reference pictures ✅ received (notes above). I still need `pics.json` (the 73 pictures), but not until M3.
 2. **Grammar home:** your grammar, verb conjugation, Armar, Diferencias, Oído Fino and Sonidos don't have a realm yet. Should I add **El Observatorio** (a starry tower for grammar), or put them inside La Biblioteca?
 3. **New words:** each day the garden offers a few new seeds from all your word families. How many new words a day: 5, 8 (like your prototype), or 10?
 4. **Old progress:** OK to start fresh?
