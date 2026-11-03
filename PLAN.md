@@ -1,184 +1,167 @@
-# 🌙 El Jardín — Plan
+# 🌙 Mi Español: El Cielo — Plan
 
-A dreamy pastel pixel-art game for learning **Latin American Spanish for a medical assistant job**.
-Every word you learn is a plant in your garden. Review words to water them and help them grow.
-
----
-
-## The big idea (in plain words)
-
-- **Learn a word → plant a seed.**
-- **Review it at the right time → it grows** (seed → sprout → leaves → bud → flower → glowing bloom).
-- **Forget to review → it wilts** (droops, colors fade). It never dies. Watering brings it back.
-- **Watering = a short review session** of the words that need you today.
-- The game decides *when* each word needs water using **spaced repetition**: words you know well wait longer, words you miss come back sooner.
+This plan follows `SPEC.md`. Nothing is built until you say **"approved"**.
 
 ---
 
-## How it will look
+## In one breath
 
-- Phone screen, held upright (portrait).
-- Sky: pink and lavender gradient, soft drifting clouds, twinkling stars, a crescent moon, gentle glow.
-- Crisp, blocky pixel art (no blur when scaled up).
-- All art drawn by me in code, from scratch. **No Nintendo or other copyrighted characters, art, music, or fonts.**
-- A tiny pixel font I draw myself, so Spanish letters show correctly: **á é í ó ú ñ ü ¿ ¡**.
-- An optional little companion (original character, e.g. a sleepy star or a moth gardener) who cheers you on.
+A cozy pastel pixel-art game on your phone. You live on a floating sky island, **El Cielo**, with doors to little worlds. The heart is **El Jardín**: every word you learn is a plant. Reviewing a word waters it and it grows. Words you forget wilt, and watering them is your review session.
 
-## How it works on your phone
-
-- It's a website you can **"Add to Home Screen"** so it acts like an app.
-- **Works offline** after the first visit.
-- **Your progress stays on your phone** (no account, no server, free).
-- A **Backup** button saves your progress to a file, and **Restore** loads it back (useful if you switch phones).
-- Hosted free on **GitHub Pages**.
+All of your Mi Español content and learning logic moves over, **without changing the Spanish** unless I tell you first.
 
 ---
 
-## What I'll teach (word packs)
+## What I found in your prototype
 
-Spanish is Latin American, using **usted** (formal "you") with patients by default.
-Each word has: Spanish, English, an example sentence, and notes (like "informal" or "Mexico mostly").
+| Content | Amount |
+|---|---|
+| Word glosses (tap-a-word dictionary) | 200 |
+| Stories | 6 (+ extra stories in Cimientos) |
+| Phrase cards (Everyday, Colombia, México, Paciente) | 47 |
+| Essential phrases (10 sets) | 152 |
+| Root words | 163 |
+| Picture words with memory tricks | 62 |
+| Siete Pasos words | 21 |
+| Dialogues | 14 |
+| Sentence-building items | 62 |
+| Think-it-through lessons | 8 |
+| Tenses | 14 entries |
+| Common verbs | 100 |
+| Connectors | 9 |
+| Grammar topics | 5 |
+| Similar-word groups (Diferencias) | 20 |
 
-1. **Saludos** – greetings, introducing yourself, "please wait", "follow me"
-2. **Registro** – name, date of birth, address, phone, insurance, ID
-3. **Números y fechas** – numbers, days, months, times
-4. **El cuerpo** – body parts
-5. **Síntomas** – pain, fever, cough, nausea, dizziness…
-6. **El dolor** – where, how long, how strong (pain scale 1–10)
-7. **Signos vitales** – blood pressure, temperature, weight, height, pulse
-8. **Instrucciones** – "sit here", "breathe deeply", "roll up your sleeve", "open your mouth"
-9. **Medicamentos y alergias** – medicines, doses, allergies
-10. **Historial médico** – conditions (diabetes, asthma…), surgeries, pregnancy
-11. **Despedidas y citas** – appointments, follow-ups, "the doctor will be right in"
-
-> ⚠️ I'll write this carefully, but it's a learning tool, not a certified medical translation.
-> It's a good idea to have a native speaker or your clinic's interpreter glance at the word list.
-
----
-
-## Kinds of practice
-
-- **Flashcard** – see Spanish, flip, tap "I knew it" / "I didn't".
-- **Pick the meaning** – 4 choices.
-- **Listen** – hear the word (your phone's built-in Spanish voice), pick the meaning.
-- **Type it** – with easy buttons for á é í ó ú ñ. Missing an accent counts as "almost right", not wrong.
-- **Patient phrases** – short real-life lines a patient might say, and what you'd say back.
+Plus the engines: spaced repetition, grading (accent aware, typo tolerant), conjugation (13 tenses, irregulars, reflexives, commands, subjunctive), number-to-Spanish, pronunciation (syllables, stress, respelling), Focus sessions, immersion, clinic game, card duel, progress dashboard.
 
 ---
 
-## Growth stages (spaced repetition)
+## The world
 
-| Stage | Plant | Next water in |
+- **El Cielo** (home): a floating island in a pink-and-lavender sky with clouds, stars and a crescent moon. Doors lead to each realm. A cute original companion creature follows you around.
+- **El Jardín** 🌱: your words as plants. See below.
+- **La Clínica** 🩺: patients speak only Spanish. Check-in, symptoms (tap the body and turn the patient around), usted questions, vitals read aloud, commands with animated reactions, the plan, and goodbye. Patience hearts and stars.
+- **La Biblioteca** 📚: graded stories, tap any word for its meaning, a no-English mode, and sentence ordering.
+- **La Isla de Inmersión** 🏝️: timed Spanish-only sessions (listen, read, speak, write).
+- **El Duelo** 🃏: a tarot-style card battle powered by your words. Original enemies (La Duda, El Olvido, La Prisa…).
+- **El Café** ☕: listen to orders in Spanish and serve them.
+- **El Barrio** 🏘️: walk a neighborhood, talk to people, ask for directions. Uses your dialogues.
+
+## El Jardín (how the plants work)
+
+Your Leitner boxes (0 to 8) are the plant's growth stages:
+
+| Box | Plant | Next watering |
 |---|---|---|
-| 0 | Seed in soil | today |
+| 0 | Seed | today |
 | 1 | Sprout | 1 day |
-| 2 | Seedling | 3 days |
-| 3 | Leafy plant | 1 week |
-| 4 | Bud | 2 weeks |
-| 5 | Flower | 1 month |
-| 6 | Glowing bloom ✨ (mastered) | 3 months |
+| 2 | Two leaves | 2 days |
+| 3 | Small plant | 4 days |
+| 4 | Leafy | 8 days |
+| 5 | Bud | 16 days* |
+| 6 | Flower | 35 days* |
+| 7 | Full bloom | 70 days* |
+| 8 | Glowing star-flower ✨ | 140 days* |
 
-- Right answer → grows one stage.
-- Wrong answer → shrinks one stage and comes back soon.
-- Due → slightly droopy. Very overdue → more wilted. Never dies.
-- Each word pack has its own flower type and color, so your garden shows what you've learned.
+\* gaps of 16 days or more get about 10% random wiggle, as in your prototype.
 
----
+- **Right answer:** the plant grows one stage.
+- **Miss:** at box 5 or higher it halves, at box 2 to 4 it drops one, otherwise back to seed. It shrinks but **never dies**.
+- **Due:** the plant droops. **Very overdue:** it fades more.
+- **Watering = review**, in the test mode you choose: multiple choice, recall the meaning (type English), recall the word (type Spanish, forgives accents and typos, with an "I was right" button), or flashcards.
+- An accent row (á é í ó ú ñ ¿ ¡) appears for every typed answer.
+- Each word family grows its own flower type (phrases, root words, picture words, verbs, clinic…), so your garden shows what you know.
+- Missed words feed a **Focus session**: a glowing watering can for your trickiest plants.
 
-## Milestones (small, playable steps)
+## Look and sound
 
-Each step ends with something you can open on your phone and try.
+- Low-resolution pixel canvas (180×320, portrait) scaled up crisply with no blur.
+- Your palette: pink `#fb9ecd`, blush `#fcb4db`, lavender `#b399f5`, cream `#f6e4f8`, sky `#0ea1ff`, deep navy `#000099`, star yellow `#ffe066`, plus cream and sand for indoors.
+- Moving cloud layers, twinkling stars, sparkles, soft glow, dithered dusk over water, and a star-burst transition between screens.
+- **Pixelify Sans** font (free OFL license), saved inside the app so it works offline. It supports á é í ó ú ñ ü ¿ ¡.
+- Original characters only: simple or faceless adults, a cute companion, and original enemies. Nothing copied from Nintendo or anyone else.
+- The game first runs with simple placeholder sprites made in code. When you make real art with Gemini (from `ART_PROMPTS.md`), drop it into `public/assets/` and it replaces the placeholders.
+- Tiny chiptune sound effects and an optional soft ambient loop, made in code (no audio files).
+- Settings: reduce motion and text size.
 
-### M0 — The sky ☁️
-Project setup (Vite + TypeScript + Phaser 3). Shows the dreamy sky: gradient, stars twinkling, moon, clouds drifting.
-Auto-deploys to GitHub Pages when I push.
-**Try it:** open the link on your phone and see the sky.
+## Your phone
 
-### M1 — Install & offline 📲
-App icon, name, splash color. Add to Home Screen. Works with airplane mode on.
-**Try it:** install it, turn on airplane mode, open it.
-
-### M2 — First lesson 📖
-My pixel font with accents. First word pack (**Saludos**, ~15 words). Flashcards + "pick the meaning". Progress saves on your phone.
-**Try it:** learn 15 words, close the app, reopen — progress is still there.
-
-### M3 — El Jardín 🌱
-The garden screen. Each learned word appears as a seed/plant. Tap a plant to see the word, meaning, and example.
-**Try it:** your 15 words appear as little plants.
-
-### M4 — Growing & wilting 💧
-Spaced repetition turns on. Due words wilt. A watering can button starts a review of today's due words. Plants grow or shrink after.
-(Includes a hidden "time travel" setting so we can test wilting without waiting days.)
-**Try it:** water your garden and watch plants grow.
-
-### M5 — More practice 🎧
-Listening (phone voice) and typing (with accent buttons, accent-forgiving).
-**Try it:** hear words and type them.
-
-### M6 — Medical word packs 🩺
-Add the rest of the packs above (aim ~300 words + phrases). New packs unlock as you go, or pick any pack anytime.
-**Try it:** learn pain-scale and vital-signs words.
-
-### M7 — Cozy polish ✨
-Soft sounds and a gentle music loop (made in code), little animations (sparkles, falling petals), companion character, Backup/Restore, settings (sound, text size, daily goal).
-**Try it:** play a full day's session.
-
-### M8 — Nice extras (later, optional) 🌸
-Gentle daily streak, garden decorations you earn, stats page ("words mastered"), a "clinic day" mini-scenario that strings phrases into a short patient visit.
+- Installable from iPhone Safari (Share → Add to Home Screen), works offline, portrait.
+- Everything stays on your phone. **Backup** saves a file and **Restore** loads one. No data leaves the device.
+- Voices: picks your phone's Mexican or Colombian Spanish voice, with a voice picker, Slow / Normal / Natural speed, and **Test voice**.
+- Free hosting on GitHub Pages: **divineshay1.github.io/spanish-game**.
 
 ---
 
-## Tech notes (for me)
+## Milestones
 
-- **Vite + TypeScript + Phaser 3**, `pixelArt: true`, base canvas **216×384** (9:16), scaled up by whole numbers; extra space filled with sky.
-- Sprites defined as small text pixel maps in TS → turned into textures at startup. No image files to license.
-- Custom bitmap font (5×7-ish) including Spanish characters.
-- Typing uses a small HTML input over the game (better phone keyboard support).
-- Saving: **IndexedDB** (via `idb-keyval`), ask the browser for persistent storage, JSON Backup/Restore.
-- PWA: `vite-plugin-pwa` (manifest + service worker that caches everything for offline).
-- Voice: Web Speech API, prefer `es-MX` / `es-US` / `es-419` voices; game still works if none exist.
-- Deploy: GitHub Actions → GitHub Pages, `base: '/spanish-game/'`.
-- Tests: Vitest for spaced-repetition math and answer checking; Playwright screenshot check at phone size.
-- Data: `src/data/packs/*.ts` — easy to add/edit words.
+Each one is playable on your phone and saved to GitHub. Your SPEC's 4 stages are split into smaller steps so you can try things sooner.
+
+### Stage A: engine, hub and El Jardín
+
+**M1. The sky** ☁️
+App setup, install to home screen, offline, auto-publish to GitHub Pages, pixel font. El Cielo with drifting clouds, twinkling stars and the moon.
+*Try it:* install it on your phone and open it in airplane mode.
+
+**M2. The brain** 🧠
+All content moved into typed files. Spaced repetition, grading, conjugation, number-to-Spanish and pronunciation, all with automatic tests. Saving, Backup/Restore, and the voice settings.
+*Try it:* Settings → test the Mexican and Colombian voices, then make a backup file.
+
+**M3. El Jardín** 🌱
+Plant new words as seeds, watch them grow, wilting, watering reviews in all 4 test modes, the accent row, and Focus sessions.
+*Try it:* plant 10 words, water them, and watch them grow. A hidden "time travel" switch lets us test wilting without waiting days.
+
+**M4. Home sweet sky** ✨
+El Cielo hub with doors (locked ones say "soon"), companion, daily route with XP, streak and levels, phrase of the day, progress dashboard (14-day chart, strongest and weakest skills, word strength, milestones), sounds, reduce motion, text size. Also `ART_PROMPTS.md` and a simple `README.md`.
+*Try it:* a full day: phrase of the day, water the garden, check your progress.
+
+### Stage B: La Clínica
+
+**M5. La Clínica** 🩺
+The full patient visit from your prototype, rebuilt as pixel scenes.
+*Try it:* check in a patient and take their vitals in Spanish.
+
+### Stage C: reading and immersion
+
+**M6. La Biblioteca** 📚 Stories, tap for meaning, no-English mode, sentence ordering.
+**M7. La Isla de Inmersión** 🏝️ Timed Spanish-only sessions, including speaking.
+
+### Stage D: games and the town
+
+**M8. El Duelo** 🃏
+**M9. El Café** ☕
+**M10. El Barrio** 🏘️
+
+Every realm gets a smoke test that plays it start to finish automatically.
 
 ---
 
-## Feels like a video game 🎮
+## Limits I want to be honest about
 
-El Jardín is a **separate app** from Mi Español, and much more visual, like a cozy video game:
+- **Speaking practice on iPhone** uses Apple's speech recognition. It may need internet and may not work inside the installed app. If it fails, you'll get "listen, say it, then check yourself" instead.
+- **Voices** depend on your phone. If there's no Colombian voice, it falls back to Mexican, then any Spanish voice. Free Enhanced voices can be downloaded in iPhone Settings.
+- **iPhone storage:** data is safest when the app is installed to your home screen. Make a backup now and then.
+- **Old progress:** your old Mi Español progress lives inside the old app and can't be read from a new web address. The new game starts fresh unless the old app can export a file.
+- I won't change any Spanish without asking. If I spot something that looks wrong, I'll list it for you to decide.
 
-- **You walk around your garden** as a small original character. Tap where you want to go.
-- **Tap a wilting plant to water it.** That starts a quick review of that word, with splashes and sparkles.
-- **Practice turns into mini-games:** catch falling seeds with the right meaning, pick the right flower, help a patient character at the little clinic by the garden.
-- **Day and night:** the sky shifts through pink sunset, lavender dusk, and starry night.
-- **Rewards you can see:** new flower types, garden paths, lanterns, a fountain, a cozy bench.
-- Very little reading of menus. The garden itself is the menu.
+---
 
-## Ideas from your app "Mi Español"
+## Tech (for me)
 
-You shared screenshots of your app (as a PDF). It's a different app, but some ideas fit here too:
+- Vite + TypeScript + Phaser 3, `pixelArt: true`, 180×320 base with integer scaling and sky-filled edges.
+- DOM overlays for typed answers and long text; Phaser for scenes.
+- `src/content/*` (typed TS/JSON), `src/engine/*` (SRS, grading, conjugation, n2s, pronunciation, stats), `src/scenes/*` (one per realm), `src/ui/*`.
+- Save: IndexedDB with a localStorage fallback, `navigator.storage.persist()`, versioned JSON export/import.
+- `vite-plugin-pwa` (precache everything), GitHub Actions → Pages with `base: '/spanish-game/'`.
+- Vitest for engines; Playwright smoke tests at iPhone size for each realm.
+- Placeholder sprites generated from pixel maps in code; real art loaded from `public/assets/<documented-name>.png` when present.
 
-- **Today's route:** a short daily list of steps (Repaso, Leer, Imaginar, Escuchar, Hablar…). In El Jardín these become **garden chores**: water (review), plant (new words), listen, speak, read.
-- **XP ring, streak, levels:** I'll keep them gentle. A missed day never makes you lose anything.
-- **Frase del día:** a phrase of the day with **Listen** and **Slow** buttons, shown as a little sign in the garden.
-- **Accent choice:** Mexicana / Colombiana for audio.
-- **Voice picker + speed:** Slow / Normal / Natural, choose the phone voice, and a **Test voice** button.
-- **iPhone tip:** download a free Enhanced/Premium Spanish voice in iPhone Settings for better sound.
-- **Hablar (say it out loud):** speech practice. On iPhone this may need internet, so it will be optional.
-- **"Saved on this device only"** + Reset progress. I'll also add Backup/Restore.
+---
 
-## Decisions so far
+## Questions for you
 
-- ✅ Audio: yes, phone's built-in Spanish voice.
-- ✅ Answering: tap choices + some typing (with accent buttons).
-- ✅ Hosting: new public repo `divineshay1/spanish-game` → `divineshay1.github.io/spanish-game`.
-- ✅ Separate app from Mi Español, more visual and game-like.
-- ✅ Accent: Mexican by default, Colombian available in settings.
-- ✅ Spanish level: a little. Start easy, move quickly to medical words.
-
-## Open questions
-
-- **Mi Español repo name:** which GitHub repo has it? I may reuse its word lists and voice settings code.
-- **Your clinic:** what kind (family, pediatrics, urgent care…)? Patients mostly from where (Mexico, Central America, Caribbean, South America)?
-- **Companion character:** want one? Any name or animal idea?
-- **Daily goal:** about how many minutes a day? (I'd guess 5–10.)
+1. **Files:** I still need `pics.json` (the 73 pictures) and the `reference/` art pictures. These aren't needed until M3 (pictures) and M4 (art prompts).
+2. **Grammar home:** your grammar, verb conjugation, Armar, Diferencias, Oído Fino and Sonidos don't have a realm yet. Should I add **El Observatorio** (a starry tower for grammar), or put them inside La Biblioteca?
+3. **New words:** each day the garden offers a few new seeds from all your word families. How many new words a day: 5, 8 (like your prototype), or 10?
+4. **Old progress:** OK to start fresh?
+5. **Approve?** Say "approved", or tell me what to change.
