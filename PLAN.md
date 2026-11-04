@@ -1,6 +1,6 @@
 # 🌙 Mi Español: El Cielo — Plan
 
-This plan follows `SPEC.md`. Nothing is built until you say **"approved"**.
+This plan follows `SPEC.md`. ✅ Approved. Building milestone by milestone.
 
 ---
 
@@ -43,6 +43,7 @@ Plus the engines: spaced repetition, grading (accent aware, typo tolerant), conj
 - **La Clínica** 🩺: patients speak only Spanish. Check-in, symptoms (tap the body and turn the patient around), usted questions, vitals read aloud, commands with animated reactions, the plan, and goodbye. Patience hearts and stars.
 - **La Biblioteca** 📚: graded stories, tap any word for its meaning, a no-English mode, and sentence ordering.
 - **La Isla de Inmersión** 🏝️: timed Spanish-only sessions (listen, read, speak, write).
+- **El Observatorio** 🔭: a starry tower for grammar: verb conjugation, the 100 verbs, tenses, connectors, question words, Armar (build sentences), Diferencias (similar words), Oído Fino (ear training) and Sonidos (pronunciation).
 - **El Duelo** 🃏: a tarot-style card battle powered by your words. Original enemies (La Duda, El Olvido, La Prisa…).
 - **El Café** ☕: listen to orders in Spanish and serve them.
 - **El Barrio** 🏘️: walk a neighborhood, talk to people, ask for directions. Uses your dialogues.
@@ -70,6 +71,7 @@ Your Leitner boxes (0 to 8) are the plant's growth stages:
 - **Due:** the plant droops. **Very overdue:** it fades more.
 - **Watering = review**, in the test mode you choose: multiple choice, recall the meaning (type English), recall the word (type Spanish, forgives accents and typos, with an "I was right" button), or flashcards.
 - An accent row (á é í ó ú ñ ¿ ¡) appears for every typed answer.
+- **5 new seeds a day** (you can change this in settings).
 - Each word family grows its own flower type (phrases, root words, picture words, verbs, clinic…), so your garden shows what you know.
 - Missed words feed a **Focus session**: a glowing watering can for your trickiest plants.
 
@@ -135,16 +137,17 @@ El Cielo hub with doors (locked ones say "soon"), companion, daily route with XP
 The full patient visit from your prototype, rebuilt as pixel scenes.
 *Try it:* check in a patient and take their vitals in Spanish.
 
-### Stage C: reading and immersion
+### Stage C: reading, immersion and grammar
 
 **M6. La Biblioteca** 📚 Stories, tap for meaning, no-English mode, sentence ordering.
 **M7. La Isla de Inmersión** 🏝️ Timed Spanish-only sessions, including speaking.
+**M8. El Observatorio** 🔭 Grammar tower: conjugation, verbs, Armar, Diferencias, Oído Fino, Sonidos.
 
 ### Stage D: games and the town
 
-**M8. El Duelo** 🃏
-**M9. El Café** ☕
-**M10. El Barrio** 🏘️
+**M9. El Duelo** 🃏
+**M10. El Café** ☕
+**M11. El Barrio** 🏘️
 
 Every realm gets a smoke test that plays it start to finish automatically.
 
@@ -155,7 +158,7 @@ Every realm gets a smoke test that plays it start to finish automatically.
 - **Speaking practice on iPhone** uses Apple's speech recognition. It may need internet and may not work inside the installed app. If it fails, you'll get "listen, say it, then check yourself" instead.
 - **Voices** depend on your phone. If there's no Colombian voice, it falls back to Mexican, then any Spanish voice. Free Enhanced voices can be downloaded in iPhone Settings.
 - **iPhone storage:** data is safest when the app is installed to your home screen. Make a backup now and then.
-- **Old progress:** your old Mi Español progress lives inside the old app and can't be read from a new web address. The new game starts fresh unless the old app can export a file.
+- **Old progress:** starting fresh (you said that's fine). The save keeps the same shape as Mi Español (cards with box and due date), so Restore will also accept an old Mi Español save if you ever export one.
 - I won't change any Spanish without asking. If I spot something that looks wrong, I'll list it for you to decide.
 
 ---
@@ -172,10 +175,15 @@ Every realm gets a smoke test that plays it start to finish automatically.
 
 ---
 
-## Questions for you
+## Answers so far
 
-1. **Files:** reference pictures ✅ received (notes above). I still need `pics.json` (the 73 pictures), but not until M3.
-2. **Grammar home:** your grammar, verb conjugation, Armar, Diferencias, Oído Fino and Sonidos don't have a realm yet. Should I add **El Observatorio** (a starry tower for grammar), or put them inside La Biblioteca?
-3. **New words:** each day the garden offers a few new seeds from all your word families. How many new words a day: 5, 8 (like your prototype), or 10?
-4. **Old progress:** OK to start fresh?
-5. **Approve?** Say "approved", or tell me what to change.
+1. `pics.json` ✅ received (all 73 pictures). Added in M3.
+2. Grammar home: **El Observatorio** ✅
+3. New words: **5 a day** ✅
+4. Start fresh ✅ (same save format as Mi Español)
+5. Plan approved ✅
+
+## Progress
+
+- [x] **M1. The sky**: El Cielo, clouds, stars, moon, island with 3 doors, companion, installable, offline, auto-publish.
+- [ ] M2. The brain
