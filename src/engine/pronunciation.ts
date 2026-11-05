@@ -2,7 +2,8 @@
  * Pronunciation engine for Latin American Spanish: syllables, stress and an
  * English-style respelling. Ported from the prototype.
  *
- * One fix: the prototype looped forever when a "y" sat between a vowel and a
+ * Fixes (approved): a c or g that ends a syllable keeps its hard sound
+ * (doctor = dohk-TOHR, not dohs-TOHR). And the prototype looped forever when a "y" sat between a vowel and a
  * consonant inside a word (only happens with English words like "days").
  * Here that "y" is simply read as part of the vowel sound.
  */
@@ -114,9 +115,10 @@ function sylSay(s: string, trill: boolean): string {
   let o = '';
   let i = 0;
   const E = 'eéií';
-  // Same as the prototype: a missing next letter counts as "e or i"
-  // ('eéií'.includes('') is true), so a syllable-final c reads as "s".
-  const isE = (ch: string | undefined) => E.includes(ch || '');
+  // The prototype treated a missing next letter as "e or i" ('eéií'.includes('')
+  // is true), so a syllable-final c or g read as "s" or "h" (doctor -> dohs-TOHR).
+  // Fixed with your OK: only a real following e or i softens c and g.
+  const isE = (ch: string | undefined) => !!ch && E.includes(ch);
   while (i < s.length) {
     const c = s[i];
     const p = s.slice(i, i + 2);

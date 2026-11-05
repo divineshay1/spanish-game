@@ -15,14 +15,31 @@ const gold = (f: string) => JSON.parse(readFileSync(new URL(`../../tests/golden/
 
 describe('pronunciation matches the prototype', () => {
   const g = gold('pron.json') as Record<string, { syl: string[]; st: number; say: string; sy: string[] }>;
-  it(`all ${Object.keys(g).length} words`, () => {
+  // The only allowed difference: the approved fix for a c or g that ends a syllable.
+  const endsHard = (syl: string[]) => syl.some((x) => /([cg]|gu)$/.test(x));
+  it(`all ${Object.keys(g).length} words (syllables and stress identical; respelling identical except the c/g fix)`, () => {
     const bad: string[] = [];
+    let fixed = 0;
     for (const [w, want] of Object.entries(g)) {
       const got = pron(w);
-      if (JSON.stringify([got.syl, got.st, got.say, syllabify(w)]) !== JSON.stringify([want.syl, want.st, want.say, want.sy]))
-        bad.push(`${w}: ${got.say} vs ${want.say}`);
+      if (JSON.stringify([got.syl, got.st, syllabify(w)]) !== JSON.stringify([want.syl, want.st, want.sy])) bad.push(`${w}: syllables`);
+      else if (got.say !== want.say) {
+        if (endsHard(want.syl)) fixed++;
+        else bad.push(`${w}: ${got.say} vs ${want.say}`);
+      }
     }
     expect(bad).toEqual([]);
+    expect(fixed).toBeGreaterThan(0);
+  });
+  it('a c or g at the end of a syllable stays hard (approved fix)', () => {
+    expect(pron('doctor').say).toBe('dohk-TOHR');
+    expect(pron('dirección').say).toBe('dee-rehk-SYOHN');
+    expect(pron('acción').say).toBe('ahk-SYOHN');
+    expect(pron('digno').say).toBe('DEEG-noh');
+    // soft sounds before e and i are unchanged
+    expect(pron('cena').say).toBe('SEH-nah');
+    expect(pron('gente').say).toBe('HEHN-teh');
+    expect(pron('seguro').say).toBe('seh-GOO-roh');
   });
   it('no longer hangs on words with y between a vowel and a consonant', () => {
     for (const w of ['days', 'always', 'sundays', 'keys']) expect(pron(w).say.length).toBeGreaterThan(0);
