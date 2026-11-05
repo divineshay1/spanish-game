@@ -9,6 +9,7 @@ import { downloadBackup, pickBackupFile } from '../state/backup';
 import { flush } from '../state/storage';
 import { hasTTS, onVoices, pickVoice, SPEED_CHOICES, spanishVoices, speak } from '../audio/speech';
 import { toast } from './toast';
+import { shield } from './shield';
 
 let layer: HTMLDivElement | null = null;
 let resetArmed = false;
@@ -27,6 +28,7 @@ export function openSettings(): void {
     layer.id = 'settings';
     layer.addEventListener('click', onClick);
     layer.addEventListener('change', onChange);
+    shield(layer);
     document.body.appendChild(layer);
   }
   resetArmed = false;

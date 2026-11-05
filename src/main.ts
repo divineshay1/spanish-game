@@ -9,6 +9,8 @@ import { setDayOffset } from './engine/clock';
 import { registerSW } from 'virtual:pwa-register';
 import { BootScene } from './scenes/BootScene';
 import { CieloScene } from './scenes/CieloScene';
+import { JardinScene } from './scenes/JardinScene';
+import { JardinHud } from './scenes/JardinHud';
 import { fitPixels } from './game/pixelScale';
 import { PAL } from './game/palette';
 
@@ -60,7 +62,7 @@ async function start() {
     antialias: false,
     scale: { mode: Phaser.Scale.NONE },
     fps: { target: 60 },
-    scene: [BootScene, CieloScene],
+    scene: [BootScene, CieloScene, JardinScene, JardinHud],
     callbacks: { preBoot: (g) => storeView(g, fit) },
   });
   game.events.once(Phaser.Core.Events.READY, () => applyCss(game, fit));
@@ -76,8 +78,10 @@ async function start() {
       if (sizeChanged) {
         storeView(game, fit);
         game.scale.resize(fit.width * fit.zoom, fit.height * fit.zoom);
-        const cielo = game.scene.getScene('Cielo');
-        if (cielo?.scene.isActive()) cielo.scene.restart();
+        for (const key of ['Cielo', 'Jardin']) {
+          const sc = game.scene.getScene(key);
+          if (sc?.scene.isActive()) sc.scene.restart();
+        }
       }
       applyCss(game, fit);
     }, 120);

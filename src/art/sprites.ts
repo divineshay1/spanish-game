@@ -217,3 +217,102 @@ export function gear(): HTMLCanvasElement {
   );
   return c;
 }
+
+/** Watering can (16x12). */
+export function wateringCan(glowing = false): HTMLCanvasElement {
+  const [c, ctx] = makeCanvas(16, 12);
+  drawPixelMap(
+    ctx,
+    [
+      '....oooo........',
+      '...o....o.......',
+      '...o....o.......',
+      '..oooooooo....oo',
+      '.obbbbbbbbo..oso',
+      'obblbbbbbbboosoo',
+      'oblbbbbbbbbbso..',
+      'obbbbbbbbbbbo...',
+      'obbbbbbbbbbbo...',
+      'odbbbbbbbbbdo...',
+      '.oddddddddddo...',
+      '..oooooooooo....',
+    ],
+    { o: PAL.plum, b: glowing ? PAL.star : '#7cc8ff', l: PAL.white, d: glowing ? '#e8b84a' : PAL.deepLav, s: PAL.cream },
+  );
+  return c;
+}
+
+/** Seed bag (12x12). */
+export function seedBag(): HTMLCanvasElement {
+  const [c, ctx] = makeCanvas(12, 12);
+  drawPixelMap(
+    ctx,
+    [
+      '...o....o...',
+      '....oooo....',
+      '...oyyyyo...',
+      '..oyyyyyyo..',
+      '.oyyyyyyyyo.',
+      '.oyykyyyyyo.',
+      'oyyyyyykyyyo',
+      'oyykyyyyyyyo',
+      'oyyyyykyyyyo',
+      'oyyyyyyyyyyo',
+      '.oddddddddo.',
+      '..oooooooo..',
+    ],
+    { o: PAL.plum, y: PAL.sand, k: PAL.bark, d: PAL.clay },
+  );
+  return c;
+}
+
+/** Water drop (5x7), shown over thirsty plants. */
+export function drop(): HTMLCanvasElement {
+  const [c, ctx] = makeCanvas(5, 7);
+  drawPixelMap(ctx, ['..o..', '.obo.', '.obo.', 'obwbo', 'obbbo', 'obbbo', '.ooo.'], {
+    o: PAL.plum,
+    b: '#7cc8ff',
+    w: PAL.white,
+  });
+  return c;
+}
+
+/** Back arrow on a tile (15x15). */
+export function backArrow(): HTMLCanvasElement {
+  const [c, ctx] = makeCanvas(15, 15);
+  drawPixelMap(
+    ctx,
+    [
+      'ooooooooooooooo',
+      'owwwwwwwwwwwwwo',
+      'owwwwwpwwwwwwwo',
+      'owwwwppwwwwwwwo',
+      'owwwpppwwwwwwwo',
+      'owwpppppppppwwo',
+      'owpppppppppppwo',
+      'owwpppppppppwwo',
+      'owwwpppwwwwwwwo',
+      'owwwwppwwwwwwwo',
+      'owwwwwpwwwwwwwo',
+      'owwwwwwwwwwwwwo',
+      'owwwwwwwwwwwwwo',
+      'obbbbbbbbbbbbbo',
+      'ooooooooooooooo',
+    ],
+    { o: PAL.plum, w: PAL.cream, p: PAL.deepLav, b: PAL.blush },
+  );
+  return c;
+}
+
+/** Garden ground tile (16x16) with soft dithered grass. */
+export function grassTile(): HTMLCanvasElement {
+  const [c, ctx] = makeCanvas(16, 16);
+  const r = rng(11);
+  for (let y = 0; y < 16; y++)
+    for (let x = 0; x < 16; x++) {
+      const v = r();
+      ctx.fillStyle = v < 0.08 ? PAL.sage : v < 0.12 ? '#c4ead0' : (x + y) % 7 === 0 ? '#b5e2c1' : PAL.mint;
+      ctx.fillRect(x, y, 1, 1);
+    }
+  return c;
+}

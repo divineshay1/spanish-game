@@ -187,8 +187,9 @@ Every realm gets a smoke test that plays it start to finish automatically.
 
 - [x] **M1. The sky**: El Cielo, clouds, stars, moon, island with 3 doors, companion, installable, offline, auto-publish.
 - [x] **M2. The brain**: all content copied exactly into `src/content/data/` (by script), engines in `src/engine/` (spaced repetition, grading, conjugation, numbers, pronunciation) proven identical to the prototype by tests, save on device + Backup/Restore (also reads old Mi Español saves), Ajustes panel with voice, accent, speed, seeds per day, text size, motion and sound.
-- [ ] M3. El Jardín
+- [x] **M3. El Jardín**: garden of pixel plants (9 stages × 8 flower families, drooping and faded when thirsty), Sembrar (meet 5 new words, quick check plants them), Regar (review in 4 test modes, accent row, "I was right" button), Focus rescue round, tap a plant for its word, picture and pronunciation, your 73 pictures, El Cielo door opens the garden. Test switch: add `?day=3` or `?debug` to the address.
+- [ ] M4. Home sweet sky
 
 ### Things I noticed in the prototype (not changed yet)
-- **Pronunciation bug:** a c at the end of a syllable is respelled as "s": doctor → "dohs-TOHR", dirección → "dee-rehs-SYOHN". It should be a "k" sound (dohk-TOHR). Waiting for your OK to fix.
+- **Fixed (you approved):** a c or g at the end of a syllable now keeps its hard sound: doctor → dohk-TOHR (was dohs-TOHR), seguro → seh-GOO-roh (was seh-G-roh).
 - **Fixed:** the pronunciation code froze on some English words like "days". Spanish words were never affected.

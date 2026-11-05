@@ -7,6 +7,7 @@ import { pixelText } from '../game/text';
 import { setupView } from '../game/view';
 import { state, subscribe } from '../state/store';
 import { openSettings } from '../ui/settings';
+import { goTo, fadeIn } from '../game/transition';
 
 const greeting = (): string => {
   const h = new Date().getHours();
@@ -25,6 +26,8 @@ export class CieloScene extends Phaser.Scene {
   create(): void {
     const { W, H } = setupView(this);
     this.layers = [];
+    this.input.enabled = true;
+    fadeIn(this);
 
     // sky: lavender at the top, melting into pink and blush, cream at the horizon
     const skyKey = `sky-${W}x${H}`;
@@ -177,7 +180,7 @@ export class CieloScene extends Phaser.Scene {
     isle.add(land);
     for (const [key, dx, label] of doorDefs) {
       const d = this.add.image(dx, ground - 8, key).setInteractive({ useHandCursor: true });
-      d.on('pointerdown', () => this.showToast(`${label}: ¡pronto! ✦`));
+      d.on('pointerdown', () => (key === 'door-garden' ? goTo(this, 'Jardin') : this.showToast(`${label}: ¡pronto! ✦`)));
       isle.add(d);
     }
     const pal = this.add.sprite(-18, ground - 6, 'pal-0').play('pal-bob');

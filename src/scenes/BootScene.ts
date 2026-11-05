@@ -1,6 +1,6 @@
 import Phaser from 'phaser';
 import { PAL } from '../game/palette';
-import { companion, door, dot, gear, glow, island, moon, sparkleBig, sparkleSmall, starGold } from '../art/sprites';
+import { backArrow, companion, door, dot, drop, gear, glow, grassTile, island, moon, seedBag, sparkleBig, sparkleSmall, starGold, wateringCan } from '../art/sprites';
 
 /** Builds all placeholder textures once, then opens El Cielo. */
 export class BootScene extends Phaser.Scene {
@@ -25,6 +25,12 @@ export class BootScene extends Phaser.Scene {
     add('door-clinic', door(PAL.blush));
     add('door-tower', door(PAL.lavender));
     add('gear', gear());
+    add('back-arrow', backArrow());
+    add('can', wateringCan());
+    add('can-gold', wateringCan(true));
+    add('seed-bag', seedBag());
+    add('drop', drop());
+    add('grass', grassTile());
     add('pal-0', companion(0));
     add('pal-1', companion(1));
     this.anims.create({

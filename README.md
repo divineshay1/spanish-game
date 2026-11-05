@@ -20,6 +20,16 @@ It's free, works offline, and keeps all your progress on your phone.
 After that, every change saved to the `main` branch publishes itself in about 2 minutes.
 You can watch it in the **Actions** tab (green check = live).
 
+## How El Jardín works
+
+- **Sembrar** (seed bag): meet up to 5 new words a day, then a quick check plants them.
+- **Regar** (watering can): plants with a water drop are thirsty. Watering = reviewing those words.
+  Right answers make a plant grow (9 stages, up to a glowing star flower). Misses shrink it a little. Plants never die.
+- **Focus** (gold can): a rescue round for the words you keep missing.
+- Tap any plant to see its word, picture, pronunciation and next watering day.
+
+Testing tip: add `?day=3` to the address to pretend it is 3 days later, or `?debug` for a time-travel button in the garden.
+
 ## Better Spanish voices (iPhone)
 
 Settings → Accessibility → Spoken Content → Voices → Spanish → download an **Enhanced** or **Premium** voice for Mexico or Colombia.
@@ -40,6 +50,8 @@ npm run build    # production build into dist/
 npm run smoke    # phone-size smoke test with Playwright (after build)
 python3 scripts/make_icons.py   # redraw the app icons
 node scripts/extract_legacy.mjs # re-copy content + golden test answers from the prototype
+node scripts/decode_pics.mjs    # pics.json -> public/pics/*.jpg
+node scripts/plant_sheet.mjs out.png  # picture of every plant stage
 ```
 
 See `PLAN.md` for milestones and `SPEC.md` for the full brief.
