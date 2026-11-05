@@ -5,6 +5,8 @@ import { cloudLayer } from '../art/clouds';
 import { rng } from '../art/rng';
 import { pixelText } from '../game/text';
 import { setupView } from '../game/view';
+import { state, subscribe } from '../state/store';
+import { openSettings } from '../ui/settings';
 
 const greeting = (): string => {
   const h = new Date().getHours();
@@ -63,7 +65,22 @@ export class CieloScene extends Phaser.Scene {
     // title
     pixelText(this, W / 2, 22, 'MI ESPAÑOL', 8, PAL.star, PAL.plum);
     pixelText(this, W / 2, 38, 'El Cielo', 16, PAL.white, PAL.plum);
-    pixelText(this, W / 2, 56, `${greeting()}, Sha`, 8, PAL.white, PAL.plum);
+    let hello = pixelText(this, W / 2, 56, `${greeting()}, ${state().name}`, 8, PAL.white, PAL.plum);
+    const off = subscribe((S) => {
+      hello.destroy();
+      hello = pixelText(this, W / 2, 56, `${greeting()}, ${S.name}`, 8, PAL.white, PAL.plum);
+    });
+    this.events.once(Phaser.Scenes.Events.SHUTDOWN, off);
+
+    // settings gear, top right (big invisible tap area around it)
+    const g = this.add.image(W - 12, 12, 'gear').setDepth(40);
+    const hit = this.add.zone(W - 14, 14, 28, 28).setInteractive({ useHandCursor: true }).setDepth(41);
+    hit.on('pointerdown', () => {
+      g.setY(13);
+      openSettings();
+    });
+    hit.on('pointerup', () => g.setY(12));
+    hit.on('pointerout', () => g.setY(12));
 
     pixelText(this, W / 2, H - 12, 'toca el cielo ✦', 8, PAL.deepLav, PAL.white);
 

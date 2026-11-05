@@ -186,4 +186,9 @@ Every realm gets a smoke test that plays it start to finish automatically.
 ## Progress
 
 - [x] **M1. The sky**: El Cielo, clouds, stars, moon, island with 3 doors, companion, installable, offline, auto-publish.
-- [ ] M2. The brain
+- [x] **M2. The brain**: all content copied exactly into `src/content/data/` (by script), engines in `src/engine/` (spaced repetition, grading, conjugation, numbers, pronunciation) proven identical to the prototype by tests, save on device + Backup/Restore (also reads old Mi Español saves), Ajustes panel with voice, accent, speed, seeds per day, text size, motion and sound.
+- [ ] M3. El Jardín
+
+### Things I noticed in the prototype (not changed yet)
+- **Pronunciation bug:** a c at the end of a syllable is respelled as "s": doctor → "dohs-TOHR", dirección → "dee-rehs-SYOHN". It should be a "k" sound (dohk-TOHR). Waiting for your OK to fix.
+- **Fixed:** the pronunciation code froze on some English words like "days". Spanish words were never affected.

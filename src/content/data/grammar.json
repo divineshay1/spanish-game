@@ -1,0 +1,4237 @@
+{
+ "QW": [
+  {
+   "es": "Quién",
+   "en": "Who",
+   "col": "#e49bb0",
+   "use": "Used to ask about a person.",
+   "ex": [
+    [
+     "¿Quién es el presidente de España?",
+     "Who is the president of Spain?"
+    ],
+    [
+     "¿Quién va a venir a la fiesta?",
+     "Who is coming to the party?"
+    ]
+   ]
+  },
+  {
+   "es": "Qué",
+   "en": "What",
+   "col": "#8fb4e8",
+   "use": "Used to ask for information or about something.",
+   "tip": "With a noun, most Latin Americans say qué: ¿Qué libro prefieres?",
+   "ex": [
+    [
+     "¿Qué significa esta palabra?",
+     "What does this word mean?"
+    ],
+    [
+     "¿Qué vas a hacer hoy?",
+     "What are you going to do today?"
+    ]
+   ]
+  },
+  {
+   "es": "Cuándo",
+   "en": "When",
+   "col": "#e6c776",
+   "use": "Used to ask about the time or moment.",
+   "ex": [
+    [
+     "¿Cuándo es tu cumpleaños?",
+     "When is your birthday?"
+    ],
+    [
+     "¿Cuándo empieza la clase?",
+     "When does the class start?"
+    ]
+   ]
+  },
+  {
+   "es": "Dónde",
+   "en": "Where",
+   "col": "#8fcfa6",
+   "use": "Used to ask about the location.",
+   "ex": [
+    [
+     "¿Dónde están las llaves?",
+     "Where are the keys?"
+    ],
+    [
+     "¿Dónde vives?",
+     "Where do you live?"
+    ]
+   ]
+  },
+  {
+   "es": "Por qué",
+   "en": "Why",
+   "col": "#b79be0",
+   "use": "Used to ask for the reason or cause.",
+   "ex": [
+    [
+     "¿Por qué llegaste tarde?",
+     "Why did you arrive late?"
+    ],
+    [
+     "¿Por qué me llamaste?",
+     "Why did you call me?"
+    ]
+   ]
+  },
+  {
+   "es": "Cuál",
+   "en": "Which / What",
+   "col": "#eba37a",
+   "use": "Used to choose between options.",
+   "ex": [
+    [
+     "¿Cuál de estos libros es mejor?",
+     "Which of these books is better?"
+    ],
+    [
+     "¿Cuál prefieres, té o café?",
+     "Which do you prefer, tea or coffee?"
+    ]
+   ]
+  },
+  {
+   "es": "De quién",
+   "en": "Whose",
+   "col": "#8fb4e8",
+   "use": "Used to ask about possession or ownership.",
+   "ex": [
+    [
+     "¿De quién es este teléfono?",
+     "Whose phone is this?"
+    ],
+    [
+     "¿De quién es ese bolso?",
+     "Whose bag is that?"
+    ]
+   ]
+  },
+  {
+   "es": "Cómo",
+   "en": "How",
+   "col": "#e49bb0",
+   "use": "Used to ask about the way, manner or process.",
+   "ex": [
+    [
+     "¿Cómo se dice esto en inglés?",
+     "How do you say this in English?"
+    ],
+    [
+     "¿Cómo estuvo tu día?",
+     "How was your day?"
+    ]
+   ]
+  }
+ ],
+ "QQ": [
+  [
+   "___ vives?",
+   "Where do you live?",
+   "Dónde"
+  ],
+  [
+   "___ es tu cumpleaños?",
+   "When is your birthday?",
+   "Cuándo"
+  ],
+  [
+   "___ llegaste tarde?",
+   "Why did you arrive late?",
+   "Por qué"
+  ],
+  [
+   "___ es el presidente de España?",
+   "Who is the president of Spain?",
+   "Quién"
+  ],
+  [
+   "___ significa esta palabra?",
+   "What does this word mean?",
+   "Qué"
+  ],
+  [
+   "___ prefieres, té o café?",
+   "Which do you prefer, tea or coffee?",
+   "Cuál"
+  ],
+  [
+   "___ es este teléfono?",
+   "Whose phone is this?",
+   "De quién"
+  ],
+  [
+   "___ se dice esto en inglés?",
+   "How do you say this in English?",
+   "Cómo"
+  ],
+  [
+   "___ le duele?",
+   "Where does it hurt?",
+   "Dónde"
+  ],
+  [
+   "___ se siente hoy?",
+   "How do you feel today?",
+   "Cómo"
+  ],
+  [
+   "___ empezó el dolor?",
+   "When did the pain start?",
+   "Cuándo"
+  ],
+  [
+   "___ es su fecha de nacimiento?",
+   "What is your date of birth?",
+   "Cuál"
+  ],
+  [
+   "___ llamó a la enfermera?",
+   "Who called the nurse?",
+   "Quién"
+  ]
+ ],
+ "TENSES": [
+  {
+   "id": "pres",
+   "grp": "pres",
+   "es": "Presente (simple)",
+   "en": "Present Simple",
+   "col": "#e49bb0",
+   "when": [
+    "Habits, routines and facts",
+    "Things that are generally true",
+    "Opinions and states"
+   ],
+   "form": "Sujeto + verbo en presente",
+   "forms": "hablo, comes, vive",
+   "ex": "Yo estudio español todos los días.",
+   "exen": "I study Spanish every day."
+  },
+  {
+   "id": "cont",
+   "grp": "pres",
+   "es": "Presente continuo",
+   "en": "Present Continuous",
+   "col": "#8fb4e8",
+   "when": [
+    "Actions happening right now",
+    "Temporary situations",
+    "What somebody is doing at the moment"
+   ],
+   "form": "Sujeto + estar (conjugado) + gerundio",
+   "forms": "estoy hablando, estás comiendo, está viviendo",
+   "ex": "Ahora estoy trabajando.",
+   "exen": "I am working right now."
+  },
+  {
+   "id": "perf",
+   "grp": "pres",
+   "es": "Presente perfecto (compuesto)",
+   "en": "Present Perfect",
+   "col": "#e6c776",
+   "when": [
+    "Past actions with a connection to the present",
+    "Life experiences or things you have done",
+    "Actions that started in the past and continue now"
+   ],
+   "form": "Sujeto + haber (conjugado) + participio pasado",
+   "forms": "he hablado, has comido, ha vivido",
+   "ex": "He visitado España dos veces.",
+   "exen": "I have visited Spain twice.",
+   "note": "In Mexico and Colombia people often use the simple past instead. You will hear Ya comí more than Ya he comido."
+  },
+  {
+   "id": "perfcont",
+   "grp": "pres",
+   "es": "Presente perfecto continuo",
+   "en": "Present Perfect Continuous",
+   "col": "#8fcfa6",
+   "when": [
+    "Actions that started in the past and are still happening",
+    "To emphasize the duration of an action",
+    "Repeated actions up to now"
+   ],
+   "form": "Sujeto + haber (conjugado) + estado + gerundio",
+   "forms": "he estado hablando, has estado comiendo, ha estado viviendo",
+   "ex": "He estado estudiando toda la tarde.",
+   "exen": "I have been studying all afternoon."
+  },
+  {
+   "id": "indef",
+   "grp": "past",
+   "es": "Pretérito indefinido",
+   "en": "Simple Past",
+   "col": "#e49bb0",
+   "when": [
+    "Completed actions at a specific time in the past",
+    "A series of finished actions"
+   ],
+   "form": "Sujeto + verbo en pretérito indefinido",
+   "forms": "hablé, comí, viví",
+   "ex": "Ayer fui al mercado.",
+   "exen": "I went to the market yesterday."
+  },
+  {
+   "id": "imp",
+   "grp": "past",
+   "es": "Pretérito imperfecto",
+   "en": "Past Imperfect",
+   "col": "#8fb4e8",
+   "when": [
+    "Ongoing actions or situations in the past",
+    "Habits, repeated actions or background information",
+    "What used to happen"
+   ],
+   "form": "Sujeto + verbo en pretérito imperfecto",
+   "forms": "hablaba, comía, vivía",
+   "ex": "Yo vivía en México cuando era niña.",
+   "exen": "I lived in Mexico when I was a child."
+  },
+  {
+   "id": "perfp",
+   "grp": "past",
+   "es": "Pretérito perfecto compuesto",
+   "en": "Present Perfect",
+   "col": "#e6c776",
+   "when": [
+    "Past actions with a connection to the present",
+    "Life experiences or things you have done"
+   ],
+   "form": "Sujeto + haber (conjugado) + participio pasado",
+   "forms": "he hablado, he comido, he vivido",
+   "ex": "He visitado España dos veces.",
+   "exen": "I have visited Spain twice.",
+   "note": "Same tense as in the present chart. Latin America leans on the simple past for most of these."
+  },
+  {
+   "id": "plus",
+   "grp": "past",
+   "es": "Pretérito pluscuamperfecto",
+   "en": "Past Perfect",
+   "col": "#8fcfa6",
+   "when": [
+    "An action that happened before another action in the past",
+    "To show that something had already happened"
+   ],
+   "form": "Sujeto + haber (en imperfecto) + participio pasado",
+   "forms": "había hablado, había comido, había vivido",
+   "ex": "Ya había salido cuando me llamaste.",
+   "exen": "I had already left when you called me."
+  },
+  {
+   "id": "ant",
+   "grp": "past",
+   "es": "Pretérito anterior (raro)",
+   "en": "Past Anterior (rare)",
+   "col": "#b79be0",
+   "when": [
+    "Used mainly in formal or literary language",
+    "An action that happened immediately before another past action"
+   ],
+   "form": "Sujeto + haber (en indefinido) + participio pasado",
+   "forms": "hube hablado, hube comido, hube vivido",
+   "ex": "Apenas hube llegado cuando empezó la reunión.",
+   "exen": "I had barely arrived when the meeting started.",
+   "note": "You will mostly meet this one in books, not in conversation."
+  },
+  {
+   "id": "pluscont",
+   "grp": "past",
+   "es": "Pretérito pluscuamperfecto continuo",
+   "en": "Past Perfect Continuous",
+   "col": "#eba37a",
+   "when": [
+    "An action that had been in progress before another action in the past",
+    "To emphasize the duration of an action in the past"
+   ],
+   "form": "Sujeto + haber (en imperfecto) + estado + gerundio",
+   "forms": "había estado hablando, había estado comiendo, había estado viviendo",
+   "ex": "Había estado estudiando toda la tarde.",
+   "exen": "I had been studying all afternoon."
+  },
+  {
+   "id": "fut",
+   "grp": "more",
+   "es": "Futuro simple",
+   "en": "Simple Future",
+   "col": "#8fb4e8",
+   "when": [
+    "Predictions and promises",
+    "Formal plans",
+    "Guessing about now: Estará en el trabajo (he must be at work)"
+   ],
+   "form": "Infinitivo + é, ás, á, emos, án",
+   "forms": "hablaré, comerás, vivirá",
+   "ex": "Mañana hablaré con el médico.",
+   "exen": "Tomorrow I will talk to the doctor."
+  },
+  {
+   "id": "cond",
+   "grp": "more",
+   "es": "Condicional",
+   "en": "Conditional",
+   "col": "#e49bb0",
+   "when": [
+    "Polite requests",
+    "Advice: yo iría (I would go)",
+    "What would happen"
+   ],
+   "form": "Infinitivo + ía, ías, ía, íamos, ían",
+   "forms": "hablaría, comerías, viviría",
+   "ex": "Me gustaría un café, por favor.",
+   "exen": "I would like a coffee, please."
+  },
+  {
+   "id": "subj",
+   "grp": "more",
+   "es": "Subjuntivo presente",
+   "en": "Present Subjunctive",
+   "col": "#b79be0",
+   "when": [
+    "Wishes, doubts and emotions",
+    "Recommendations and what is not yet real",
+    "After que with a different subject"
+   ],
+   "form": "Forma yo, sin la o, más la vocal opuesta",
+   "forms": "hable, comas, viva",
+   "ex": "Quiero que hables más despacio.",
+   "exen": "I want you to speak more slowly."
+  },
+  {
+   "id": "mand",
+   "grp": "more",
+   "es": "Imperativo (mandatos)",
+   "en": "Commands",
+   "col": "#e6c776",
+   "when": [
+    "Telling someone to do something",
+    "Instructions with patients",
+    "Polite commands with usted"
+   ],
+   "form": "Tú: forma él del presente. Usted y ustedes: subjuntivo.",
+   "forms": "habla, hable, hablen",
+   "ex": "Respire profundo, por favor.",
+   "exen": "Breathe deeply, please."
+  }
+ ],
+ "TQ": [
+  [
+   "Yo estudio español todos los días.",
+   "I study Spanish every day.",
+   "pres"
+  ],
+  [
+   "Mi hermano mira la tele.",
+   "My brother watches TV.",
+   "pres"
+  ],
+  [
+   "Ahora estoy trabajando.",
+   "I am working right now.",
+   "cont"
+  ],
+  [
+   "Estamos comiendo arepas.",
+   "We are eating arepas.",
+   "cont"
+  ],
+  [
+   "He visitado España dos veces.",
+   "I have visited Spain twice.",
+   "perf"
+  ],
+  [
+   "Ella ha vivido en Medellín.",
+   "She has lived in Medellín.",
+   "perf"
+  ],
+  [
+   "He estado estudiando toda la tarde.",
+   "I have been studying all afternoon.",
+   "perfcont"
+  ],
+  [
+   "Hemos estado esperando una hora.",
+   "We have been waiting for an hour.",
+   "perfcont"
+  ],
+  [
+   "Ayer fui al mercado.",
+   "I went to the market yesterday.",
+   "indef"
+  ],
+  [
+   "Anoche comí mole.",
+   "Last night I ate mole.",
+   "indef"
+  ],
+  [
+   "Llegué a la clínica a las seis.",
+   "I arrived at the clinic at six.",
+   "indef"
+  ],
+  [
+   "Yo vivía en México cuando era niña.",
+   "I lived in Mexico when I was a child.",
+   "imp"
+  ],
+  [
+   "Mi abuela cocinaba todos los domingos.",
+   "My grandmother used to cook every Sunday.",
+   "imp"
+  ],
+  [
+   "Ya había salido cuando me llamaste.",
+   "I had already left when you called me.",
+   "plus"
+  ],
+  [
+   "Cuando llegué, ya habían comido.",
+   "When I arrived, they had already eaten.",
+   "plus"
+  ],
+  [
+   "Apenas hube llegado cuando empezó la reunión.",
+   "I had barely arrived when the meeting started.",
+   "ant"
+  ],
+  [
+   "Había estado estudiando toda la tarde.",
+   "I had been studying all afternoon.",
+   "pluscont"
+  ]
+ ],
+ "COMP": [
+  [
+   "Ahora ___ arepas.",
+   "Right now I am eating arepas.",
+   "estoy comiendo",
+   [
+    "estoy comido",
+    "he comiendo",
+    "estoy comer"
+   ]
+  ],
+  [
+   "Ayer ___ al mercado.",
+   "Yesterday I went to the market.",
+   "fui",
+   [
+    "voy",
+    "he ido",
+    "iré"
+   ]
+  ],
+  [
+   "Cuando era niña, ___ en México.",
+   "When I was a girl, I lived in Mexico.",
+   "vivía",
+   [
+    "vivo",
+    "viviré",
+    "he vivido"
+   ]
+  ],
+  [
+   "Ya ___ salido cuando me llamaste.",
+   "I had already left when you called me.",
+   "había",
+   [
+    "he",
+    "ha",
+    "hubo"
+   ]
+  ],
+  [
+   "Ahora ella ___ trabajando.",
+   "Right now she is working.",
+   "está",
+   [
+    "ha",
+    "tiene",
+    "es"
+   ]
+  ],
+  [
+   "Nosotros ___ visitado España dos veces.",
+   "We have visited Spain twice.",
+   "hemos",
+   [
+    "somos",
+    "estamos",
+    "vamos"
+   ]
+  ],
+  [
+   "He ___ estudiando toda la tarde.",
+   "I have been studying all afternoon.",
+   "estado",
+   [
+    "estar",
+    "estudiado",
+    "sido"
+   ]
+  ],
+  [
+   "Tú ___ comiendo mole ahora.",
+   "You are eating mole now.",
+   "estás",
+   [
+    "has",
+    "eres",
+    "tienes"
+   ]
+  ],
+  [
+   "Ayer yo ___ mole en casa de mi abuela.",
+   "Yesterday I ate mole at my grandmother's house.",
+   "comí",
+   [
+    "como",
+    "comeré",
+    "estoy comiendo"
+   ]
+  ]
+ ],
+ "VGROUPS": [
+  "Ser · to be",
+  "Llamar · to call",
+  "Comer · to eat",
+  "Entender · to understand",
+  "Vivir · to live"
+ ],
+ "VERBS": [
+  {
+   "n": 1,
+   "es": "ser",
+   "en": "to be",
+   "g": 0
+  },
+  {
+   "n": 2,
+   "es": "estar",
+   "en": "to be",
+   "g": 0
+  },
+  {
+   "n": 3,
+   "es": "tener",
+   "en": "to have",
+   "g": 0
+  },
+  {
+   "n": 4,
+   "es": "hacer",
+   "en": "to do / make",
+   "g": 0
+  },
+  {
+   "n": 5,
+   "es": "decir",
+   "en": "to say",
+   "g": 0
+  },
+  {
+   "n": 6,
+   "es": "ir",
+   "en": "to go",
+   "g": 0
+  },
+  {
+   "n": 7,
+   "es": "venir",
+   "en": "to come",
+   "g": 0
+  },
+  {
+   "n": 8,
+   "es": "ver",
+   "en": "to see",
+   "g": 0
+  },
+  {
+   "n": 9,
+   "es": "saber",
+   "en": "to know",
+   "g": 0
+  },
+  {
+   "n": 10,
+   "es": "pensar",
+   "en": "to think",
+   "g": 0
+  },
+  {
+   "n": 11,
+   "es": "parecer",
+   "en": "to seem",
+   "g": 0
+  },
+  {
+   "n": 12,
+   "es": "quedar",
+   "en": "to stay / remain",
+   "g": 0
+  },
+  {
+   "n": 13,
+   "es": "causar",
+   "en": "to cause",
+   "g": 0
+  },
+  {
+   "n": 14,
+   "es": "volverse",
+   "en": "to become",
+   "g": 0
+  },
+  {
+   "n": 15,
+   "es": "mantenerse",
+   "en": "to stay (remain)",
+   "g": 0
+  },
+  {
+   "n": 16,
+   "es": "sentirse",
+   "en": "to feel",
+   "g": 0
+  },
+  {
+   "n": 17,
+   "es": "hacerse",
+   "en": "to become (oneself)",
+   "g": 0
+  },
+  {
+   "n": 18,
+   "es": "resultar",
+   "en": "to turn out",
+   "g": 0
+  },
+  {
+   "n": 19,
+   "es": "llegar",
+   "en": "to arrive",
+   "g": 0
+  },
+  {
+   "n": 20,
+   "es": "seguir",
+   "en": "to follow",
+   "g": 0
+  },
+  {
+   "n": 21,
+   "es": "llamar",
+   "en": "to call",
+   "g": 1
+  },
+  {
+   "n": 22,
+   "es": "hablar",
+   "en": "to speak",
+   "g": 1
+  },
+  {
+   "n": 23,
+   "es": "escuchar",
+   "en": "to listen",
+   "g": 1
+  },
+  {
+   "n": 24,
+   "es": "oír",
+   "en": "to hear",
+   "g": 1
+  },
+  {
+   "n": 25,
+   "es": "responder",
+   "en": "to answer",
+   "g": 1
+  },
+  {
+   "n": 26,
+   "es": "preguntar",
+   "en": "to ask",
+   "g": 1
+  },
+  {
+   "n": 27,
+   "es": "contar",
+   "en": "to tell",
+   "g": 1
+  },
+  {
+   "n": 28,
+   "es": "explicar",
+   "en": "to explain",
+   "g": 1
+  },
+  {
+   "n": 29,
+   "es": "mencionar",
+   "en": "to mention",
+   "g": 1
+  },
+  {
+   "n": 30,
+   "es": "discutir",
+   "en": "to discuss",
+   "g": 1
+  },
+  {
+   "n": 31,
+   "es": "conversar",
+   "en": "to converse",
+   "g": 1
+  },
+  {
+   "n": 32,
+   "es": "chatear",
+   "en": "to chat",
+   "g": 1
+  },
+  {
+   "n": 33,
+   "es": "enseñar",
+   "en": "to teach",
+   "g": 1
+  },
+  {
+   "n": 34,
+   "es": "aprender",
+   "en": "to learn",
+   "g": 1
+  },
+  {
+   "n": 35,
+   "es": "estudiar",
+   "en": "to study",
+   "g": 1
+  },
+  {
+   "n": 36,
+   "es": "trabajar",
+   "en": "to work",
+   "g": 1
+  },
+  {
+   "n": 37,
+   "es": "practicar",
+   "en": "to practice",
+   "g": 1
+  },
+  {
+   "n": 38,
+   "es": "ayudar",
+   "en": "to help",
+   "g": 1
+  },
+  {
+   "n": 39,
+   "es": "necesitar",
+   "en": "to need",
+   "g": 1
+  },
+  {
+   "n": 40,
+   "es": "usar",
+   "en": "to use",
+   "g": 1
+  },
+  {
+   "n": 41,
+   "es": "comer",
+   "en": "to eat",
+   "g": 2
+  },
+  {
+   "n": 42,
+   "es": "beber",
+   "en": "to drink",
+   "g": 2
+  },
+  {
+   "n": 43,
+   "es": "cocinar",
+   "en": "to cook",
+   "g": 2
+  },
+  {
+   "n": 44,
+   "es": "comprar",
+   "en": "to buy",
+   "g": 2
+  },
+  {
+   "n": 45,
+   "es": "vender",
+   "en": "to sell",
+   "g": 2
+  },
+  {
+   "n": 46,
+   "es": "pagar",
+   "en": "to pay",
+   "g": 2
+  },
+  {
+   "n": 47,
+   "es": "gastar",
+   "en": "to spend",
+   "g": 2
+  },
+  {
+   "n": 48,
+   "es": "ahorrar",
+   "en": "to save",
+   "g": 2
+  },
+  {
+   "n": 49,
+   "es": "costar",
+   "en": "to cost",
+   "g": 2
+  },
+  {
+   "n": 50,
+   "es": "elegir",
+   "en": "to choose",
+   "g": 2
+  },
+  {
+   "n": 51,
+   "es": "pedir",
+   "en": "to order / ask for",
+   "g": 2
+  },
+  {
+   "n": 52,
+   "es": "recibir",
+   "en": "to receive",
+   "g": 2
+  },
+  {
+   "n": 53,
+   "es": "dar",
+   "en": "to give",
+   "g": 2
+  },
+  {
+   "n": 54,
+   "es": "tomar",
+   "en": "to take",
+   "g": 2
+  },
+  {
+   "n": 55,
+   "es": "probar",
+   "en": "to try",
+   "g": 2
+  },
+  {
+   "n": 56,
+   "es": "encontrar",
+   "en": "to find",
+   "g": 2
+  },
+  {
+   "n": 57,
+   "es": "buscar",
+   "en": "to look for",
+   "g": 2
+  },
+  {
+   "n": 58,
+   "es": "abrir",
+   "en": "to open",
+   "g": 2
+  },
+  {
+   "n": 59,
+   "es": "cerrar",
+   "en": "to close",
+   "g": 2
+  },
+  {
+   "n": 60,
+   "es": "llevar",
+   "en": "to carry / wear",
+   "g": 2
+  },
+  {
+   "n": 61,
+   "es": "entender",
+   "en": "to understand",
+   "g": 3
+  },
+  {
+   "n": 62,
+   "es": "conocer",
+   "en": "to know (a person/place)",
+   "g": 3
+  },
+  {
+   "n": 63,
+   "es": "creer",
+   "en": "to believe",
+   "g": 3
+  },
+  {
+   "n": 64,
+   "es": "recordar",
+   "en": "to remember",
+   "g": 3
+  },
+  {
+   "n": 65,
+   "es": "olvidar",
+   "en": "to forget",
+   "g": 3
+  },
+  {
+   "n": 66,
+   "es": "imaginar",
+   "en": "to imagine",
+   "g": 3
+  },
+  {
+   "n": 67,
+   "es": "aceptar",
+   "en": "to accept",
+   "g": 3
+  },
+  {
+   "n": 68,
+   "es": "permitir",
+   "en": "to allow",
+   "g": 3
+  },
+  {
+   "n": 69,
+   "es": "ofrecer",
+   "en": "to offer",
+   "g": 3
+  },
+  {
+   "n": 70,
+   "es": "proporcionar",
+   "en": "to provide",
+   "g": 3
+  },
+  {
+   "n": 71,
+   "es": "incluir",
+   "en": "to include",
+   "g": 3
+  },
+  {
+   "n": 72,
+   "es": "comenzar",
+   "en": "to start",
+   "g": 3
+  },
+  {
+   "n": 73,
+   "es": "empezar",
+   "en": "to begin",
+   "g": 3
+  },
+  {
+   "n": 74,
+   "es": "continuar",
+   "en": "to continue",
+   "g": 3
+  },
+  {
+   "n": 75,
+   "es": "terminar",
+   "en": "to finish",
+   "g": 3
+  },
+  {
+   "n": 76,
+   "es": "decidir",
+   "en": "to decide",
+   "g": 3
+  },
+  {
+   "n": 77,
+   "es": "intentar",
+   "en": "to try",
+   "g": 3
+  },
+  {
+   "n": 78,
+   "es": "lograr",
+   "en": "to achieve",
+   "g": 3
+  },
+  {
+   "n": 79,
+   "es": "conseguir",
+   "en": "to get / obtain",
+   "g": 3
+  },
+  {
+   "n": 80,
+   "es": "perder",
+   "en": "to lose",
+   "g": 3
+  },
+  {
+   "n": 81,
+   "es": "vivir",
+   "en": "to live",
+   "g": 4
+  },
+  {
+   "n": 82,
+   "es": "morir",
+   "en": "to die",
+   "g": 4
+  },
+  {
+   "n": 83,
+   "es": "nacer",
+   "en": "to be born",
+   "g": 4
+  },
+  {
+   "n": 84,
+   "es": "crecer",
+   "en": "to grow",
+   "g": 4
+  },
+  {
+   "n": 85,
+   "es": "cambiar",
+   "en": "to change",
+   "g": 4
+  },
+  {
+   "n": 86,
+   "es": "pasar",
+   "en": "to happen / pass",
+   "g": 4
+  },
+  {
+   "n": 87,
+   "es": "quedar",
+   "en": "to remain / be left",
+   "g": 4
+  },
+  {
+   "n": 88,
+   "es": "salir",
+   "en": "to leave / go out",
+   "g": 4
+  },
+  {
+   "n": 89,
+   "es": "entrar",
+   "en": "to enter",
+   "g": 4
+  },
+  {
+   "n": 90,
+   "es": "caer",
+   "en": "to fall",
+   "g": 4
+  },
+  {
+   "n": 91,
+   "es": "levantar",
+   "en": "to raise / get up",
+   "g": 4
+  },
+  {
+   "n": 92,
+   "es": "sentar",
+   "en": "to sit",
+   "g": 4
+  },
+  {
+   "n": 93,
+   "es": "caminar",
+   "en": "to walk",
+   "g": 4
+  },
+  {
+   "n": 94,
+   "es": "correr",
+   "en": "to run",
+   "g": 4
+  },
+  {
+   "n": 95,
+   "es": "conducir",
+   "en": "to drive",
+   "g": 4
+  },
+  {
+   "n": 96,
+   "es": "llegar",
+   "en": "to arrive",
+   "g": 4
+  },
+  {
+   "n": 97,
+   "es": "esperar",
+   "en": "to wait / expect",
+   "g": 4
+  },
+  {
+   "n": 98,
+   "es": "considerar",
+   "en": "to consider",
+   "g": 4
+  },
+  {
+   "n": 99,
+   "es": "construir",
+   "en": "to build",
+   "g": 4
+  },
+  {
+   "n": 100,
+   "es": "destruir",
+   "en": "to destroy",
+   "g": 4
+  }
+ ],
+ "CONN": [
+  {
+   "t": "Opinión",
+   "sub": "Para dar tu punto de vista",
+   "col": "#e49bb0",
+   "r": [
+    [
+     "Creo que",
+     "I think that"
+    ],
+    [
+     "Pienso que",
+     "I believe that"
+    ],
+    [
+     "En mi opinión",
+     "In my opinion"
+    ],
+    [
+     "Desde mi punto de vista",
+     "From my point of view"
+    ],
+    [
+     "Según yo",
+     "According to me"
+    ],
+    [
+     "Me parece que",
+     "It seems to me"
+    ],
+    [
+     "Para mí",
+     "For me"
+    ],
+    [
+     "En mi experiencia",
+     "In my experience"
+    ]
+   ]
+  },
+  {
+   "t": "Conclusión",
+   "sub": "Para cerrar una idea",
+   "col": "#8fcfa6",
+   "r": [
+    [
+     "En conclusión",
+     "In conclusion"
+    ],
+    [
+     "Finalmente",
+     "Finally"
+    ],
+    [
+     "Al final",
+     "In the end"
+    ],
+    [
+     "En general",
+     "Overall"
+    ],
+    [
+     "En resumen",
+     "In summary"
+    ],
+    [
+     "Para resumir",
+     "To sum up"
+    ],
+    [
+     "Entonces",
+     "So / Therefore"
+    ],
+    [
+     "Por lo tanto",
+     "Therefore"
+    ]
+   ]
+  },
+  {
+   "t": "Secuencia",
+   "sub": "Para indicar orden",
+   "col": "#8fb4e8",
+   "r": [
+    [
+     "Primero",
+     "First"
+    ],
+    [
+     "Segundo",
+     "Second"
+    ],
+    [
+     "Luego",
+     "Then"
+    ],
+    [
+     "Después",
+     "After"
+    ],
+    [
+     "Más tarde",
+     "Later"
+    ],
+    [
+     "A continuación",
+     "Next"
+    ],
+    [
+     "Finalmente",
+     "Finally"
+    ],
+    [
+     "En seguida",
+     "Shortly after"
+    ],
+    [
+     "Eventualmente",
+     "Eventually"
+    ]
+   ]
+  },
+  {
+   "t": "Comparación",
+   "sub": "Para comparar ideas",
+   "col": "#b79be0",
+   "r": [
+    [
+     "Igualmente",
+     "Similarly / Equally"
+    ],
+    [
+     "De la misma manera",
+     "In the same way"
+    ],
+    [
+     "Al igual que",
+     "As with"
+    ],
+    [
+     "De forma similar",
+     "Similarly"
+    ],
+    [
+     "Por el contrario",
+     "On the contrary"
+    ],
+    [
+     "A diferencia de",
+     "Unlike"
+    ],
+    [
+     "Así como",
+     "Just as"
+    ],
+    [
+     "Del mismo modo",
+     "In the same way"
+    ]
+   ]
+  },
+  {
+   "t": "Adición",
+   "sub": "Para agregar información",
+   "col": "#e6c776",
+   "r": [
+    [
+     "Y",
+     "And"
+    ],
+    [
+     "También",
+     "Also"
+    ],
+    [
+     "Además",
+     "In addition"
+    ],
+    [
+     "Asimismo",
+     "Furthermore"
+    ],
+    [
+     "Por otra parte",
+     "On the other hand"
+    ],
+    [
+     "Incluso",
+     "Moreover"
+    ],
+    [
+     "Igualmente",
+     "As well"
+    ],
+    [
+     "Y además",
+     "And also"
+    ]
+   ]
+  },
+  {
+   "t": "Ejemplo",
+   "sub": "Para dar ejemplos",
+   "col": "#eba37a",
+   "r": [
+    [
+     "Por ejemplo",
+     "For example"
+    ],
+    [
+     "Tal como",
+     "Such as"
+    ],
+    [
+     "Como",
+     "Like"
+    ],
+    [
+     "Es decir",
+     "That is (to say)"
+    ],
+    [
+     "En otras palabras",
+     "In other words"
+    ],
+    [
+     "En concreto",
+     "Specifically"
+    ],
+    [
+     "Un caso de esto es",
+     "An example of this is"
+    ],
+    [
+     "A saber",
+     "Namely"
+    ]
+   ]
+  },
+  {
+   "t": "Énfasis",
+   "sub": "Para destacar una idea",
+   "col": "#8fb4e8",
+   "r": [
+    [
+     "Sobre todo",
+     "Above all"
+    ],
+    [
+     "Especialmente",
+     "Especially"
+    ],
+    [
+     "En particular",
+     "In particular"
+    ],
+    [
+     "En realidad",
+     "In fact"
+    ],
+    [
+     "De hecho",
+     "In fact"
+    ],
+    [
+     "Es importante",
+     "It's important"
+    ],
+    [
+     "Cabe destacar",
+     "It's worth noting"
+    ],
+    [
+     "Sin duda",
+     "Without a doubt"
+    ]
+   ]
+  },
+  {
+   "t": "Contraste",
+   "sub": "Para mostrar oposición",
+   "col": "#e49bb0",
+   "r": [
+    [
+     "Pero",
+     "But"
+    ],
+    [
+     "Sin embargo",
+     "However"
+    ],
+    [
+     "No obstante",
+     "Nevertheless"
+    ],
+    [
+     "Aunque",
+     "Although"
+    ],
+    [
+     "A pesar de",
+     "Despite / In spite of"
+    ],
+    [
+     "Por otro lado",
+     "On the other hand"
+    ],
+    [
+     "En cambio",
+     "Instead"
+    ],
+    [
+     "A diferencia de",
+     "Unlike"
+    ]
+   ]
+  },
+  {
+   "t": "Causa y efecto",
+   "sub": "Para explicar el motivo o resultado",
+   "col": "#8fcfa6",
+   "r": [
+    [
+     "Porque",
+     "Because"
+    ],
+    [
+     "Ya que",
+     "Since"
+    ],
+    [
+     "Debido a que",
+     "Due to"
+    ],
+    [
+     "Por eso",
+     "That's why"
+    ],
+    [
+     "Por lo tanto",
+     "Therefore"
+    ],
+    [
+     "Así que",
+     "So"
+    ],
+    [
+     "En consecuencia",
+     "Consequently"
+    ],
+    [
+     "De modo que",
+     "So that"
+    ],
+    [
+     "Por esta razón",
+     "For this reason"
+    ]
+   ]
+  }
+ ],
+ "CNOTE": {
+  "Eventualmente": "Heads up: in everyday Spanish this usually means possibly or occasionally. For eventually, say con el tiempo or al final.",
+  "Incluso": "Heads up: it usually means even or including. For moreover, use además or asimismo.",
+  "En cambio": "Heads up: it means whereas or on the other hand. For instead of, say en lugar de.",
+  "En realidad": "Also means actually."
+ },
+ "CQ": [
+  [
+   "Estoy cansada, ___ voy a dormir.",
+   "I'm tired, that's why I'm going to sleep.",
+   "Por eso",
+   "Causa y efecto"
+  ],
+  [
+   "Practico todos los días ___ quiero hablar mejor.",
+   "I practice every day because I want to speak better.",
+   "Porque",
+   "Causa y efecto"
+  ],
+  [
+   "Me gusta el café, ___ no me gusta el té.",
+   "I like coffee, but I don't like tea.",
+   "Pero",
+   "Contraste"
+  ],
+  [
+   "Primero tomo café, ___ voy al trabajo.",
+   "First I have coffee, then I go to work.",
+   "Luego",
+   "Secuencia"
+  ],
+  [
+   "Hay arepas. ___ hay mole.",
+   "There are arepas. In addition, there is mole.",
+   "Además",
+   "Adición"
+  ],
+  [
+   "Hace frío, ___ vamos a salir.",
+   "It's cold, however we are going to go out.",
+   "Sin embargo",
+   "Contraste"
+  ],
+  [
+   "___, el español es un idioma bonito.",
+   "In my opinion, Spanish is a beautiful language.",
+   "En mi opinión",
+   "Opinión"
+  ],
+  [
+   "___, quiero darles las gracias a todos.",
+   "In conclusion, I want to thank everyone.",
+   "En conclusión",
+   "Conclusión"
+  ],
+  [
+   "___ llegó tarde, no vio la película.",
+   "Due to the fact that he arrived late, he didn't see the movie.",
+   "Debido a que",
+   "Causa y efecto"
+  ],
+  [
+   "Me gusta el pan, ___ el pan caliente.",
+   "I like bread, above all warm bread.",
+   "Sobre todo",
+   "Énfasis"
+  ],
+  [
+   "Mi hermano come mucho; ___, yo como poco.",
+   "My brother eats a lot; whereas I eat little.",
+   "En cambio",
+   "Contraste"
+  ],
+  [
+   "Hablo tres idiomas, ___, español, inglés y francés.",
+   "I speak three languages, in other words, Spanish, English and French.",
+   "Es decir",
+   "Ejemplo"
+  ]
+ ],
+ "TOPICS": [
+  {
+   "id": "ser",
+   "t": "Ser vs Estar",
+   "sub": "Two verbs for to be, and when to use each",
+   "col": "#e49bb0",
+   "blocks": [
+    {
+     "h": "SER: what something is",
+     "p": [
+      "Think DOCTOR: Description, Occupation, Characteristic, Time, Origin, Relationship.",
+      "Use it for identity, jobs, nationality, time, and where an event takes place."
+     ],
+     "ex": [
+      [
+       "Soy enfermera.",
+       "I am a nurse."
+      ],
+      [
+       "Ella es de Medellín.",
+       "She is from Medellín."
+      ],
+      [
+       "Son las tres de la tarde.",
+       "It is three in the afternoon."
+      ],
+      [
+       "La fiesta es en mi casa.",
+       "The party is at my house."
+      ]
+     ]
+    },
+    {
+     "h": "ESTAR: how or where something is",
+     "p": [
+      "Think PLACE: Position, Location, Action, Condition, Emotion.",
+      "Use it for location, feelings, temporary states, and the -ing form."
+     ],
+     "ex": [
+      [
+       "Estamos en la clínica.",
+       "We are at the clinic."
+      ],
+      [
+       "Estoy cansada.",
+       "I am tired."
+      ],
+      [
+       "El paciente está nervioso.",
+       "The patient is nervous."
+      ],
+      [
+       "Estoy trabajando ahora.",
+       "I am working now."
+      ]
+     ]
+    },
+    {
+     "h": "Same adjective, new meaning",
+     "p": [
+      "With ser it describes what someone is like. With estar it describes how they are right now."
+     ],
+     "ex": [
+      [
+       "Ella es lista.",
+       "She is smart."
+      ],
+      [
+       "Ella está lista.",
+       "She is ready."
+      ],
+      [
+       "Es aburrido.",
+       "He is boring."
+      ],
+      [
+       "Está aburrido.",
+       "He is bored."
+      ]
+     ]
+    }
+   ],
+   "drill": [
+    [
+     "Yo ___ enfermera.",
+     "I am a nurse.",
+     "soy",
+     [
+      "estoy",
+      "es",
+      "está"
+     ],
+     "Jobs use ser."
+    ],
+    [
+     "Mi mamá ___ en la cocina.",
+     "My mom is in the kitchen.",
+     "está",
+     [
+      "es",
+      "soy",
+      "están"
+     ],
+     "Location uses estar."
+    ],
+    [
+     "Ellos ___ de México.",
+     "They are from Mexico.",
+     "son",
+     [
+      "están",
+      "es",
+      "estamos"
+     ],
+     "Origin uses ser."
+    ],
+    [
+     "El café ___ caliente.",
+     "The coffee is hot.",
+     "está",
+     [
+      "es",
+      "son",
+      "soy"
+     ],
+     "A condition right now uses estar."
+    ],
+    [
+     "Hoy ___ lunes.",
+     "Today is Monday.",
+     "es",
+     [
+      "está",
+      "soy",
+      "estoy"
+     ],
+     "Days and dates use ser."
+    ],
+    [
+     "Nosotros ___ cansados.",
+     "We are tired.",
+     "estamos",
+     [
+      "somos",
+      "están",
+      "son"
+     ],
+     "How you feel uses estar."
+    ],
+    [
+     "La fiesta ___ en mi casa.",
+     "The party is at my house.",
+     "es",
+     [
+      "está",
+      "soy",
+      "estoy"
+     ],
+     "An event taking place uses ser."
+    ],
+    [
+     "El paciente ___ muy nervioso hoy.",
+     "The patient is very nervous today.",
+     "está",
+     [
+      "es",
+      "son",
+      "soy"
+     ],
+     "A temporary feeling uses estar."
+    ],
+    [
+     "Tú ___ trabajando ahora.",
+     "You are working now.",
+     "estás",
+     [
+      "eres",
+      "está",
+      "es"
+     ],
+     "The -ing form uses estar."
+    ],
+    [
+     "___ las tres de la tarde.",
+     "It is three in the afternoon.",
+     "Son",
+     [
+      "Están",
+      "Es",
+      "Estoy"
+     ],
+     "Time uses ser, plural for hours after one."
+    ],
+    [
+     "El libro ___ en la mesa.",
+     "The book is on the table.",
+     "está",
+     [
+      "es",
+      "son",
+      "soy"
+     ],
+     "Location of an object uses estar."
+    ],
+    [
+     "Ella ___ muy lista, siempre saca buenas notas.",
+     "She is very smart, she always gets good grades.",
+     "es",
+     [
+      "está",
+      "son",
+      "soy"
+     ],
+     "Smart is a characteristic, so ser."
+    ],
+    [
+     "Ya ___ lista para salir.",
+     "I am ready to go out.",
+     "estoy",
+     [
+      "soy",
+      "es",
+      "somos"
+     ],
+     "Ready is a state, so estar."
+    ]
+   ]
+  },
+  {
+   "id": "por",
+   "t": "Por vs Para",
+   "sub": "Reason versus purpose, and more",
+   "col": "#8fb4e8",
+   "blocks": [
+    {
+     "h": "PARA: where it is headed",
+     "p": [
+      "Purpose or goal (in order to), recipient, destination, deadline, opinion, and who you work for."
+     ],
+     "ex": [
+      [
+       "Estudio para ser enfermera.",
+       "I study to become a nurse."
+      ],
+      [
+       "Este regalo es para ti.",
+       "This gift is for you."
+      ],
+      [
+       "Salimos para Medellín mañana.",
+       "We leave for Medellín tomorrow."
+      ],
+      [
+       "Necesito la tarea para el viernes.",
+       "I need the homework by Friday."
+      ],
+      [
+       "Trabajo para una clínica.",
+       "I work for a clinic."
+      ]
+     ]
+    },
+    {
+     "h": "POR: why or how it happened",
+     "p": [
+      "Reason or cause, exchange or price, duration, moving through a place, means of communication, and thanks."
+     ],
+     "ex": [
+      [
+       "Llegué tarde por el tráfico.",
+       "I arrived late because of traffic."
+      ],
+      [
+       "Pagué diez dólares por el libro.",
+       "I paid ten dollars for the book."
+      ],
+      [
+       "Estudié por dos horas.",
+       "I studied for two hours."
+      ],
+      [
+       "Caminamos por el parque.",
+       "We walked through the park."
+      ],
+      [
+       "Hablamos por teléfono.",
+       "We talked by phone."
+      ],
+      [
+       "Gracias por tu ayuda.",
+       "Thanks for your help."
+      ]
+     ]
+    }
+   ],
+   "drill": [
+    [
+     "Estudio ___ ser enfermera.",
+     "I study to become a nurse.",
+     "para",
+     [
+      "por",
+      "de",
+      "en"
+     ],
+     "Purpose uses para."
+    ],
+    [
+     "Gracias ___ tu ayuda.",
+     "Thanks for your help.",
+     "por",
+     [
+      "para",
+      "de",
+      "a"
+     ],
+     "Thanks for something uses por."
+    ],
+    [
+     "Este regalo es ___ mi mamá.",
+     "This gift is for my mom.",
+     "para",
+     [
+      "por",
+      "de",
+      "en"
+     ],
+     "The recipient uses para."
+    ],
+    [
+     "Llegué tarde ___ el tráfico.",
+     "I arrived late because of traffic.",
+     "por",
+     [
+      "para",
+      "de",
+      "a"
+     ],
+     "A cause uses por."
+    ],
+    [
+     "Salimos ___ Medellín mañana.",
+     "We leave for Medellín tomorrow.",
+     "para",
+     [
+      "por",
+      "de",
+      "en"
+     ],
+     "A destination uses para."
+    ],
+    [
+     "Hablamos ___ teléfono.",
+     "We talked by phone.",
+     "por",
+     [
+      "para",
+      "con",
+      "en"
+     ],
+     "A means of communication uses por."
+    ],
+    [
+     "Trabajo ___ una clínica.",
+     "I work for a clinic.",
+     "para",
+     [
+      "por",
+      "de",
+      "en"
+     ],
+     "Who you work for uses para."
+    ],
+    [
+     "Pagué diez dólares ___ el libro.",
+     "I paid ten dollars for the book.",
+     "por",
+     [
+      "para",
+      "de",
+      "a"
+     ],
+     "An exchange or price uses por."
+    ],
+    [
+     "Necesito la tarea ___ el viernes.",
+     "I need the homework by Friday.",
+     "para",
+     [
+      "por",
+      "de",
+      "en"
+     ],
+     "A deadline uses para."
+    ],
+    [
+     "Caminamos ___ el parque.",
+     "We walked through the park.",
+     "por",
+     [
+      "para",
+      "en",
+      "a"
+     ],
+     "Moving through a place uses por."
+    ],
+    [
+     "Estudié ___ dos horas.",
+     "I studied for two hours.",
+     "por",
+     [
+      "para",
+      "de",
+      "en"
+     ],
+     "How long uses por."
+    ],
+    [
+     "___ mí, el español es hermoso.",
+     "For me, Spanish is beautiful.",
+     "Para",
+     [
+      "Por",
+      "De",
+      "En"
+     ],
+     "An opinion uses para."
+    ]
+   ]
+  },
+  {
+   "id": "fut",
+   "t": "Futuro y condicional",
+   "sub": "Will, would, and going to",
+   "col": "#8fcfa6",
+   "blocks": [
+    {
+     "h": "IR A + infinitive",
+     "p": [
+      "The easy future in conversation: voy a, vas a, va a, vamos a, van a, then the verb."
+     ],
+     "ex": [
+      [
+       "Voy a estudiar esta noche.",
+       "I am going to study tonight."
+      ],
+      [
+       "Vamos a comer arepas.",
+       "We are going to eat arepas."
+      ]
+     ]
+    },
+    {
+     "h": "Futuro simple",
+     "p": [
+      "Take the whole infinitive and add é, ás, á, emos, án.",
+      "Irregular stems: tener tendr-, hacer har-, decir dir-, venir vendr-, saber sabr-, salir saldr-.",
+      "It also guesses about now: Estará en el trabajo means he must be at work."
+     ],
+     "ex": [
+      [
+       "Mañana hablaré con el médico.",
+       "Tomorrow I will talk to the doctor."
+      ],
+      [
+       "Tendré tiempo el viernes.",
+       "I will have time on Friday."
+      ],
+      [
+       "Te llamaré pronto.",
+       "I will call you soon."
+      ]
+     ]
+    },
+    {
+     "h": "Condicional",
+     "p": [
+      "Infinitive plus ía, ías, ía, íamos, ían. Same irregular stems as the future.",
+      "Use it for polite requests and advice."
+     ],
+     "ex": [
+      [
+       "Me gustaría un café, por favor.",
+       "I would like a coffee, please."
+      ],
+      [
+       "¿Podría ayudarme?",
+       "Could you help me?"
+      ],
+      [
+       "Yo iría contigo.",
+       "I would go with you."
+      ]
+     ]
+    }
+   ],
+   "drill": [
+    [
+     "Mañana yo ___ con el médico. (hablar)",
+     "Tomorrow I will talk to the doctor.",
+     "hablaré",
+     [
+      "hablaba",
+      "hablé",
+      "hablo"
+     ],
+     "Future: infinitive plus é."
+    ],
+    [
+     "El próximo año nosotros ___ a Colombia. (viajar)",
+     "Next year we will travel to Colombia.",
+     "viajaremos",
+     [
+      "viajamos",
+      "viajábamos",
+      "viajaron"
+     ],
+     "Future: infinitive plus emos."
+    ],
+    [
+     "Ella ___ tiempo el viernes. (tener)",
+     "She will have time on Friday.",
+     "tendrá",
+     [
+      "tenerá",
+      "tuvo",
+      "tenía"
+     ],
+     "Tener has the irregular stem tendr-."
+    ],
+    [
+     "Me ___ un café, por favor. (gustar)",
+     "I would like a coffee, please.",
+     "gustaría",
+     [
+      "gustará",
+      "gustó",
+      "gusta"
+     ],
+     "A polite wish uses the conditional."
+    ],
+    [
+     "¿___ ayudarme, por favor? (poder)",
+     "Could you help me, please?",
+     "Podría",
+     [
+      "Pudo",
+      "Puede",
+      "Podré"
+     ],
+     "A polite request uses the conditional."
+    ],
+    [
+     "Ellos ___ mañana. (venir)",
+     "They will come tomorrow.",
+     "vendrán",
+     [
+      "vienerán",
+      "venirán",
+      "vinieron"
+     ],
+     "Venir has the irregular stem vendr-."
+    ],
+    [
+     "Tú ___ la verdad. (decir)",
+     "You will say the truth.",
+     "dirás",
+     [
+      "decirás",
+      "dijiste",
+      "dices"
+     ],
+     "Decir has the irregular stem dir-."
+    ],
+    [
+     "Nosotros ___ el informe mañana. (hacer)",
+     "We will do the report tomorrow.",
+     "haremos",
+     [
+      "haceremos",
+      "hicimos",
+      "hacemos"
+     ],
+     "Hacer has the irregular stem har-."
+    ],
+    [
+     "Voy ___ estudiar esta noche.",
+     "I am going to study tonight.",
+     "a",
+     [
+      "de",
+      "en",
+      "por"
+     ],
+     "Ir a plus infinitive is the going to future."
+    ],
+    [
+     "¿Qué ___ tú en mi lugar? (hacer)",
+     "What would you do in my place?",
+     "harías",
+     [
+      "harás",
+      "hacías",
+      "hiciste"
+     ],
+     "Would uses the conditional, with the stem har-."
+    ]
+   ]
+  },
+  {
+   "id": "cmd",
+   "t": "Mandatos",
+   "sub": "Commands with tú, usted and ustedes",
+   "col": "#e6c776",
+   "blocks": [
+    {
+     "h": "Tú, affirmative",
+     "p": [
+      "Use the él or ella form of the present: habla, come, escribe.",
+      "Eight irregular ones: di, haz, ve, ven, pon, sal, sé, ten."
+     ],
+     "ex": [
+      [
+       "Habla más despacio.",
+       "Speak more slowly."
+      ],
+      [
+       "Ven aquí.",
+       "Come here."
+      ],
+      [
+       "Ten cuidado.",
+       "Be careful."
+      ]
+     ]
+    },
+    {
+     "h": "Tú, negative",
+     "p": [
+      "Put no in front and use the subjunctive: no hables, no comas, no vivas."
+     ],
+     "ex": [
+      [
+       "No hables tan rápido.",
+       "Don't talk so fast."
+      ],
+      [
+       "No hagas eso.",
+       "Don't do that."
+      ]
+     ]
+    },
+    {
+     "h": "Usted and ustedes",
+     "p": [
+      "Both use the subjunctive: hable, hablen. This is the form you use with patients."
+     ],
+     "ex": [
+      [
+       "Respire profundo, por favor.",
+       "Breathe deeply, please."
+      ],
+      [
+       "Abra la boca.",
+       "Open your mouth."
+      ],
+      [
+       "Levante el brazo.",
+       "Raise your arm."
+      ],
+      [
+       "Tome este medicamento dos veces al día.",
+       "Take this medication twice a day."
+      ],
+      [
+       "Pasen por aquí.",
+       "Come through here."
+      ]
+     ]
+    },
+    {
+     "h": "Pronouns",
+     "p": [
+      "Pronouns attach to the end of affirmative commands: siéntese, dígame. They go before negative ones: no se siente, no me diga."
+     ],
+     "ex": [
+      [
+       "Siéntese, por favor.",
+       "Have a seat, please."
+      ],
+      [
+       "No se mueva.",
+       "Don't move."
+      ]
+     ]
+    }
+   ],
+   "drill": [
+    [
+     "(Usted) ___ profundo, por favor. (respirar)",
+     "Breathe deeply, please.",
+     "Respire",
+     [
+      "Respira",
+      "Respirar",
+      "Respiras"
+     ],
+     "Usted commands use the subjunctive."
+    ],
+    [
+     "(Usted) ___ la boca. (abrir)",
+     "Open your mouth.",
+     "Abra",
+     [
+      "Abre",
+      "Abrir",
+      "Abres"
+     ],
+     "Usted commands use the subjunctive."
+    ],
+    [
+     "(Tú) ___ más despacio. (hablar)",
+     "Speak more slowly.",
+     "Habla",
+     [
+      "Hable",
+      "Hablar",
+      "Hables"
+     ],
+     "Tú affirmative is the él form of the present."
+    ],
+    [
+     "(Tú, negative) No ___ tan rápido. (hablar)",
+     "Don't talk so fast.",
+     "hables",
+     [
+      "habla",
+      "hable",
+      "hablar"
+     ],
+     "Negative tú commands use the subjunctive."
+    ],
+    [
+     "(Usted) ___, por favor. (sentarse)",
+     "Have a seat, please.",
+     "Siéntese",
+     [
+      "Siéntate",
+      "Sentarse",
+      "Siente"
+     ],
+     "The pronoun attaches to the end, with an accent."
+    ],
+    [
+     "(Tú) ___ cuidado. (tener)",
+     "Be careful.",
+     "Ten",
+     [
+      "Tiene",
+      "Tengas",
+      "Tienes"
+     ],
+     "Ten is one of the eight irregular tú commands."
+    ],
+    [
+     "(Tú) ___ aquí. (venir)",
+     "Come here.",
+     "Ven",
+     [
+      "Vienes",
+      "Vengas",
+      "Viene"
+     ],
+     "Ven is one of the eight irregular tú commands."
+    ],
+    [
+     "(Usted) No ___ antes del examen. (comer)",
+     "Don't eat before the exam.",
+     "coma",
+     [
+      "come",
+      "comes",
+      "comer"
+     ],
+     "Negative usted commands use the subjunctive."
+    ],
+    [
+     "(Ustedes) ___ por aquí. (pasar)",
+     "Come through here.",
+     "Pasen",
+     [
+      "Pasan",
+      "Pasar",
+      "Pase"
+     ],
+     "Ustedes commands end in en for ar verbs."
+    ],
+    [
+     "(Tú) ___ la verdad. (decir)",
+     "Tell the truth.",
+     "Di",
+     [
+      "Dice",
+      "Digas",
+      "Dices"
+     ],
+     "Di is one of the eight irregular tú commands."
+    ],
+    [
+     "(Usted) ___ este medicamento dos veces al día. (tomar)",
+     "Take this medication twice a day.",
+     "Tome",
+     [
+      "Toma",
+      "Tomar",
+      "Tomas"
+     ],
+     "Usted commands use the subjunctive."
+    ],
+    [
+     "(Tú, negative) No ___ eso. (hacer)",
+     "Don't do that.",
+     "hagas",
+     [
+      "haz",
+      "hace",
+      "haces"
+     ],
+     "Negative tú commands use the subjunctive, and hacer uses hag-."
+    ]
+   ]
+  },
+  {
+   "id": "subj",
+   "t": "Subjuntivo",
+   "sub": "Wishes, doubts, emotions and what is not yet real",
+   "col": "#b79be0",
+   "blocks": [
+    {
+     "h": "When you need it",
+     "p": [
+      "Think WEIRDO: Wishes, Emotions, Impersonal expressions, Recommendations, Doubt and denial, Ojalá.",
+      "The pattern is main clause + que + subjunctive, usually with two different people."
+     ],
+     "ex": [
+      [
+       "Quiero que hables despacio.",
+       "I want you to speak slowly."
+      ],
+      [
+       "Espero que estés bien.",
+       "I hope you are well."
+      ],
+      [
+       "Es importante que tomes el medicamento.",
+       "It's important that you take the medication."
+      ],
+      [
+       "Ojalá que llueva mañana.",
+       "I hope it rains tomorrow."
+      ],
+      [
+       "Dudo que venga.",
+       "I doubt he will come."
+      ]
+     ]
+    },
+    {
+     "h": "How to build it",
+     "p": [
+      "Start with the yo form of the present, drop the o, and add the opposite vowel.",
+      "ar verbs take e, es, e, emos, en. er and ir verbs take a, as, a, amos, an.",
+      "hablo becomes hable. como becomes coma. vivo becomes viva.",
+      "Irregular: ser sea, estar esté, ir vaya, dar dé, saber sepa. Spelling shifts keep the sound: busco becomes busque, llego becomes llegue, empiezo becomes empiece."
+     ],
+     "ex": [
+      [
+       "Es necesario que salgamos temprano.",
+       "It's necessary that we leave early."
+      ],
+      [
+       "Recomiendo que descanse.",
+       "I recommend that you rest."
+      ]
+     ]
+    },
+    {
+     "h": "Subjunctive or not",
+     "p": [
+      "Certainty uses the indicative: Creo que viene. Doubt uses the subjunctive: No creo que venga.",
+      "Same person doing both things? Use the infinitive: Quiero comer, not Quiero que yo coma.",
+      "For a future moment, use cuando plus subjunctive: Cuando llegues, llámame."
+     ],
+     "ex": [
+      [
+       "Creo que ella está en casa.",
+       "I think she is at home."
+      ],
+      [
+       "No creo que ella esté en casa.",
+       "I don't think she is at home."
+      ],
+      [
+       "Cuando llegues al hospital, llámame.",
+       "When you arrive at the hospital, call me."
+      ]
+     ]
+    }
+   ],
+   "drill": [
+    [
+     "Quiero que tú ___ despacio. (hablar)",
+     "I want you to speak slowly.",
+     "hables",
+     [
+      "hablas",
+      "hable",
+      "hablar"
+     ],
+     "Wishes about someone else use the subjunctive."
+    ],
+    [
+     "Espero que ella ___ bien. (estar)",
+     "I hope she is well.",
+     "esté",
+     [
+      "está",
+      "estar",
+      "estés"
+     ],
+     "Estar has an irregular subjunctive: esté."
+    ],
+    [
+     "Es importante que usted ___ el medicamento. (tomar)",
+     "It's important that you take the medication.",
+     "tome",
+     [
+      "toma",
+      "tomar",
+      "tomes"
+     ],
+     "Impersonal expressions use the subjunctive."
+    ],
+    [
+     "Ojalá que ___ mañana. (llover)",
+     "I hope it rains tomorrow.",
+     "llueva",
+     [
+      "llueve",
+      "lloverá",
+      "llovió"
+     ],
+     "Ojalá is always followed by the subjunctive."
+    ],
+    [
+     "Dudo que él ___ a la fiesta. (venir)",
+     "I doubt he will come to the party.",
+     "venga",
+     [
+      "viene",
+      "vendrá",
+      "vino"
+     ],
+     "Doubt uses the subjunctive."
+    ],
+    [
+     "Me alegra que tú ___ aquí. (estar)",
+     "I'm glad you are here.",
+     "estés",
+     [
+      "estás",
+      "estar",
+      "esté"
+     ],
+     "Emotions use the subjunctive."
+    ],
+    [
+     "Recomiendo que ella ___ más agua. (beber)",
+     "I recommend that she drink more water.",
+     "beba",
+     [
+      "bebe",
+      "beber",
+      "bebas"
+     ],
+     "Recommendations use the subjunctive."
+    ],
+    [
+     "Quiero ___ español bien. (hablar)",
+     "I want to speak Spanish well.",
+     "hablar",
+     [
+      "que hable",
+      "hable",
+      "hablo"
+     ],
+     "Same person, so use the infinitive."
+    ],
+    [
+     "No creo que ellos ___ la verdad. (saber)",
+     "I don't think they know the truth.",
+     "sepan",
+     [
+      "saben",
+      "saber",
+      "sabrán"
+     ],
+     "Saber has an irregular subjunctive: sepa."
+    ],
+    [
+     "Es necesario que nosotros ___ temprano. (salir)",
+     "It's necessary that we leave early.",
+     "salgamos",
+     [
+      "salimos",
+      "salir",
+      "salgan"
+     ],
+     "Salgo is the yo form, so salga, salgamos."
+    ],
+    [
+     "Espero que tú ___ conmigo. (ir)",
+     "I hope you go with me.",
+     "vayas",
+     [
+      "vas",
+      "ir",
+      "vaya"
+     ],
+     "Ir has an irregular subjunctive: vaya."
+    ],
+    [
+     "Creo que ella ___ en casa. (estar)",
+     "I think she is at home.",
+     "está",
+     [
+      "esté",
+      "estar",
+      "estés"
+     ],
+     "Creo que means certainty, so the indicative."
+    ],
+    [
+     "Cuando ___ al hospital, llámame. (llegar)",
+     "When you arrive at the hospital, call me.",
+     "llegues",
+     [
+      "llegas",
+      "llegarás",
+      "llegaste"
+     ],
+     "Cuando about the future uses the subjunctive."
+    ]
+   ]
+  }
+ ],
+ "DIFS": [
+  {
+   "id": "sabconoc",
+   "t": "saber vs conocer",
+   "sub": "Two ways to say to know",
+   "words": [
+    [
+     "saber",
+     "to know (facts, how to do something)",
+     "Facts and skills."
+    ],
+    [
+     "conocer",
+     "to know (people, places, things you are familiar with)",
+     "Being familiar with someone or somewhere."
+    ]
+   ],
+   "ex": [
+    [
+     "Sé hablar español.",
+     "I know how to speak Spanish."
+    ],
+    [
+     "No sé dónde vive.",
+     "I don't know where he lives."
+    ],
+    [
+     "Conozco a tu hermana.",
+     "I know your sister."
+    ],
+    [
+     "¿Conoces Medellín?",
+     "Do you know Medellín?"
+    ]
+   ],
+   "tip": "If you could say be familiar with, use conocer. If it is a fact or a skill, use saber.",
+   "drill": [
+    [
+     "___ a tu mamá.",
+     "I know your mom.",
+     "Conozco",
+     [
+      "Sé",
+      "Sabes",
+      "Sabemos"
+     ],
+     "A person, so conocer."
+    ],
+    [
+     "___ hablar español.",
+     "I know how to speak Spanish.",
+     "Sé",
+     [
+      "Conozco",
+      "Conoces",
+      "Conocemos"
+     ],
+     "A skill, so saber."
+    ],
+    [
+     "¿___ dónde queda el hospital?",
+     "Do you know where the hospital is?",
+     "Sabes",
+     [
+      "Conoces",
+      "Conozco",
+      "Conocen"
+     ],
+     "A fact, so saber."
+    ],
+    [
+     "¿___ la ciudad de México?",
+     "Do you know Mexico City?",
+     "Conoces",
+     [
+      "Sabes",
+      "Sé",
+      "Sabemos"
+     ],
+     "A place you are familiar with, so conocer."
+    ]
+   ]
+  },
+  {
+   "id": "pedpreg",
+   "t": "pedir vs preguntar",
+   "sub": "Asking for something and asking a question",
+   "words": [
+    [
+     "pedir",
+     "to ask for, to order, to request",
+     "You ask for a thing."
+    ],
+    [
+     "preguntar",
+     "to ask (a question)",
+     "You ask a question."
+    ]
+   ],
+   "ex": [
+    [
+     "Pido un café, por favor.",
+     "I'm ordering a coffee, please."
+    ],
+    [
+     "Pidió ayuda.",
+     "She asked for help."
+    ],
+    [
+     "Pregunto dónde queda el baño.",
+     "I ask where the bathroom is."
+    ],
+    [
+     "Le pregunté su nombre.",
+     "I asked him his name."
+    ]
+   ],
+   "tip": "You pedir a thing. You preguntar a question.",
+   "drill": [
+    [
+     "Voy a ___ la cuenta.",
+     "I'm going to ask for the check.",
+     "pedir",
+     [
+      "preguntar",
+      "preguntando",
+      "pregunta"
+     ],
+     "The check is a thing, so pedir."
+    ],
+    [
+     "Quiero ___ dónde está el baño.",
+     "I want to ask where the bathroom is.",
+     "preguntar",
+     [
+      "pedir",
+      "pido",
+      "pedirle"
+     ],
+     "Where it is is a question, so preguntar."
+    ],
+    [
+     "Ella ___ ayuda cuando la necesita.",
+     "She asks for help when she needs it.",
+     "pide",
+     [
+      "pregunta",
+      "preguntas",
+      "pedimos"
+     ],
+     "Help is a thing, so pedir."
+    ]
+   ]
+  },
+  {
+   "id": "habdec",
+   "t": "hablar vs decir",
+   "sub": "To speak and to say",
+   "words": [
+    [
+     "hablar",
+     "to speak, to talk",
+     "The act of speaking or a language."
+    ],
+    [
+     "decir",
+     "to say, to tell",
+     "Needs something that gets said."
+    ]
+   ],
+   "ex": [
+    [
+     "Hablo español.",
+     "I speak Spanish."
+    ],
+    [
+     "Hablamos por teléfono.",
+     "We talk by phone."
+    ],
+    [
+     "Me dijo la verdad.",
+     "He told me the truth."
+    ],
+    [
+     "¿Qué dices?",
+     "What are you saying?"
+    ]
+   ],
+   "tip": "Hablar is the act of speaking. Decir needs the thing that was said: decir que, decir la verdad.",
+   "drill": [
+    [
+     "Ella me ___ que viene mañana.",
+     "She tells me she's coming tomorrow.",
+     "dice",
+     [
+      "habla",
+      "hablo",
+      "hablamos"
+     ],
+     "Something is being said, so decir."
+    ],
+    [
+     "Ellos ___ muy bien español.",
+     "They speak Spanish very well.",
+     "hablan",
+     [
+      "dicen",
+      "dice",
+      "dijeron"
+     ],
+     "A language, so hablar."
+    ],
+    [
+     "¿Qué ___?",
+     "What are you saying?",
+     "dices",
+     [
+      "hablas",
+      "hablan",
+      "habla"
+     ],
+     "What is said, so decir."
+    ],
+    [
+     "Quiero ___ con la doctora.",
+     "I want to talk with the doctor.",
+     "hablar",
+     [
+      "decir",
+      "dice",
+      "digo"
+     ],
+     "Talking with someone, so hablar."
+    ]
+   ]
+  },
+  {
+   "id": "irven",
+   "t": "ir vs venir",
+   "sub": "To go and to come",
+   "words": [
+    [
+     "ir",
+     "to go",
+     "Moving away from here, or toward a destination."
+    ],
+    [
+     "venir",
+     "to come",
+     "Moving toward the speaker or the listener."
+    ]
+   ],
+   "ex": [
+    [
+     "Voy al trabajo.",
+     "I'm going to work."
+    ],
+    [
+     "¿Vienes a mi casa?",
+     "Are you coming to my house?"
+    ],
+    [
+     "Ya voy.",
+     "I'm coming."
+    ],
+    [
+     "Ven aquí.",
+     "Come here."
+    ]
+   ],
+   "tip": "In Latin America, Ya voy means I'm coming. Ya vengo often means I'll be right back.",
+   "drill": [
+    [
+     "¿___ conmigo a la fiesta?",
+     "Are you coming with me to the party?",
+     "Vienes",
+     [
+      "Vas",
+      "Voy",
+      "Ve"
+     ],
+     "Coming toward me, so venir."
+    ],
+    [
+     "Mañana ___ al hospital.",
+     "Tomorrow I'm going to the hospital.",
+     "voy",
+     [
+      "vengo",
+      "vienes",
+      "ven"
+     ],
+     "Going to a destination, so ir."
+    ],
+    [
+     "___ aquí, por favor.",
+     "Come here, please.",
+     "Ven",
+     [
+      "Ve",
+      "Va",
+      "Vengo"
+     ],
+     "A command to come, so ven."
+    ],
+    [
+     "Ya ___, espérame.",
+     "I'm coming, wait for me.",
+     "voy",
+     [
+      "vengo",
+      "vas",
+      "viene"
+     ],
+     "Ya voy is the usual way to say I'm coming."
+    ]
+   ]
+  },
+  {
+   "id": "trall",
+   "t": "traer vs llevar",
+   "sub": "To bring and to take",
+   "words": [
+    [
+     "traer",
+     "to bring",
+     "Toward here, toward the speaker."
+    ],
+    [
+     "llevar",
+     "to take, to carry, to wear",
+     "Away from here. Also what you wear."
+    ]
+   ],
+   "ex": [
+    [
+     "Trae tu tarjeta del seguro.",
+     "Bring your insurance card."
+    ],
+    [
+     "¿Me trae la cuenta?",
+     "Can you bring me the check?"
+    ],
+    [
+     "Llevo el medicamento a casa.",
+     "I take the medication home."
+    ],
+    [
+     "Ella lleva una chaqueta azul.",
+     "She is wearing a blue jacket."
+    ]
+   ],
+   "tip": "Bring is traer. Take is llevar. Llevar also means to wear.",
+   "drill": [
+    [
+     "¿Me ___ la cuenta, por favor?",
+     "Can you bring me the check, please?",
+     "trae",
+     [
+      "lleva",
+      "llevo",
+      "llevan"
+     ],
+     "Bring to me, so traer."
+    ],
+    [
+     "Voy a ___ a mi mamá al doctor.",
+     "I'm going to take my mom to the doctor.",
+     "llevar",
+     [
+      "traer",
+      "trae",
+      "traigo"
+     ],
+     "Take to somewhere else, so llevar."
+    ],
+    [
+     "Ella ___ un vestido rosado.",
+     "She is wearing a pink dress.",
+     "lleva",
+     [
+      "trae",
+      "traigo",
+      "traen"
+     ],
+     "Wearing, so llevar."
+    ]
+   ]
+  },
+  {
+   "id": "tombeb",
+   "t": "tomar vs beber",
+   "sub": "To take and to drink",
+   "words": [
+    [
+     "tomar",
+     "to take, to drink",
+     "The everyday word in Latin America, for drinking and for taking."
+    ],
+    [
+     "beber",
+     "to drink",
+     "A little more formal or literal. It only means drink."
+    ]
+   ],
+   "ex": [
+    [
+     "Tomo café por la mañana.",
+     "I drink coffee in the morning."
+    ],
+    [
+     "Voy a tomar un taxi.",
+     "I'm going to take a taxi."
+    ],
+    [
+     "Tome este medicamento con comida.",
+     "Take this medication with food."
+    ],
+    [
+     "Bebo mucha agua.",
+     "I drink a lot of water."
+    ]
+   ],
+   "tip": "Tomar does both jobs. Only tomar works for take a bus, take a taxi, take medication.",
+   "drill": [
+    [
+     "Voy a ___ un taxi.",
+     "I'm going to take a taxi.",
+     "tomar",
+     [
+      "beber",
+      "bebo",
+      "bebiendo"
+     ],
+     "Take a taxi is always tomar."
+    ],
+    [
+     "¿Quieres ___ el bus o caminar?",
+     "Do you want to take the bus or walk?",
+     "tomar",
+     [
+      "beber",
+      "bebes",
+      "bebo"
+     ],
+     "Take the bus is always tomar."
+    ]
+   ]
+  },
+  {
+   "id": "buenbien",
+   "t": "bueno vs bien",
+   "sub": "Good and well",
+   "words": [
+    [
+     "bueno / buena",
+     "good (describes a noun)",
+     "Becomes buen before a masculine noun."
+    ],
+    [
+     "bien",
+     "well, fine (describes an action or how you are)",
+     "Never changes."
+    ]
+   ],
+   "ex": [
+    [
+     "Es un buen doctor.",
+     "He is a good doctor."
+    ],
+    [
+     "Esa película es muy buena.",
+     "That movie is very good."
+    ],
+    [
+     "Hablas muy bien.",
+     "You speak very well."
+    ],
+    [
+     "Estoy bien, gracias.",
+     "I'm fine, thank you."
+    ]
+   ],
+   "tip": "Bueno describes a noun. Bien describes a verb or how you feel.",
+   "drill": [
+    [
+     "Ella canta muy ___.",
+     "She sings very well.",
+     "bien",
+     [
+      "buena",
+      "bueno",
+      "buen"
+     ],
+     "Describes the singing, so bien."
+    ],
+    [
+     "Es un ___ médico.",
+     "He is a good doctor.",
+     "buen",
+     [
+      "bien",
+      "bueno",
+      "buena"
+     ],
+     "Before a masculine noun, bueno shortens to buen."
+    ],
+    [
+     "Esa película es muy ___.",
+     "That movie is very good.",
+     "buena",
+     [
+      "bien",
+      "buen",
+      "bueno"
+     ],
+     "Describes a feminine noun, so buena."
+    ]
+   ]
+  },
+  {
+   "id": "muymucho",
+   "t": "muy vs mucho",
+   "sub": "Very and a lot",
+   "words": [
+    [
+     "muy",
+     "very",
+     "Goes before an adjective or adverb. Never changes."
+    ],
+    [
+     "mucho / mucha",
+     "a lot, much, many",
+     "Goes with nouns and verbs. Matches the noun."
+    ]
+   ],
+   "ex": [
+    [
+     "Estoy muy cansada.",
+     "I'm very tired."
+    ],
+    [
+     "Hablas muy rápido.",
+     "You speak very fast."
+    ],
+    [
+     "Tengo mucho trabajo.",
+     "I have a lot of work."
+    ],
+    [
+     "Trabajo mucho.",
+     "I work a lot."
+    ]
+   ],
+   "tip": "Muy never stands alone and never goes right before a noun.",
+   "drill": [
+    [
+     "Es una casa ___ grande.",
+     "It's a very big house.",
+     "muy",
+     [
+      "mucho",
+      "mucha",
+      "muchos"
+     ],
+     "Before an adjective, so muy."
+    ],
+    [
+     "Tengo ___ hambre.",
+     "I'm very hungry.",
+     "mucha",
+     [
+      "muy",
+      "mucho",
+      "muchas"
+     ],
+     "Hambre is feminine, so mucha."
+    ],
+    [
+     "Ella estudia ___.",
+     "She studies a lot.",
+     "mucho",
+     [
+      "muy",
+      "mucha",
+      "muchos"
+     ],
+     "After a verb, so mucho."
+    ]
+   ]
+  },
+  {
+   "id": "tiemhor",
+   "t": "tiempo vs hora vs vez",
+   "sub": "Three kinds of time",
+   "words": [
+    [
+     "tiempo",
+     "time (how long), weather",
+     "Time as a stretch of duration."
+    ],
+    [
+     "hora",
+     "hour, time of day",
+     "The clock."
+    ],
+    [
+     "vez / veces",
+     "time, occasion",
+     "How many times."
+    ]
+   ],
+   "ex": [
+    [
+     "No tengo tiempo.",
+     "I don't have time."
+    ],
+    [
+     "¿Qué hora es?",
+     "What time is it?"
+    ],
+    [
+     "Una vez por semana.",
+     "Once a week."
+    ],
+    [
+     "Hace buen tiempo.",
+     "The weather is nice."
+    ]
+   ],
+   "tip": "Tiempo is time as a stretch, hora is the clock, vez is how many times.",
+   "drill": [
+    [
+     "¿Qué ___ es?",
+     "What time is it?",
+     "hora",
+     [
+      "tiempo",
+      "vez",
+      "veces"
+     ],
+     "The clock, so hora."
+    ],
+    [
+     "Voy al gimnasio tres ___ por semana.",
+     "I go to the gym three times a week.",
+     "veces",
+     [
+      "horas",
+      "tiempos",
+      "vez"
+     ],
+     "How many times, so veces."
+    ],
+    [
+     "No tengo ___ para comer.",
+     "I don't have time to eat.",
+     "tiempo",
+     [
+      "hora",
+      "vez",
+      "horas"
+     ],
+     "Free time, so tiempo."
+    ]
+   ]
+  },
+  {
+   "id": "esperar",
+   "t": "esperar: wait or hope",
+   "sub": "One verb, two jobs",
+   "words": [
+    [
+     "esperar + a thing",
+     "to wait for",
+     "Espero el bus."
+    ],
+    [
+     "esperar que + subjunctive",
+     "to hope that",
+     "Espero que estés bien."
+    ]
+   ],
+   "ex": [
+    [
+     "Espero el bus.",
+     "I'm waiting for the bus."
+    ],
+    [
+     "Espérame un momento.",
+     "Wait for me a moment."
+    ],
+    [
+     "Espero que estés bien.",
+     "I hope you are well."
+    ],
+    [
+     "Espero que vengas.",
+     "I hope you come."
+    ]
+   ],
+   "tip": "With a thing, it is wait for. With que and the subjunctive, it is hope.",
+   "drill": [
+    [
+     "___ que te mejores pronto.",
+     "I hope you get better soon.",
+     "Espero",
+     [
+      "Esperando",
+      "Espérame",
+      "Esperanza"
+     ],
+     "Hope that, with que and the subjunctive."
+    ],
+    [
+     "Ella ___ el autobús en la parada.",
+     "She waits for the bus at the stop.",
+     "espera",
+     [
+      "esperan que",
+      "esperó que",
+      "esperar que"
+     ],
+     "Waiting for a thing, no que."
+    ]
+   ]
+  },
+  {
+   "id": "quedar",
+   "t": "quedar vs quedarse",
+   "sub": "Where it is, plans, and staying",
+   "words": [
+    [
+     "quedar",
+     "to be located, to agree to meet, to be left",
+     "Where things are, plans, what remains."
+    ],
+    [
+     "quedarse",
+     "to stay, to remain",
+     "You staying somewhere."
+    ]
+   ],
+   "ex": [
+    [
+     "¿Dónde queda el banco?",
+     "Where is the bank?"
+    ],
+    [
+     "Quedamos a las dos.",
+     "We agreed on two o'clock."
+    ],
+    [
+     "Me quedo en casa hoy.",
+     "I'm staying home today."
+    ],
+    [
+     "Nos quedamos una hora más.",
+     "We stayed one more hour."
+    ]
+   ],
+   "tip": "Quedarse (with se) is you staying. Quedar without it is where things are, or plans.",
+   "drill": [
+    [
+     "¿Dónde ___ la farmacia?",
+     "Where is the pharmacy?",
+     "queda",
+     [
+      "se queda",
+      "quedo",
+      "quedas"
+     ],
+     "Where something is located, so quedar."
+    ],
+    [
+     "Hoy ___ en casa porque estoy cansada.",
+     "Today I'm staying home because I'm tired.",
+     "me quedo",
+     [
+      "quedo",
+      "queda",
+      "quedamos"
+     ],
+     "You staying, so quedarse."
+    ],
+    [
+     "___ a las cinco frente al hospital.",
+     "We agreed to meet at five in front of the hospital.",
+     "Quedamos",
+     [
+      "Nos quedamos",
+      "Quedo",
+      "Queda"
+     ],
+     "Arranging to meet, so quedar."
+    ]
+   ]
+  },
+  {
+   "id": "dejsal",
+   "t": "dejar vs salir",
+   "sub": "Two ways to leave",
+   "words": [
+    [
+     "dejar",
+     "to leave (behind), to let, to quit",
+     "Leaving something behind, or allowing."
+    ],
+    [
+     "salir",
+     "to leave, to go out, to come out",
+     "Leaving a place."
+    ]
+   ],
+   "ex": [
+    [
+     "Dejo mis llaves en la mesa.",
+     "I leave my keys on the table."
+    ],
+    [
+     "Déjame ayudarte.",
+     "Let me help you."
+    ],
+    [
+     "Salgo del trabajo a las cinco.",
+     "I leave work at five."
+    ],
+    [
+     "¿A qué hora sale el bus?",
+     "What time does the bus leave?"
+    ]
+   ],
+   "tip": "Salir is to leave a place. Dejar is to leave something behind, or to let.",
+   "drill": [
+    [
+     "Voy a ___ mis llaves aquí.",
+     "I'm going to leave my keys here.",
+     "dejar",
+     [
+      "salir",
+      "salgo",
+      "sale"
+     ],
+     "Leaving something behind, so dejar."
+    ],
+    [
+     "¿A qué hora ___ del trabajo?",
+     "What time do you leave work?",
+     "sales",
+     [
+      "dejas",
+      "dejan",
+      "dejo"
+     ],
+     "Leaving a place, so salir."
+    ],
+    [
+     "___ ayudarte.",
+     "Let me help you.",
+     "Déjame",
+     [
+      "Salgo",
+      "Sale",
+      "Dejas"
+     ],
+     "Let me, so dejar."
+    ]
+   ]
+  },
+  {
+   "id": "tenerque",
+   "t": "tener que vs hay que vs deber",
+   "sub": "Have to, one has to, should",
+   "words": [
+    [
+     "tener que",
+     "to have to (you personally)",
+     "A personal obligation."
+    ],
+    [
+     "hay que",
+     "one has to, you need to (in general)",
+     "A general rule that fits everyone."
+    ],
+    [
+     "deber",
+     "should, ought to",
+     "Advice or duty."
+    ]
+   ],
+   "ex": [
+    [
+     "Tengo que trabajar mañana.",
+     "I have to work tomorrow."
+    ],
+    [
+     "Hay que tomar agua.",
+     "You have to drink water."
+    ],
+    [
+     "Debes descansar.",
+     "You should rest."
+    ],
+    [
+     "Hay que llegar temprano.",
+     "You have to arrive early."
+    ]
+   ],
+   "tip": "Tener que is a personal must, hay que is a general rule, deber is advice.",
+   "drill": [
+    [
+     "___ que llenar este formulario. (anyone who comes)",
+     "You have to fill out this form.",
+     "Hay",
+     [
+      "Tengo",
+      "Debo",
+      "Tiene"
+     ],
+     "A general rule, so hay que."
+    ],
+    [
+     "___ que ir al doctor hoy.",
+     "I have to go to the doctor today.",
+     "Tengo",
+     [
+      "Hay",
+      "Debes",
+      "Debe"
+     ],
+     "A personal obligation, so tener que."
+    ],
+    [
+     "Usted ___ descansar más.",
+     "You should rest more.",
+     "debe",
+     [
+      "hay",
+      "tengo",
+      "tengan"
+     ],
+     "Advice, so deber."
+    ]
+   ]
+  },
+  {
+   "id": "gustenc",
+   "t": "gustar vs encantar vs querer",
+   "sub": "Like, love and want",
+   "words": [
+    [
+     "gustar",
+     "to like",
+     "Me gusta el café."
+    ],
+    [
+     "encantar",
+     "to love, to really like (things)",
+     "Me encanta la música."
+    ],
+    [
+     "querer",
+     "to want, to love (people)",
+     "Quiero un café. Te quiero."
+    ]
+   ],
+   "ex": [
+    [
+     "Me gusta el café.",
+     "I like coffee."
+    ],
+    [
+     "Me encanta bailar.",
+     "I love dancing."
+    ],
+    [
+     "Quiero un café.",
+     "I want a coffee."
+    ],
+    [
+     "Te quiero mucho.",
+     "I love you a lot."
+    ]
+   ],
+   "tip": "Encantar is for things you adore. Querer is for people you love. Te amo is much stronger and romantic.",
+   "drill": [
+    [
+     "Me ___ bailar.",
+     "I love dancing.",
+     "encanta",
+     [
+      "quiero",
+      "gustan",
+      "quieres"
+     ],
+     "Adore a thing, so encantar."
+    ],
+    [
+     "___ mucho a mi abuela.",
+     "I love my grandmother very much.",
+     "Quiero",
+     [
+      "Me gusta",
+      "Me encanta",
+      "Gusto"
+     ],
+     "Loving a person, so querer."
+    ],
+    [
+     "Me ___ las arepas.",
+     "I like arepas.",
+     "gustan",
+     [
+      "gusta",
+      "quiero",
+      "quieren"
+     ],
+     "Plural thing, so gustan."
+    ]
+   ]
+  },
+  {
+   "id": "porque",
+   "t": "¿por qué? vs porque",
+   "sub": "Why and because",
+   "words": [
+    [
+     "¿por qué?",
+     "why? (two words, accent on qué)",
+     "For questions."
+    ],
+    [
+     "porque",
+     "because (one word, no accent)",
+     "For answers."
+    ]
+   ],
+   "ex": [
+    [
+     "¿Por qué llegaste tarde?",
+     "Why did you arrive late?"
+    ],
+    [
+     "Llegué tarde porque había tráfico.",
+     "I arrived late because there was traffic."
+    ],
+    [
+     "No sé por qué.",
+     "I don't know why."
+    ],
+    [
+     "Estudio porque quiero aprender.",
+     "I study because I want to learn."
+    ]
+   ],
+   "tip": "A question uses two words with the accent. An answer uses one word without it.",
+   "drill": [
+    [
+     "¿___ estás cansada?",
+     "Why are you tired?",
+     "Por qué",
+     [
+      "Porque",
+      "Por que",
+      "Porqué"
+     ],
+     "A question, so two words with the accent."
+    ],
+    [
+     "Estoy cansada ___ trabajé mucho.",
+     "I'm tired because I worked a lot.",
+     "porque",
+     [
+      "por qué",
+      "por que",
+      "porqué"
+     ],
+     "Giving a reason, so one word."
+    ],
+    [
+     "Estudio español ___ quiero hablar con mis pacientes.",
+     "I study Spanish because I want to talk with my patients.",
+     "porque",
+     [
+      "por qué",
+      "por que",
+      "porqué"
+     ],
+     "Giving a reason, so porque."
+    ]
+   ]
+  },
+  {
+   "id": "tambtamp",
+   "t": "también vs tampoco",
+   "sub": "Me too and me neither",
+   "words": [
+    [
+     "también",
+     "also, too, me too",
+     "Agrees with something positive."
+    ],
+    [
+     "tampoco",
+     "neither, not either, me neither",
+     "Agrees with something negative."
+    ]
+   ],
+   "ex": [
+    [
+     "Yo también.",
+     "Me too."
+    ],
+    [
+     "Yo tampoco.",
+     "Me neither."
+    ],
+    [
+     "Me gusta el café y el té también.",
+     "I like coffee and tea too."
+    ],
+    [
+     "Ella no habla inglés y él tampoco.",
+     "She doesn't speak English and he doesn't either."
+    ]
+   ],
+   "tip": "Positive statement, también. Negative statement, tampoco.",
+   "drill": [
+    [
+     "Te dicen: No me gusta el frío. Respondes: Yo ___.",
+     "Me neither.",
+     "tampoco",
+     [
+      "también",
+      "nunca",
+      "nada"
+     ],
+     "Agreeing with a negative, so tampoco."
+    ],
+    [
+     "Te dicen: Tengo sueño. Respondes: Yo ___.",
+     "Me too.",
+     "también",
+     [
+      "tampoco",
+      "nada",
+      "nunca"
+     ],
+     "Agreeing with a positive, so también."
+    ],
+    [
+     "Ella no habla inglés y él ___.",
+     "She doesn't speak English and he doesn't either.",
+     "tampoco",
+     [
+      "también",
+      "nada",
+      "nunca"
+     ],
+     "Following a negative, so tampoco."
+    ]
+   ]
+  },
+  {
+   "id": "cortes",
+   "t": "De nada, perdón, disculpe y más",
+   "sub": "Thanks, sorry and excuse me",
+   "words": [
+    [
+     "de nada",
+     "you're welcome (neutral)",
+     "The standard answer to gracias."
+    ],
+    [
+     "no hay de qué",
+     "don't mention it (polite)",
+     "A bit more formal."
+    ],
+    [
+     "con gusto",
+     "my pleasure, gladly",
+     "Warm and helpful."
+    ],
+    [
+     "perdón",
+     "sorry (small things)",
+     "Bumping into someone."
+    ],
+    [
+     "disculpe",
+     "excuse me (to get attention, polite)",
+     "Starting a question to a stranger."
+    ],
+    [
+     "lo siento",
+     "I'm sorry (sincere)",
+     "For something that matters or for sad news."
+    ],
+    [
+     "con permiso",
+     "excuse me (to pass or to enter)",
+     "Walking past someone, entering a room."
+    ]
+   ],
+   "ex": [
+    [
+     "Gracias. De nada.",
+     "Thanks. You're welcome."
+    ],
+    [
+     "Disculpe, ¿dónde queda el baño?",
+     "Excuse me, where is the bathroom?"
+    ],
+    [
+     "Con permiso, voy a pasar.",
+     "Excuse me, I'm going to pass."
+    ],
+    [
+     "Lo siento mucho.",
+     "I'm so sorry."
+    ]
+   ],
+   "tip": "Match the weight: perdón for small slips, lo siento for real sorrow, disculpe to get someone's attention, con permiso to pass.",
+   "drill": [
+    [
+     "Te dicen gracias. Respondes: ___.",
+     "You're welcome.",
+     "De nada",
+     [
+      "Perdón",
+      "Con permiso",
+      "Lo siento"
+     ],
+     "The answer to thanks."
+    ],
+    [
+     "___, ¿me puede decir dónde queda el baño?",
+     "Excuse me, can you tell me where the bathroom is?",
+     "Disculpe",
+     [
+      "Con gusto",
+      "De nada",
+      "Lo siento"
+     ],
+     "Getting a stranger's attention, so disculpe."
+    ],
+    [
+     "___, quiero pasar.",
+     "Excuse me, I want to get through.",
+     "Con permiso",
+     [
+      "Lo siento",
+      "De nada",
+      "Con gusto"
+     ],
+     "Passing someone, so con permiso."
+    ],
+    [
+     "Mi abuela murió. Respondes: ___.",
+     "My grandmother died. I'm so sorry.",
+     "Lo siento mucho",
+     [
+      "De nada",
+      "Con permiso",
+      "Con gusto"
+     ],
+     "Sincere sympathy, so lo siento."
+    ]
+   ]
+  },
+  {
+   "id": "ahora",
+   "t": "ahora vs ahorita vs luego",
+   "sub": "Now, in a bit, and later",
+   "words": [
+    [
+     "ahora",
+     "now",
+     "Right now."
+    ],
+    [
+     "ahorita",
+     "right now or in a little while",
+     "Very common in Mexico and Colombia. It stretches, so read the situation."
+    ],
+    [
+     "luego",
+     "later, then",
+     "What comes next."
+    ]
+   ],
+   "ex": [
+    [
+     "Ahora estoy ocupada.",
+     "I'm busy right now."
+    ],
+    [
+     "Ahorita voy.",
+     "I'm coming in a moment."
+    ],
+    [
+     "Luego hablamos.",
+     "We'll talk later."
+    ],
+    [
+     "Primero estudio, luego como.",
+     "First I study, then I eat."
+    ]
+   ],
+   "tip": "Ahorita is stretchy: it can mean right now or soon. Luego means later or then.",
+   "drill": [
+    [
+     "Primero tomo café y ___ voy al trabajo.",
+     "First I have coffee and then I go to work.",
+     "luego",
+     [
+      "ahora",
+      "ahorita",
+      "antes"
+     ],
+     "What comes next, so luego."
+    ],
+    [
+     "No puedo hablar ___, estoy en una consulta.",
+     "I can't talk right now, I'm in an appointment.",
+     "ahora",
+     [
+      "luego",
+      "antes",
+      "nunca"
+     ],
+     "This moment, so ahora."
+    ],
+    [
+     "Te llamo ___, ahora estoy ocupada.",
+     "I'll call you later, I'm busy right now.",
+     "luego",
+     [
+      "ahora",
+      "ayer",
+      "antes"
+     ],
+     "Later, so luego."
+    ]
+   ]
+  },
+  {
+   "id": "cool",
+   "t": "chévere, bacano, padre, chido",
+   "sub": "Cool in Colombia and Mexico",
+   "words": [
+    [
+     "chévere",
+     "cool, great",
+     "Common in Colombia and much of Latin America."
+    ],
+    [
+     "bacano",
+     "cool",
+     "Colombia."
+    ],
+    [
+     "padre",
+     "cool",
+     "Mexico: ¡Qué padre!"
+    ],
+    [
+     "chido",
+     "cool",
+     "Mexico, very informal."
+    ]
+   ],
+   "ex": [
+    [
+     "¡Qué chévere!",
+     "How cool!"
+    ],
+    [
+     "Esa canción está bacana.",
+     "That song is cool."
+    ],
+    [
+     "¡Qué padre!",
+     "How cool!"
+    ],
+    [
+     "Está muy chido.",
+     "It's really cool."
+    ]
+   ],
+   "tip": "Match the slang to the place: chévere and bacano in Colombia, padre and chido in Mexico.",
+   "drill": [
+    [
+     "Para hablar como en Colombia: ¡Qué ___!",
+     "How cool!",
+     "chévere",
+     [
+      "chido",
+      "padre",
+      "órale"
+     ],
+     "Chévere is the Colombian one."
+    ],
+    [
+     "Para hablar como en México: ¡Qué ___!",
+     "How cool!",
+     "padre",
+     [
+      "bacano",
+      "parce",
+      "pena"
+     ],
+     "¡Qué padre! is the Mexican one."
+    ]
+   ]
+  },
+  {
+   "id": "mande",
+   "t": "mande, ¿cómo?, ¿perdón?, ¿qué?",
+   "sub": "Asking someone to repeat",
+   "words": [
+    [
+     "¿mande?",
+     "pardon? (Mexico, polite)",
+     "Very Mexican and very polite."
+    ],
+    [
+     "¿cómo?",
+     "pardon? what did you say?",
+     "Polite and neutral."
+    ],
+    [
+     "¿perdón?",
+     "sorry? pardon?",
+     "Polite."
+    ],
+    [
+     "¿qué?",
+     "what?",
+     "Blunt. It can sound rude."
+    ]
+   ],
+   "ex": [
+    [
+     "¿Mande?",
+     "Pardon?"
+    ],
+    [
+     "¿Cómo? No te escuché.",
+     "Pardon? I didn't hear you."
+    ],
+    [
+     "¿Perdón? ¿Puede repetir?",
+     "Sorry? Can you repeat?"
+    ],
+    [
+     "¿Qué?",
+     "What?"
+    ]
+   ],
+   "tip": "To ask someone to repeat, use ¿cómo? or ¿perdón? to stay polite. A bare ¿qué? can sound rude.",
+   "drill": [
+    [
+     "Una paciente habla bajito. Con respeto dices: ¿___? ¿Puede repetir?",
+     "Pardon? Can you repeat?",
+     "Perdón",
+     [
+      "Qué",
+      "Eh",
+      "Oye"
+     ],
+     "Polite, so perdón."
+    ],
+    [
+     "¿___? No te escuché bien.",
+     "Pardon? I didn't hear you well.",
+     "Cómo",
+     [
+      "Qué",
+      "Eh",
+      "Oye"
+     ],
+     "Polite, so cómo."
+    ]
+   ]
+  }
+ ],
+ "VTN": [
+  "pres",
+  "cont",
+  "perf",
+  "perfcont",
+  "indef",
+  "imp",
+  "plus",
+  "pluscont",
+  "fut",
+  "cond",
+  "subj"
+ ],
+ "ENDS": [
+  "o",
+  "as",
+  "a",
+  "amos",
+  "an",
+  "es",
+  "e",
+  "emos",
+  "en",
+  "imos",
+  "é",
+  "aste",
+  "ó",
+  "aron",
+  "í",
+  "iste",
+  "ió",
+  "ieron",
+  "aba",
+  "abas",
+  "ábamos",
+  "aban",
+  "ía",
+  "ías",
+  "íamos",
+  "ían"
+ ]
+}

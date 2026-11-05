@@ -1,0 +1,1422 @@
+{
+ "STORIES": [
+  {
+   "id": "s1",
+   "title": "Mi mañana en Medellín",
+   "lvl": "A1",
+   "blurb": "Coffee, arepas and the bus to work.",
+   "s": [
+    [
+     "Me llamo Camila y vivo en Medellín.",
+     "My name is Camila and I live in Medellín."
+    ],
+    [
+     "Todas las mañanas me levanto a las seis.",
+     "Every morning I get up at six."
+    ],
+    [
+     "Tomo un café con leche y como una arepa.",
+     "I have a coffee with milk and eat an arepa."
+    ],
+    [
+     "Mi mamá cocina y mi hermano mira la tele.",
+     "My mom cooks and my brother watches TV."
+    ],
+    [
+     "Después tomo el bus para ir al trabajo.",
+     "Afterwards I take the bus to go to work."
+    ],
+    [
+     "Me gusta mi ciudad porque la gente es muy amable.",
+     "I like my city because the people are very kind."
+    ]
+   ]
+  },
+  {
+   "id": "s2",
+   "title": "Domingo en casa de la abuela",
+   "lvl": "A2",
+   "blurb": "Mole, cousins and a grandmother who never lets you leave hungry.",
+   "s": [
+    [
+     "Los domingos vamos a casa de mi abuela en Puebla.",
+     "On Sundays we go to my grandmother's house in Puebla."
+    ],
+    [
+     "Ella prepara mole y tortillas hechas a mano.",
+     "She prepares mole and handmade tortillas."
+    ],
+    [
+     "Toda la familia llega a las dos de la tarde.",
+     "The whole family arrives at two in the afternoon."
+    ],
+    [
+     "Mis primos juegan afuera mientras los adultos platican.",
+     "My cousins play outside while the adults chat."
+    ],
+    [
+     "Mi abuela siempre dice: \"Come más, mija, estás muy flaca\".",
+     "My grandmother always says: \"Eat more, sweetie, you're too skinny.\""
+    ],
+    [
+     "Cuando me voy, me da comida para llevar.",
+     "When I leave, she gives me food to take with me."
+    ],
+    [
+     "Yo sonrío porque sé que me quiere mucho.",
+     "I smile because I know she loves me a lot."
+    ]
+   ]
+  },
+  {
+   "id": "s3",
+   "title": "Un día en la clínica",
+   "lvl": "B1",
+   "blurb": "A nervous patient, a few key questions, and why this matters.",
+   "s": [
+    [
+     "Ayer llegó un paciente muy nervioso a la clínica.",
+     "Yesterday a very nervous patient arrived at the clinic."
+    ],
+    [
+     "Él no hablaba inglés, así que tuve que hablar en español.",
+     "He didn't speak English, so I had to speak in Spanish."
+    ],
+    [
+     "Le pregunté: \"¿Dónde le duele?\"",
+     "I asked him: \"Where does it hurt?\""
+    ],
+    [
+     "Me dijo que le dolía el pecho desde la noche anterior.",
+     "He told me his chest had hurt since the night before."
+    ],
+    [
+     "Le tomé la presión y llamé a la enfermera enseguida.",
+     "I took his blood pressure and called the nurse right away."
+    ],
+    [
+     "Poco a poco se calmó y me dio las gracias.",
+     "Little by little he calmed down and thanked me."
+    ],
+    [
+     "Ese día entendí por qué quiero hablar bien español.",
+     "That day I understood why I want to speak Spanish well."
+    ]
+   ]
+  },
+  {
+   "id": "s4",
+   "title": "En el supermercado",
+   "lvl": "A1",
+   "blurb": "A shopping trip with mom, and a lot of food words.",
+   "s": [
+    [
+     "Hoy voy al supermercado con mi mamá.",
+     "Today I'm going to the supermarket with my mom."
+    ],
+    [
+     "Necesitamos leche, pan, huevos y frutas.",
+     "We need milk, bread, eggs and fruit."
+    ],
+    [
+     "Yo busco las manzanas y ella busca el arroz.",
+     "I look for the apples and she looks for the rice."
+    ],
+    [
+     "Los precios están muy altos esta semana.",
+     "Prices are very high this week."
+    ],
+    [
+     "Pagamos en la caja y la señora nos da una bolsa.",
+     "We pay at the register and the lady gives us a bag."
+    ],
+    [
+     "Después volvemos a casa y cocinamos juntas.",
+     "Afterwards we go back home and cook together."
+    ]
+   ]
+  },
+  {
+   "id": "s5",
+   "title": "Un mensaje de mi mejor amiga",
+   "lvl": "A2",
+   "blurb": "Weekend plans, a little nerves and a lot of music.",
+   "s": [
+    [
+     "Mi mejor amiga me escribe un mensaje esta mañana.",
+     "My best friend writes me a message this morning."
+    ],
+    [
+     "Dice que quiere ir a bailar el sábado por la noche.",
+     "She says she wants to go dancing on Saturday night."
+    ],
+    [
+     "Yo no sé bailar muy bien, pero me encanta la música.",
+     "I don't know how to dance very well, but I love music."
+    ],
+    [
+     "Ella me dice: \"No te preocupes, yo te enseño\".",
+     "She tells me: \"Don't worry, I'll teach you.\""
+    ],
+    [
+     "Entonces le respondo que sí y le pregunto a qué hora nos vemos.",
+     "So I answer yes and ask her what time we meet."
+    ],
+    [
+     "Vamos a pasar una noche increíble.",
+     "We're going to have an incredible night."
+    ]
+   ]
+  },
+  {
+   "id": "s6",
+   "title": "Mi primer paciente en español",
+   "lvl": "B1",
+   "blurb": "The day a nervous beginner became a confident helper.",
+   "s": [
+    [
+     "El año pasado empecé a trabajar en una clínica nueva.",
+     "Last year I started working at a new clinic."
+    ],
+    [
+     "Al principio tenía miedo porque casi no entendía a los pacientes.",
+     "At first I was afraid because I barely understood the patients."
+    ],
+    [
+     "Una señora mayor me dijo que su espalda le dolía mucho.",
+     "An older lady told me her back hurt a lot."
+    ],
+    [
+     "Yo respiré profundo y le pregunté desde cuándo tenía ese dolor.",
+     "I took a deep breath and asked her since when she'd had that pain."
+    ],
+    [
+     "Ella sonrió porque entendió mi pregunta y me explicó todo con calma.",
+     "She smiled because she understood my question and explained everything calmly."
+    ],
+    [
+     "Cuando terminó la consulta, me dio las gracias y me dijo que hablaba muy bien.",
+     "When the visit ended, she thanked me and said I spoke very well."
+    ],
+    [
+     "Desde ese día practico español todos los días porque quiero ayudar a más personas.",
+     "Since that day I practice Spanish every day because I want to help more people."
+    ]
+   ]
+  }
+ ],
+ "BUILD": [
+  {
+   "en": "I want to learn Spanish every day",
+   "es": "Quiero aprender español todos los días",
+   "lvl": 2
+  },
+  {
+   "en": "My grandmother makes tortillas",
+   "es": "Mi abuela hace tortillas",
+   "lvl": 2
+  },
+  {
+   "en": "Where is the nurse?",
+   "es": "¿Dónde está la enfermera?",
+   "lvl": 2
+  },
+  {
+   "en": "I need to take your blood pressure",
+   "es": "Necesito tomarle la presión",
+   "lvl": 2
+  },
+  {
+   "en": "We are going to the clinic",
+   "es": "Vamos a la clínica",
+   "lvl": 2
+  },
+  {
+   "en": "I like Colombian coffee",
+   "es": "Me gusta el café colombiano",
+   "lvl": 2
+  },
+  {
+   "en": "Can you speak more slowly?",
+   "es": "¿Puede hablar más despacio?",
+   "lvl": 2
+  },
+  {
+   "en": "How are you feeling today?",
+   "es": "¿Cómo se siente hoy?",
+   "lvl": 2
+  },
+  {
+   "en": "I live in Arizona",
+   "es": "Vivo en Arizona",
+   "lvl": 2
+  },
+  {
+   "en": "My brother watches TV",
+   "es": "Mi hermano mira la tele",
+   "lvl": 2
+  },
+  {
+   "en": "I understand a lot of Spanish",
+   "es": "Entiendo mucho español",
+   "lvl": 2
+  },
+  {
+   "en": "The patient is very nervous",
+   "es": "El paciente está muy nervioso",
+   "lvl": 2
+  },
+  {
+   "en": "Do you have any pain?",
+   "es": "¿Tiene algún dolor?",
+   "lvl": 2
+  },
+  {
+   "en": "I'll see you in a bit",
+   "es": "Nos vemos ahorita",
+   "lvl": 2
+  },
+  {
+   "lvl": 1,
+   "en": "I am hungry",
+   "es": "Tengo hambre"
+  },
+  {
+   "lvl": 1,
+   "en": "I want water",
+   "es": "Quiero agua"
+  },
+  {
+   "lvl": 1,
+   "en": "The house is big",
+   "es": "La casa es grande"
+  },
+  {
+   "lvl": 1,
+   "en": "My mom cooks",
+   "es": "Mi mamá cocina"
+  },
+  {
+   "lvl": 1,
+   "en": "We eat at two",
+   "es": "Comemos a las dos"
+  },
+  {
+   "lvl": 1,
+   "en": "The coffee is hot",
+   "es": "El café está caliente"
+  },
+  {
+   "lvl": 1,
+   "en": "I need help",
+   "es": "Necesito ayuda"
+  },
+  {
+   "lvl": 1,
+   "en": "She lives in Medellín",
+   "es": "Ella vive en Medellín"
+  },
+  {
+   "lvl": 1,
+   "en": "Where do you live?",
+   "es": "¿Dónde vives?"
+  },
+  {
+   "lvl": 1,
+   "en": "How do you say this in Spanish?",
+   "es": "¿Cómo se dice esto en español?"
+  },
+  {
+   "lvl": 1,
+   "en": "What time is it?",
+   "es": "¿Qué hora es?"
+  },
+  {
+   "lvl": 1,
+   "en": "I like to read",
+   "es": "Me gusta leer"
+  },
+  {
+   "lvl": 2,
+   "en": "I am working right now",
+   "es": "Ahora estoy trabajando"
+  },
+  {
+   "lvl": 2,
+   "en": "Yesterday I went to the market",
+   "es": "Ayer fui al mercado"
+  },
+  {
+   "lvl": 2,
+   "en": "I have visited Mexico twice",
+   "es": "He visitado México dos veces"
+  },
+  {
+   "lvl": 2,
+   "en": "When I was a girl I lived in Colombia",
+   "es": "Cuando era niña vivía en Colombia"
+  },
+  {
+   "lvl": 2,
+   "en": "My grandmother always makes tortillas",
+   "es": "Mi abuela siempre hace tortillas"
+  },
+  {
+   "lvl": 2,
+   "en": "We are going to eat arepas",
+   "es": "Vamos a comer arepas"
+  },
+  {
+   "lvl": 2,
+   "en": "I don't understand, more slowly please",
+   "es": "No entiendo, más despacio por favor"
+  },
+  {
+   "lvl": 2,
+   "en": "Why did you arrive late?",
+   "es": "¿Por qué llegaste tarde?"
+  },
+  {
+   "lvl": 2,
+   "en": "I'm tired, that's why I'm going to sleep",
+   "es": "Estoy cansada, por eso voy a dormir"
+  },
+  {
+   "lvl": 2,
+   "en": "First I drink coffee, then I go to work",
+   "es": "Primero tomo café, luego voy al trabajo"
+  },
+  {
+   "lvl": 2,
+   "en": "Where does it hurt?",
+   "es": "¿Dónde le duele?"
+  },
+  {
+   "lvl": 2,
+   "en": "Take a deep breath, please",
+   "es": "Respire profundo, por favor"
+  },
+  {
+   "lvl": 2,
+   "en": "I'm going to take your blood pressure",
+   "es": "Voy a tomarle la presión"
+  },
+  {
+   "lvl": 2,
+   "en": "Do you have any allergies?",
+   "es": "¿Tiene alguna alergia?"
+  },
+  {
+   "lvl": 2,
+   "en": "The nurse is coming right away",
+   "es": "La enfermera viene enseguida"
+  },
+  {
+   "lvl": 2,
+   "en": "I need your date of birth",
+   "es": "Necesito su fecha de nacimiento"
+  },
+  {
+   "lvl": 2,
+   "en": "Do you take any medication?",
+   "es": "¿Toma algún medicamento?"
+  },
+  {
+   "lvl": 2,
+   "en": "My brother speaks English and Spanish",
+   "es": "Mi hermano habla inglés y español"
+  },
+  {
+   "lvl": 3,
+   "en": "I had already left when you called me",
+   "es": "Ya había salido cuando me llamaste"
+  },
+  {
+   "lvl": 3,
+   "en": "I have been studying all afternoon",
+   "es": "He estado estudiando toda la tarde"
+  },
+  {
+   "lvl": 3,
+   "en": "In my opinion, Spanish is a beautiful language",
+   "es": "En mi opinión, el español es un idioma bonito"
+  },
+  {
+   "lvl": 3,
+   "en": "I like coffee but I don't like tea",
+   "es": "Me gusta el café pero no me gusta el té"
+  },
+  {
+   "lvl": 3,
+   "en": "I arrived at the clinic at six",
+   "es": "Llegué a la clínica a las seis"
+  },
+  {
+   "lvl": 3,
+   "en": "He told me his chest hurt",
+   "es": "Me dijo que le dolía el pecho"
+  },
+  {
+   "lvl": 3,
+   "en": "The patient didn't speak English, so I spoke Spanish",
+   "es": "El paciente no hablaba inglés, así que hablé en español"
+  },
+  {
+   "lvl": 3,
+   "en": "I want to speak Spanish well because I work with patients",
+   "es": "Quiero hablar bien español porque trabajo con pacientes"
+  },
+  {
+   "lvl": 3,
+   "en": "Little by little I understand more",
+   "es": "Poco a poco entiendo más"
+  },
+  {
+   "lvl": 3,
+   "en": "Since I started studying I have learned a lot",
+   "es": "Desde que empecé a estudiar he aprendido mucho"
+  },
+  {
+   "lvl": 3,
+   "en": "Do you feel dizzy or nauseous?",
+   "es": "¿Siente mareo o náuseas?"
+  },
+  {
+   "lvl": 3,
+   "en": "I'm going to draw your blood",
+   "es": "Voy a sacarle sangre"
+  },
+  {
+   "lvl": 3,
+   "en": "Because it is cold, we are going to stay home",
+   "es": "Como hace frío, vamos a quedarnos en casa"
+  },
+  {
+   "lvl": 3,
+   "en": "My cousins play outside while the adults chat",
+   "es": "Mis primos juegan afuera mientras los adultos platican"
+  },
+  {
+   "lvl": 3,
+   "en": "When I leave, she gives me food",
+   "es": "Cuando me voy, me da comida"
+  },
+  {
+   "lvl": 3,
+   "en": "Above all, I want to understand people",
+   "es": "Sobre todo, quiero entender a la gente"
+  },
+  {
+   "lvl": 3,
+   "en": "She had been waiting for an hour",
+   "es": "Ella había estado esperando una hora"
+  },
+  {
+   "lvl": 3,
+   "en": "How long have you had this pain?",
+   "es": "¿Cuánto tiempo ha tenido este dolor?"
+  }
+ ],
+ "LESSONS": [
+  {
+   "id": "l1",
+   "title": "-tion becomes -ción",
+   "rule": "Thousands of English words are already Spanish. Swap -tion for -ción and say it with a Spanish accent.",
+   "items": [
+    [
+     "information",
+     "información"
+    ],
+    [
+     "conversation",
+     "conversación"
+    ],
+    [
+     "situation",
+     "situación"
+    ],
+    [
+     "education",
+     "educación"
+    ],
+    [
+     "direction",
+     "dirección"
+    ]
+   ]
+  },
+  {
+   "id": "l2",
+   "title": "-ty becomes -dad",
+   "rule": "English -ty turns into -dad. Same idea, new ending.",
+   "items": [
+    [
+     "university",
+     "universidad"
+    ],
+    [
+     "possibility",
+     "posibilidad"
+    ],
+    [
+     "activity",
+     "actividad"
+    ],
+    [
+     "community",
+     "comunidad"
+    ],
+    [
+     "personality",
+     "personalidad"
+    ]
+   ]
+  },
+  {
+   "id": "l3",
+   "title": "-ly becomes -mente",
+   "rule": "English -ly turns into -mente. It is your Spanish adverb machine.",
+   "items": [
+    [
+     "probably",
+     "probablemente"
+    ],
+    [
+     "finally",
+     "finalmente"
+    ],
+    [
+     "immediately",
+     "inmediatamente"
+    ],
+    [
+     "normally",
+     "normalmente"
+    ],
+    [
+     "exactly",
+     "exactamente"
+    ]
+   ]
+  },
+  {
+   "id": "l4",
+   "title": "Quiero + verb",
+   "rule": "Quiero means I want. Put any infinitive after it and you can say what you want.",
+   "items": [
+    [
+     "I want to eat",
+     "Quiero comer"
+    ],
+    [
+     "I want to speak Spanish",
+     "Quiero hablar español"
+    ],
+    [
+     "I want to go home",
+     "Quiero ir a casa"
+    ],
+    [
+     "I want to learn",
+     "Quiero aprender"
+    ],
+    [
+     "I want to help you (formal)",
+     "Quiero ayudarle"
+    ]
+   ]
+  },
+  {
+   "id": "l5",
+   "title": "Necesito + verb",
+   "rule": "Necesito means I need. Same trick: add the infinitive.",
+   "items": [
+    [
+     "I need to work",
+     "Necesito trabajar"
+    ],
+    [
+     "I need to sleep",
+     "Necesito dormir"
+    ],
+    [
+     "I need to take your blood pressure",
+     "Necesito tomarle la presión"
+    ],
+    [
+     "I need to practice",
+     "Necesito practicar"
+    ],
+    [
+     "I need to ask something",
+     "Necesito preguntar algo"
+    ]
+   ]
+  },
+  {
+   "id": "l6",
+   "title": "Voy a + verb",
+   "rule": "Voy a plus an infinitive is the easy future: I am going to do it.",
+   "items": [
+    [
+     "I'm going to eat",
+     "Voy a comer"
+    ],
+    [
+     "I'm going to call the nurse",
+     "Voy a llamar a la enfermera"
+    ],
+    [
+     "I'm going to study",
+     "Voy a estudiar"
+    ],
+    [
+     "We're going to practice",
+     "Vamos a practicar"
+    ],
+    [
+     "You're going to feel better (formal)",
+     "Va a sentirse mejor"
+    ]
+   ]
+  },
+  {
+   "id": "l7",
+   "title": "Puedo and ¿Puede...?",
+   "rule": "Puedo is I can. ¿Puede...? is the polite way to ask someone: can you?",
+   "items": [
+    [
+     "I can speak",
+     "Puedo hablar"
+    ],
+    [
+     "Can you help me?",
+     "¿Me puede ayudar?"
+    ],
+    [
+     "Can you repeat?",
+     "¿Puede repetir?"
+    ],
+    [
+     "I can't understand",
+     "No puedo entender"
+    ],
+    [
+     "Can I sit down?",
+     "¿Puedo sentarme?"
+    ]
+   ]
+  },
+  {
+   "id": "l8",
+   "title": "Me gusta",
+   "rule": "Me gusta literally means it pleases me. Use gusta with one thing or a verb, gustan with many things.",
+   "items": [
+    [
+     "I like coffee",
+     "Me gusta el café"
+    ],
+    [
+     "I like to read",
+     "Me gusta leer"
+    ],
+    [
+     "I don't like the cold",
+     "No me gusta el frío"
+    ],
+    [
+     "Do you like music? (informal)",
+     "¿Te gusta la música?"
+    ],
+    [
+     "We like the city",
+     "Nos gusta la ciudad"
+    ]
+   ]
+  }
+ ],
+ "DLG": [
+  {
+   "id": "d1",
+   "t": "Catching up with a friend",
+   "sc": "Friends",
+   "lvl": 1,
+   "turns": [
+    [
+     "A",
+     "¡Hola! ¿Qué más? ¿Cómo has estado?",
+     "Hi! What's up? How have you been?"
+    ],
+    [
+     "B",
+     "Muy bien, gracias. ¿Y tú?",
+     "Very well, thanks. And you?"
+    ],
+    [
+     "A",
+     "Bien, ocupada con el trabajo. ¿Y tú, qué has hecho?",
+     "Good, busy with work. And you, what have you been up to?"
+    ],
+    [
+     "B",
+     "Yo también estoy muy ocupada. Trabajo mucho y estudio por las noches.",
+     "Me too, I'm very busy. I work a lot and I study at night."
+    ],
+    [
+     "A",
+     "¿Qué estudias?",
+     "What do you study?"
+    ],
+    [
+     "B",
+     "Estudio enfermería. Quiero ser enfermera.",
+     "I study nursing. I want to be a nurse."
+    ],
+    [
+     "A",
+     "¡Qué chévere! Me alegra mucho.",
+     "How cool! I'm really happy for you."
+    ],
+    [
+     "B",
+     "Gracias. Vamos a tomar un café un día de estos.",
+     "Thanks. Let's have a coffee one of these days."
+    ],
+    [
+     "A",
+     "¡Listo! Te escribo.",
+     "Sounds good! I'll text you."
+    ],
+    [
+     "B",
+     "Perfecto. Nos vemos pronto.",
+     "Perfect. See you soon."
+    ]
+   ]
+  },
+  {
+   "id": "d2",
+   "t": "Meeting someone new",
+   "sc": "Friends",
+   "lvl": 1,
+   "turns": [
+    [
+     "A",
+     "Hola, mucho gusto. Me llamo Daniel.",
+     "Hi, nice to meet you. My name is Daniel."
+    ],
+    [
+     "B",
+     "Mucho gusto, Daniel. Yo me llamo Ana.",
+     "Nice to meet you, Daniel. My name is Ana."
+    ],
+    [
+     "A",
+     "¿De dónde eres?",
+     "Where are you from?"
+    ],
+    [
+     "B",
+     "Soy de Arizona y estoy aprendiendo español.",
+     "I'm from Arizona and I'm learning Spanish."
+    ],
+    [
+     "A",
+     "¡Qué bien! Hablas muy bien.",
+     "How great! You speak very well."
+    ],
+    [
+     "B",
+     "Gracias, pero todavía me cuesta hablar.",
+     "Thanks, but speaking is still hard for me."
+    ],
+    [
+     "A",
+     "No te preocupes. Con práctica todo se puede.",
+     "Don't worry. With practice anything is possible."
+    ],
+    [
+     "B",
+     "Eso espero. ¿Y tú a qué te dedicas?",
+     "I hope so. And what do you do?"
+    ],
+    [
+     "A",
+     "Soy profesor de inglés.",
+     "I'm an English teacher."
+    ],
+    [
+     "B",
+     "¡Qué interesante! Me encantaría practicar contigo.",
+     "How interesting! I would love to practice with you."
+    ]
+   ]
+  },
+  {
+   "id": "d3",
+   "t": "Ordering at a café",
+   "sc": "Out in public",
+   "lvl": 1,
+   "turns": [
+    [
+     "A",
+     "Buenos días, bienvenida. ¿Qué le puedo ofrecer?",
+     "Good morning, welcome. What can I get you?"
+    ],
+    [
+     "B",
+     "Buenos días. Quisiera un café con leche y una arepa, por favor.",
+     "Good morning. I would like a coffee with milk and an arepa, please."
+    ],
+    [
+     "A",
+     "Claro. ¿Algo más?",
+     "Of course. Anything else?"
+    ],
+    [
+     "B",
+     "No, eso es todo. ¿Cuánto es?",
+     "No, that's everything. How much is it?"
+    ],
+    [
+     "A",
+     "Son ocho dólares.",
+     "It's eight dollars."
+    ],
+    [
+     "B",
+     "¿Aceptan tarjeta?",
+     "Do you take cards?"
+    ],
+    [
+     "A",
+     "Sí, claro. Aquí tiene.",
+     "Yes, of course. Here you go."
+    ],
+    [
+     "B",
+     "Muchas gracias. Que tenga un buen día.",
+     "Thank you very much. Have a good day."
+    ],
+    [
+     "A",
+     "De nada, igualmente.",
+     "You're welcome, you too."
+    ]
+   ]
+  },
+  {
+   "id": "d4",
+   "t": "Asking for directions",
+   "sc": "Out in public",
+   "lvl": 2,
+   "turns": [
+    [
+     "A",
+     "Hola, ¿necesita ayuda?",
+     "Hi, do you need help?"
+    ],
+    [
+     "B",
+     "Sí, por favor. ¿Dónde queda la estación de bus?",
+     "Yes, please. Where is the bus station?"
+    ],
+    [
+     "A",
+     "Está cerca. Siga todo derecho dos cuadras y gire a la derecha.",
+     "It's close. Go straight two blocks and turn right."
+    ],
+    [
+     "B",
+     "¿Dos cuadras y luego a la derecha?",
+     "Two blocks and then right?"
+    ],
+    [
+     "A",
+     "Exacto. La estación está en la esquina.",
+     "Exactly. The station is on the corner."
+    ],
+    [
+     "B",
+     "Muchas gracias. Usted es muy amable.",
+     "Thank you very much. You are very kind."
+    ],
+    [
+     "A",
+     "No hay de qué. Que le vaya bien.",
+     "Don't mention it. Have a good one."
+    ]
+   ]
+  },
+  {
+   "id": "d5",
+   "t": "At the pharmacy",
+   "sc": "Out in public",
+   "lvl": 2,
+   "turns": [
+    [
+     "A",
+     "Buenas tardes. ¿En qué le puedo ayudar?",
+     "Good afternoon. How can I help you?"
+    ],
+    [
+     "B",
+     "Buenas tardes. Necesito algo para el dolor de cabeza.",
+     "Good afternoon. I need something for a headache."
+    ],
+    [
+     "A",
+     "¿Tiene alguna alergia a medicamentos?",
+     "Do you have any medication allergies?"
+    ],
+    [
+     "B",
+     "No, no tengo alergias.",
+     "No, I don't have allergies."
+    ],
+    [
+     "A",
+     "Le recomiendo este. Tome una pastilla cada ocho horas.",
+     "I recommend this one. Take one pill every eight hours."
+    ],
+    [
+     "B",
+     "¿Puedo tomarlo con el estómago vacío?",
+     "Can I take it on an empty stomach?"
+    ],
+    [
+     "A",
+     "Es mejor tomarlo con comida.",
+     "It's better to take it with food."
+    ],
+    [
+     "B",
+     "Entendido. Gracias por su ayuda.",
+     "Understood. Thank you for your help."
+    ]
+   ]
+  },
+  {
+   "id": "d6",
+   "t": "At a restaurant",
+   "sc": "Out in public",
+   "lvl": 2,
+   "turns": [
+    [
+     "A",
+     "Buenas noches. ¿Mesa para cuántas personas?",
+     "Good evening. Table for how many people?"
+    ],
+    [
+     "B",
+     "Para dos, por favor.",
+     "For two, please."
+    ],
+    [
+     "A",
+     "Por aquí. Aquí tienen el menú. ¿Qué les puedo traer de tomar?",
+     "This way. Here is the menu. What can I bring you to drink?"
+    ],
+    [
+     "B",
+     "Dos aguas, por favor. Todavía estamos decidiendo qué pedir.",
+     "Two waters, please. We are still deciding what to order."
+    ],
+    [
+     "A",
+     "Con calma. Vuelvo en unos minutos.",
+     "Take your time. I'll be back in a few minutes."
+    ],
+    [
+     "B",
+     "Ya estamos listos. Quiero el pollo con arroz y mi amiga quiere la sopa.",
+     "We're ready. I want the chicken with rice and my friend wants the soup."
+    ],
+    [
+     "A",
+     "Muy bien. Enseguida se lo traigo.",
+     "Very good. I'll bring it right away."
+    ],
+    [
+     "B",
+     "Gracias. Después necesitamos la cuenta, por favor.",
+     "Thank you. Afterwards we'll need the check, please."
+    ]
+   ]
+  },
+  {
+   "id": "d7",
+   "t": "Making plans with a friend",
+   "sc": "Friends",
+   "lvl": 2,
+   "turns": [
+    [
+     "A",
+     "Oye, ¿qué vas a hacer este fin de semana?",
+     "Hey, what are you going to do this weekend?"
+    ],
+    [
+     "B",
+     "Todavía no sé. Tengo que trabajar el sábado, pero el domingo estoy libre.",
+     "I don't know yet. I have to work Saturday, but Sunday I'm free."
+    ],
+    [
+     "A",
+     "¿Quieres ir a comer algo? Conozco un restaurante nuevo.",
+     "Do you want to go eat something? I know a new restaurant."
+    ],
+    [
+     "B",
+     "¡Claro que sí! ¿A qué hora nos vemos?",
+     "Of course! What time do we meet?"
+    ],
+    [
+     "A",
+     "A las dos, ¿te parece?",
+     "At two, how does that sound?"
+    ],
+    [
+     "B",
+     "Me parece perfecto. Te mando un mensaje cuando salga de la casa.",
+     "Sounds perfect. I'll text you when I leave the house."
+    ],
+    [
+     "A",
+     "Listo. ¡Qué ganas de verte!",
+     "Great. I can't wait to see you!"
+    ],
+    [
+     "B",
+     "Yo también. ¡Hasta el domingo!",
+     "Me too. See you Sunday!"
+    ]
+   ]
+  },
+  {
+   "id": "d8",
+   "t": "In a rideshare",
+   "sc": "Out in public",
+   "lvl": 2,
+   "turns": [
+    [
+     "A",
+     "Buenas tardes. ¿Va para el centro?",
+     "Good afternoon. Are you going downtown?"
+    ],
+    [
+     "B",
+     "Sí, correcto. Voy para el hospital.",
+     "Yes, correct. I'm going to the hospital."
+    ],
+    [
+     "A",
+     "Perfecto. ¿Le molesta si pongo música?",
+     "Perfect. Do you mind if I put on music?"
+    ],
+    [
+     "B",
+     "No, para nada. Pero, por favor, no muy fuerte.",
+     "No, not at all. But please, not too loud."
+    ],
+    [
+     "A",
+     "Claro. ¿Es su primera vez en esta ciudad?",
+     "Sure. Is it your first time in this city?"
+    ],
+    [
+     "B",
+     "No, vivo aquí. Voy al trabajo.",
+     "No, I live here. I'm going to work."
+    ],
+    [
+     "A",
+     "Ya llegamos. Que tenga un buen turno.",
+     "We're here. Have a good shift."
+    ],
+    [
+     "B",
+     "Gracias. Igualmente, que tenga una buena tarde.",
+     "Thank you. You too, have a good afternoon."
+    ]
+   ]
+  },
+  {
+   "id": "d9",
+   "t": "Patient check-in",
+   "sc": "With patients",
+   "lvl": 2,
+   "turns": [
+    [
+     "A",
+     "Buenos días. Tengo una cita a las nueve.",
+     "Good morning. I have an appointment at nine."
+    ],
+    [
+     "B",
+     "Buenos días. ¿Me puede decir su nombre completo y su fecha de nacimiento?",
+     "Good morning. Can you tell me your full name and date of birth?"
+    ],
+    [
+     "A",
+     "Me llamo Carlos Ramírez. Nací el doce de marzo de mil novecientos ochenta.",
+     "My name is Carlos Ramírez. I was born on March twelfth, nineteen eighty."
+    ],
+    [
+     "B",
+     "Gracias, señor Ramírez. ¿Tiene su tarjeta del seguro?",
+     "Thank you, Mr. Ramírez. Do you have your insurance card?"
+    ],
+    [
+     "A",
+     "Sí, aquí la tiene.",
+     "Yes, here you go."
+    ],
+    [
+     "B",
+     "Perfecto. Por favor, siéntese. La enfermera lo llama enseguida.",
+     "Perfect. Please have a seat. The nurse will call you right away."
+    ],
+    [
+     "A",
+     "Gracias. ¿Tardan mucho?",
+     "Thanks. Does it take long?"
+    ],
+    [
+     "B",
+     "No, solo unos minutos. Gracias por su paciencia.",
+     "No, only a few minutes. Thank you for your patience."
+    ]
+   ]
+  },
+  {
+   "id": "d10",
+   "t": "Taking a patient's symptoms",
+   "sc": "With patients",
+   "lvl": 3,
+   "turns": [
+    [
+     "A",
+     "Hola. Me siento muy mal desde ayer.",
+     "Hi. I've felt very bad since yesterday."
+    ],
+    [
+     "B",
+     "Lo siento mucho. ¿Qué síntomas tiene?",
+     "I'm very sorry. What symptoms do you have?"
+    ],
+    [
+     "A",
+     "Tengo dolor de cabeza, fiebre y tos.",
+     "I have a headache, fever and a cough."
+    ],
+    [
+     "B",
+     "¿Desde cuándo tiene fiebre?",
+     "Since when have you had a fever?"
+    ],
+    [
+     "A",
+     "Desde anoche. También tengo mucho cansancio.",
+     "Since last night. I'm also very tired."
+    ],
+    [
+     "B",
+     "Voy a tomarle la temperatura y la presión. Respire profundo, por favor.",
+     "I'm going to take your temperature and blood pressure. Breathe deeply, please."
+    ],
+    [
+     "A",
+     "Está bien. ¿Es algo grave?",
+     "Okay. Is it something serious?"
+    ],
+    [
+     "B",
+     "No creo, pero la doctora lo va a revisar. Ella viene enseguida.",
+     "I don't think so, but the doctor is going to examine you. She is coming right away."
+    ]
+   ]
+  },
+  {
+   "id": "d11",
+   "t": "Scheduling an appointment by phone",
+   "sc": "With patients",
+   "lvl": 2,
+   "turns": [
+    [
+     "A",
+     "Clínica Salud, buenas tardes. ¿En qué le puedo ayudar?",
+     "Salud Clinic, good afternoon. How can I help you?"
+    ],
+    [
+     "B",
+     "Buenas tardes. Quisiera hacer una cita con el doctor Pérez, por favor.",
+     "Good afternoon. I would like to make an appointment with Dr. Pérez, please."
+    ],
+    [
+     "A",
+     "Claro. ¿Para qué día?",
+     "Of course. For what day?"
+    ],
+    [
+     "B",
+     "Para el jueves, si es posible. Puedo por la mañana.",
+     "For Thursday, if possible. I can do the morning."
+    ],
+    [
+     "A",
+     "Tengo disponible a las diez. ¿Le sirve?",
+     "I have ten o'clock available. Does that work for you?"
+    ],
+    [
+     "B",
+     "Sí, me sirve. ¿Necesito traer algo?",
+     "Yes, that works. Do I need to bring anything?"
+    ],
+    [
+     "A",
+     "Traiga su identificación y su tarjeta del seguro.",
+     "Bring your ID and your insurance card."
+    ],
+    [
+     "B",
+     "Perfecto. Muchas gracias. Hasta el jueves.",
+     "Perfect. Thank you very much. See you Thursday."
+    ]
+   ]
+  },
+  {
+   "id": "d12",
+   "t": "Telling a friend about your day",
+   "sc": "Friends",
+   "lvl": 3,
+   "turns": [
+    [
+     "A",
+     "¿Cómo estuvo tu día?",
+     "How was your day?"
+    ],
+    [
+     "B",
+     "Estuvo largo, pero bueno. Trabajé en la clínica desde las ocho.",
+     "It was long but good. I worked at the clinic from eight."
+    ],
+    [
+     "A",
+     "¿Pasó algo interesante?",
+     "Did anything interesting happen?"
+    ],
+    [
+     "B",
+     "Sí, llegó un paciente que solo hablaba español, y pude ayudarlo.",
+     "Yes, a patient arrived who only spoke Spanish, and I was able to help him."
+    ],
+    [
+     "A",
+     "¡Qué bueno! ¿Cómo te sentiste?",
+     "How great! How did you feel?"
+    ],
+    [
+     "B",
+     "Muy orgullosa, aunque estaba nerviosa. Por eso quiero seguir practicando.",
+     "Very proud, although I was nervous. That's why I want to keep practicing."
+    ],
+    [
+     "A",
+     "Sigue así, vas muy bien.",
+     "Keep it up, you're doing great."
+    ],
+    [
+     "B",
+     "Gracias, de verdad. Eso me motiva mucho.",
+     "Thank you, really. That motivates me a lot."
+    ]
+   ]
+  },
+  {
+   "id": "d13",
+   "t": "Tell me about yourself",
+   "sc": "Paragraphs",
+   "lvl": 2,
+   "turns": [
+    [
+     "A",
+     "Cuéntame un poco de ti.",
+     "Tell me a little about yourself."
+    ],
+    [
+     "B",
+     "Me llamo Ana y vivo en Arizona. Trabajo en una clínica y estudio enfermería.",
+     "My name is Ana and I live in Arizona. I work at a clinic and I study nursing."
+    ],
+    [
+     "A",
+     "¿Qué haces en tu tiempo libre?",
+     "What do you do in your free time?"
+    ],
+    [
+     "B",
+     "Me gusta ir al gimnasio porque me ayuda a relajarme. También me gusta escuchar música y aprender español.",
+     "I like going to the gym because it helps me relax. I also like listening to music and learning Spanish."
+    ],
+    [
+     "A",
+     "¿Y por qué quieres aprender español?",
+     "And why do you want to learn Spanish?"
+    ],
+    [
+     "B",
+     "Quiero hablar con mis pacientes y entender mejor a la gente. Además, me encanta la cultura y la música.",
+     "I want to talk with my patients and understand people better. Besides, I love the culture and the music."
+    ],
+    [
+     "A",
+     "Qué bonito. ¿Cuál es tu meta?",
+     "How nice. What is your goal?"
+    ],
+    [
+     "B",
+     "Mi meta es hablar con confianza y entender todo. Poco a poco lo voy a lograr.",
+     "My goal is to speak with confidence and understand everything. Little by little I'm going to achieve it."
+    ]
+   ]
+  },
+  {
+   "id": "d14",
+   "t": "What you did last weekend",
+   "sc": "Paragraphs",
+   "lvl": 3,
+   "turns": [
+    [
+     "A",
+     "¿Qué hiciste el fin de semana?",
+     "What did you do over the weekend?"
+    ],
+    [
+     "B",
+     "El sábado trabajé por la mañana. Después fui al gimnasio y luego cociné con mi familia.",
+     "On Saturday I worked in the morning. Afterwards I went to the gym and then I cooked with my family."
+    ],
+    [
+     "A",
+     "¿Y el domingo?",
+     "And Sunday?"
+    ],
+    [
+     "B",
+     "El domingo descansé y estudié español toda la tarde.",
+     "On Sunday I rested and studied Spanish all afternoon."
+    ],
+    [
+     "A",
+     "¡Qué productivo! ¿Aprendiste algo nuevo?",
+     "How productive! Did you learn anything new?"
+    ],
+    [
+     "B",
+     "Sí, aprendí los mandatos. Ahora puedo darles instrucciones a mis pacientes.",
+     "Yes, I learned commands. Now I can give instructions to my patients."
+    ]
+   ]
+  }
+ ]
+}

@@ -2,6 +2,10 @@ import Phaser from 'phaser';
 import '@fontsource/pixelify-sans/400.css';
 import '@fontsource/pixelify-sans/700.css';
 import './style.css';
+import './ui/ui.css';
+import { initStore, state } from './state/store';
+import { applyTextSize } from './ui/settings';
+import { setDayOffset } from './engine/clock';
 import { registerSW } from 'virtual:pwa-register';
 import { BootScene } from './scenes/BootScene';
 import { CieloScene } from './scenes/CieloScene';
@@ -37,6 +41,12 @@ async function start() {
     /* fall back to monospace */
   }
 
+  await initStore();
+  applyTextSize();
+  // hidden test switch: ?day=+3 pretends it is 3 days later
+  const dayParam = new URLSearchParams(location.search).get('day');
+  if (dayParam) setDayOffset(parseInt(dayParam, 10) || 0);
+
   let fit = measure();
   const game = new Phaser.Game({
     type: Phaser.AUTO,
@@ -54,7 +64,7 @@ async function start() {
     callbacks: { preBoot: (g) => storeView(g, fit) },
   });
   game.events.once(Phaser.Core.Events.READY, () => applyCss(game, fit));
-  (window as unknown as { __game: Phaser.Game }).__game = game;
+  Object.assign(window as object, { __game: game, __state: state });
 
   let timer = 0;
   const onResize = () => {

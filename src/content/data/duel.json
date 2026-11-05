@@ -1,0 +1,86 @@
+{
+ "ENEMIES": [
+  {
+   "n": "La Duda",
+   "g": "🌫️",
+   "hp": 16,
+   "atk": 3,
+   "t": "She whispers that you will forget everything."
+  },
+  {
+   "n": "El Olvido",
+   "g": "🕸️",
+   "hp": 22,
+   "atk": 4,
+   "t": "He feeds on words you stop reviewing."
+  },
+  {
+   "n": "La Prisa",
+   "g": "⏳",
+   "hp": 28,
+   "atk": 5,
+   "t": "Always rushing, never learning."
+  },
+  {
+   "n": "El Eco",
+   "g": "🔔",
+   "hp": 36,
+   "atk": 5,
+   "t": "He repeats every mistake you make."
+  },
+  {
+   "n": "La Sombra",
+   "g": "🌑",
+   "hp": 44,
+   "atk": 6,
+   "t": "She hides in the words you avoid."
+  },
+  {
+   "n": "El Espejo Roto",
+   "g": "🪞",
+   "hp": 52,
+   "atk": 7,
+   "t": "He shows you a broken Spanish."
+  },
+  {
+   "n": "La Rosa Marchita",
+   "g": "🥀",
+   "hp": 62,
+   "atk": 8,
+   "t": "She fades when you skip a day."
+  },
+  {
+   "n": "La Reina del Silencio",
+   "g": "👑",
+   "hp": 74,
+   "atk": 9,
+   "t": "The final duel. She wants you quiet."
+  }
+ ],
+ "PERKS": [
+  [
+   "piedra",
+   "Amuleto de piedra",
+   "+6 max HP in every duel",
+   30
+  ],
+  [
+   "vela",
+   "Vela dorada",
+   "Draw 4 cards each turn instead of 3",
+   60
+  ],
+  [
+   "espejo",
+   "Espejo gris",
+   "Your first mistake in each duel is forgiven",
+   50
+  ],
+  [
+   "pluma",
+   "Pluma de oro",
+   "+1 power on every card",
+   80
+  ]
+ ]
+}

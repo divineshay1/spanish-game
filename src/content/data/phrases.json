@@ -1,0 +1,3477 @@
+{
+ "PCATS": [
+  {
+   "id": "cort",
+   "t": "Cortesía",
+   "sub": "Thank you, you're welcome, excuse me and more",
+   "col": "#e49bb0",
+   "items": [
+    [
+     "Gracias",
+     "Thank you",
+     "Say it after any help or favor."
+    ],
+    [
+     "Muchas gracias",
+     "Thank you very much"
+    ],
+    [
+     "De nada",
+     "You're welcome",
+     "The standard answer to gracias."
+    ],
+    [
+     "No hay de qué",
+     "Don't mention it",
+     "A slightly more polite way to say you're welcome."
+    ],
+    [
+     "Con gusto",
+     "My pleasure, gladly",
+     "Also a warm way to answer gracias."
+    ],
+    [
+     "Por favor",
+     "Please"
+    ],
+    [
+     "Perdón",
+     "Sorry, excuse me",
+     "Use it for small things, like bumping into someone."
+    ],
+    [
+     "Lo siento mucho",
+     "I'm so sorry",
+     "For something that matters, or for sad news."
+    ],
+    [
+     "Disculpe, ¿me puede ayudar?",
+     "Excuse me, can you help me?",
+     "Disculpe is the polite way to get someone's attention."
+    ],
+    [
+     "Con permiso",
+     "Excuse me (to pass or to enter)"
+    ],
+    [
+     "Mucho gusto",
+     "Nice to meet you"
+    ],
+    [
+     "Igualmente",
+     "Likewise, you too",
+     "The answer to mucho gusto, buen provecho and good wishes."
+    ],
+    [
+     "Buen provecho",
+     "Enjoy your meal"
+    ],
+    [
+     "Salud",
+     "Bless you, cheers"
+    ],
+    [
+     "Que le vaya bien",
+     "Have a good one (polite)"
+    ]
+   ]
+  },
+  {
+   "id": "salu",
+   "t": "Saludos y despedidas",
+   "sub": "Hello, how are you, goodbye",
+   "col": "#8fb4e8",
+   "items": [
+    [
+     "Hola, ¿cómo estás?",
+     "Hi, how are you?"
+    ],
+    [
+     "Bien, gracias, ¿y tú?",
+     "Good, thanks, and you?"
+    ],
+    [
+     "¿Qué tal?",
+     "How's it going?"
+    ],
+    [
+     "Más o menos",
+     "So-so"
+    ],
+    [
+     "¿Cómo has estado?",
+     "How have you been?"
+    ],
+    [
+     "Tanto tiempo",
+     "It's been a while"
+    ],
+    [
+     "Buenos días",
+     "Good morning"
+    ],
+    [
+     "Buenas tardes",
+     "Good afternoon"
+    ],
+    [
+     "Buenas noches",
+     "Good evening, good night"
+    ],
+    [
+     "Nos vemos",
+     "See you"
+    ],
+    [
+     "Hasta luego",
+     "See you later"
+    ],
+    [
+     "Hasta mañana",
+     "See you tomorrow"
+    ],
+    [
+     "Que tengas un buen día",
+     "Have a good day"
+    ],
+    [
+     "Cuídate",
+     "Take care"
+    ],
+    [
+     "Chao",
+     "Bye"
+    ]
+   ]
+  },
+  {
+   "id": "reac",
+   "t": "Reacciones y respuestas",
+   "sub": "Me too, of course, oh well, seriously?",
+   "col": "#8fcfa6",
+   "items": [
+    [
+     "Yo también",
+     "Me too",
+     "Use it to agree with something someone says about themselves."
+    ],
+    [
+     "Yo tampoco",
+     "Me neither",
+     "The negative version: No me gusta el frío. Yo tampoco."
+    ],
+    [
+     "Claro",
+     "Of course"
+    ],
+    [
+     "Claro que sí",
+     "Of course, yes"
+    ],
+    [
+     "Por supuesto",
+     "Absolutely"
+    ],
+    [
+     "Está bien",
+     "It's fine, okay"
+    ],
+    [
+     "De acuerdo",
+     "Agreed"
+    ],
+    [
+     "No pasa nada",
+     "It's no big deal",
+     "What you say when someone apologizes."
+    ],
+    [
+     "Ni modo",
+     "Oh well, nothing to be done",
+     "Very Mexican."
+    ],
+    [
+     "¿En serio?",
+     "Seriously?"
+    ],
+    [
+     "¡Qué bueno!",
+     "How good!"
+    ],
+    [
+     "¡Qué lástima!",
+     "What a shame!"
+    ],
+    [
+     "No sé",
+     "I don't know"
+    ],
+    [
+     "Tal vez",
+     "Maybe"
+    ],
+    [
+     "Depende",
+     "It depends"
+    ],
+    [
+     "Entiendo",
+     "I understand"
+    ],
+    [
+     "Ya veo",
+     "I see"
+    ],
+    [
+     "A lo mejor",
+     "Maybe, probably"
+    ],
+    [
+     "Me parece bien",
+     "Sounds good to me"
+    ]
+   ]
+  },
+  {
+   "id": "conoc",
+   "t": "Presentarse y charlar",
+   "sub": "Who you are, where you live, what you do",
+   "col": "#b79be0",
+   "items": [
+    [
+     "Me llamo Ana",
+     "My name is Ana",
+     "Swap in your own name."
+    ],
+    [
+     "Soy de Arizona",
+     "I'm from Arizona"
+    ],
+    [
+     "Vivo en Arizona",
+     "I live in Arizona"
+    ],
+    [
+     "¿De dónde eres?",
+     "Where are you from?"
+    ],
+    [
+     "¿A qué te dedicas?",
+     "What do you do for work?"
+    ],
+    [
+     "Trabajo en una clínica",
+     "I work at a clinic"
+    ],
+    [
+     "Estudio enfermería",
+     "I study nursing"
+    ],
+    [
+     "¿Cuántos años tienes?",
+     "How old are you?"
+    ],
+    [
+     "Tengo veintiocho años",
+     "I'm twenty-eight years old",
+     "Spanish says I have years, not I am years."
+    ],
+    [
+     "¿Tienes hermanos?",
+     "Do you have siblings?"
+    ],
+    [
+     "Tengo dos hermanos",
+     "I have two siblings"
+    ],
+    [
+     "¿Qué te gusta hacer?",
+     "What do you like to do?"
+    ],
+    [
+     "Me gusta ir al gimnasio",
+     "I like going to the gym"
+    ],
+    [
+     "Me encanta la música",
+     "I love music"
+    ]
+   ]
+  },
+  {
+   "id": "ayuda",
+   "t": "No entiendo y necesito ayuda",
+   "sub": "Slow down, repeat, how do you say",
+   "col": "#e6c776",
+   "items": [
+    [
+     "No entiendo",
+     "I don't understand"
+    ],
+    [
+     "¿Puede repetir, por favor?",
+     "Can you repeat, please?"
+    ],
+    [
+     "Más despacio, por favor",
+     "Slower, please"
+    ],
+    [
+     "¿Qué significa esta palabra?",
+     "What does this word mean?"
+    ],
+    [
+     "¿Cómo se dice esto en español?",
+     "How do you say this in Spanish?"
+    ],
+    [
+     "Hablo un poco de español",
+     "I speak a little Spanish"
+    ],
+    [
+     "Estoy aprendiendo",
+     "I'm learning"
+    ],
+    [
+     "¿Habla inglés?",
+     "Do you speak English?"
+    ],
+    [
+     "¿Me puede ayudar?",
+     "Can you help me?"
+    ],
+    [
+     "¿Cómo se escribe?",
+     "How do you spell it?"
+    ],
+    [
+     "¿Puede escribirlo?",
+     "Can you write it down?"
+    ],
+    [
+     "No sé cómo decirlo",
+     "I don't know how to say it"
+    ],
+    [
+     "Déjame pensar",
+     "Let me think"
+    ]
+   ]
+  },
+  {
+   "id": "pedir",
+   "t": "Pedir y comprar",
+   "sub": "Cafés, restaurants and stores",
+   "col": "#eba37a",
+   "items": [
+    [
+     "Quisiera un café, por favor",
+     "I would like a coffee, please"
+    ],
+    [
+     "¿Cuánto es?",
+     "How much is it?"
+    ],
+    [
+     "¿Aceptan tarjeta?",
+     "Do you take cards?"
+    ],
+    [
+     "Solo estoy mirando",
+     "I'm just looking"
+    ],
+    [
+     "¿Tiene otro color?",
+     "Do you have another color?"
+    ],
+    [
+     "¿Tiene una talla más grande?",
+     "Do you have a bigger size?"
+    ],
+    [
+     "Me lo llevo",
+     "I'll take it"
+    ],
+    [
+     "La cuenta, por favor",
+     "The check, please"
+    ],
+    [
+     "Para llevar",
+     "To go"
+    ],
+    [
+     "¿Qué me recomienda?",
+     "What do you recommend?"
+    ],
+    [
+     "Sin picante, por favor",
+     "No spice, please"
+    ],
+    [
+     "Una mesa para dos",
+     "A table for two"
+    ],
+    [
+     "Está muy rico",
+     "It's delicious"
+    ],
+    [
+     "Estoy llena",
+     "I'm full"
+    ]
+   ]
+  },
+  {
+   "id": "lugar",
+   "t": "Moverte por la ciudad",
+   "sub": "Directions, transport, being lost",
+   "col": "#8fcfa6",
+   "items": [
+    [
+     "¿Dónde queda la estación?",
+     "Where is the station?"
+    ],
+    [
+     "¿Cómo llego al hospital?",
+     "How do I get to the hospital?"
+    ],
+    [
+     "¿Dónde está el baño?",
+     "Where is the bathroom?"
+    ],
+    [
+     "Todo derecho",
+     "Straight ahead"
+    ],
+    [
+     "A la derecha",
+     "To the right"
+    ],
+    [
+     "A la izquierda",
+     "To the left"
+    ],
+    [
+     "En la esquina",
+     "On the corner"
+    ],
+    [
+     "Está cerca",
+     "It's close"
+    ],
+    [
+     "Está lejos",
+     "It's far"
+    ],
+    [
+     "¿Dónde está la parada?",
+     "Where is the stop?"
+    ],
+    [
+     "¿A qué hora sale?",
+     "What time does it leave?"
+    ],
+    [
+     "Estoy perdida",
+     "I'm lost"
+    ],
+    [
+     "Voy al hospital",
+     "I'm going to the hospital"
+    ],
+    [
+     "¿Cuánto tarda?",
+     "How long does it take?"
+    ]
+   ]
+  },
+  {
+   "id": "tiempo",
+   "t": "Tiempo y planes",
+   "sub": "What time, when, making plans",
+   "col": "#8fb4e8",
+   "items": [
+    [
+     "¿Qué hora es?",
+     "What time is it?"
+    ],
+    [
+     "Son las tres",
+     "It's three o'clock"
+    ],
+    [
+     "A las dos y media",
+     "At two thirty"
+    ],
+    [
+     "Hoy",
+     "Today"
+    ],
+    [
+     "Mañana",
+     "Tomorrow"
+    ],
+    [
+     "Ayer",
+     "Yesterday"
+    ],
+    [
+     "Esta noche",
+     "Tonight"
+    ],
+    [
+     "El fin de semana",
+     "The weekend"
+    ],
+    [
+     "¿Qué vas a hacer hoy?",
+     "What are you going to do today?"
+    ],
+    [
+     "¿Quieres ir conmigo?",
+     "Do you want to come with me?"
+    ],
+    [
+     "¿A qué hora nos vemos?",
+     "What time do we meet?"
+    ],
+    [
+     "Llego en diez minutos",
+     "I'll be there in ten minutes"
+    ],
+    [
+     "Estoy libre el sábado",
+     "I'm free on Saturday"
+    ],
+    [
+     "Tengo que trabajar",
+     "I have to work"
+    ]
+   ]
+  },
+  {
+   "id": "sentir",
+   "t": "Cómo te sientes",
+   "sub": "Feelings and moods",
+   "col": "#e49bb0",
+   "items": [
+    [
+     "Estoy feliz",
+     "I'm happy"
+    ],
+    [
+     "Estoy triste",
+     "I'm sad"
+    ],
+    [
+     "Estoy cansada",
+     "I'm tired"
+    ],
+    [
+     "Estoy enojada",
+     "I'm angry"
+    ],
+    [
+     "Estoy nerviosa",
+     "I'm nervous"
+    ],
+    [
+     "Estoy aburrida",
+     "I'm bored"
+    ],
+    [
+     "Me siento bien",
+     "I feel good"
+    ],
+    [
+     "Me siento mal",
+     "I feel bad"
+    ],
+    [
+     "Tengo miedo",
+     "I'm scared"
+    ],
+    [
+     "Estoy muy contenta",
+     "I'm very glad"
+    ],
+    [
+     "Me da pena",
+     "I'm embarrassed",
+     "Very common in Latin America."
+    ],
+    [
+     "Estoy estresada",
+     "I'm stressed"
+    ],
+    [
+     "Extraño a mi familia",
+     "I miss my family"
+    ],
+    [
+     "Tengo ganas de salir",
+     "I feel like going out"
+    ]
+   ]
+  },
+  {
+   "id": "pac",
+   "t": "Con pacientes",
+   "sub": "Front desk, intake and the exam room",
+   "col": "#b79be0",
+   "items": [
+    [
+     "Buenos días, bienvenido",
+     "Good morning, welcome"
+    ],
+    [
+     "¿Cuál es su nombre completo?",
+     "What is your full name?"
+    ],
+    [
+     "¿Tiene su tarjeta del seguro?",
+     "Do you have your insurance card?"
+    ],
+    [
+     "Firme aquí, por favor",
+     "Sign here, please"
+    ],
+    [
+     "¿Tiene una cita?",
+     "Do you have an appointment?"
+    ],
+    [
+     "Tome asiento, por favor",
+     "Please take a seat"
+    ],
+    [
+     "La doctora viene enseguida",
+     "The doctor is coming right away"
+    ],
+    [
+     "¿Qué le pasa?",
+     "What's wrong?"
+    ],
+    [
+     "¿Cuál es el motivo de su visita?",
+     "What is the reason for your visit?"
+    ],
+    [
+     "¿Tiene alguna pregunta?",
+     "Do you have any questions?"
+    ],
+    [
+     "Voy a medirle la temperatura",
+     "I'm going to take your temperature"
+    ],
+    [
+     "Quítese los zapatos, por favor",
+     "Take off your shoes, please"
+    ],
+    [
+     "Súbase a la báscula",
+     "Step on the scale"
+    ],
+    [
+     "Extienda el brazo",
+     "Extend your arm"
+    ],
+    [
+     "¿Está embarazada?",
+     "Are you pregnant?"
+    ],
+    [
+     "Necesito una muestra de orina",
+     "I need a urine sample"
+    ],
+    [
+     "No coma ni beba nada antes del examen",
+     "Don't eat or drink anything before the exam"
+    ],
+    [
+     "Tome este medicamento con comida",
+     "Take this medication with food"
+    ],
+    [
+     "Le vamos a llamar con los resultados",
+     "We will call you with the results"
+    ],
+    [
+     "¿Entiende lo que le expliqué?",
+     "Do you understand what I explained?"
+    ]
+   ]
+  }
+ ],
+ "PHR": [
+  {
+   "id": "p1",
+   "cat": "cort",
+   "es": "Gracias",
+   "en": "Thank you",
+   "note": "Say it after any help or favor."
+  },
+  {
+   "id": "p2",
+   "cat": "cort",
+   "es": "Muchas gracias",
+   "en": "Thank you very much",
+   "note": ""
+  },
+  {
+   "id": "p3",
+   "cat": "cort",
+   "es": "De nada",
+   "en": "You're welcome",
+   "note": "The standard answer to gracias."
+  },
+  {
+   "id": "p4",
+   "cat": "cort",
+   "es": "No hay de qué",
+   "en": "Don't mention it",
+   "note": "A slightly more polite way to say you're welcome."
+  },
+  {
+   "id": "p5",
+   "cat": "cort",
+   "es": "Con gusto",
+   "en": "My pleasure, gladly",
+   "note": "Also a warm way to answer gracias."
+  },
+  {
+   "id": "p6",
+   "cat": "cort",
+   "es": "Por favor",
+   "en": "Please",
+   "note": ""
+  },
+  {
+   "id": "p7",
+   "cat": "cort",
+   "es": "Perdón",
+   "en": "Sorry, excuse me",
+   "note": "Use it for small things, like bumping into someone."
+  },
+  {
+   "id": "p8",
+   "cat": "cort",
+   "es": "Lo siento mucho",
+   "en": "I'm so sorry",
+   "note": "For something that matters, or for sad news."
+  },
+  {
+   "id": "p9",
+   "cat": "cort",
+   "es": "Disculpe, ¿me puede ayudar?",
+   "en": "Excuse me, can you help me?",
+   "note": "Disculpe is the polite way to get someone's attention."
+  },
+  {
+   "id": "p10",
+   "cat": "cort",
+   "es": "Con permiso",
+   "en": "Excuse me (to pass or to enter)",
+   "note": ""
+  },
+  {
+   "id": "p11",
+   "cat": "cort",
+   "es": "Mucho gusto",
+   "en": "Nice to meet you",
+   "note": ""
+  },
+  {
+   "id": "p12",
+   "cat": "cort",
+   "es": "Igualmente",
+   "en": "Likewise, you too",
+   "note": "The answer to mucho gusto, buen provecho and good wishes."
+  },
+  {
+   "id": "p13",
+   "cat": "cort",
+   "es": "Buen provecho",
+   "en": "Enjoy your meal",
+   "note": ""
+  },
+  {
+   "id": "p14",
+   "cat": "cort",
+   "es": "Salud",
+   "en": "Bless you, cheers",
+   "note": ""
+  },
+  {
+   "id": "p15",
+   "cat": "cort",
+   "es": "Que le vaya bien",
+   "en": "Have a good one (polite)",
+   "note": ""
+  },
+  {
+   "id": "p16",
+   "cat": "salu",
+   "es": "Hola, ¿cómo estás?",
+   "en": "Hi, how are you?",
+   "note": ""
+  },
+  {
+   "id": "p17",
+   "cat": "salu",
+   "es": "Bien, gracias, ¿y tú?",
+   "en": "Good, thanks, and you?",
+   "note": ""
+  },
+  {
+   "id": "p18",
+   "cat": "salu",
+   "es": "¿Qué tal?",
+   "en": "How's it going?",
+   "note": ""
+  },
+  {
+   "id": "p19",
+   "cat": "salu",
+   "es": "Más o menos",
+   "en": "So-so",
+   "note": ""
+  },
+  {
+   "id": "p20",
+   "cat": "salu",
+   "es": "¿Cómo has estado?",
+   "en": "How have you been?",
+   "note": ""
+  },
+  {
+   "id": "p21",
+   "cat": "salu",
+   "es": "Tanto tiempo",
+   "en": "It's been a while",
+   "note": ""
+  },
+  {
+   "id": "p22",
+   "cat": "salu",
+   "es": "Buenos días",
+   "en": "Good morning",
+   "note": ""
+  },
+  {
+   "id": "p23",
+   "cat": "salu",
+   "es": "Buenas tardes",
+   "en": "Good afternoon",
+   "note": ""
+  },
+  {
+   "id": "p24",
+   "cat": "salu",
+   "es": "Buenas noches",
+   "en": "Good evening, good night",
+   "note": ""
+  },
+  {
+   "id": "p25",
+   "cat": "salu",
+   "es": "Nos vemos",
+   "en": "See you",
+   "note": ""
+  },
+  {
+   "id": "p26",
+   "cat": "salu",
+   "es": "Hasta luego",
+   "en": "See you later",
+   "note": ""
+  },
+  {
+   "id": "p27",
+   "cat": "salu",
+   "es": "Hasta mañana",
+   "en": "See you tomorrow",
+   "note": ""
+  },
+  {
+   "id": "p28",
+   "cat": "salu",
+   "es": "Que tengas un buen día",
+   "en": "Have a good day",
+   "note": ""
+  },
+  {
+   "id": "p29",
+   "cat": "salu",
+   "es": "Cuídate",
+   "en": "Take care",
+   "note": ""
+  },
+  {
+   "id": "p30",
+   "cat": "salu",
+   "es": "Chao",
+   "en": "Bye",
+   "note": ""
+  },
+  {
+   "id": "p31",
+   "cat": "reac",
+   "es": "Yo también",
+   "en": "Me too",
+   "note": "Use it to agree with something someone says about themselves."
+  },
+  {
+   "id": "p32",
+   "cat": "reac",
+   "es": "Yo tampoco",
+   "en": "Me neither",
+   "note": "The negative version: No me gusta el frío. Yo tampoco."
+  },
+  {
+   "id": "p33",
+   "cat": "reac",
+   "es": "Claro",
+   "en": "Of course",
+   "note": ""
+  },
+  {
+   "id": "p34",
+   "cat": "reac",
+   "es": "Claro que sí",
+   "en": "Of course, yes",
+   "note": ""
+  },
+  {
+   "id": "p35",
+   "cat": "reac",
+   "es": "Por supuesto",
+   "en": "Absolutely",
+   "note": ""
+  },
+  {
+   "id": "p36",
+   "cat": "reac",
+   "es": "Está bien",
+   "en": "It's fine, okay",
+   "note": ""
+  },
+  {
+   "id": "p37",
+   "cat": "reac",
+   "es": "De acuerdo",
+   "en": "Agreed",
+   "note": ""
+  },
+  {
+   "id": "p38",
+   "cat": "reac",
+   "es": "No pasa nada",
+   "en": "It's no big deal",
+   "note": "What you say when someone apologizes."
+  },
+  {
+   "id": "p39",
+   "cat": "reac",
+   "es": "Ni modo",
+   "en": "Oh well, nothing to be done",
+   "note": "Very Mexican."
+  },
+  {
+   "id": "p40",
+   "cat": "reac",
+   "es": "¿En serio?",
+   "en": "Seriously?",
+   "note": ""
+  },
+  {
+   "id": "p41",
+   "cat": "reac",
+   "es": "¡Qué bueno!",
+   "en": "How good!",
+   "note": ""
+  },
+  {
+   "id": "p42",
+   "cat": "reac",
+   "es": "¡Qué lástima!",
+   "en": "What a shame!",
+   "note": ""
+  },
+  {
+   "id": "p43",
+   "cat": "reac",
+   "es": "No sé",
+   "en": "I don't know",
+   "note": ""
+  },
+  {
+   "id": "p44",
+   "cat": "reac",
+   "es": "Tal vez",
+   "en": "Maybe",
+   "note": ""
+  },
+  {
+   "id": "p45",
+   "cat": "reac",
+   "es": "Depende",
+   "en": "It depends",
+   "note": ""
+  },
+  {
+   "id": "p46",
+   "cat": "reac",
+   "es": "Entiendo",
+   "en": "I understand",
+   "note": ""
+  },
+  {
+   "id": "p47",
+   "cat": "reac",
+   "es": "Ya veo",
+   "en": "I see",
+   "note": ""
+  },
+  {
+   "id": "p48",
+   "cat": "reac",
+   "es": "A lo mejor",
+   "en": "Maybe, probably",
+   "note": ""
+  },
+  {
+   "id": "p49",
+   "cat": "reac",
+   "es": "Me parece bien",
+   "en": "Sounds good to me",
+   "note": ""
+  },
+  {
+   "id": "p50",
+   "cat": "conoc",
+   "es": "Me llamo Ana",
+   "en": "My name is Ana",
+   "note": "Swap in your own name."
+  },
+  {
+   "id": "p51",
+   "cat": "conoc",
+   "es": "Soy de Arizona",
+   "en": "I'm from Arizona",
+   "note": ""
+  },
+  {
+   "id": "p52",
+   "cat": "conoc",
+   "es": "Vivo en Arizona",
+   "en": "I live in Arizona",
+   "note": ""
+  },
+  {
+   "id": "p53",
+   "cat": "conoc",
+   "es": "¿De dónde eres?",
+   "en": "Where are you from?",
+   "note": ""
+  },
+  {
+   "id": "p54",
+   "cat": "conoc",
+   "es": "¿A qué te dedicas?",
+   "en": "What do you do for work?",
+   "note": ""
+  },
+  {
+   "id": "p55",
+   "cat": "conoc",
+   "es": "Trabajo en una clínica",
+   "en": "I work at a clinic",
+   "note": ""
+  },
+  {
+   "id": "p56",
+   "cat": "conoc",
+   "es": "Estudio enfermería",
+   "en": "I study nursing",
+   "note": ""
+  },
+  {
+   "id": "p57",
+   "cat": "conoc",
+   "es": "¿Cuántos años tienes?",
+   "en": "How old are you?",
+   "note": ""
+  },
+  {
+   "id": "p58",
+   "cat": "conoc",
+   "es": "Tengo veintiocho años",
+   "en": "I'm twenty-eight years old",
+   "note": "Spanish says I have years, not I am years."
+  },
+  {
+   "id": "p59",
+   "cat": "conoc",
+   "es": "¿Tienes hermanos?",
+   "en": "Do you have siblings?",
+   "note": ""
+  },
+  {
+   "id": "p60",
+   "cat": "conoc",
+   "es": "Tengo dos hermanos",
+   "en": "I have two siblings",
+   "note": ""
+  },
+  {
+   "id": "p61",
+   "cat": "conoc",
+   "es": "¿Qué te gusta hacer?",
+   "en": "What do you like to do?",
+   "note": ""
+  },
+  {
+   "id": "p62",
+   "cat": "conoc",
+   "es": "Me gusta ir al gimnasio",
+   "en": "I like going to the gym",
+   "note": ""
+  },
+  {
+   "id": "p63",
+   "cat": "conoc",
+   "es": "Me encanta la música",
+   "en": "I love music",
+   "note": ""
+  },
+  {
+   "id": "p64",
+   "cat": "ayuda",
+   "es": "No entiendo",
+   "en": "I don't understand",
+   "note": ""
+  },
+  {
+   "id": "p65",
+   "cat": "ayuda",
+   "es": "¿Puede repetir, por favor?",
+   "en": "Can you repeat, please?",
+   "note": ""
+  },
+  {
+   "id": "p66",
+   "cat": "ayuda",
+   "es": "Más despacio, por favor",
+   "en": "Slower, please",
+   "note": ""
+  },
+  {
+   "id": "p67",
+   "cat": "ayuda",
+   "es": "¿Qué significa esta palabra?",
+   "en": "What does this word mean?",
+   "note": ""
+  },
+  {
+   "id": "p68",
+   "cat": "ayuda",
+   "es": "¿Cómo se dice esto en español?",
+   "en": "How do you say this in Spanish?",
+   "note": ""
+  },
+  {
+   "id": "p69",
+   "cat": "ayuda",
+   "es": "Hablo un poco de español",
+   "en": "I speak a little Spanish",
+   "note": ""
+  },
+  {
+   "id": "p70",
+   "cat": "ayuda",
+   "es": "Estoy aprendiendo",
+   "en": "I'm learning",
+   "note": ""
+  },
+  {
+   "id": "p71",
+   "cat": "ayuda",
+   "es": "¿Habla inglés?",
+   "en": "Do you speak English?",
+   "note": ""
+  },
+  {
+   "id": "p72",
+   "cat": "ayuda",
+   "es": "¿Me puede ayudar?",
+   "en": "Can you help me?",
+   "note": ""
+  },
+  {
+   "id": "p73",
+   "cat": "ayuda",
+   "es": "¿Cómo se escribe?",
+   "en": "How do you spell it?",
+   "note": ""
+  },
+  {
+   "id": "p74",
+   "cat": "ayuda",
+   "es": "¿Puede escribirlo?",
+   "en": "Can you write it down?",
+   "note": ""
+  },
+  {
+   "id": "p75",
+   "cat": "ayuda",
+   "es": "No sé cómo decirlo",
+   "en": "I don't know how to say it",
+   "note": ""
+  },
+  {
+   "id": "p76",
+   "cat": "ayuda",
+   "es": "Déjame pensar",
+   "en": "Let me think",
+   "note": ""
+  },
+  {
+   "id": "p77",
+   "cat": "pedir",
+   "es": "Quisiera un café, por favor",
+   "en": "I would like a coffee, please",
+   "note": ""
+  },
+  {
+   "id": "p78",
+   "cat": "pedir",
+   "es": "¿Cuánto es?",
+   "en": "How much is it?",
+   "note": ""
+  },
+  {
+   "id": "p79",
+   "cat": "pedir",
+   "es": "¿Aceptan tarjeta?",
+   "en": "Do you take cards?",
+   "note": ""
+  },
+  {
+   "id": "p80",
+   "cat": "pedir",
+   "es": "Solo estoy mirando",
+   "en": "I'm just looking",
+   "note": ""
+  },
+  {
+   "id": "p81",
+   "cat": "pedir",
+   "es": "¿Tiene otro color?",
+   "en": "Do you have another color?",
+   "note": ""
+  },
+  {
+   "id": "p82",
+   "cat": "pedir",
+   "es": "¿Tiene una talla más grande?",
+   "en": "Do you have a bigger size?",
+   "note": ""
+  },
+  {
+   "id": "p83",
+   "cat": "pedir",
+   "es": "Me lo llevo",
+   "en": "I'll take it",
+   "note": ""
+  },
+  {
+   "id": "p84",
+   "cat": "pedir",
+   "es": "La cuenta, por favor",
+   "en": "The check, please",
+   "note": ""
+  },
+  {
+   "id": "p85",
+   "cat": "pedir",
+   "es": "Para llevar",
+   "en": "To go",
+   "note": ""
+  },
+  {
+   "id": "p86",
+   "cat": "pedir",
+   "es": "¿Qué me recomienda?",
+   "en": "What do you recommend?",
+   "note": ""
+  },
+  {
+   "id": "p87",
+   "cat": "pedir",
+   "es": "Sin picante, por favor",
+   "en": "No spice, please",
+   "note": ""
+  },
+  {
+   "id": "p88",
+   "cat": "pedir",
+   "es": "Una mesa para dos",
+   "en": "A table for two",
+   "note": ""
+  },
+  {
+   "id": "p89",
+   "cat": "pedir",
+   "es": "Está muy rico",
+   "en": "It's delicious",
+   "note": ""
+  },
+  {
+   "id": "p90",
+   "cat": "pedir",
+   "es": "Estoy llena",
+   "en": "I'm full",
+   "note": ""
+  },
+  {
+   "id": "p91",
+   "cat": "lugar",
+   "es": "¿Dónde queda la estación?",
+   "en": "Where is the station?",
+   "note": ""
+  },
+  {
+   "id": "p92",
+   "cat": "lugar",
+   "es": "¿Cómo llego al hospital?",
+   "en": "How do I get to the hospital?",
+   "note": ""
+  },
+  {
+   "id": "p93",
+   "cat": "lugar",
+   "es": "¿Dónde está el baño?",
+   "en": "Where is the bathroom?",
+   "note": ""
+  },
+  {
+   "id": "p94",
+   "cat": "lugar",
+   "es": "Todo derecho",
+   "en": "Straight ahead",
+   "note": ""
+  },
+  {
+   "id": "p95",
+   "cat": "lugar",
+   "es": "A la derecha",
+   "en": "To the right",
+   "note": ""
+  },
+  {
+   "id": "p96",
+   "cat": "lugar",
+   "es": "A la izquierda",
+   "en": "To the left",
+   "note": ""
+  },
+  {
+   "id": "p97",
+   "cat": "lugar",
+   "es": "En la esquina",
+   "en": "On the corner",
+   "note": ""
+  },
+  {
+   "id": "p98",
+   "cat": "lugar",
+   "es": "Está cerca",
+   "en": "It's close",
+   "note": ""
+  },
+  {
+   "id": "p99",
+   "cat": "lugar",
+   "es": "Está lejos",
+   "en": "It's far",
+   "note": ""
+  },
+  {
+   "id": "p100",
+   "cat": "lugar",
+   "es": "¿Dónde está la parada?",
+   "en": "Where is the stop?",
+   "note": ""
+  },
+  {
+   "id": "p101",
+   "cat": "lugar",
+   "es": "¿A qué hora sale?",
+   "en": "What time does it leave?",
+   "note": ""
+  },
+  {
+   "id": "p102",
+   "cat": "lugar",
+   "es": "Estoy perdida",
+   "en": "I'm lost",
+   "note": ""
+  },
+  {
+   "id": "p103",
+   "cat": "lugar",
+   "es": "Voy al hospital",
+   "en": "I'm going to the hospital",
+   "note": ""
+  },
+  {
+   "id": "p104",
+   "cat": "lugar",
+   "es": "¿Cuánto tarda?",
+   "en": "How long does it take?",
+   "note": ""
+  },
+  {
+   "id": "p105",
+   "cat": "tiempo",
+   "es": "¿Qué hora es?",
+   "en": "What time is it?",
+   "note": ""
+  },
+  {
+   "id": "p106",
+   "cat": "tiempo",
+   "es": "Son las tres",
+   "en": "It's three o'clock",
+   "note": ""
+  },
+  {
+   "id": "p107",
+   "cat": "tiempo",
+   "es": "A las dos y media",
+   "en": "At two thirty",
+   "note": ""
+  },
+  {
+   "id": "p108",
+   "cat": "tiempo",
+   "es": "Hoy",
+   "en": "Today",
+   "note": ""
+  },
+  {
+   "id": "p109",
+   "cat": "tiempo",
+   "es": "Mañana",
+   "en": "Tomorrow",
+   "note": ""
+  },
+  {
+   "id": "p110",
+   "cat": "tiempo",
+   "es": "Ayer",
+   "en": "Yesterday",
+   "note": ""
+  },
+  {
+   "id": "p111",
+   "cat": "tiempo",
+   "es": "Esta noche",
+   "en": "Tonight",
+   "note": ""
+  },
+  {
+   "id": "p112",
+   "cat": "tiempo",
+   "es": "El fin de semana",
+   "en": "The weekend",
+   "note": ""
+  },
+  {
+   "id": "p113",
+   "cat": "tiempo",
+   "es": "¿Qué vas a hacer hoy?",
+   "en": "What are you going to do today?",
+   "note": ""
+  },
+  {
+   "id": "p114",
+   "cat": "tiempo",
+   "es": "¿Quieres ir conmigo?",
+   "en": "Do you want to come with me?",
+   "note": ""
+  },
+  {
+   "id": "p115",
+   "cat": "tiempo",
+   "es": "¿A qué hora nos vemos?",
+   "en": "What time do we meet?",
+   "note": ""
+  },
+  {
+   "id": "p116",
+   "cat": "tiempo",
+   "es": "Llego en diez minutos",
+   "en": "I'll be there in ten minutes",
+   "note": ""
+  },
+  {
+   "id": "p117",
+   "cat": "tiempo",
+   "es": "Estoy libre el sábado",
+   "en": "I'm free on Saturday",
+   "note": ""
+  },
+  {
+   "id": "p118",
+   "cat": "tiempo",
+   "es": "Tengo que trabajar",
+   "en": "I have to work",
+   "note": ""
+  },
+  {
+   "id": "p119",
+   "cat": "sentir",
+   "es": "Estoy feliz",
+   "en": "I'm happy",
+   "note": ""
+  },
+  {
+   "id": "p120",
+   "cat": "sentir",
+   "es": "Estoy triste",
+   "en": "I'm sad",
+   "note": ""
+  },
+  {
+   "id": "p121",
+   "cat": "sentir",
+   "es": "Estoy cansada",
+   "en": "I'm tired",
+   "note": ""
+  },
+  {
+   "id": "p122",
+   "cat": "sentir",
+   "es": "Estoy enojada",
+   "en": "I'm angry",
+   "note": ""
+  },
+  {
+   "id": "p123",
+   "cat": "sentir",
+   "es": "Estoy nerviosa",
+   "en": "I'm nervous",
+   "note": ""
+  },
+  {
+   "id": "p124",
+   "cat": "sentir",
+   "es": "Estoy aburrida",
+   "en": "I'm bored",
+   "note": ""
+  },
+  {
+   "id": "p125",
+   "cat": "sentir",
+   "es": "Me siento bien",
+   "en": "I feel good",
+   "note": ""
+  },
+  {
+   "id": "p126",
+   "cat": "sentir",
+   "es": "Me siento mal",
+   "en": "I feel bad",
+   "note": ""
+  },
+  {
+   "id": "p127",
+   "cat": "sentir",
+   "es": "Tengo miedo",
+   "en": "I'm scared",
+   "note": ""
+  },
+  {
+   "id": "p128",
+   "cat": "sentir",
+   "es": "Estoy muy contenta",
+   "en": "I'm very glad",
+   "note": ""
+  },
+  {
+   "id": "p129",
+   "cat": "sentir",
+   "es": "Me da pena",
+   "en": "I'm embarrassed",
+   "note": "Very common in Latin America."
+  },
+  {
+   "id": "p130",
+   "cat": "sentir",
+   "es": "Estoy estresada",
+   "en": "I'm stressed",
+   "note": ""
+  },
+  {
+   "id": "p131",
+   "cat": "sentir",
+   "es": "Extraño a mi familia",
+   "en": "I miss my family",
+   "note": ""
+  },
+  {
+   "id": "p132",
+   "cat": "sentir",
+   "es": "Tengo ganas de salir",
+   "en": "I feel like going out",
+   "note": ""
+  },
+  {
+   "id": "p133",
+   "cat": "pac",
+   "es": "Buenos días, bienvenido",
+   "en": "Good morning, welcome",
+   "note": ""
+  },
+  {
+   "id": "p134",
+   "cat": "pac",
+   "es": "¿Cuál es su nombre completo?",
+   "en": "What is your full name?",
+   "note": ""
+  },
+  {
+   "id": "p135",
+   "cat": "pac",
+   "es": "¿Tiene su tarjeta del seguro?",
+   "en": "Do you have your insurance card?",
+   "note": ""
+  },
+  {
+   "id": "p136",
+   "cat": "pac",
+   "es": "Firme aquí, por favor",
+   "en": "Sign here, please",
+   "note": ""
+  },
+  {
+   "id": "p137",
+   "cat": "pac",
+   "es": "¿Tiene una cita?",
+   "en": "Do you have an appointment?",
+   "note": ""
+  },
+  {
+   "id": "p138",
+   "cat": "pac",
+   "es": "Tome asiento, por favor",
+   "en": "Please take a seat",
+   "note": ""
+  },
+  {
+   "id": "p139",
+   "cat": "pac",
+   "es": "La doctora viene enseguida",
+   "en": "The doctor is coming right away",
+   "note": ""
+  },
+  {
+   "id": "p140",
+   "cat": "pac",
+   "es": "¿Qué le pasa?",
+   "en": "What's wrong?",
+   "note": ""
+  },
+  {
+   "id": "p141",
+   "cat": "pac",
+   "es": "¿Cuál es el motivo de su visita?",
+   "en": "What is the reason for your visit?",
+   "note": ""
+  },
+  {
+   "id": "p142",
+   "cat": "pac",
+   "es": "¿Tiene alguna pregunta?",
+   "en": "Do you have any questions?",
+   "note": ""
+  },
+  {
+   "id": "p143",
+   "cat": "pac",
+   "es": "Voy a medirle la temperatura",
+   "en": "I'm going to take your temperature",
+   "note": ""
+  },
+  {
+   "id": "p144",
+   "cat": "pac",
+   "es": "Quítese los zapatos, por favor",
+   "en": "Take off your shoes, please",
+   "note": ""
+  },
+  {
+   "id": "p145",
+   "cat": "pac",
+   "es": "Súbase a la báscula",
+   "en": "Step on the scale",
+   "note": ""
+  },
+  {
+   "id": "p146",
+   "cat": "pac",
+   "es": "Extienda el brazo",
+   "en": "Extend your arm",
+   "note": ""
+  },
+  {
+   "id": "p147",
+   "cat": "pac",
+   "es": "¿Está embarazada?",
+   "en": "Are you pregnant?",
+   "note": ""
+  },
+  {
+   "id": "p148",
+   "cat": "pac",
+   "es": "Necesito una muestra de orina",
+   "en": "I need a urine sample",
+   "note": ""
+  },
+  {
+   "id": "p149",
+   "cat": "pac",
+   "es": "No coma ni beba nada antes del examen",
+   "en": "Don't eat or drink anything before the exam",
+   "note": ""
+  },
+  {
+   "id": "p150",
+   "cat": "pac",
+   "es": "Tome este medicamento con comida",
+   "en": "Take this medication with food",
+   "note": ""
+  },
+  {
+   "id": "p151",
+   "cat": "pac",
+   "es": "Le vamos a llamar con los resultados",
+   "en": "We will call you with the results",
+   "note": ""
+  },
+  {
+   "id": "p152",
+   "cat": "pac",
+   "es": "¿Entiende lo que le expliqué?",
+   "en": "Do you understand what I explained?",
+   "note": ""
+  }
+ ],
+ "RGRP": [
+  {
+   "id": "pron",
+   "t": "Pronombres",
+   "sub": "Who is doing it",
+   "items": [
+    [
+     "yo",
+     "I"
+    ],
+    [
+     "tú",
+     "you (informal)"
+    ],
+    [
+     "usted",
+     "you (formal)"
+    ],
+    [
+     "él",
+     "he"
+    ],
+    [
+     "ella",
+     "she"
+    ],
+    [
+     "nosotros",
+     "we"
+    ],
+    [
+     "ellos",
+     "they (masculine or mixed)"
+    ],
+    [
+     "ellas",
+     "they (feminine)"
+    ],
+    [
+     "ustedes",
+     "you all"
+    ]
+   ]
+  },
+  {
+   "id": "art",
+   "t": "Artículos",
+   "sub": "The, a and some",
+   "items": [
+    [
+     "el",
+     "the (masculine)"
+    ],
+    [
+     "la",
+     "the (feminine)"
+    ],
+    [
+     "los",
+     "the (masculine plural)"
+    ],
+    [
+     "las",
+     "the (feminine plural)"
+    ],
+    [
+     "un",
+     "a (masculine)"
+    ],
+    [
+     "una",
+     "a (feminine)"
+    ],
+    [
+     "unos",
+     "some (masculine)"
+    ],
+    [
+     "unas",
+     "some (feminine)"
+    ]
+   ]
+  },
+  {
+   "id": "prep",
+   "t": "Palabras pequeñas",
+   "sub": "Prepositions and linking words you hear constantly",
+   "items": [
+    [
+     "a",
+     "to, at"
+    ],
+    [
+     "de",
+     "of, from"
+    ],
+    [
+     "en",
+     "in, on, at"
+    ],
+    [
+     "con",
+     "with"
+    ],
+    [
+     "sin",
+     "without"
+    ],
+    [
+     "para",
+     "for, in order to"
+    ],
+    [
+     "por",
+     "for, because of"
+    ],
+    [
+     "desde",
+     "from, since"
+    ],
+    [
+     "hasta",
+     "until, up to"
+    ],
+    [
+     "entre",
+     "between"
+    ],
+    [
+     "sobre",
+     "about, on top of"
+    ],
+    [
+     "durante",
+     "during"
+    ],
+    [
+     "y",
+     "and"
+    ],
+    [
+     "o",
+     "or"
+    ],
+    [
+     "pero",
+     "but"
+    ],
+    [
+     "porque",
+     "because"
+    ],
+    [
+     "que",
+     "that"
+    ],
+    [
+     "si",
+     "if"
+    ],
+    [
+     "cuando",
+     "when"
+    ],
+    [
+     "como",
+     "like, as"
+    ],
+    [
+     "también",
+     "also"
+    ],
+    [
+     "tampoco",
+     "neither, not either"
+    ]
+   ]
+  },
+  {
+   "id": "num",
+   "t": "Números",
+   "sub": "Count from zero to a thousand",
+   "items": [
+    [
+     "cero",
+     "zero"
+    ],
+    [
+     "uno",
+     "one"
+    ],
+    [
+     "dos",
+     "two"
+    ],
+    [
+     "tres",
+     "three"
+    ],
+    [
+     "cuatro",
+     "four"
+    ],
+    [
+     "cinco",
+     "five"
+    ],
+    [
+     "seis",
+     "six"
+    ],
+    [
+     "siete",
+     "seven"
+    ],
+    [
+     "ocho",
+     "eight"
+    ],
+    [
+     "nueve",
+     "nine"
+    ],
+    [
+     "diez",
+     "ten"
+    ],
+    [
+     "once",
+     "eleven"
+    ],
+    [
+     "doce",
+     "twelve"
+    ],
+    [
+     "trece",
+     "thirteen"
+    ],
+    [
+     "catorce",
+     "fourteen"
+    ],
+    [
+     "quince",
+     "fifteen"
+    ],
+    [
+     "dieciséis",
+     "sixteen"
+    ],
+    [
+     "diecisiete",
+     "seventeen"
+    ],
+    [
+     "dieciocho",
+     "eighteen"
+    ],
+    [
+     "diecinueve",
+     "nineteen"
+    ],
+    [
+     "veinte",
+     "twenty"
+    ],
+    [
+     "treinta",
+     "thirty"
+    ],
+    [
+     "cuarenta",
+     "forty"
+    ],
+    [
+     "cincuenta",
+     "fifty"
+    ],
+    [
+     "sesenta",
+     "sixty"
+    ],
+    [
+     "setenta",
+     "seventy"
+    ],
+    [
+     "ochenta",
+     "eighty"
+    ],
+    [
+     "noventa",
+     "ninety"
+    ],
+    [
+     "cien",
+     "one hundred"
+    ],
+    [
+     "mil",
+     "one thousand"
+    ]
+   ]
+  },
+  {
+   "id": "dias",
+   "t": "Días de la semana",
+   "sub": "Spanish weeks start on Monday, and days are not capitalized",
+   "items": [
+    [
+     "lunes",
+     "Monday"
+    ],
+    [
+     "martes",
+     "Tuesday"
+    ],
+    [
+     "miércoles",
+     "Wednesday"
+    ],
+    [
+     "jueves",
+     "Thursday"
+    ],
+    [
+     "viernes",
+     "Friday"
+    ],
+    [
+     "sábado",
+     "Saturday"
+    ],
+    [
+     "domingo",
+     "Sunday"
+    ]
+   ]
+  },
+  {
+   "id": "mes",
+   "t": "Meses",
+   "sub": "Months are not capitalized either",
+   "items": [
+    [
+     "enero",
+     "January"
+    ],
+    [
+     "febrero",
+     "February"
+    ],
+    [
+     "marzo",
+     "March"
+    ],
+    [
+     "abril",
+     "April"
+    ],
+    [
+     "mayo",
+     "May"
+    ],
+    [
+     "junio",
+     "June"
+    ],
+    [
+     "julio",
+     "July"
+    ],
+    [
+     "agosto",
+     "August"
+    ],
+    [
+     "septiembre",
+     "September"
+    ],
+    [
+     "octubre",
+     "October"
+    ],
+    [
+     "noviembre",
+     "November"
+    ],
+    [
+     "diciembre",
+     "December"
+    ]
+   ]
+  },
+  {
+   "id": "col",
+   "t": "Colores",
+   "sub": "Most come after the noun: la casa azul",
+   "items": [
+    [
+     "rojo",
+     "red"
+    ],
+    [
+     "azul",
+     "blue"
+    ],
+    [
+     "verde",
+     "green"
+    ],
+    [
+     "amarillo",
+     "yellow"
+    ],
+    [
+     "negro",
+     "black"
+    ],
+    [
+     "blanco",
+     "white"
+    ],
+    [
+     "rosado",
+     "pink"
+    ],
+    [
+     "morado",
+     "purple"
+    ],
+    [
+     "naranja",
+     "orange"
+    ],
+    [
+     "gris",
+     "gray"
+    ],
+    [
+     "café",
+     "brown"
+    ]
+   ]
+  },
+  {
+   "id": "fam",
+   "t": "Familia",
+   "sub": "The people closest to you",
+   "items": [
+    [
+     "la madre",
+     "mother"
+    ],
+    [
+     "el padre",
+     "father"
+    ],
+    [
+     "la mamá",
+     "mom"
+    ],
+    [
+     "el papá",
+     "dad"
+    ],
+    [
+     "el hermano",
+     "brother"
+    ],
+    [
+     "la hermana",
+     "sister"
+    ],
+    [
+     "el hijo",
+     "son"
+    ],
+    [
+     "la hija",
+     "daughter"
+    ],
+    [
+     "el abuelo",
+     "grandfather"
+    ],
+    [
+     "la abuela",
+     "grandmother"
+    ],
+    [
+     "el tío",
+     "uncle"
+    ],
+    [
+     "la tía",
+     "aunt"
+    ],
+    [
+     "el primo",
+     "cousin (male)"
+    ],
+    [
+     "la prima",
+     "cousin (female)"
+    ],
+    [
+     "el esposo",
+     "husband"
+    ],
+    [
+     "la esposa",
+     "wife"
+    ],
+    [
+     "el novio",
+     "boyfriend"
+    ],
+    [
+     "la novia",
+     "girlfriend"
+    ],
+    [
+     "el amigo",
+     "friend (male)"
+    ],
+    [
+     "la amiga",
+     "friend (female)"
+    ]
+   ]
+  },
+  {
+   "id": "cuerpo",
+   "t": "El cuerpo",
+   "sub": "Body words for everyday life and the clinic",
+   "items": [
+    [
+     "la cabeza",
+     "head"
+    ],
+    [
+     "el ojo",
+     "eye"
+    ],
+    [
+     "la nariz",
+     "nose"
+    ],
+    [
+     "la boca",
+     "mouth"
+    ],
+    [
+     "la oreja",
+     "ear"
+    ],
+    [
+     "el cuello",
+     "neck"
+    ],
+    [
+     "el hombro",
+     "shoulder"
+    ],
+    [
+     "el brazo",
+     "arm"
+    ],
+    [
+     "la mano",
+     "hand"
+    ],
+    [
+     "el dedo",
+     "finger"
+    ],
+    [
+     "el pecho",
+     "chest"
+    ],
+    [
+     "la espalda",
+     "back"
+    ],
+    [
+     "el estómago",
+     "stomach"
+    ],
+    [
+     "la pierna",
+     "leg"
+    ],
+    [
+     "la rodilla",
+     "knee"
+    ],
+    [
+     "el pie",
+     "foot"
+    ],
+    [
+     "el corazón",
+     "heart"
+    ]
+   ]
+  },
+  {
+   "id": "freq",
+   "t": "Palabras de todos los días",
+   "sub": "Small words that carry big meaning",
+   "items": [
+    [
+     "muy",
+     "very"
+    ],
+    [
+     "mucho",
+     "a lot"
+    ],
+    [
+     "poco",
+     "a little"
+    ],
+    [
+     "más",
+     "more"
+    ],
+    [
+     "menos",
+     "less"
+    ],
+    [
+     "siempre",
+     "always"
+    ],
+    [
+     "nunca",
+     "never"
+    ],
+    [
+     "a veces",
+     "sometimes"
+    ],
+    [
+     "ahora",
+     "now"
+    ],
+    [
+     "después",
+     "afterwards"
+    ],
+    [
+     "antes",
+     "before"
+    ],
+    [
+     "aquí",
+     "here"
+    ],
+    [
+     "allí",
+     "there"
+    ],
+    [
+     "bien",
+     "well"
+    ],
+    [
+     "mal",
+     "badly"
+    ],
+    [
+     "bueno",
+     "good"
+    ],
+    [
+     "malo",
+     "bad"
+    ],
+    [
+     "nuevo",
+     "new"
+    ],
+    [
+     "viejo",
+     "old"
+    ],
+    [
+     "rápido",
+     "fast"
+    ],
+    [
+     "lento",
+     "slow"
+    ],
+    [
+     "fácil",
+     "easy"
+    ],
+    [
+     "difícil",
+     "hard"
+    ],
+    [
+     "todo",
+     "everything"
+    ],
+    [
+     "nada",
+     "nothing"
+    ],
+    [
+     "algo",
+     "something"
+    ],
+    [
+     "alguien",
+     "someone"
+    ]
+   ]
+  }
+ ],
+ "RAIZ": [
+  {
+   "id": "r1",
+   "g": "pron",
+   "es": "yo",
+   "en": "I"
+  },
+  {
+   "id": "r2",
+   "g": "pron",
+   "es": "tú",
+   "en": "you (informal)"
+  },
+  {
+   "id": "r3",
+   "g": "pron",
+   "es": "usted",
+   "en": "you (formal)"
+  },
+  {
+   "id": "r4",
+   "g": "pron",
+   "es": "él",
+   "en": "he"
+  },
+  {
+   "id": "r5",
+   "g": "pron",
+   "es": "ella",
+   "en": "she"
+  },
+  {
+   "id": "r6",
+   "g": "pron",
+   "es": "nosotros",
+   "en": "we"
+  },
+  {
+   "id": "r7",
+   "g": "pron",
+   "es": "ellos",
+   "en": "they (masculine or mixed)"
+  },
+  {
+   "id": "r8",
+   "g": "pron",
+   "es": "ellas",
+   "en": "they (feminine)"
+  },
+  {
+   "id": "r9",
+   "g": "pron",
+   "es": "ustedes",
+   "en": "you all"
+  },
+  {
+   "id": "r10",
+   "g": "art",
+   "es": "el",
+   "en": "the (masculine)"
+  },
+  {
+   "id": "r11",
+   "g": "art",
+   "es": "la",
+   "en": "the (feminine)"
+  },
+  {
+   "id": "r12",
+   "g": "art",
+   "es": "los",
+   "en": "the (masculine plural)"
+  },
+  {
+   "id": "r13",
+   "g": "art",
+   "es": "las",
+   "en": "the (feminine plural)"
+  },
+  {
+   "id": "r14",
+   "g": "art",
+   "es": "un",
+   "en": "a (masculine)"
+  },
+  {
+   "id": "r15",
+   "g": "art",
+   "es": "una",
+   "en": "a (feminine)"
+  },
+  {
+   "id": "r16",
+   "g": "art",
+   "es": "unos",
+   "en": "some (masculine)"
+  },
+  {
+   "id": "r17",
+   "g": "art",
+   "es": "unas",
+   "en": "some (feminine)"
+  },
+  {
+   "id": "r18",
+   "g": "prep",
+   "es": "a",
+   "en": "to, at"
+  },
+  {
+   "id": "r19",
+   "g": "prep",
+   "es": "de",
+   "en": "of, from"
+  },
+  {
+   "id": "r20",
+   "g": "prep",
+   "es": "en",
+   "en": "in, on, at"
+  },
+  {
+   "id": "r21",
+   "g": "prep",
+   "es": "con",
+   "en": "with"
+  },
+  {
+   "id": "r22",
+   "g": "prep",
+   "es": "sin",
+   "en": "without"
+  },
+  {
+   "id": "r23",
+   "g": "prep",
+   "es": "para",
+   "en": "for, in order to"
+  },
+  {
+   "id": "r24",
+   "g": "prep",
+   "es": "por",
+   "en": "for, because of"
+  },
+  {
+   "id": "r25",
+   "g": "prep",
+   "es": "desde",
+   "en": "from, since"
+  },
+  {
+   "id": "r26",
+   "g": "prep",
+   "es": "hasta",
+   "en": "until, up to"
+  },
+  {
+   "id": "r27",
+   "g": "prep",
+   "es": "entre",
+   "en": "between"
+  },
+  {
+   "id": "r28",
+   "g": "prep",
+   "es": "sobre",
+   "en": "about, on top of"
+  },
+  {
+   "id": "r29",
+   "g": "prep",
+   "es": "durante",
+   "en": "during"
+  },
+  {
+   "id": "r30",
+   "g": "prep",
+   "es": "y",
+   "en": "and"
+  },
+  {
+   "id": "r31",
+   "g": "prep",
+   "es": "o",
+   "en": "or"
+  },
+  {
+   "id": "r32",
+   "g": "prep",
+   "es": "pero",
+   "en": "but"
+  },
+  {
+   "id": "r33",
+   "g": "prep",
+   "es": "porque",
+   "en": "because"
+  },
+  {
+   "id": "r34",
+   "g": "prep",
+   "es": "que",
+   "en": "that"
+  },
+  {
+   "id": "r35",
+   "g": "prep",
+   "es": "si",
+   "en": "if"
+  },
+  {
+   "id": "r36",
+   "g": "prep",
+   "es": "cuando",
+   "en": "when"
+  },
+  {
+   "id": "r37",
+   "g": "prep",
+   "es": "como",
+   "en": "like, as"
+  },
+  {
+   "id": "r38",
+   "g": "prep",
+   "es": "también",
+   "en": "also"
+  },
+  {
+   "id": "r39",
+   "g": "prep",
+   "es": "tampoco",
+   "en": "neither, not either"
+  },
+  {
+   "id": "r40",
+   "g": "num",
+   "es": "cero",
+   "en": "zero"
+  },
+  {
+   "id": "r41",
+   "g": "num",
+   "es": "uno",
+   "en": "one"
+  },
+  {
+   "id": "r42",
+   "g": "num",
+   "es": "dos",
+   "en": "two"
+  },
+  {
+   "id": "r43",
+   "g": "num",
+   "es": "tres",
+   "en": "three"
+  },
+  {
+   "id": "r44",
+   "g": "num",
+   "es": "cuatro",
+   "en": "four"
+  },
+  {
+   "id": "r45",
+   "g": "num",
+   "es": "cinco",
+   "en": "five"
+  },
+  {
+   "id": "r46",
+   "g": "num",
+   "es": "seis",
+   "en": "six"
+  },
+  {
+   "id": "r47",
+   "g": "num",
+   "es": "siete",
+   "en": "seven"
+  },
+  {
+   "id": "r48",
+   "g": "num",
+   "es": "ocho",
+   "en": "eight"
+  },
+  {
+   "id": "r49",
+   "g": "num",
+   "es": "nueve",
+   "en": "nine"
+  },
+  {
+   "id": "r50",
+   "g": "num",
+   "es": "diez",
+   "en": "ten"
+  },
+  {
+   "id": "r51",
+   "g": "num",
+   "es": "once",
+   "en": "eleven"
+  },
+  {
+   "id": "r52",
+   "g": "num",
+   "es": "doce",
+   "en": "twelve"
+  },
+  {
+   "id": "r53",
+   "g": "num",
+   "es": "trece",
+   "en": "thirteen"
+  },
+  {
+   "id": "r54",
+   "g": "num",
+   "es": "catorce",
+   "en": "fourteen"
+  },
+  {
+   "id": "r55",
+   "g": "num",
+   "es": "quince",
+   "en": "fifteen"
+  },
+  {
+   "id": "r56",
+   "g": "num",
+   "es": "dieciséis",
+   "en": "sixteen"
+  },
+  {
+   "id": "r57",
+   "g": "num",
+   "es": "diecisiete",
+   "en": "seventeen"
+  },
+  {
+   "id": "r58",
+   "g": "num",
+   "es": "dieciocho",
+   "en": "eighteen"
+  },
+  {
+   "id": "r59",
+   "g": "num",
+   "es": "diecinueve",
+   "en": "nineteen"
+  },
+  {
+   "id": "r60",
+   "g": "num",
+   "es": "veinte",
+   "en": "twenty"
+  },
+  {
+   "id": "r61",
+   "g": "num",
+   "es": "treinta",
+   "en": "thirty"
+  },
+  {
+   "id": "r62",
+   "g": "num",
+   "es": "cuarenta",
+   "en": "forty"
+  },
+  {
+   "id": "r63",
+   "g": "num",
+   "es": "cincuenta",
+   "en": "fifty"
+  },
+  {
+   "id": "r64",
+   "g": "num",
+   "es": "sesenta",
+   "en": "sixty"
+  },
+  {
+   "id": "r65",
+   "g": "num",
+   "es": "setenta",
+   "en": "seventy"
+  },
+  {
+   "id": "r66",
+   "g": "num",
+   "es": "ochenta",
+   "en": "eighty"
+  },
+  {
+   "id": "r67",
+   "g": "num",
+   "es": "noventa",
+   "en": "ninety"
+  },
+  {
+   "id": "r68",
+   "g": "num",
+   "es": "cien",
+   "en": "one hundred"
+  },
+  {
+   "id": "r69",
+   "g": "num",
+   "es": "mil",
+   "en": "one thousand"
+  },
+  {
+   "id": "r70",
+   "g": "dias",
+   "es": "lunes",
+   "en": "Monday"
+  },
+  {
+   "id": "r71",
+   "g": "dias",
+   "es": "martes",
+   "en": "Tuesday"
+  },
+  {
+   "id": "r72",
+   "g": "dias",
+   "es": "miércoles",
+   "en": "Wednesday"
+  },
+  {
+   "id": "r73",
+   "g": "dias",
+   "es": "jueves",
+   "en": "Thursday"
+  },
+  {
+   "id": "r74",
+   "g": "dias",
+   "es": "viernes",
+   "en": "Friday"
+  },
+  {
+   "id": "r75",
+   "g": "dias",
+   "es": "sábado",
+   "en": "Saturday"
+  },
+  {
+   "id": "r76",
+   "g": "dias",
+   "es": "domingo",
+   "en": "Sunday"
+  },
+  {
+   "id": "r77",
+   "g": "mes",
+   "es": "enero",
+   "en": "January"
+  },
+  {
+   "id": "r78",
+   "g": "mes",
+   "es": "febrero",
+   "en": "February"
+  },
+  {
+   "id": "r79",
+   "g": "mes",
+   "es": "marzo",
+   "en": "March"
+  },
+  {
+   "id": "r80",
+   "g": "mes",
+   "es": "abril",
+   "en": "April"
+  },
+  {
+   "id": "r81",
+   "g": "mes",
+   "es": "mayo",
+   "en": "May"
+  },
+  {
+   "id": "r82",
+   "g": "mes",
+   "es": "junio",
+   "en": "June"
+  },
+  {
+   "id": "r83",
+   "g": "mes",
+   "es": "julio",
+   "en": "July"
+  },
+  {
+   "id": "r84",
+   "g": "mes",
+   "es": "agosto",
+   "en": "August"
+  },
+  {
+   "id": "r85",
+   "g": "mes",
+   "es": "septiembre",
+   "en": "September"
+  },
+  {
+   "id": "r86",
+   "g": "mes",
+   "es": "octubre",
+   "en": "October"
+  },
+  {
+   "id": "r87",
+   "g": "mes",
+   "es": "noviembre",
+   "en": "November"
+  },
+  {
+   "id": "r88",
+   "g": "mes",
+   "es": "diciembre",
+   "en": "December"
+  },
+  {
+   "id": "r89",
+   "g": "col",
+   "es": "rojo",
+   "en": "red"
+  },
+  {
+   "id": "r90",
+   "g": "col",
+   "es": "azul",
+   "en": "blue"
+  },
+  {
+   "id": "r91",
+   "g": "col",
+   "es": "verde",
+   "en": "green"
+  },
+  {
+   "id": "r92",
+   "g": "col",
+   "es": "amarillo",
+   "en": "yellow"
+  },
+  {
+   "id": "r93",
+   "g": "col",
+   "es": "negro",
+   "en": "black"
+  },
+  {
+   "id": "r94",
+   "g": "col",
+   "es": "blanco",
+   "en": "white"
+  },
+  {
+   "id": "r95",
+   "g": "col",
+   "es": "rosado",
+   "en": "pink"
+  },
+  {
+   "id": "r96",
+   "g": "col",
+   "es": "morado",
+   "en": "purple"
+  },
+  {
+   "id": "r97",
+   "g": "col",
+   "es": "naranja",
+   "en": "orange"
+  },
+  {
+   "id": "r98",
+   "g": "col",
+   "es": "gris",
+   "en": "gray"
+  },
+  {
+   "id": "r99",
+   "g": "col",
+   "es": "café",
+   "en": "brown"
+  },
+  {
+   "id": "r100",
+   "g": "fam",
+   "es": "la madre",
+   "en": "mother"
+  },
+  {
+   "id": "r101",
+   "g": "fam",
+   "es": "el padre",
+   "en": "father"
+  },
+  {
+   "id": "r102",
+   "g": "fam",
+   "es": "la mamá",
+   "en": "mom"
+  },
+  {
+   "id": "r103",
+   "g": "fam",
+   "es": "el papá",
+   "en": "dad"
+  },
+  {
+   "id": "r104",
+   "g": "fam",
+   "es": "el hermano",
+   "en": "brother"
+  },
+  {
+   "id": "r105",
+   "g": "fam",
+   "es": "la hermana",
+   "en": "sister"
+  },
+  {
+   "id": "r106",
+   "g": "fam",
+   "es": "el hijo",
+   "en": "son"
+  },
+  {
+   "id": "r107",
+   "g": "fam",
+   "es": "la hija",
+   "en": "daughter"
+  },
+  {
+   "id": "r108",
+   "g": "fam",
+   "es": "el abuelo",
+   "en": "grandfather"
+  },
+  {
+   "id": "r109",
+   "g": "fam",
+   "es": "la abuela",
+   "en": "grandmother"
+  },
+  {
+   "id": "r110",
+   "g": "fam",
+   "es": "el tío",
+   "en": "uncle"
+  },
+  {
+   "id": "r111",
+   "g": "fam",
+   "es": "la tía",
+   "en": "aunt"
+  },
+  {
+   "id": "r112",
+   "g": "fam",
+   "es": "el primo",
+   "en": "cousin (male)"
+  },
+  {
+   "id": "r113",
+   "g": "fam",
+   "es": "la prima",
+   "en": "cousin (female)"
+  },
+  {
+   "id": "r114",
+   "g": "fam",
+   "es": "el esposo",
+   "en": "husband"
+  },
+  {
+   "id": "r115",
+   "g": "fam",
+   "es": "la esposa",
+   "en": "wife"
+  },
+  {
+   "id": "r116",
+   "g": "fam",
+   "es": "el novio",
+   "en": "boyfriend"
+  },
+  {
+   "id": "r117",
+   "g": "fam",
+   "es": "la novia",
+   "en": "girlfriend"
+  },
+  {
+   "id": "r118",
+   "g": "fam",
+   "es": "el amigo",
+   "en": "friend (male)"
+  },
+  {
+   "id": "r119",
+   "g": "fam",
+   "es": "la amiga",
+   "en": "friend (female)"
+  },
+  {
+   "id": "r120",
+   "g": "cuerpo",
+   "es": "la cabeza",
+   "en": "head"
+  },
+  {
+   "id": "r121",
+   "g": "cuerpo",
+   "es": "el ojo",
+   "en": "eye"
+  },
+  {
+   "id": "r122",
+   "g": "cuerpo",
+   "es": "la nariz",
+   "en": "nose"
+  },
+  {
+   "id": "r123",
+   "g": "cuerpo",
+   "es": "la boca",
+   "en": "mouth"
+  },
+  {
+   "id": "r124",
+   "g": "cuerpo",
+   "es": "la oreja",
+   "en": "ear"
+  },
+  {
+   "id": "r125",
+   "g": "cuerpo",
+   "es": "el cuello",
+   "en": "neck"
+  },
+  {
+   "id": "r126",
+   "g": "cuerpo",
+   "es": "el hombro",
+   "en": "shoulder"
+  },
+  {
+   "id": "r127",
+   "g": "cuerpo",
+   "es": "el brazo",
+   "en": "arm"
+  },
+  {
+   "id": "r128",
+   "g": "cuerpo",
+   "es": "la mano",
+   "en": "hand"
+  },
+  {
+   "id": "r129",
+   "g": "cuerpo",
+   "es": "el dedo",
+   "en": "finger"
+  },
+  {
+   "id": "r130",
+   "g": "cuerpo",
+   "es": "el pecho",
+   "en": "chest"
+  },
+  {
+   "id": "r131",
+   "g": "cuerpo",
+   "es": "la espalda",
+   "en": "back"
+  },
+  {
+   "id": "r132",
+   "g": "cuerpo",
+   "es": "el estómago",
+   "en": "stomach"
+  },
+  {
+   "id": "r133",
+   "g": "cuerpo",
+   "es": "la pierna",
+   "en": "leg"
+  },
+  {
+   "id": "r134",
+   "g": "cuerpo",
+   "es": "la rodilla",
+   "en": "knee"
+  },
+  {
+   "id": "r135",
+   "g": "cuerpo",
+   "es": "el pie",
+   "en": "foot"
+  },
+  {
+   "id": "r136",
+   "g": "cuerpo",
+   "es": "el corazón",
+   "en": "heart"
+  },
+  {
+   "id": "r137",
+   "g": "freq",
+   "es": "muy",
+   "en": "very"
+  },
+  {
+   "id": "r138",
+   "g": "freq",
+   "es": "mucho",
+   "en": "a lot"
+  },
+  {
+   "id": "r139",
+   "g": "freq",
+   "es": "poco",
+   "en": "a little"
+  },
+  {
+   "id": "r140",
+   "g": "freq",
+   "es": "más",
+   "en": "more"
+  },
+  {
+   "id": "r141",
+   "g": "freq",
+   "es": "menos",
+   "en": "less"
+  },
+  {
+   "id": "r142",
+   "g": "freq",
+   "es": "siempre",
+   "en": "always"
+  },
+  {
+   "id": "r143",
+   "g": "freq",
+   "es": "nunca",
+   "en": "never"
+  },
+  {
+   "id": "r144",
+   "g": "freq",
+   "es": "a veces",
+   "en": "sometimes"
+  },
+  {
+   "id": "r145",
+   "g": "freq",
+   "es": "ahora",
+   "en": "now"
+  },
+  {
+   "id": "r146",
+   "g": "freq",
+   "es": "después",
+   "en": "afterwards"
+  },
+  {
+   "id": "r147",
+   "g": "freq",
+   "es": "antes",
+   "en": "before"
+  },
+  {
+   "id": "r148",
+   "g": "freq",
+   "es": "aquí",
+   "en": "here"
+  },
+  {
+   "id": "r149",
+   "g": "freq",
+   "es": "allí",
+   "en": "there"
+  },
+  {
+   "id": "r150",
+   "g": "freq",
+   "es": "bien",
+   "en": "well"
+  },
+  {
+   "id": "r151",
+   "g": "freq",
+   "es": "mal",
+   "en": "badly"
+  },
+  {
+   "id": "r152",
+   "g": "freq",
+   "es": "bueno",
+   "en": "good"
+  },
+  {
+   "id": "r153",
+   "g": "freq",
+   "es": "malo",
+   "en": "bad"
+  },
+  {
+   "id": "r154",
+   "g": "freq",
+   "es": "nuevo",
+   "en": "new"
+  },
+  {
+   "id": "r155",
+   "g": "freq",
+   "es": "viejo",
+   "en": "old"
+  },
+  {
+   "id": "r156",
+   "g": "freq",
+   "es": "rápido",
+   "en": "fast"
+  },
+  {
+   "id": "r157",
+   "g": "freq",
+   "es": "lento",
+   "en": "slow"
+  },
+  {
+   "id": "r158",
+   "g": "freq",
+   "es": "fácil",
+   "en": "easy"
+  },
+  {
+   "id": "r159",
+   "g": "freq",
+   "es": "difícil",
+   "en": "hard"
+  },
+  {
+   "id": "r160",
+   "g": "freq",
+   "es": "todo",
+   "en": "everything"
+  },
+  {
+   "id": "r161",
+   "g": "freq",
+   "es": "nada",
+   "en": "nothing"
+  },
+  {
+   "id": "r162",
+   "g": "freq",
+   "es": "algo",
+   "en": "something"
+  },
+  {
+   "id": "r163",
+   "g": "freq",
+   "es": "alguien",
+   "en": "someone"
+  }
+ ]
+}

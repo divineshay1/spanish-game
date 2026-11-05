@@ -26,7 +26,7 @@ Settings → Accessibility → Spoken Content → Voices → Spanish → downloa
 
 ## Your data
 
-Everything is saved only on your phone. A Backup button (coming in step 2) saves a file you can keep.
+Everything is saved only on your phone. In **Ajustes** (the gear, top right) tap **Backup** to save a file you can keep, and **Restore** to load it back. Restore also accepts an old Mi Español save.
 
 ---
 
@@ -39,6 +39,7 @@ npm test         # unit tests (Vitest)
 npm run build    # production build into dist/
 npm run smoke    # phone-size smoke test with Playwright (after build)
 python3 scripts/make_icons.py   # redraw the app icons
+node scripts/extract_legacy.mjs # re-copy content + golden test answers from the prototype
 ```
 
 See `PLAN.md` for milestones and `SPEC.md` for the full brief.

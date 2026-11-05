@@ -1,0 +1,1811 @@
+{
+ "DICT": {
+  "me": "me / myself (me llamo = my name is)",
+  "llamo": "I call (myself)",
+  "y": "and",
+  "vivo": "I live",
+  "en": "in / on / at",
+  "todas": "all / every (f. pl.)",
+  "las": "the (f. pl.)",
+  "mañanas": "mornings",
+  "levanto": "I get up (me levanto)",
+  "a": "at / to",
+  "seis": "six",
+  "tomo": "I take / I drink",
+  "un": "a / one",
+  "café": "coffee",
+  "con": "with",
+  "leche": "milk",
+  "como": "I eat (also: like / as)",
+  "una": "a / one (f.)",
+  "arepa": "corn cake, a Colombian staple",
+  "mi": "my",
+  "mis": "my (plural)",
+  "mamá": "mom",
+  "cocina": "cooks (also: kitchen)",
+  "hermano": "brother",
+  "mira": "watches / looks at",
+  "la": "the (f.)",
+  "tele": "TV",
+  "después": "afterwards",
+  "el": "the",
+  "bus": "bus",
+  "para": "to / in order to / for",
+  "ir": "to go",
+  "al": "to the (a + el)",
+  "trabajo": "work / job",
+  "gusta": "is pleasing (me gusta = I like)",
+  "ciudad": "city",
+  "porque": "because",
+  "gente": "people",
+  "es": "is",
+  "muy": "very",
+  "amable": "kind",
+  "camila": "(a name)",
+  "medellín": "city in Colombia",
+  "los": "the (m. pl.)",
+  "domingos": "Sundays",
+  "vamos": "we go, let's go",
+  "casa": "house / home",
+  "de": "of / from",
+  "abuela": "grandmother",
+  "puebla": "city in Mexico",
+  "ella": "she",
+  "prepara": "prepares",
+  "mole": "rich Mexican sauce with chile and chocolate",
+  "tortillas": "tortillas",
+  "hechas": "made (f. pl.)",
+  "mano": "hand",
+  "toda": "whole / all",
+  "familia": "family",
+  "llega": "arrives",
+  "dos": "two",
+  "tarde": "afternoon",
+  "primos": "cousins",
+  "juegan": "they play",
+  "afuera": "outside",
+  "mientras": "while",
+  "adultos": "adults",
+  "platican": "they chat (Mexican for hablan)",
+  "siempre": "always",
+  "dice": "says",
+  "come": "eat! (or: he/she eats)",
+  "más": "more",
+  "mija": "sweetie (from mi hija)",
+  "estás": "you are",
+  "flaca": "skinny (f.)",
+  "cuando": "when",
+  "voy": "I go (me voy = I leave)",
+  "da": "gives",
+  "comida": "food",
+  "llevar": "to take along / carry",
+  "yo": "I",
+  "sonrío": "I smile",
+  "sé": "I know",
+  "que": "that / than",
+  "quiere": "loves (also: wants)",
+  "mucho": "a lot",
+  "ayer": "yesterday",
+  "llegó": "arrived",
+  "paciente": "patient",
+  "nervioso": "nervous",
+  "clínica": "clinic",
+  "no": "no / not",
+  "hablaba": "spoke / was speaking",
+  "inglés": "English",
+  "así": "so / like that",
+  "tuve": "I had (tener)",
+  "hablar": "to speak",
+  "español": "Spanish",
+  "le": "to him / to her / to you (formal)",
+  "pregunté": "I asked",
+  "dónde": "where",
+  "duele": "hurts",
+  "dijo": "said",
+  "dolía": "hurt (past tense)",
+  "pecho": "chest",
+  "desde": "since / from",
+  "noche": "night",
+  "anterior": "previous",
+  "tomé": "I took",
+  "presión": "(blood) pressure",
+  "llamé": "I called",
+  "enfermera": "nurse",
+  "enseguida": "right away",
+  "poco": "little",
+  "se": "himself / herself (se calmó = calmed down)",
+  "calmó": "calmed down",
+  "dio": "gave",
+  "gracias": "thanks",
+  "ese": "that",
+  "día": "day",
+  "entendí": "I understood",
+  "por": "for / by",
+  "qué": "what / why",
+  "quiero": "I want",
+  "bien": "well",
+  "él": "he",
+  "hoy": "today",
+  "supermercado": "supermarket",
+  "necesitamos": "we need",
+  "huevos": "eggs",
+  "frutas": "fruit",
+  "busco": "I look for",
+  "manzanas": "apples",
+  "busca": "she looks for",
+  "arroz": "rice",
+  "precios": "prices",
+  "altos": "high",
+  "esta": "this (f.)",
+  "semana": "week",
+  "pagamos": "we pay",
+  "caja": "cash register",
+  "señora": "lady, Mrs.",
+  "nos": "us, to us",
+  "bolsa": "bag",
+  "volvemos": "we go back",
+  "cocinamos": "we cook",
+  "juntas": "together (f. pl.)",
+  "pan": "bread",
+  "mejor": "best, better",
+  "amiga": "friend (f.)",
+  "escribe": "writes",
+  "mensaje": "message",
+  "mañana": "morning (also: tomorrow)",
+  "bailar": "to dance",
+  "sábado": "Saturday",
+  "encanta": "is loved, delights (me encanta = I love it)",
+  "música": "music",
+  "te": "you (informal object)",
+  "preocupes": "worry (no te preocupes = don't worry)",
+  "enseño": "I teach",
+  "entonces": "so, then",
+  "respondo": "I answer",
+  "sí": "yes",
+  "pregunto": "I ask",
+  "hora": "hour, time",
+  "vemos": "we see (nos vemos = see you)",
+  "pasar": "to spend (time), to pass",
+  "increíble": "incredible",
+  "año": "year",
+  "pasado": "last, past",
+  "empecé": "I started",
+  "nueva": "new (f.)",
+  "principio": "beginning (al principio = at first)",
+  "tenía": "I had, was having",
+  "miedo": "fear",
+  "casi": "almost",
+  "entendía": "I understood (ongoing)",
+  "pacientes": "patients",
+  "mayor": "older",
+  "espalda": "back",
+  "respiré": "I breathed",
+  "profundo": "deep",
+  "cuándo": "when",
+  "dolor": "pain",
+  "sonrió": "she smiled",
+  "entendió": "she understood",
+  "pregunta": "question",
+  "explicó": "she explained",
+  "calma": "calm",
+  "terminó": "it ended",
+  "consulta": "appointment, visit",
+  "practico": "I practice",
+  "todos": "all, every (m. pl.)",
+  "días": "days",
+  "personas": "people",
+  "su": "her, his, your (formal)",
+  "están": "they are, you all are (estar)",
+  "pero": "but",
+  "trabajar": "to work",
+  "todo": "everything, all",
+  "ayudar": "to help"
+ },
+ "CARDS": [
+  {
+   "id": "c1",
+   "es": "Buenos días, ¿cómo amaneció?",
+   "en": "Good morning, how did you wake up?",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c2",
+   "es": "Mucho gusto",
+   "en": "Nice to meet you",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c3",
+   "es": "Con permiso",
+   "en": "Excuse me (passing by)",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c4",
+   "es": "¿Me puede ayudar, por favor?",
+   "en": "Can you help me, please?",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c5",
+   "es": "No entiendo, más despacio, por favor",
+   "en": "I don't understand, slower please",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c6",
+   "es": "¿Cómo se dice esto en español?",
+   "en": "How do you say this in Spanish?",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c7",
+   "es": "Tengo hambre",
+   "en": "I'm hungry",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c8",
+   "es": "¿Cuánto cuesta?",
+   "en": "How much does it cost?",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c9",
+   "es": "Quisiera un café, por favor",
+   "en": "I would like a coffee, please",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c10",
+   "es": "Necesito ayuda",
+   "en": "I need help",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c11",
+   "es": "Estoy aprendiendo español",
+   "en": "I'm learning Spanish",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c12",
+   "es": "Entiendo mucho, pero me cuesta hablar",
+   "en": "I understand a lot, but speaking is hard for me",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c13",
+   "es": "¿Puede repetir, por favor?",
+   "en": "Can you repeat, please?",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c14",
+   "es": "Voy a practicar todos los días",
+   "en": "I'm going to practice every day",
+   "tag": "Everyday"
+  },
+  {
+   "id": "c15",
+   "es": "¿Qué más? ¿Todo bien?",
+   "en": "What's up? All good?",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c16",
+   "es": "Parce",
+   "en": "Buddy / dude (Medellín slang)",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c17",
+   "es": "¡Qué chévere!",
+   "en": "How cool!",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c18",
+   "es": "Bacano",
+   "en": "Cool / awesome",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c19",
+   "es": "De una",
+   "en": "Sure thing / right away",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c20",
+   "es": "A la orden",
+   "en": "At your service",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c21",
+   "es": "Ahorita nos vemos",
+   "en": "See you in a bit",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c22",
+   "es": "¡Qué vaina!",
+   "en": "What a mess! / Ugh!",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c23",
+   "es": "Qué pena con usted",
+   "en": "Sorry about that (polite)",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c24",
+   "es": "Un tinto, por favor",
+   "en": "A black coffee, please",
+   "tag": "Colombia"
+  },
+  {
+   "id": "c25",
+   "es": "¿Qué onda?",
+   "en": "What's up?",
+   "tag": "México"
+  },
+  {
+   "id": "c26",
+   "es": "Órale",
+   "en": "Okay! / Wow! / Let's go",
+   "tag": "México"
+  },
+  {
+   "id": "c27",
+   "es": "Ándale",
+   "en": "Come on / that's it / exactly",
+   "tag": "México"
+  },
+  {
+   "id": "c28",
+   "es": "¿Mande?",
+   "en": "Pardon? (polite)",
+   "tag": "México"
+  },
+  {
+   "id": "c29",
+   "es": "No manches",
+   "en": "No way / Come on (informal)",
+   "tag": "México"
+  },
+  {
+   "id": "c30",
+   "es": "¡Qué padre!",
+   "en": "How cool!",
+   "tag": "México"
+  },
+  {
+   "id": "c31",
+   "es": "Platicamos al rato",
+   "en": "We'll chat in a bit",
+   "tag": "México"
+  },
+  {
+   "id": "c32",
+   "es": "Échame la mano",
+   "en": "Give me a hand",
+   "tag": "México"
+  },
+  {
+   "id": "c33",
+   "es": "Ahorita voy",
+   "en": "I'll be there in a moment",
+   "tag": "México"
+  },
+  {
+   "id": "c34",
+   "es": "¿Dónde le duele?",
+   "en": "Where does it hurt?",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c35",
+   "es": "¿Desde cuándo le duele?",
+   "en": "Since when does it hurt?",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c36",
+   "es": "Voy a tomarle la presión",
+   "en": "I'm going to take your blood pressure",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c37",
+   "es": "Respire profundo, por favor",
+   "en": "Breathe deeply, please",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c38",
+   "es": "¿Es alérgico a algún medicamento?",
+   "en": "Are you allergic to any medication?",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c39",
+   "es": "¿Tiene mareos o náuseas?",
+   "en": "Do you have dizziness or nausea?",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c40",
+   "es": "Abra la boca, por favor",
+   "en": "Open your mouth, please",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c41",
+   "es": "Siéntese, por favor",
+   "en": "Have a seat, please",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c42",
+   "es": "¿Cómo se siente hoy?",
+   "en": "How do you feel today?",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c43",
+   "es": "La enfermera viene enseguida",
+   "en": "The nurse is coming right away",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c44",
+   "es": "¿Toma algún medicamento?",
+   "en": "Do you take any medication?",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c45",
+   "es": "Necesito su fecha de nacimiento",
+   "en": "I need your date of birth",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c46",
+   "es": "Voy a sacarle sangre",
+   "en": "I'm going to draw your blood",
+   "tag": "Paciente"
+  },
+  {
+   "id": "c47",
+   "es": "Del uno al diez, ¿cuánto le duele?",
+   "en": "From one to ten, how much does it hurt?",
+   "tag": "Paciente"
+  }
+ ],
+ "EXTRA": [
+  "pero",
+  "muy",
+  "está",
+  "yo",
+  "con",
+  "más"
+ ],
+ "IMG": [
+  {
+   "id": "m1",
+   "es": "casa",
+   "art": "la",
+   "en": "house",
+   "ico": "🏠💵",
+   "tag": "Todos los días",
+   "mn": "Sounds like CASH-a. Picture a house stuffed with cash.",
+   "ex": "Mi casa es tu casa.",
+   "exen": "My home is your home."
+  },
+  {
+   "id": "m2",
+   "es": "perro",
+   "art": "el",
+   "en": "dog",
+   "ico": "🐕🍐",
+   "tag": "Todos los días",
+   "mn": "Sounds like PEAR-oh. A dog carries a pear and says oh!",
+   "ex": "El perro corre en el parque.",
+   "exen": "The dog runs in the park."
+  },
+  {
+   "id": "m3",
+   "es": "gato",
+   "art": "el",
+   "en": "cat",
+   "ico": "🐈🎂",
+   "tag": "Todos los días",
+   "mn": "Sounds like GATEAU. A cat sits on a giant cake.",
+   "ex": "Mi gato duerme todo el día.",
+   "exen": "My cat sleeps all day."
+  },
+  {
+   "id": "m4",
+   "es": "agua",
+   "art": "el (f.)",
+   "en": "water",
+   "ico": "🥵💧",
+   "tag": "Todos los días",
+   "mn": "AH-gwah. Gulp ice cold water and sigh, ahhh, gwah.",
+   "ex": "Quiero un vaso de agua, por favor.",
+   "exen": "I want a glass of water, please."
+  },
+  {
+   "id": "m5",
+   "es": "comida",
+   "art": "la",
+   "en": "food",
+   "ico": "🍲🛎️",
+   "tag": "Todos los días",
+   "mn": "It starts with COME. Come to the table, the comida is ready.",
+   "ex": "La comida está lista.",
+   "exen": "The food is ready."
+  },
+  {
+   "id": "m6",
+   "es": "leche",
+   "art": "la",
+   "en": "milk",
+   "ico": "🪱🥛",
+   "tag": "Todos los días",
+   "mn": "LEH-cheh sounds like LEECH. A leech drinking a glass of milk.",
+   "ex": "Tomo café con leche.",
+   "exen": "I drink coffee with milk."
+  },
+  {
+   "id": "m7",
+   "es": "pan",
+   "art": "el",
+   "en": "bread",
+   "ico": "🍳🍞",
+   "tag": "Todos los días",
+   "mn": "A PAN toasting a slice of bread.",
+   "ex": "Me gusta el pan caliente.",
+   "exen": "I like warm bread."
+  },
+  {
+   "id": "m8",
+   "es": "mesa",
+   "art": "la",
+   "en": "table",
+   "ico": "🍝💥",
+   "tag": "Todos los días",
+   "mn": "MESS-ah. A messy table covered in food.",
+   "ex": "La comida está en la mesa.",
+   "exen": "The food is on the table."
+  },
+  {
+   "id": "m9",
+   "es": "libro",
+   "art": "el",
+   "en": "book",
+   "ico": "📚🏛️",
+   "tag": "Todos los días",
+   "mn": "Think LIBRary. A library is full of libros.",
+   "ex": "Leo un libro todos los días.",
+   "exen": "I read a book every day."
+  },
+  {
+   "id": "m10",
+   "es": "amigo",
+   "art": "el",
+   "en": "friend (male)",
+   "ico": "🤝🏃",
+   "tag": "Todos los días",
+   "mn": "ah-MEE-go. Your friend says: ME, GO with you! (amiga is a female friend)",
+   "ex": "Mi amiga vive en Medellín.",
+   "exen": "My friend lives in Medellín."
+  },
+  {
+   "id": "m11",
+   "es": "trabajo",
+   "art": "el",
+   "en": "work, job",
+   "ico": "💼😓",
+   "tag": "Todos los días",
+   "mn": "Sounds like TRAVAIL, which means hard labor. Work is travail.",
+   "ex": "Tengo mucho trabajo hoy.",
+   "exen": "I have a lot of work today."
+  },
+  {
+   "id": "m12",
+   "es": "dinero",
+   "art": "el",
+   "en": "money",
+   "ico": "🍔💵",
+   "tag": "Todos los días",
+   "mn": "Sounds like DINER-o. You pay money at a diner.",
+   "ex": "No tengo dinero.",
+   "exen": "I don't have money."
+  },
+  {
+   "id": "m13",
+   "es": "tiempo",
+   "art": "el",
+   "en": "time, weather",
+   "ico": "⏰🎵",
+   "tag": "Todos los días",
+   "mn": "Sounds like TEMPO. Music tempo is all about time.",
+   "ex": "No tengo tiempo ahorita.",
+   "exen": "I don't have time right now."
+  },
+  {
+   "id": "m14",
+   "es": "ciudad",
+   "art": "la",
+   "en": "city",
+   "ico": "🌆👨",
+   "tag": "Todos los días",
+   "mn": "Sounds like CITY-dad. My dad lives in the city.",
+   "ex": "Medellín es una ciudad bonita.",
+   "exen": "Medellín is a pretty city."
+  },
+  {
+   "id": "m15",
+   "es": "calle",
+   "art": "la",
+   "en": "street",
+   "ico": "🛣️📣",
+   "tag": "Todos los días",
+   "mn": "KAH-yeh. Someone CALLs your name from the street.",
+   "ex": "Mi casa está en esa calle.",
+   "exen": "My house is on that street."
+  },
+  {
+   "id": "m16",
+   "es": "noche",
+   "art": "la",
+   "en": "night",
+   "ico": "🌙🦷",
+   "tag": "Todos los días",
+   "mn": "NOH-cheh sounds like NOTCH. Someone took a notch out of the night moon.",
+   "ex": "Buenas noches a todos.",
+   "exen": "Good night everyone."
+  },
+  {
+   "id": "m17",
+   "es": "día",
+   "art": "el",
+   "en": "day",
+   "ico": "☀️🕒",
+   "tag": "Todos los días",
+   "mn": "DEE-ah sounds like DIAL. The sun is the dial of the day.",
+   "ex": "Hoy es un buen día.",
+   "exen": "Today is a good day."
+  },
+  {
+   "id": "m18",
+   "es": "familia",
+   "art": "la",
+   "en": "family",
+   "ico": "👨‍👩‍👧‍👦",
+   "tag": "Todos los días",
+   "mn": "Almost English! Just say fah-MEE-lyah.",
+   "ex": "Mi familia es muy grande.",
+   "exen": "My family is very big."
+  },
+  {
+   "id": "m19",
+   "es": "hermano",
+   "art": "el",
+   "en": "brother",
+   "ico": "👦👩👨",
+   "tag": "Todos los días",
+   "mn": "Sounds like HER MAN-o. Her man is my brother.",
+   "ex": "Mi hermano mira la tele.",
+   "exen": "My brother watches TV."
+  },
+  {
+   "id": "m20",
+   "es": "abuela",
+   "art": "la",
+   "en": "grandmother",
+   "ico": "👵💗",
+   "tag": "Todos los días",
+   "mn": "Sounds like A-BWELL-a. Grandma's love is a deep well.",
+   "ex": "Mi abuela hace tortillas.",
+   "exen": "My grandmother makes tortillas."
+  },
+  {
+   "id": "m21",
+   "es": "bonito",
+   "art": "",
+   "en": "pretty, nice",
+   "ico": "🌸✨",
+   "tag": "Todos los días",
+   "mn": "Sounds like BONNY, an old word for pretty.",
+   "ex": "Qué bonito está el día.",
+   "exen": "What a beautiful day it is."
+  },
+  {
+   "id": "m22",
+   "es": "grande",
+   "art": "",
+   "en": "big",
+   "ico": "🎹🐘",
+   "tag": "Todos los días",
+   "mn": "Sounds like GRAND. A grand piano is BIG.",
+   "ex": "Es una casa muy grande.",
+   "exen": "It's a very big house."
+  },
+  {
+   "id": "m23",
+   "es": "pequeño",
+   "art": "",
+   "en": "small",
+   "ico": "🔑👀",
+   "tag": "Todos los días",
+   "mn": "Sounds like PEEK. Peek through a tiny keyhole.",
+   "ex": "Tengo un perro pequeño.",
+   "exen": "I have a small dog."
+  },
+  {
+   "id": "m24",
+   "es": "feliz",
+   "art": "",
+   "en": "happy",
+   "ico": "🐱😸",
+   "tag": "Todos los días",
+   "mn": "Sounds like FELIX the cat, who is always happy.",
+   "ex": "Estoy muy feliz hoy.",
+   "exen": "I'm very happy today."
+  },
+  {
+   "id": "m25",
+   "es": "cansado",
+   "art": "",
+   "en": "tired",
+   "ico": "🥱🚫",
+   "tag": "Todos los días",
+   "mn": "Sounds like CAN'T. I can't move, I'm so tired.",
+   "ex": "Estoy muy cansado.",
+   "exen": "I'm very tired."
+  },
+  {
+   "id": "m26",
+   "es": "hambre",
+   "art": "el (f.)",
+   "en": "hunger",
+   "ico": "🥪🐷",
+   "tag": "Todos los días",
+   "mn": "Sounds like HAM-bray. A ham sandwich fixes hunger.",
+   "ex": "Tengo mucha hambre.",
+   "exen": "I'm very hungry."
+  },
+  {
+   "id": "m27",
+   "es": "querer",
+   "art": "",
+   "en": "to want, to love",
+   "ico": "❓🙏",
+   "tag": "Todos los días",
+   "mn": "Sounds like QUERY. A query is you asking for what you want.",
+   "ex": "Quiero un café, por favor.",
+   "exen": "I want a coffee, please."
+  },
+  {
+   "id": "m28",
+   "es": "hablar",
+   "art": "",
+   "en": "to speak",
+   "ico": "🗣️💬",
+   "tag": "Todos los días",
+   "mn": "Sounds like BLAH. Blah blah blah, speaking.",
+   "ex": "Quiero hablar español bien.",
+   "exen": "I want to speak Spanish well."
+  },
+  {
+   "id": "m29",
+   "es": "comer",
+   "art": "",
+   "en": "to eat",
+   "ico": "🍽️🚶",
+   "tag": "Todos los días",
+   "mn": "Sounds like COME-air. Come and eat.",
+   "ex": "Vamos a comer arepas.",
+   "exen": "Let's go eat arepas."
+  },
+  {
+   "id": "m30",
+   "es": "vivir",
+   "art": "",
+   "en": "to live",
+   "ico": "🎉🌱",
+   "tag": "Todos los días",
+   "mn": "Think VIVA. Viva la vida, to live!",
+   "ex": "Quiero vivir en Colombia algún día.",
+   "exen": "I want to live in Colombia someday."
+  },
+  {
+   "id": "m31",
+   "es": "ir",
+   "art": "",
+   "en": "to go",
+   "ico": "🧍➡️",
+   "tag": "Todos los días",
+   "mn": "Sounds like I-R. I R going.",
+   "ex": "Voy al trabajo en bus.",
+   "exen": "I go to work by bus."
+  },
+  {
+   "id": "m32",
+   "es": "necesitar",
+   "art": "",
+   "en": "to need",
+   "ico": "🆘",
+   "tag": "Todos los días",
+   "mn": "Almost English: NECESSITY. If it's a necessity, you need it.",
+   "ex": "Necesito ayuda, por favor.",
+   "exen": "I need help, please."
+  },
+  {
+   "id": "m33",
+   "es": "ayudar",
+   "art": "",
+   "en": "to help",
+   "ico": "🫵🤝",
+   "tag": "Todos los días",
+   "mn": "Sounds like AH-YOU-dar. Ah, YOU! I'll help you.",
+   "ex": "¿Me puede ayudar?",
+   "exen": "Can you help me?"
+  },
+  {
+   "id": "m34",
+   "es": "dormir",
+   "art": "",
+   "en": "to sleep",
+   "ico": "🛏️🏫",
+   "tag": "Todos los días",
+   "mn": "Sounds like DORM. You sleep in a dorm.",
+   "ex": "Necesito dormir más.",
+   "exen": "I need to sleep more."
+  },
+  {
+   "id": "m35",
+   "es": "baile",
+   "art": "el",
+   "en": "dance",
+   "ico": "💃🪩",
+   "tag": "Todos los días",
+   "mn": "Sounds like BY-leh, a BALL. Cinderella went to the ball to dance.",
+   "ex": "Hay un baile el sábado.",
+   "exen": "There's a dance on Saturday."
+  },
+  {
+   "id": "m36",
+   "es": "cerca",
+   "art": "",
+   "en": "near, nearby",
+   "ico": "🔍📍",
+   "tag": "Todos los días",
+   "mn": "Sounds like CIRCA. Circa means around, so it's near.",
+   "ex": "El banco está cerca.",
+   "exen": "The bank is nearby."
+  },
+  {
+   "id": "m37",
+   "es": "ahorita",
+   "art": "",
+   "en": "right now, in a bit",
+   "ico": "⏱️🤏",
+   "tag": "Todos los días",
+   "mn": "AHORA means now and ITA means little. A little now: in a bit.",
+   "ex": "Ahorita voy.",
+   "exen": "I'll be there in a bit."
+  },
+  {
+   "id": "m38",
+   "es": "dolor",
+   "art": "el",
+   "en": "pain",
+   "ico": "😣⚡",
+   "tag": "Clínica",
+   "mn": "Think DOLOROUS, full of pain.",
+   "ex": "¿Tiene dolor en el pecho?",
+   "exen": "Do you have chest pain?"
+  },
+  {
+   "id": "m39",
+   "es": "cabeza",
+   "art": "la",
+   "en": "head",
+   "ico": "🧢🙂",
+   "tag": "Clínica",
+   "mn": "Sounds like CAP-esa. A cap sits on your head.",
+   "ex": "Me duele la cabeza.",
+   "exen": "My head hurts."
+  },
+  {
+   "id": "m40",
+   "es": "pecho",
+   "art": "el",
+   "en": "chest",
+   "ico": "💪🫁",
+   "tag": "Clínica",
+   "mn": "Think PECS, the chest muscles.",
+   "ex": "Le duele el pecho.",
+   "exen": "His chest hurts."
+  },
+  {
+   "id": "m41",
+   "es": "estómago",
+   "art": "el",
+   "en": "stomach",
+   "ico": "🤢",
+   "tag": "Clínica",
+   "mn": "Say STOMACH with a Spanish accent: ehs-TOH-mah-goh.",
+   "ex": "Me duele el estómago.",
+   "exen": "My stomach hurts."
+  },
+  {
+   "id": "m42",
+   "es": "espalda",
+   "art": "la",
+   "en": "back",
+   "ico": "💆",
+   "tag": "Clínica",
+   "mn": "Sounds like SPA. A spa massage fixes your back.",
+   "ex": "Tiene dolor de espalda.",
+   "exen": "He has back pain."
+  },
+  {
+   "id": "m43",
+   "es": "brazo",
+   "art": "el",
+   "en": "arm",
+   "ico": "🦾",
+   "tag": "Clínica",
+   "mn": "Sounds like BRACE. Wear a brace on your arm.",
+   "ex": "Levante el brazo, por favor.",
+   "exen": "Raise your arm, please."
+  },
+  {
+   "id": "m44",
+   "es": "pierna",
+   "art": "la",
+   "en": "leg",
+   "ico": "🦵🌉",
+   "tag": "Clínica",
+   "mn": "Sounds like PIER. A pier is a long leg over the water.",
+   "ex": "¿Le duele la pierna?",
+   "exen": "Does your leg hurt?"
+  },
+  {
+   "id": "m45",
+   "es": "mano",
+   "art": "la",
+   "en": "hand",
+   "ico": "✋📖",
+   "tag": "Clínica",
+   "mn": "Think MANUAL work, done with hands.",
+   "ex": "Abra y cierre la mano.",
+   "exen": "Open and close your hand."
+  },
+  {
+   "id": "m46",
+   "es": "pie",
+   "art": "el",
+   "en": "foot",
+   "ico": "🥧🦶",
+   "tag": "Clínica",
+   "mn": "Sounds like PEDAL. You press a pedal with your foot.",
+   "ex": "Tengo el pie hinchado.",
+   "exen": "My foot is swollen."
+  },
+  {
+   "id": "m47",
+   "es": "garganta",
+   "art": "la",
+   "en": "throat",
+   "ico": "🫗😮",
+   "tag": "Clínica",
+   "mn": "Sounds like GARGLE. You gargle with your throat.",
+   "ex": "Me duele la garganta.",
+   "exen": "My throat hurts."
+  },
+  {
+   "id": "m48",
+   "es": "fiebre",
+   "art": "la",
+   "en": "fever",
+   "ico": "🌡️🔥",
+   "tag": "Clínica",
+   "mn": "Sounds like FEBRILE, which means feverish.",
+   "ex": "¿Tiene fiebre?",
+   "exen": "Do you have a fever?"
+  },
+  {
+   "id": "m49",
+   "es": "tos",
+   "art": "la",
+   "en": "cough",
+   "ico": "🤧🛏️",
+   "tag": "Clínica",
+   "mn": "Sounds like TOSS. You toss and turn when you cough.",
+   "ex": "Tengo tos desde ayer.",
+   "exen": "I've had a cough since yesterday."
+  },
+  {
+   "id": "m50",
+   "es": "mareo",
+   "art": "el",
+   "en": "dizziness",
+   "ico": "🌊😵‍💫",
+   "tag": "Clínica",
+   "mn": "MAR means sea. Seasick, dizzy like on a boat.",
+   "ex": "¿Siente mareo?",
+   "exen": "Do you feel dizzy?"
+  },
+  {
+   "id": "m51",
+   "es": "náuseas",
+   "art": "las",
+   "en": "nausea",
+   "ico": "🤢",
+   "tag": "Clínica",
+   "mn": "Almost English: NAUSEA. Say NOW-seh-ahs.",
+   "ex": "Tiene náuseas y vómito.",
+   "exen": "He has nausea and vomiting."
+  },
+  {
+   "id": "m52",
+   "es": "sangre",
+   "art": "la",
+   "en": "blood",
+   "ico": "🍷🩸",
+   "tag": "Clínica",
+   "mn": "Sounds like SANGRIA, red like blood.",
+   "ex": "Voy a sacarle sangre.",
+   "exen": "I'm going to draw your blood."
+  },
+  {
+   "id": "m53",
+   "es": "presión",
+   "art": "la",
+   "en": "pressure",
+   "ico": "🩺💨",
+   "tag": "Clínica",
+   "mn": "Think PRESSure. Presión arterial is blood pressure.",
+   "ex": "Voy a tomarle la presión.",
+   "exen": "I'm going to take your blood pressure."
+  },
+  {
+   "id": "m54",
+   "es": "corazón",
+   "art": "el",
+   "en": "heart",
+   "ico": "❤️🍎",
+   "tag": "Clínica",
+   "mn": "Think CORE. The core of your body is your heart.",
+   "ex": "Escucho su corazón.",
+   "exen": "I'm listening to your heart."
+  },
+  {
+   "id": "m55",
+   "es": "pulmones",
+   "art": "los",
+   "en": "lungs",
+   "ico": "🫁",
+   "tag": "Clínica",
+   "mn": "Think PULMONARY, which is about the lungs.",
+   "ex": "Respire profundo, voy a escuchar los pulmones.",
+   "exen": "Breathe deeply, I'm going to listen to your lungs."
+  },
+  {
+   "id": "m56",
+   "es": "enfermera",
+   "art": "la",
+   "en": "nurse",
+   "ico": "👩‍⚕️🏥",
+   "tag": "Clínica",
+   "mn": "Sounds like INFIRMARY. A nurse works in an infirmary.",
+   "ex": "La enfermera viene enseguida.",
+   "exen": "The nurse is coming right away."
+  },
+  {
+   "id": "m57",
+   "es": "médico",
+   "art": "el",
+   "en": "doctor",
+   "ico": "🧑‍⚕️",
+   "tag": "Clínica",
+   "mn": "Sounds like MEDIC.",
+   "ex": "El médico lo atiende ahorita.",
+   "exen": "The doctor will see you in a moment."
+  },
+  {
+   "id": "m58",
+   "es": "medicamento",
+   "art": "el",
+   "en": "medication",
+   "ico": "💊",
+   "tag": "Clínica",
+   "mn": "Sounds like MEDICAMENT, a medicine you take.",
+   "ex": "¿Toma algún medicamento?",
+   "exen": "Do you take any medication?"
+  },
+  {
+   "id": "m59",
+   "es": "alergia",
+   "art": "la",
+   "en": "allergy",
+   "ico": "🤧🌼",
+   "tag": "Clínica",
+   "mn": "Almost English: ALLERGY. Say ah-LEHR-hyah.",
+   "ex": "¿Tiene alguna alergia?",
+   "exen": "Do you have any allergies?"
+  },
+  {
+   "id": "m60",
+   "es": "sueño",
+   "art": "el",
+   "en": "sleepiness, dream",
+   "ico": "😴💭",
+   "tag": "Clínica",
+   "mn": "Sounds like SWAY-nyo. You sway when you are sleepy.",
+   "ex": "Tengo mucho sueño.",
+   "exen": "I'm very sleepy."
+  },
+  {
+   "id": "m61",
+   "es": "respirar",
+   "art": "",
+   "en": "to breathe",
+   "ico": "🌬️🫁",
+   "tag": "Clínica",
+   "mn": "Think RESPIRATORY. Respirar is to breathe.",
+   "ex": "¿Puede respirar bien?",
+   "exen": "Can you breathe okay?"
+  },
+  {
+   "id": "m62",
+   "es": "herida",
+   "art": "la",
+   "en": "wound",
+   "ico": "🩹🤕",
+   "tag": "Clínica",
+   "mn": "Sounds like HURT-ida. A wound hurts.",
+   "ex": "Voy a limpiar la herida.",
+   "exen": "I'm going to clean the wound."
+  }
+ ],
+ "SIETE": [
+  {
+   "id": "sv1",
+   "pid": "desayuno",
+   "es": "desayuno",
+   "art": "el",
+   "en": "breakfast",
+   "ico": "🥞☕",
+   "mn": "Des-ayuno means to break the fast. It is literally break-fast.",
+   "s1": [
+    "Todos los días tomo el desayuno a las siete.",
+    "Every day I have breakfast at seven."
+   ],
+   "s2": [
+    "Hoy el desayuno es pan con huevos.",
+    "Today breakfast is bread with eggs."
+   ],
+   "cA": [
+    "¿Qué quieres para el desayuno?",
+    "What do you want for breakfast?"
+   ],
+   "cB": [
+    "Quiero un café y una arepa, por favor.",
+    "I want a coffee and an arepa, please."
+   ],
+   "s7": [
+    "Mi abuela siempre prepara un desayuno delicioso.",
+    "My grandmother always prepares a delicious breakfast."
+   ]
+  },
+  {
+   "id": "sv2",
+   "pid": "m1",
+   "es": "casa",
+   "art": "la",
+   "en": "house",
+   "ico": "🏠💵",
+   "mn": "Sounds like CASH-a. Picture a house stuffed with cash.",
+   "s1": [
+    "Mi casa es tu casa.",
+    "My home is your home."
+   ],
+   "s2": [
+    "La casa de mi hermano está cerca del hospital.",
+    "My brother's house is near the hospital."
+   ],
+   "cA": [
+    "¿Dónde está tu casa?",
+    "Where is your house?"
+   ],
+   "cB": [
+    "Mi casa está en la calle principal, cerca del parque.",
+    "My house is on the main street, near the park."
+   ],
+   "s7": [
+    "Después del trabajo voy directo a casa.",
+    "After work I go straight home."
+   ]
+  },
+  {
+   "id": "sv3",
+   "pid": "m4",
+   "es": "agua",
+   "art": "el (f.)",
+   "en": "water",
+   "ico": "🥵💧",
+   "mn": "AH-gwah. Gulp ice cold water and sigh, ahhh, gwah.",
+   "s1": [
+    "Quiero un vaso de agua, por favor.",
+    "I want a glass of water, please."
+   ],
+   "s2": [
+    "El agua está muy fría hoy.",
+    "The water is very cold today."
+   ],
+   "cA": [
+    "¿Quiere agua o café?",
+    "Do you want water or coffee?"
+   ],
+   "cB": [
+    "Agua, por favor. Tengo mucha sed.",
+    "Water, please. I'm very thirsty."
+   ],
+   "s7": [
+    "Hay que tomar mucha agua todos los días.",
+    "You have to drink a lot of water every day."
+   ]
+  },
+  {
+   "id": "sv4",
+   "pid": "m5",
+   "es": "comida",
+   "art": "la",
+   "en": "food",
+   "ico": "🍲🛎️",
+   "mn": "It starts with COME. Come to the table, the comida is ready.",
+   "s1": [
+    "La comida está lista.",
+    "The food is ready."
+   ],
+   "s2": [
+    "La comida colombiana me encanta.",
+    "I love Colombian food."
+   ],
+   "cA": [
+    "¿Te gusta la comida mexicana?",
+    "Do you like Mexican food?"
+   ],
+   "cB": [
+    "Sí, me gusta mucho, sobre todo el mole.",
+    "Yes, I like it a lot, especially mole."
+   ],
+   "s7": [
+    "Cuando llega la familia, hay comida para todos.",
+    "When the family arrives, there is food for everyone."
+   ]
+  },
+  {
+   "id": "sv5",
+   "pid": "m11",
+   "es": "trabajo",
+   "art": "el",
+   "en": "work, job",
+   "ico": "💼😓",
+   "mn": "Sounds like TRAVAIL, which means hard labor. Work is travail.",
+   "s1": [
+    "Tengo mucho trabajo hoy.",
+    "I have a lot of work today."
+   ],
+   "s2": [
+    "Mi trabajo me gusta porque ayudo a las personas.",
+    "I like my job because I help people."
+   ],
+   "cA": [
+    "¿Cómo va tu trabajo?",
+    "How is your work going?"
+   ],
+   "cB": [
+    "Va bien, pero tengo mucho trabajo esta semana.",
+    "It's going well, but I have a lot of work this week."
+   ],
+   "s7": [
+    "Ayer salí tarde del trabajo.",
+    "Yesterday I left work late."
+   ]
+  },
+  {
+   "id": "sv6",
+   "pid": "m12",
+   "es": "dinero",
+   "art": "el",
+   "en": "money",
+   "ico": "🍔💵",
+   "mn": "Sounds like DINER-o. You pay money at a diner.",
+   "s1": [
+    "No tengo dinero.",
+    "I don't have money."
+   ],
+   "s2": [
+    "El dinero no es lo más importante.",
+    "Money is not the most important thing."
+   ],
+   "cA": [
+    "¿Cuánto dinero necesitas?",
+    "How much money do you need?"
+   ],
+   "cB": [
+    "Solo necesito diez dólares para el bus.",
+    "I only need ten dollars for the bus."
+   ],
+   "s7": [
+    "Quiero ahorrar dinero este mes.",
+    "I want to save money this month."
+   ]
+  },
+  {
+   "id": "sv7",
+   "pid": "m15",
+   "es": "calle",
+   "art": "la",
+   "en": "street",
+   "ico": "🛣️📣",
+   "mn": "KAH-yeh. Someone CALLs your name from the street.",
+   "s1": [
+    "Mi casa está en esa calle.",
+    "My house is on that street."
+   ],
+   "s2": [
+    "La calle está llena de gente hoy.",
+    "The street is full of people today."
+   ],
+   "cA": [
+    "¿Por qué calle voy al hospital?",
+    "Which street do I take to the hospital?"
+   ],
+   "cB": [
+    "Siga por esta calle y gire a la derecha.",
+    "Continue on this street and turn right."
+   ],
+   "s7": [
+    "Cruza la calle con cuidado.",
+    "Cross the street carefully."
+   ]
+  },
+  {
+   "id": "sv8",
+   "pid": "m20",
+   "es": "abuela",
+   "art": "la",
+   "en": "grandmother",
+   "ico": "👵💗",
+   "mn": "Sounds like A-BWELL-a. Grandma's love is a deep well.",
+   "s1": [
+    "Mi abuela hace tortillas.",
+    "My grandmother makes tortillas."
+   ],
+   "s2": [
+    "Mi abuela vive en Puebla.",
+    "My grandmother lives in Puebla."
+   ],
+   "cA": [
+    "¿Cómo está tu abuela?",
+    "How is your grandmother?"
+   ],
+   "cB": [
+    "Está bien, gracias. Hoy la voy a visitar.",
+    "She's fine, thanks. Today I'm going to visit her."
+   ],
+   "s7": [
+    "La abuela siempre dice que coma más.",
+    "Grandma always says that I should eat more."
+   ]
+  },
+  {
+   "id": "sv9",
+   "pid": "m26",
+   "es": "hambre",
+   "art": "el (f.)",
+   "en": "hunger",
+   "ico": "🥪🐷",
+   "mn": "Sounds like HAM-bray. A ham sandwich fixes hunger.",
+   "s1": [
+    "Tengo mucha hambre.",
+    "I'm very hungry."
+   ],
+   "s2": [
+    "Los niños tienen hambre después de la escuela.",
+    "The kids are hungry after school."
+   ],
+   "cA": [
+    "¿Tienes hambre?",
+    "Are you hungry?"
+   ],
+   "cB": [
+    "Sí, tengo mucha hambre. ¿Vamos a comer?",
+    "Yes, I'm very hungry. Shall we go eat?"
+   ],
+   "s7": [
+    "No puedo trabajar con hambre.",
+    "I can't work when I'm hungry."
+   ]
+  },
+  {
+   "id": "sv10",
+   "pid": "m25",
+   "es": "cansado",
+   "art": "",
+   "en": "tired",
+   "ico": "🥱🚫",
+   "mn": "Sounds like CAN'T. I can't move, I'm so tired.",
+   "s1": [
+    "Estoy muy cansado.",
+    "I'm very tired."
+   ],
+   "s2": [
+    "Después del turno siempre estoy cansada.",
+    "After my shift I'm always tired."
+   ],
+   "cA": [
+    "Te ves cansada. ¿Dormiste bien?",
+    "You look tired. Did you sleep well?"
+   ],
+   "cB": [
+    "No mucho. Estoy muy cansada hoy.",
+    "Not much. I'm very tired today."
+   ],
+   "s7": [
+    "Descansa un poco si estás cansado.",
+    "Rest a bit if you're tired."
+   ]
+  },
+  {
+   "id": "sv11",
+   "pid": "m37",
+   "es": "ahorita",
+   "art": "",
+   "en": "right now, in a bit",
+   "ico": "⏱️🤏",
+   "mn": "AHORA means now and ITA means little. A little now: in a bit.",
+   "s1": [
+    "Ahorita voy.",
+    "I'll be there in a bit."
+   ],
+   "s2": [
+    "Ahorita no puedo hablar, te llamo después.",
+    "I can't talk right now, I'll call you later."
+   ],
+   "cA": [
+    "¿Puedes ayudarme?",
+    "Can you help me?"
+   ],
+   "cB": [
+    "Claro, ahorita te ayudo.",
+    "Of course, I'll help you in a moment."
+   ],
+   "s7": [
+    "Ahorita llegamos, ya estamos cerca.",
+    "We're arriving in a bit, we're already close."
+   ]
+  },
+  {
+   "id": "sv12",
+   "pid": "m36",
+   "es": "cerca",
+   "art": "",
+   "en": "near, nearby",
+   "ico": "🔍📍",
+   "mn": "Sounds like CIRCA. Circa means around, so it's near.",
+   "s1": [
+    "El banco está cerca.",
+    "The bank is nearby."
+   ],
+   "s2": [
+    "Mi casa está cerca del trabajo.",
+    "My house is near work."
+   ],
+   "cA": [
+    "¿Está lejos la farmacia?",
+    "Is the pharmacy far?"
+   ],
+   "cB": [
+    "No, está muy cerca, a dos cuadras.",
+    "No, it's very close, two blocks away."
+   ],
+   "s7": [
+    "Vivo cerca de mi mejor amiga.",
+    "I live near my best friend."
+   ]
+  },
+  {
+   "id": "sv13",
+   "pid": "m33",
+   "es": "ayudar",
+   "art": "",
+   "en": "to help",
+   "ico": "🫵🤝",
+   "mn": "Sounds like AH-YOU-dar. Ah, YOU! I'll help you.",
+   "s1": [
+    "¿Me puede ayudar?",
+    "Can you help me?"
+   ],
+   "s2": [
+    "Me gusta ayudar a los pacientes.",
+    "I like helping patients."
+   ],
+   "cA": [
+    "¿Necesita ayuda?",
+    "Do you need help?"
+   ],
+   "cB": [
+    "Sí, por favor. ¿Me puede ayudar con esto?",
+    "Yes, please. Can you help me with this?"
+   ],
+   "s7": [
+    "Quiero ayudar a más personas.",
+    "I want to help more people."
+   ]
+  },
+  {
+   "id": "sv14",
+   "pid": "m38",
+   "es": "dolor",
+   "art": "el",
+   "en": "pain",
+   "ico": "😣⚡",
+   "mn": "Think DOLOROUS, full of pain.",
+   "s1": [
+    "¿Tiene dolor en el pecho?",
+    "Do you have chest pain?"
+   ],
+   "s2": [
+    "El dolor empezó anoche.",
+    "The pain started last night."
+   ],
+   "cA": [
+    "¿Dónde siente el dolor?",
+    "Where do you feel the pain?"
+   ],
+   "cB": [
+    "Siento dolor en la espalda desde ayer.",
+    "I feel pain in my back since yesterday."
+   ],
+   "s7": [
+    "Esta pastilla ayuda con el dolor.",
+    "This pill helps with pain."
+   ]
+  },
+  {
+   "id": "sv15",
+   "pid": "m39",
+   "es": "cabeza",
+   "art": "la",
+   "en": "head",
+   "ico": "🧢🙂",
+   "mn": "Sounds like CAP-esa. A cap sits on your head.",
+   "s1": [
+    "Me duele la cabeza.",
+    "My head hurts."
+   ],
+   "s2": [
+    "Incline la cabeza hacia atrás, por favor.",
+    "Tilt your head back, please."
+   ],
+   "cA": [
+    "¿Le duele la cabeza?",
+    "Does your head hurt?"
+   ],
+   "cB": [
+    "Sí, me duele la cabeza y tengo mareo.",
+    "Yes, my head hurts and I'm dizzy."
+   ],
+   "s7": [
+    "Le duele la cabeza desde esta mañana.",
+    "His head has hurt since this morning."
+   ]
+  },
+  {
+   "id": "sv16",
+   "pid": "m48",
+   "es": "fiebre",
+   "art": "la",
+   "en": "fever",
+   "ico": "🌡️🔥",
+   "mn": "Sounds like FEBRILE, which means feverish.",
+   "s1": [
+    "¿Tiene fiebre?",
+    "Do you have a fever?"
+   ],
+   "s2": [
+    "El niño tiene fiebre alta.",
+    "The child has a high fever."
+   ],
+   "cA": [
+    "¿Desde cuándo tiene fiebre?",
+    "Since when do you have a fever?"
+   ],
+   "cB": [
+    "Desde anoche, y no baja.",
+    "Since last night, and it won't go down."
+   ],
+   "s7": [
+    "Si la fiebre sigue, vuelva a la clínica.",
+    "If the fever continues, come back to the clinic."
+   ]
+  },
+  {
+   "id": "sv17",
+   "pid": "m49",
+   "es": "tos",
+   "art": "la",
+   "en": "cough",
+   "ico": "🤧🛏️",
+   "mn": "Sounds like TOSS. You toss and turn when you cough.",
+   "s1": [
+    "Tengo tos desde ayer.",
+    "I've had a cough since yesterday."
+   ],
+   "s2": [
+    "La tos empeora por la noche.",
+    "The cough gets worse at night."
+   ],
+   "cA": [
+    "¿Tiene tos seca o con flema?",
+    "Do you have a dry cough or a phlegmy one?"
+   ],
+   "cB": [
+    "Es una tos seca y me molesta mucho.",
+    "It's a dry cough and it bothers me a lot."
+   ],
+   "s7": [
+    "Esa tos no suena bien.",
+    "That cough doesn't sound good."
+   ]
+  },
+  {
+   "id": "sv18",
+   "pid": "m47",
+   "es": "garganta",
+   "art": "la",
+   "en": "throat",
+   "ico": "🫗😮",
+   "mn": "Sounds like GARGLE. You gargle with your throat.",
+   "s1": [
+    "Me duele la garganta.",
+    "My throat hurts."
+   ],
+   "s2": [
+    "Tome agua tibia para la garganta.",
+    "Drink warm water for your throat."
+   ],
+   "cA": [
+    "¿Qué le pasa?",
+    "What's wrong?"
+   ],
+   "cB": [
+    "Me duele la garganta cuando trago.",
+    "My throat hurts when I swallow."
+   ],
+   "s7": [
+    "Abra la boca, voy a revisar la garganta.",
+    "Open your mouth, I'm going to check your throat."
+   ]
+  },
+  {
+   "id": "sv19",
+   "pid": "m52",
+   "es": "sangre",
+   "art": "la",
+   "en": "blood",
+   "ico": "🍷🩸",
+   "mn": "Sounds like SANGRIA, red like blood.",
+   "s1": [
+    "Voy a sacarle sangre.",
+    "I'm going to draw your blood."
+   ],
+   "s2": [
+    "Necesitamos una muestra de sangre.",
+    "We need a blood sample."
+   ],
+   "cA": [
+    "¿Le da miedo la sangre?",
+    "Are you afraid of blood?"
+   ],
+   "cB": [
+    "Un poco, pero estoy tranquilo.",
+    "A little, but I'm calm."
+   ],
+   "s7": [
+    "Los resultados de sangre llegan mañana.",
+    "The blood results arrive tomorrow."
+   ]
+  },
+  {
+   "id": "sv20",
+   "pid": "m56",
+   "es": "enfermera",
+   "art": "la",
+   "en": "nurse",
+   "ico": "👩‍⚕️🏥",
+   "mn": "Sounds like INFIRMARY. A nurse works in an infirmary.",
+   "s1": [
+    "La enfermera viene enseguida.",
+    "The nurse is coming right away."
+   ],
+   "s2": [
+    "La enfermera me tomó la presión.",
+    "The nurse took my blood pressure."
+   ],
+   "cA": [
+    "¿Dónde está la enfermera?",
+    "Where is the nurse?"
+   ],
+   "cB": [
+    "Está en la sala con otro paciente.",
+    "She's in the room with another patient."
+   ],
+   "s7": [
+    "Quiero ser enfermera algún día.",
+    "I want to be a nurse someday."
+   ]
+  },
+  {
+   "id": "sv21",
+   "pid": "m58",
+   "es": "medicamento",
+   "art": "el",
+   "en": "medication",
+   "ico": "💊",
+   "mn": "Sounds like MEDICAMENT, a medicine you take.",
+   "s1": [
+    "¿Toma algún medicamento?",
+    "Do you take any medication?"
+   ],
+   "s2": [
+    "Este medicamento se toma con comida.",
+    "This medication is taken with food."
+   ],
+   "cA": [
+    "¿Para qué es este medicamento?",
+    "What is this medication for?"
+   ],
+   "cB": [
+    "Es para el dolor y la fiebre.",
+    "It's for pain and fever."
+   ],
+   "s7": [
+    "No olvide tomar su medicamento.",
+    "Don't forget to take your medication."
+   ]
+  }
+ ],
+ "STEPT": [
+  "",
+  "Escucha",
+  "Escucha otra vez",
+  "Lee el subtítulo",
+  "Mira la imagen",
+  "Escucha una conversación",
+  "Úsala tú",
+  "Escúchala natural"
+ ],
+ "STEPD": [
+  "",
+  "Hear it in a short clip",
+  "Hear it again in another context",
+  "Read it in a caption",
+  "See a picture with it",
+  "Hear it in a conversation",
+  "Use it yourself",
+  "Hear it once more, naturally"
+ ]
+}

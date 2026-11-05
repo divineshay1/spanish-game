@@ -1,0 +1,120 @@
+{
+ "HQ": [
+  [
+   "¿Cómo te llamas y de dónde eres?",
+   "Me llamo Ana y soy de Arizona.",
+   "What is your name and where are you from?"
+  ],
+  [
+   "¿Qué haces en tu trabajo?",
+   "Trabajo en una clínica y ayudo a los pacientes.",
+   "What do you do at work?"
+  ],
+  [
+   "¿Qué te gusta comer?",
+   "Me gusta comer arepas y tacos.",
+   "What do you like to eat?"
+  ],
+  [
+   "¿Cómo es tu familia?",
+   "Mi familia es pequeña. Tengo una mamá y dos hermanos.",
+   "What is your family like?"
+  ],
+  [
+   "¿Qué hiciste ayer?",
+   "Ayer trabajé y después fui al gimnasio.",
+   "What did you do yesterday?"
+  ],
+  [
+   "¿Qué vas a hacer este fin de semana?",
+   "Voy a descansar y estudiar español.",
+   "What are you going to do this weekend?"
+  ],
+  [
+   "¿Cómo te sientes hoy y por qué?",
+   "Me siento cansada porque trabajé mucho.",
+   "How do you feel today and why?"
+  ],
+  [
+   "Describe tu casa.",
+   "Mi casa es grande y bonita. Tiene una cocina y dos cuartos.",
+   "Describe your house."
+  ],
+  [
+   "¿Por qué quieres aprender español?",
+   "Quiero hablar con mis pacientes y entender la música.",
+   "Why do you want to learn Spanish?"
+  ],
+  [
+   "¿Qué haces por la mañana?",
+   "Me levanto temprano, tomo café y voy al trabajo.",
+   "What do you do in the morning?"
+  ],
+  [
+   "¿Cómo te sientes cuando hablas español?",
+   "Me siento nerviosa, pero feliz.",
+   "How do you feel when you speak Spanish?"
+  ],
+  [
+   "Cuéntame de un amigo o una amiga.",
+   "Mi amiga es muy amable. Siempre me ayuda.",
+   "Tell me about a friend."
+  ],
+  [
+   "¿Qué haces cuando estás estresada?",
+   "Voy al gimnasio y escucho música.",
+   "What do you do when you are stressed?"
+  ],
+  [
+   "¿Cuál es tu comida favorita y por qué?",
+   "Mi comida favorita es el mole porque es delicioso.",
+   "What is your favorite food and why?"
+  ],
+  [
+   "Explica a un paciente qué va a pasar hoy.",
+   "Hoy voy a tomarle la presión y la temperatura.",
+   "Explain to a patient what will happen today."
+  ],
+  [
+   "Pregunta a un paciente cómo se siente.",
+   "¿Cómo se siente hoy? ¿Le duele algo?",
+   "Ask a patient how they feel."
+  ]
+ ],
+ "CONN_ES": [
+  "porque",
+  "pero",
+  "también",
+  "además",
+  "entonces",
+  "luego",
+  "después",
+  "primero",
+  "por eso",
+  "aunque",
+  "sin embargo",
+  "cuando",
+  "mientras"
+ ],
+ "IST": {
+  "img": "Imagen",
+  "oye": "Escucha",
+  "dial": "Conversación",
+  "dicta": "Dictado",
+  "orden": "Ordena la historia",
+  "habla": "Habla",
+  "escribe": "Escribe"
+ },
+ "ISEQ": [
+  "img",
+  "oye",
+  "dial",
+  "habla",
+  "dicta",
+  "img",
+  "oye",
+  "orden",
+  "escribe",
+  "dial"
+ ]
+}

@@ -1,0 +1,121 @@
+{
+ "CL_NAMES": {
+  "f": [
+   "María López",
+   "Ana Torres",
+   "Carmen Ruiz",
+   "Laura Mendoza",
+   "Sofía Vargas",
+   "Rosa Castillo"
+  ],
+  "m": [
+   "Carlos Ramírez",
+   "José Gómez",
+   "Luis Díaz",
+   "Pedro Castillo",
+   "Jorge Herrera",
+   "Miguel Ortega"
+  ]
+ },
+ "CL_BODY": [
+  [
+   "cabeza",
+   "la cabeza",
+   "head",
+   "front"
+  ],
+  [
+   "garganta",
+   "la garganta",
+   "throat",
+   "front"
+  ],
+  [
+   "pecho",
+   "el pecho",
+   "chest",
+   "front"
+  ],
+  [
+   "estómago",
+   "el estómago",
+   "stomach",
+   "front"
+  ],
+  [
+   "espalda",
+   "la espalda",
+   "back",
+   "back"
+  ],
+  [
+   "brazo",
+   "el brazo",
+   "arm",
+   "front"
+  ],
+  [
+   "pierna",
+   "la pierna",
+   "leg",
+   "front"
+  ]
+ ],
+ "CL_SYM": [
+  [
+   "fiebre",
+   "fiebre",
+   "fever"
+  ],
+  [
+   "tos",
+   "tos",
+   "cough"
+  ],
+  [
+   "mareo",
+   "mareo",
+   "dizziness"
+  ],
+  [
+   "náuseas",
+   "náuseas",
+   "nausea"
+  ]
+ ],
+ "CL_CMD": [
+  [
+   "Abra la boca, por favor.",
+   "Abre la boca, por favor.",
+   "Open your mouth, please.",
+   "mouth",
+   "Get the patient to open their mouth."
+  ],
+  [
+   "Levante el brazo, por favor.",
+   "Levanta el brazo, por favor.",
+   "Raise your arm, please.",
+   "arm",
+   "Get the patient to raise their arm."
+  ],
+  [
+   "Respire profundo, por favor.",
+   "Respira profundo, por favor.",
+   "Breathe deeply, please.",
+   "breathe",
+   "Get the patient to take a deep breath."
+  ],
+  [
+   "Voltéese, por favor.",
+   "Voltéate, por favor.",
+   "Turn around, please.",
+   "turn",
+   "Get the patient to turn around."
+  ]
+ ],
+ "CL_OTHER": [
+  "Cierre los ojos, por favor.",
+  "Toque su nariz, por favor.",
+  "Cruce los brazos, por favor."
+ ]
+}

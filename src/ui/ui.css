@@ -1,0 +1,113 @@
+/* Pixel-style DOM panels that sit over the game (settings, typing, long text). */
+:root {
+  --pink: #fb9ecd;
+  --blush: #fcb4db;
+  --lav: #b399f5;
+  --cream: #f6e4f8;
+  --white: #fff7fc;
+  --plum: #6b4fa8;
+  --deep: #8f76d9;
+  --star: #ffe066;
+  --mint: #a6dcb4;
+  --text-scale: 1;
+}
+.ui-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: rgba(107, 79, 168, 0.35);
+  font-family: 'Pixelify Sans', monospace;
+  color: var(--plum);
+  -webkit-user-select: none;
+  user-select: none;
+  touch-action: manipulation;
+}
+.ui-layer[hidden] { display: none; }
+.panel {
+  width: min(100%, 460px);
+  max-height: 88dvh;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  background: var(--cream);
+  /* chunky pixel border: two-tone, square corners */
+  border: 4px solid var(--plum);
+  box-shadow: inset 0 0 0 4px var(--white);
+  padding: 18px 18px calc(22px + env(safe-area-inset-bottom));
+  font-size: calc(17px * var(--text-scale));
+  line-height: 1.35;
+  image-rendering: pixelated;
+}
+.panel h2 {
+  margin: 0 0 4px;
+  font-size: calc(26px * var(--text-scale));
+  color: var(--plum);
+  text-shadow: 2px 2px 0 var(--blush);
+}
+.panel h3 {
+  margin: 18px 0 6px;
+  font-size: calc(18px * var(--text-scale));
+  color: var(--deep);
+}
+.panel p { margin: 4px 0; }
+.panel .muted { color: var(--deep); font-size: calc(14px * var(--text-scale)); }
+.panel .row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.panel .between { justify-content: space-between; }
+.pbtn {
+  appearance: none;
+  font: inherit;
+  font-size: calc(16px * var(--text-scale));
+  min-height: 44px;
+  padding: 8px 14px;
+  border: 3px solid var(--plum);
+  background: var(--white);
+  color: var(--plum);
+  box-shadow: 0 4px 0 var(--deep);
+  cursor: pointer;
+  border-radius: 0;
+}
+.pbtn:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--deep); }
+.pbtn.on { background: var(--star); }
+.pbtn.gold { background: var(--pink); color: var(--white); text-shadow: 1px 1px 0 var(--plum); }
+.pbtn.wide { width: 100%; }
+.pbtn.small { min-height: 36px; padding: 4px 10px; font-size: calc(14px * var(--text-scale)); }
+.pbtn.danger.armed { background: #e8808f; color: var(--white); }
+.pinput {
+  font: inherit;
+  font-size: max(16px, calc(16px * var(--text-scale)));
+  min-height: 44px;
+  padding: 6px 10px;
+  border: 3px solid var(--plum);
+  background: var(--white);
+  color: var(--plum);
+  border-radius: 0;
+  width: 100%;
+  box-sizing: border-box;
+  -webkit-user-select: text;
+  user-select: text;
+}
+.toast {
+  position: fixed;
+  left: 50%;
+  top: calc(16px + env(safe-area-inset-top));
+  transform: translateX(-50%);
+  z-index: 20;
+  background: var(--plum);
+  color: var(--white);
+  font-family: 'Pixelify Sans', monospace;
+  font-size: 16px;
+  padding: 10px 16px;
+  border: 3px solid var(--white);
+  box-shadow: 0 4px 0 var(--deep);
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+  max-width: 86vw;
+  text-align: center;
+}
+.toast.show { opacity: 1; }
+@media (prefers-reduced-motion: reduce) {
+  .toast { transition: none; }
+}

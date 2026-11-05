@@ -1,0 +1,511 @@
+{
+ "SOUNDS": [
+  [
+   "Vowels stay pure",
+   "a is ah, e is eh, i is ee, o is oh, u is oo. Keep them short and never slide into a second sound like English does.",
+   [
+    "casa",
+    "mesa",
+    "sí",
+    "solo",
+    "uno"
+   ]
+  ],
+  [
+   "H is silent",
+   "Never pronounce it.",
+   [
+    "hola",
+    "hoy",
+    "ahora"
+   ]
+  ],
+  [
+   "J, and G before e or i",
+   "A soft h, like fogging a mirror.",
+   [
+    "jugo",
+    "gente",
+    "trabajar"
+   ]
+  ],
+  [
+   "LL and Y",
+   "Like the y in yes.",
+   [
+    "calle",
+    "yo",
+    "pollo"
+   ]
+  ],
+  [
+   "Ñ",
+   "Like ny in canyon.",
+   [
+    "año",
+    "español",
+    "niño"
+   ]
+  ],
+  [
+   "R and RR",
+   "A single r is one quick tap, like the dd in ladder. RR and a word that starts with r are rolled.",
+   [
+    "cara",
+    "perro",
+    "rico"
+   ]
+  ],
+  [
+   "B and V",
+   "Same sound. Both are a soft b.",
+   [
+    "vaca",
+    "bien",
+    "vivo"
+   ]
+  ],
+  [
+   "C and Z",
+   "Before e or i the c sounds like s, and z is always s. No lisp in Latin America.",
+   [
+    "cena",
+    "zapato",
+    "gracias"
+   ]
+  ],
+  [
+   "QU and GU",
+   "The u is silent. Que is keh, guerra is GEH-rrah.",
+   [
+    "queso",
+    "guerra",
+    "quiero"
+   ]
+  ],
+  [
+   "D between vowels",
+   "Very soft, close to the th in this.",
+   [
+    "nada",
+    "pedir",
+    "ciudad"
+   ]
+  ],
+  [
+   "Where the stress goes",
+   "An accent mark tells you. No mark: words ending in a vowel, n or s stress the second to last syllable. Everything else stresses the last one.",
+   [
+    "teléfono",
+    "hablar",
+    "casa",
+    "canción"
+   ]
+  ]
+ ],
+ "PAIRS": [
+  {
+   "w": [
+    [
+     "pero",
+     "but"
+    ],
+    [
+     "perro",
+     "dog"
+    ]
+   ],
+   "tip": "Single r is one quick tap. rr is rolled, a longer trill."
+  },
+  {
+   "w": [
+    [
+     "caro",
+     "expensive"
+    ],
+    [
+     "carro",
+     "car"
+    ]
+   ],
+   "tip": "Single r is a quick tap. rr is rolled."
+  },
+  {
+   "w": [
+    [
+     "coro",
+     "choir"
+    ],
+    [
+     "corro",
+     "I run"
+    ]
+   ],
+   "tip": "Single r is a quick tap. rr is rolled."
+  },
+  {
+   "w": [
+    [
+     "pera",
+     "pear"
+    ],
+    [
+     "perra",
+     "female dog"
+    ]
+   ],
+   "tip": "Single r is a quick tap. rr is rolled."
+  },
+  {
+   "w": [
+    [
+     "hablo",
+     "I speak"
+    ],
+    [
+     "habló",
+     "he or she spoke"
+    ]
+   ],
+   "tip": "Stress on the first syllable is I, stress on the last is he or she, past tense."
+  },
+  {
+   "w": [
+    [
+     "canto",
+     "I sing"
+    ],
+    [
+     "cantó",
+     "he or she sang"
+    ]
+   ],
+   "tip": "The accent mark moves the stress to the end."
+  },
+  {
+   "w": [
+    [
+     "tomo",
+     "I take"
+    ],
+    [
+     "tomó",
+     "he or she took"
+    ]
+   ],
+   "tip": "The accent mark moves the stress to the end."
+  },
+  {
+   "w": [
+    [
+     "trabajo",
+     "work, I work"
+    ],
+    [
+     "trabajó",
+     "he or she worked"
+    ]
+   ],
+   "tip": "The accent mark moves the stress to the end."
+  },
+  {
+   "w": [
+    [
+     "esta",
+     "this (f.)"
+    ],
+    [
+     "está",
+     "he or she is"
+    ]
+   ],
+   "tip": "Es-ta versus es-TÁ. Listen for where the stress lands."
+  },
+  {
+   "w": [
+    [
+     "papa",
+     "potato"
+    ],
+    [
+     "papá",
+     "dad"
+    ]
+   ],
+   "tip": "PA-pa versus pa-PÁ."
+  },
+  {
+   "w": [
+    [
+     "vino",
+     "wine, he came"
+    ],
+    [
+     "vine",
+     "I came"
+    ]
+   ],
+   "tip": "Listen to the last vowel: o versus e."
+  },
+  {
+   "w": [
+    [
+     "cuarto",
+     "room, fourth"
+    ],
+    [
+     "cuatro",
+     "four"
+    ]
+   ],
+   "tip": "Listen to the r and t order: cuar-to versus cua-tro."
+  },
+  {
+   "w": [
+    [
+     "una",
+     "a (f.)"
+    ],
+    [
+     "uña",
+     "fingernail"
+    ]
+   ],
+   "tip": "ñ sounds like ny, as in canyon."
+  },
+  {
+   "w": [
+    [
+     "mono",
+     "monkey"
+    ],
+    [
+     "moño",
+     "bun (hair)"
+    ]
+   ],
+   "tip": "ñ sounds like ny, as in canyon."
+  },
+  {
+   "w": [
+    [
+     "peso",
+     "weight, peso"
+    ],
+    [
+     "beso",
+     "kiss"
+    ]
+   ],
+   "tip": "p is crisp with a puff of air. b is soft."
+  },
+  {
+   "w": [
+    [
+     "pata",
+     "paw, leg"
+    ],
+    [
+     "bata",
+     "robe, lab coat"
+    ]
+   ],
+   "tip": "p versus b."
+  },
+  {
+   "w": [
+    [
+     "gato",
+     "cat"
+    ],
+    [
+     "pato",
+     "duck"
+    ]
+   ],
+   "tip": "g versus p."
+  },
+  {
+   "w": [
+    [
+     "cama",
+     "bed"
+    ],
+    [
+     "gama",
+     "range"
+    ]
+   ],
+   "tip": "c (k sound) versus g."
+  },
+  {
+   "w": [
+    [
+     "tía",
+     "aunt"
+    ],
+    [
+     "día",
+     "day"
+    ]
+   ],
+   "tip": "t versus d. d is softer."
+  },
+  {
+   "w": [
+    [
+     "tos",
+     "cough"
+    ],
+    [
+     "dos",
+     "two"
+    ]
+   ],
+   "tip": "t versus d."
+  },
+  {
+   "w": [
+    [
+     "mesa",
+     "table"
+    ],
+    [
+     "misa",
+     "mass (church)"
+    ]
+   ],
+   "tip": "e versus i."
+  },
+  {
+   "w": [
+    [
+     "poco",
+     "a little"
+    ],
+    [
+     "pico",
+     "peak, beak"
+    ]
+   ],
+   "tip": "o versus i."
+  },
+  {
+   "w": [
+    [
+     "pasa",
+     "passes, raisin"
+    ],
+    [
+     "pesa",
+     "weighs"
+    ]
+   ],
+   "tip": "a versus e."
+  },
+  {
+   "w": [
+    [
+     "sal",
+     "salt"
+    ],
+    [
+     "sol",
+     "sun"
+    ]
+   ],
+   "tip": "a versus o."
+  },
+  {
+   "w": [
+    [
+     "quince",
+     "fifteen"
+    ],
+    [
+     "cincuenta",
+     "fifty"
+    ]
+   ],
+   "tip": "Teens end in ce or torce. Tens end in nta."
+  },
+  {
+   "w": [
+    [
+     "trece",
+     "thirteen"
+    ],
+    [
+     "treinta",
+     "thirty"
+    ]
+   ],
+   "tip": "Teens end in ce. Tens end in nta."
+  },
+  {
+   "w": [
+    [
+     "catorce",
+     "fourteen"
+    ],
+    [
+     "cuarenta",
+     "forty"
+    ]
+   ],
+   "tip": "Teens end in torce. Tens end in nta. Vital for ages and doses."
+  },
+  {
+   "w": [
+    [
+     "dieciséis",
+     "sixteen"
+    ],
+    [
+     "sesenta",
+     "sixty"
+    ]
+   ],
+   "tip": "Teens start with dieci. Tens end in nta."
+  },
+  {
+   "w": [
+    [
+     "diecisiete",
+     "seventeen"
+    ],
+    [
+     "setenta",
+     "seventy"
+    ]
+   ],
+   "tip": "Teens start with dieci. Tens end in nta."
+  },
+  {
+   "w": [
+    [
+     "dieciocho",
+     "eighteen"
+    ],
+    [
+     "ochenta",
+     "eighty"
+    ]
+   ],
+   "tip": "Teens start with dieci. Tens end in nta."
+  },
+  {
+   "w": [
+    [
+     "diecinueve",
+     "nineteen"
+    ],
+    [
+     "noventa",
+     "ninety"
+    ]
+   ],
+   "tip": "Teens start with dieci. Tens end in nta."
+  }
+ ]
+}

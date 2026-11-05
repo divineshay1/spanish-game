@@ -3,14 +3,26 @@
     "target": "ES2022",
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "types": ["vite/client", "vite-plugin-pwa/client"],
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "types": [
+      "vite/client",
+      "vite-plugin-pwa/client",
+      "node"
+    ],
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "skipLibCheck": true,
     "isolatedModules": true,
-    "noEmit": true
+    "noEmit": true,
+    "resolveJsonModule": true
   },
-  "include": ["src", "vite.config.ts"]
+  "include": [
+    "src",
+    "vite.config.ts"
+  ]
 }

@@ -190,3 +190,30 @@ export function companion(frame: 0 | 1): HTMLCanvasElement {
   drawPixelMap(ctx, rows, { w: PAL.white, l: PAL.lilac, e: PAL.plum, p: PAL.pink, m: PAL.deepLav, y: PAL.star });
   return c;
 }
+
+/** Settings gear button (11x11) on a small cream tile. */
+export function gear(): HTMLCanvasElement {
+  const [c, ctx] = makeCanvas(15, 15);
+  drawPixelMap(
+    ctx,
+    [
+      'ooooooooooooooo',
+      'owwwwwwwwwwwwwo',
+      'owwwwwpwwwwwwwo',
+      'owwpwpppwpwwwwo',
+      'owwwpppppwwwwwo',
+      'owwppplpppwwwwo',
+      'owppplllpppwwwo',
+      'owwppllllppwwwo',
+      'owppplllpppwwwo',
+      'owwppplpppwwwwo',
+      'owwwpppppwwwwwo',
+      'owwpwpppwpwwwwo',
+      'owwwwwpwwwwwwwo',
+      'obbbbbbbbbbbbbo',
+      'ooooooooooooooo',
+    ],
+    { o: PAL.plum, w: PAL.cream, p: PAL.deepLav, l: PAL.cream, b: PAL.blush },
+  );
+  return c;
+}

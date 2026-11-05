@@ -47,6 +47,36 @@ const after = await page.evaluate(() => window.__game.scene.getScene('Cielo').ch
 if (after <= tapped.before) fail('tapping the garden door did nothing');
 await page.screenshot({ path: `${OUT}/cielo-door.png` });
 
+// settings: tap the gear, check the panel, change accent, test voice, back up, restore
+const unit = box.width / info.w; // css px per game pixel
+await page.mouse.click(box.x + (info.w - 14) * unit, box.y + 14 * unit);
+await page.waitForSelector('#settings .panel', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/settings.png` });
+await page.click('[data-act="accent"][data-v="co"]');
+const accent = await page.evaluate(() => window.__state().accent);
+if (accent !== 'co') fail('accent did not change');
+await page.click('[data-act="test"]');
+await page.fill('#set-name', 'Shay');
+await page.locator('#set-name').blur();
+const [download] = await Promise.all([page.waitForEvent('download'), page.click('[data-act="backup"]')]);
+const backupPath = `${OUT}/${download.suggestedFilename()}`;
+await download.saveAs(backupPath);
+// change something, then restore the backup and check it came back
+await page.click('[data-act="accent"][data-v="mx"]');
+const [chooser] = await Promise.all([page.waitForEvent('filechooser'), page.click('[data-act="restore"]')]);
+await chooser.setFiles(backupPath);
+await page.waitForFunction(() => window.__state().accent === 'co', null, { timeout: 5000 });
+const restoredName = await page.evaluate(() => window.__state().name);
+if (restoredName !== 'Shay') fail('restore lost the name');
+// saved across reloads
+await page.click('[data-act="close"]');
+await page.waitForTimeout(500);
+await page.reload();
+await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
+const kept = await page.evaluate(() => window.__state().name);
+if (kept !== 'Shay') fail('progress was not saved across reload');
+console.log('settings, backup, restore, save OK');
+
 // offline: wait for the service worker, then reload with the network off
 await page.evaluate(() => navigator.serviceWorker.ready);
 await page.reload();
