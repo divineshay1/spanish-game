@@ -1,11 +1,13 @@
 import { defineConfig } from 'vite';
 import { VitePWA } from 'vite-plugin-pwa';
+import { artManifest } from './src/art/manifestPlugin.ts';
 
 // GitHub Pages serves the site at /spanish-game/
 export default defineConfig({
   base: '/spanish-game/',
   build: { target: 'es2022', chunkSizeWarningLimit: 2000 },
   plugins: [
+    artManifest(),
     VitePWA({
       registerType: 'autoUpdate',
       injectRegister: false,

@@ -1,11 +1,17 @@
 import Phaser from 'phaser';
+import artKeys from 'virtual:art-manifest';
 import { PAL } from '../game/palette';
-import { backArrow, companion, door, dot, drop, gear, glow, grassTile, island, moon, seedBag, sparkleBig, sparkleSmall, starGold, wateringCan } from '../art/sprites';
+import { backArrow, companion, dot, drop, gear, glow, grassTile, island, moon, seedBag, sparkleBig, sparkleSmall, starGold, wateringCan } from '../art/sprites';
 
 /** Builds all placeholder textures once, then opens El Cielo. */
 export class BootScene extends Phaser.Scene {
   constructor() {
     super('Boot');
+  }
+
+  /** Real art from public/assets (see ART_PROMPTS.md) loads first and wins. */
+  preload(): void {
+    for (const key of artKeys) this.load.image(key, `assets/${key}.png`);
   }
 
   create(): void {
@@ -21,9 +27,6 @@ export class BootScene extends Phaser.Scene {
     add('moon', moon(15));
     add('moon-glow', glow(41, PAL.white));
     add('island', island(120, 64));
-    add('door-garden', door(PAL.mint));
-    add('door-clinic', door(PAL.blush));
-    add('door-tower', door(PAL.lavender));
     add('gear', gear());
     add('back-arrow', backArrow());
     add('can', wateringCan());

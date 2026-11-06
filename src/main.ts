@@ -6,6 +6,7 @@ import './ui/ui.css';
 import { initStore, state } from './state/store';
 import { applyTextSize } from './ui/settings';
 import { setDayOffset } from './engine/clock';
+import { unlockAudio } from './audio/sfx';
 import { registerSW } from 'virtual:pwa-register';
 import { BootScene } from './scenes/BootScene';
 import { CieloScene } from './scenes/CieloScene';
@@ -89,6 +90,9 @@ async function start() {
   window.addEventListener('resize', onResize);
   window.visualViewport?.addEventListener('resize', onResize);
 }
+
+// iPhone only plays sound after a tap
+window.addEventListener('pointerdown', unlockAudio, { once: true });
 
 registerSW({ immediate: true });
 start();

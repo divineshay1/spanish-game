@@ -1,6 +1,7 @@
 import Phaser from 'phaser';
 import { PAL, hex } from './palette';
 import { pixelText } from './text';
+import { sfx } from '../audio/sfx';
 
 /**
  * A chunky pixel button: plum border, cream face, blush shadow.
@@ -57,7 +58,10 @@ export function pixelButton(
   const up = (fire: boolean) => {
     draw(false);
     parts.forEach((p) => (p as unknown as { y: number }).y--);
-    if (fire) onTap();
+    if (fire) {
+      sfx('tap');
+      onTap();
+    }
   };
   let pressed = false;
   zone.on('pointerdown', () => (pressed = true));

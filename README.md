@@ -20,6 +20,17 @@ It's free, works offline, and keeps all your progress on your phone.
 After that, every change saved to the `main` branch publishes itself in about 2 minutes.
 You can watch it in the **Actions** tab (green check = live).
 
+## Around El Cielo
+
+- Tap a **door** to enter a realm (El Jardín is open; the others arrive in later steps).
+- **Hoy**: today's XP, streak, level, the phrase of the day and your daily route.
+- **Progreso**: your 14-day chart, strong and weak skills, word strength and milestones.
+- Tap the little cloud creature for some encouragement. The gear opens **Ajustes** (sound, music, text size, backups).
+
+## Real art
+
+See `ART_PROMPTS.md`. Upload PNGs with those exact names into `public/assets/` and they replace the placeholder art.
+
 ## How El Jardín works
 
 - **Sembrar** (seed bag): meet up to 5 new words a day, then a quick check plants them.

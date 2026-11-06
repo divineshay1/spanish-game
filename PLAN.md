@@ -188,7 +188,8 @@ Every realm gets a smoke test that plays it start to finish automatically.
 - [x] **M1. The sky**: El Cielo, clouds, stars, moon, island with 3 doors, companion, installable, offline, auto-publish.
 - [x] **M2. The brain**: all content copied exactly into `src/content/data/` (by script), engines in `src/engine/` (spaced repetition, grading, conjugation, numbers, pronunciation) proven identical to the prototype by tests, save on device + Backup/Restore (also reads old Mi Español saves), Ajustes panel with voice, accent, speed, seeds per day, text size, motion and sound.
 - [x] **M3. El Jardín**: garden of pixel plants (9 stages × 8 flower families, drooping and faded when thirsty), Sembrar (meet 5 new words, quick check plants them), Regar (review in 4 test modes, accent row, "I was right" button), Focus rescue round, tap a plant for its word, picture and pronunciation, your 73 pictures, El Cielo door opens the garden. Test switch: add `?day=3` or `?debug` to the address.
-- [ ] M4. Home sweet sky
+- [x] **M4. Home sweet sky**: El Cielo with doors to all 8 realms on three islands (locked ones say "¡pronto!"), star-burst screen change, companion that cheers you on in Spanish, today's XP bar and streak, **Hoy** (XP, level, phrase of the day with Listen/Slow/Sonidos, daily route that jumps straight into the garden), **Progreso** dashboard (14-day chart, skills, word strength, rescue list, milestones), chiptune sounds and optional music, `ART_PROMPTS.md`, and real art dropped into `public/assets/` replaces placeholders automatically.
+- [ ] M5. La Clínica
 
 ### Things I noticed in the prototype (not changed yet)
 - **Fixed (you approved):** a c or g at the end of a syllable now keeps its hard sound: doctor → dohk-TOHR (was dohs-TOHR), seguro → seh-GOO-roh (was seh-G-roh).

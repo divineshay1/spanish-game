@@ -9,6 +9,7 @@ import { downloadBackup, pickBackupFile } from '../state/backup';
 import { flush } from '../state/storage';
 import { hasTTS, onVoices, pickVoice, SPEED_CHOICES, spanishVoices, speak } from '../audio/speech';
 import { toast } from './toast';
+import { setMusic } from '../audio/sfx';
 import { shield } from './shield';
 
 let layer: HTMLDivElement | null = null;
@@ -103,6 +104,7 @@ function render(): void {
     <div class="row">
       ${chip('motion', st.reduceMotion ? 0 : 1, st.reduceMotion ? 'Menos movimiento: sí' : 'Menos movimiento: no', st.reduceMotion)}
       ${chip('sfx', st.sfx ? 0 : 1, st.sfx ? 'Sonidos: sí' : 'Sonidos: no', st.sfx)}
+      ${chip('music', st.music ? 0 : 1, st.music ? 'Música: sí' : 'Música: no', st.music)}
     </div>
 
     <h3>Tu progreso</h3>
@@ -152,6 +154,10 @@ async function onClick(e: Event): Promise<void> {
       break;
     case 'sfx':
       S.settings.sfx = v === '1';
+      break;
+    case 'music':
+      S.settings.music = v === '1';
+      setMusic(S.settings.music);
       break;
     case 'backup':
       downloadBackup(S);

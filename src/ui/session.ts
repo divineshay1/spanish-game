@@ -21,6 +21,7 @@ import { addXP } from '../state/progress';
 import { cardById, catalog } from '../engine/cards';
 import { STAGE_EN, STAGE_NAME, FAMILY_NAME } from '../art/plants';
 import { toast } from './toast';
+import { sfx } from '../audio/sfx';
 import { shield } from './shield';
 
 export interface SessionResult {
@@ -340,6 +341,7 @@ function advance(s: Session, r: 'again' | 'good' | 'easy'): void {
     result.shrank.push(...s.shrank);
     result.xp += s.xp;
     view = { k: 'fin', s };
+    sfx('done');
     render();
     return;
   }
@@ -406,11 +408,13 @@ function onClick(e: Event): void {
       if (v.p.dir === 'en') say(current(v.s)!.es);
       return;
     case 'rate':
+      sfx(btn.dataset.r === 'again' ? 'bad' : 'good');
       if (v.k === 'play') advance(v.s, btn.dataset.r as 'again' | 'good' | 'easy');
       return;
     case 'pick': {
       if (v.k !== 'play' || v.pick !== null) return;
       v.pick = Number(btn.dataset.i);
+      sfx(v.p.opts[v.pick] === v.p.answer ? 'good' : 'bad');
       render();
       say(current(v.s)!.es);
       return;
@@ -421,6 +425,7 @@ function onClick(e: Event): void {
       if (!val) return toast('Type your answer first');
       v.typed = val;
       v.grade = checkTyped(current(v.s)!, v.s.mode as 'rtr' | 'rwd', val);
+      sfx(v.grade === 'bad' ? 'bad' : 'good');
       render();
       say(current(v.s)!.es);
       return;
@@ -457,6 +462,7 @@ function onClick(e: Event): void {
       if (v.k !== 'focus' || v.pick !== null) return;
       v.pick = Number(btn.dataset.i);
       v.mcOk = v.step.opts[v.pick] === v.items[v.i].en;
+      sfx(v.mcOk ? 'good' : 'bad');
       render();
       say(v.items[v.i].es);
       return;
@@ -490,6 +496,7 @@ function onClick(e: Event): void {
       const got = v.placed.map((id) => v.step.pool.find((p) => p.id === id)!.w);
       const ok = eqArr(got, v.step.tokens);
       v.res = ok ? 'good' : 'bad';
+      sfx(ok ? 'good' : 'bad');
       const before = S.cards[it.ck]?.box ?? 0;
       v.xp += focusResult(S, it, v.mcOk, ok, v.hints);
       if (ok) v.right++;
@@ -508,6 +515,7 @@ function onClick(e: Event): void {
         result.grew.push(...v.grew);
         result.xp += xp;
         view = { k: 'fdone', right: v.right, total: v.items.length, xp };
+        sfx('done');
         render();
         return;
       }

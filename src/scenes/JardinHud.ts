@@ -19,7 +19,7 @@ export class JardinHud extends Phaser.Scene {
     super('JardinHud');
   }
 
-  create(): void {
+  create(data?: { open?: string }): void {
     const { W, H } = setupView(this);
     const build = () => {
       this.children.removeAll(true);
@@ -78,6 +78,16 @@ export class JardinHud extends Phaser.Scene {
       }
     };
     build();
+    // opened from the daily route: start that activity right away
+    const after0 = (r: SessionResult) => {
+      (this.scene.get('Jardin') as JardinScene).afterSession(r);
+      if (r.xp) toast(`+${r.xp} XP ✦`);
+    };
+    if (data?.open) this.time.delayedCall(450, () => {
+      if (data.open === 'plant') openPlant(after0);
+      else if (data.open === 'water') openWater(after0);
+      else if (data.open === 'focus') openFocus(after0);
+    });
     const off = subscribe(build);
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, off);
   }

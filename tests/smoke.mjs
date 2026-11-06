@@ -73,7 +73,7 @@ const tapGame = async (gx, gy) => {
 const W = info.w, H = info.h;
 const isActive = (k) => page.evaluate((k) => window.__game.scene.isActive(k), k);
 // garden door: centre of the island, just above the grass line
-await tapGame(W / 2, Math.round(H * 0.6) - 64 / 2 + 14 - 8);
+await tapGame(W / 2, Math.round(H * 0.44) - 26);
 await page.waitForFunction(() => window.__game.scene.isActive('JardinHud'), null, { timeout: 5000 });
 await page.waitForTimeout(400);
 await page.screenshot({ path: `${OUT}/jardin-empty.png` });
@@ -103,7 +103,7 @@ await page.screenshot({ path: `${OUT}/jardin-planted.png` });
 await page.goto(URL + '?day=3');
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 await page.waitForTimeout(300);
-await tapGame(W / 2, Math.round(H * 0.6) - 64 / 2 + 14 - 8);
+await tapGame(W / 2, Math.round(H * 0.44) - 26);
 await page.waitForFunction(() => window.__game.scene.isActive('JardinHud'), null, { timeout: 5000 });
 await page.waitForTimeout(500);
 await page.screenshot({ path: `${OUT}/jardin-thirsty.png` });
@@ -154,6 +154,37 @@ await page.waitForSelector('#session .big', { timeout: 5000 });
 await page.screenshot({ path: `${OUT}/plant-info.png` });
 await page.click('#session [data-act="close"]');
 console.log('jardín: plant, time travel, water, typed, focus, info OK');
+
+// ---- El Cielo: Hoy, phrase of the day, daily route, Progreso, locked door ----
+await page.goto(URL);
+await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
+await page.waitForTimeout(400);
+await page.screenshot({ path: `${OUT}/cielo-hub.png` });
+const bw2 = Math.floor((W - 18) / 2);
+await tapGame(6 + bw2 / 2, H - 32 + 12); // Hoy
+await page.waitForSelector('#panel [data-act="phrase"]', { timeout: 5000 });
+const xp0 = await page.evaluate(() => window.__state().xp);
+await page.click('#panel [data-act="phrase"] >> nth=0');
+const xp1 = await page.evaluate(() => window.__state().xp);
+if (xp1 !== xp0 + 2) fail('phrase of the day did not give 2 XP');
+await page.click('#panel [data-act="sounds"]');
+await page.screenshot({ path: `${OUT}/hoy.png`, fullPage: false });
+await page.click('#panel [data-act="task"][data-id="focus"]');
+await page.waitForFunction(() => window.__game.scene.isActive('JardinHud'), null, { timeout: 5000 });
+await page.waitForSelector('#session h2', { timeout: 5000 });
+await page.click('#session [data-act="close"]');
+await page.goto(URL);
+await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
+await page.waitForTimeout(300);
+await tapGame(6 * 2 + bw2 + bw2 / 2, H - 32 + 12); // Progreso
+await page.waitForSelector('#panel .chart', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/progreso.png` });
+await page.click('#panel [data-act="close"]');
+// a locked door shows "pronto" and stays on El Cielo
+await tapGame(W / 2 + 36, Math.round(H * 0.44) - 26);
+await page.waitForTimeout(300);
+if (!(await isActive('Cielo'))) fail('locked door left El Cielo');
+console.log('cielo: hoy, phrase XP, route, progreso, locked door OK');
 await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 

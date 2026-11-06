@@ -11,6 +11,7 @@ import { plantCanvas, plantKey, FAMILY_NAME, PLANT_W, PLANT_H } from '../art/pla
 import { openInfo, type SessionResult } from '../ui/session';
 import { skyCanvas } from '../art/sky';
 import { cloudLayer } from '../art/clouds';
+import { sfx } from '../audio/sfx';
 
 const ORDER: Family[] = ['paciente', 'imagen', 'tarjetas', 'frases', 'raices', 'verbos', 'siete', 'mias'];
 const CELL_W = 22;
@@ -37,7 +38,7 @@ export class JardinScene extends Phaser.Scene {
   private W = 0;
   private H = 0;
 
-  create(): void {
+  create(data?: { open?: string }): void {
     const { W, H } = setupView(this, GARDEN_ZOOM);
     this.W = W;
     this.H = H;
@@ -63,7 +64,7 @@ export class JardinScene extends Phaser.Scene {
     this.layout();
     this.setupScroll();
 
-    this.scene.launch('JardinHud');
+    this.scene.launch('JardinHud', data);
     this.scene.bringToTop('JardinHud');
     this.events.once(Phaser.Scenes.Events.SHUTDOWN, () => this.scene.stop('JardinHud'));
     const off = subscribe(() => this.refreshThirst());
@@ -75,6 +76,7 @@ export class JardinScene extends Phaser.Scene {
   afterSession(r: SessionResult): void {
     this.layout();
     const reduce = state().settings.reduceMotion;
+    if (r.grew.length) this.time.delayedCall(250, () => sfx('grow'));
     for (const id of r.grew) {
       const p = this.plants.get(id);
       if (!p) continue;
@@ -145,8 +147,12 @@ export class JardinScene extends Phaser.Scene {
   private addPlant(c: Card, x: number, y: number, today: string): void {
     const st = state().cards[c.id];
     const t = thirst(st, today);
-    const key = plantKey(c.family, st.box, t);
-    if (!this.textures.exists(key)) this.textures.addCanvas(key, plantCanvas(c.family, st.box, t));
+    let key = plantKey(c.family, st.box, t);
+    // real art: plant-<family>-<stage>.png is used for every thirst level, tinted when thirsty
+    const art = `plant-${c.family}-${st.box}`;
+    const useArt = !this.textures.exists(key) && this.textures.exists(art);
+    if (useArt) key = art;
+    else if (!this.textures.exists(key)) this.textures.addCanvas(key, plantCanvas(c.family, st.box, t));
     const cont = this.add.container(x, y).setData('bed', 1);
     if (st.box >= 8 && t === 0) {
       const glow = this.add.image(0, -14, 'moon-glow').setAlpha(0.5).setScale(0.75);
@@ -154,6 +160,7 @@ export class JardinScene extends Phaser.Scene {
       if (!state().settings.reduceMotion) this.tweens.add({ targets: glow, alpha: 0.2, duration: 1600, yoyo: true, repeat: -1 });
     }
     const img = this.add.image(0, -PLANT_H / 2, key);
+    if (useArt && t) img.setTint(t === 2 ? 0xd8c0a0 : 0xeee4d8).setAngle(t === 2 ? 8 : 4);
     cont.add(img);
     if (t > 0) {
       // just above the top of this plant
@@ -184,7 +191,9 @@ export class JardinScene extends Phaser.Scene {
         | undefined;
       if (!st || !img) return this.layout();
       const card = catalog(S).find((c) => c.id === id)!;
-      if (img.texture.key !== plantKey(card.family, st.box, thirst(st, today))) return this.layout();
+      const want = plantKey(card.family, st.box, thirst(st, today));
+      const art = `plant-${card.family}-${st.box}`;
+      if (img.texture.key !== want && img.texture.key !== art) return this.layout();
     }
     if (this.plants.size !== Object.keys(S.cards).length) this.layout();
   }
