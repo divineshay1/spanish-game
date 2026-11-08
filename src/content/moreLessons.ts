@@ -41,6 +41,51 @@ export const MORE_LESSONS: MoreLesson[] = [
       ["I'm going to take your temperature", 'Voy a tomarle la temperatura'], ['Are you going to the pharmacy tomorrow?', '¿Va a la farmacia mañana?'],
     ],
   },
+  {
+    id: 'b-pasado-er',
+    title: 'The past of -er and -ir verbs: -í and -ió',
+    rule: 'For -er and -ir verbs, I did it ends in -í and you / he / she did it ends in -ió: escribí, escribió; comprendí, comprendió. Leer changes i to y: leí, leyó.',
+    items: [
+      ['I wrote a letter', 'Escribí una carta'], ['My friend wrote a letter', 'Mi amigo escribió una carta'],
+      ['I understood', 'Comprendí'], ['Did you understand?', '¿Comprendió usted?'], ['I described the pain', 'Describí el dolor'],
+      ['I read the newspaper', 'Leí el periódico'], ['Did you read the newspaper?', '¿Leyó usted el periódico?'],
+      ['She received good news', 'Recibió buenas noticias'], ['I sold my car', 'Vendí mi automóvil'],
+    ],
+  },
+  {
+    id: 'b-plural',
+    title: 'We and they in the past: -amos / -aron, -imos / -ieron',
+    rule: '-ar verbs: we = -amos, they / you all = -aron (trabajamos, trabajaron). -er and -ir verbs: we = -imos, they = -ieron (escribimos, escribieron).',
+    items: [
+      ['We worked a lot', 'Trabajamos mucho'], ['My friends worked a lot', 'Mis amigos trabajaron mucho'],
+      ['Did you (pl.) work a lot?', '¿Trabajaron mucho?'], ['We studied', 'Estudiamos'], ['They prepared dinner', 'Prepararon la cena'],
+      ['We wrote many letters', 'Escribimos muchas cartas'], ['They wrote many letters', 'Escribieron muchas cartas'],
+      ['Did you (pl.) talk?', '¿Hablaron ustedes?'], ['We accepted', 'Aceptamos'], ['They parked', 'Estacionaron'],
+      ['What happened?', '¿Qué pasó?'],
+    ],
+  },
+  {
+    id: 'b-estoy',
+    title: 'Estoy + how you feel (-o for men, -a for women)',
+    rule: 'Use estar for how someone is right now. The word ends in -o for a man and -a for a woman: estoy cansado, estoy cansada.',
+    items: [
+      ["I'm happy (man)", 'Estoy contento'], ["I'm happy (woman)", 'Estoy contenta'], ["I'm tired (woman)", 'Estoy cansada'],
+      ["I'm alone (man)", 'Estoy solo'], ['Are you ready? (to a man)', '¿Está listo?'], ['Is María ready?', '¿Está lista María?'],
+      ['Are you busy? (to a woman)', '¿Está ocupada?'], ['Are you worried? (to a man)', '¿Está preocupado?'],
+      ["He's very sick", 'Está muy enfermo'], ["She's sick", 'Está enferma'], ['How are you feeling today?', '¿Cómo se siente hoy?'],
+    ],
+  },
+  {
+    id: 'b-ando',
+    title: 'Estoy + -ando / -iendo (right now)',
+    rule: '-ar verbs: -ando (hablando). -er and -ir verbs: -iendo (escribiendo). Between two vowels the i becomes y: leyendo, oyendo. Estoy / está / estamos / están + that word = doing it right now.',
+    items: [
+      ["I'm buying", 'Estoy comprando'], ["You're working", 'Está trabajando'], ["We're preparing", 'Estamos preparando'],
+      ["They're copying", 'Están copiando'], ["I'm writing", 'Estoy escribiendo'], ["She's selling", 'Está vendiendo'],
+      ["I'm reading", 'Estoy leyendo'], ["They're applauding", 'Están aplaudiendo'],
+      ["I'm listening", 'Estoy escuchando'], ['The patient is resting', 'El paciente está descansando'],
+    ],
+  },
 ];
 
 /**
@@ -105,6 +150,33 @@ export const MEZCLA: MezclaTable[] = [
       [['mañana', 'tomorrow'], ['esta tarde', 'this afternoon'], ['esta noche', 'tonight']],
     ],
   },
+  {
+    id: 'm-estoy',
+    title: 'Estoy ___ / ¿Está ___?',
+    cols: [
+      [['Estoy', "I'm"], ['No estoy', "I'm not"], ['¿Está usted', 'Are you']],
+      [['contento', 'happy (m.)'], ['contenta', 'happy (f.)'], ['cansado', 'tired (m.)'], ['cansada', 'tired (f.)'], ['ocupado', 'busy (m.)'], ['ocupada', 'busy (f.)'], ['preocupado', 'worried (m.)'], ['preocupada', 'worried (f.)']],
+      [['esta mañana', 'this morning'], ['esta tarde', 'this afternoon'], ['esta noche', 'tonight']],
+    ],
+  },
+  {
+    id: 'm-ando',
+    title: 'Estoy ___ -ando / -iendo',
+    cols: [
+      [['Estoy', "I'm"], ['Estamos', "We're"], ['Están', "They're"], ['¿Está usted', 'Are you']],
+      [['trabajando', 'working'], ['estudiando', 'studying'], ['preparando la cena', 'making dinner'], ['escribiendo una carta', 'writing a letter'], ['leyendo el periódico', 'reading the newspaper'], ['comprando pan', 'buying bread']],
+      [['en casa', 'at home'], ['en el despacho', 'at the office'], ['en la cocina', 'in the kitchen'], ['ahora', 'now']],
+    ],
+  },
+  {
+    id: 'm-plural',
+    title: 'Trabajamos / Trabajaron',
+    cols: [
+      [['Trabajamos', 'We worked'], ['No trabajamos', "We didn't work"], ['Mis amigos trabajaron', 'My friends worked'], ['¿Trabajaron ustedes', 'Did you (pl.) work']],
+      [['mucho', 'a lot'], ['en el hospital', 'at the hospital'], ['en casa', 'at home'], ['en el mercado', 'at the market']],
+      [['anoche', 'last night'], ['esta mañana', 'this morning'], ['la semana pasada', 'last week'], ['el sábado', 'on Saturday']],
+    ],
+  },
 ];
 
 /**
@@ -114,7 +186,7 @@ export const MEZCLA: MezclaTable[] = [
 export const VOCAB: [string, string][] = [
   ['el programa', 'the program'], ['el rosbif', 'the roast beef'], ['el biftec', 'the beefsteak'], ['en', 'in'], ['mi', 'my'],
   ['paciente', 'patient'], ['interesante', 'interesting'], ['muy', 'very'], ['en mi opinión', 'in my opinion'],
-  ['la lección', 'the lesson'], ['la clase', 'the class'], ['la cena', 'supper, dinner'], ['la casa', 'the house'], ['para', 'for'],
+  ['la lección', 'the lesson'], ['la clase', 'the class'], ['la cena', 'supper, dinner'], ['la casa', 'the house'], ['para', 'for; in order to'],
   ['su', 'your'], ['esta mañana', 'this morning'], ['esta tarde', 'this afternoon'], ['esta noche', 'tonight'], ['anoche', 'last night'],
   ['el diablo', 'the devil'], ['el infierno', 'hell'], ['la oficina', 'the office'], ['un hombre', 'a man'], ['una mujer', 'a woman'],
   ['la crema', 'the cream'], ['pero', 'but'], ['gracias', 'thank you'], ['bien', 'well'], ['en la casa', 'in the house'],
@@ -136,4 +208,16 @@ export const VOCAB: [string, string][] = [
   ['eso es terrible', 'that is terrible'], ['es necesario', "it's necessary, is it necessary?"],
   ['es necesario escribir', 'it is necessary to write, is it necessary to write?'], ['el directorio de teléfono', 'the telephone directory'],
   ['hay', 'there is, there are, is there? are there?'], ['el despacho', 'the office'],
+  ['el comedor', 'the dining room'], ['la sala', 'the living room'], ['la cocina', 'the kitchen'], ['la cocinera', 'the cook'],
+  ['la criada', 'the maid'], ['la escalera', 'the staircase, ladder'], ['la almohada', 'the pillow'], ['las cortinas', 'the curtains, drapes'],
+  ['las sábanas', 'the sheets'], ['la silla', 'the chair'], ['la cama', 'the bed'], ['la lámpara', 'the lamp'], ['la alfombra', 'the rug'],
+  ['la mesa', 'the table'], ['el mes', 'the month'], ['el mercado', 'the market'], ['el mes de mayo', 'the month of May'],
+  ['la playa', 'the beach'], ['las tarjetas postales', 'the post cards'], ['español', 'Spanish'], ['entusiasmo', 'enthusiasm'],
+  ['las playas famosas', 'the famous beaches'], ['el efecto', 'the effect'], ['para comprender', 'in order to understand'],
+  ['guapo, (sing.)', 'handsome'], ['guapos (pl.)', 'handsome'], ['hombres guapos', 'handsome men'], ['Roberto y yo', 'Robert and I'],
+  ['una película', 'a film'], ['buenas noticias', 'good news'], ['pobre Carlos', 'poor Charles'], ['en cinco minutos', 'in five minutes'],
+  ['nunca', 'never'], ['pronto', 'soon'], ['también', 'also'], ['en una hora', 'in an hour'], ['mejor', 'better'],
+  ['Está muy enfermo.', "He's very sick."], ['dictar', 'to dictate'], ['la frase', 'the sentence'], ['perezoso (masc.)', 'lazy'],
+  ['perezosa (fem.)', 'lazy'], ['una pipa', 'a pipe'], ['un cigarrillo', 'a cigarette'], ['¡Qué idea!', 'What an idea!'],
+  ['un puro', 'a cigar'], ['mi abuelo', 'my grandfather'],
 ];

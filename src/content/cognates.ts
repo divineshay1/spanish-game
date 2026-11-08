@@ -101,6 +101,26 @@ export const COGNATES: Pattern[] = [
     ],
   },
   {
+    id: 'g-mente',
+    title: 'LY = MENTE',
+    rule: 'English -ly is -mente in Spanish. Add -mente to the adjective (to the feminine -a form when there is one): completo → completamente.',
+    items: [
+      ['principally', 'principalmente'], ['personally', 'personalmente'], ['generally', 'generalmente'], ['naturally', 'naturalmente'],
+      ['possibly', 'posiblemente'], ['probably', 'probablemente'], ['normally', 'normalmente'],
+      ['completely', 'completamente'], ['rapidly', 'rápidamente'], ['publicly', 'públicamente'], ['intimately', 'íntimamente'],
+      ['comparatively', 'comparativamente'], ['absolutely', 'absolutamente'],
+    ],
+  },
+  {
+    id: 'g-ia',
+    title: 'Y = ÍA',
+    rule: 'Many English words ending in -y end in -ía in Spanish, with the accent on the í: the economy → la economía.',
+    items: [
+      ['the economy', 'la economía'], ['geometry', 'la geometría'], ['biography', 'la biografía'], ['geology', 'la geología'],
+      ['philosophy', 'la filosofía'], ['melody', 'la melodía'], ['anatomy', 'la anatomía'], ['energy', 'la energía'], ['irony', 'la ironía'],
+    ],
+  },
+  {
     id: 'g-clinica',
     title: 'Twins in the clinic',
     rule: 'The same patterns, words you will hear on shift. Most are just the English word with Spanish sounds.',

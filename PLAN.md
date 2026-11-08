@@ -197,6 +197,8 @@ Every realm gets a smoke test that plays it start to finish automatically.
 - [x] **Pensar + Palabras gemelas** (added from your word lists): a new star in El Observatorio with the prototype's 8 "think it through" lessons (-tion → -ción, -ty → -dad, -ly → -mente, Quiero/Necesito/Voy a/Puedo/Me gusta) and 7 twin-word patterns: -or, -al, -ble (identical), -cal → -co, -ic → -ico, -ent/-ant → -ente/-ante, and Twins in the clinic. Your words are kept exactly as you wrote them; only letters lost in copying were restored (reflector, inflamable).
 - [x] **From your book notes**: twin patterns -ista, -oso, -ción/-sión (with la prescripción); Pensar lessons El/un and La/una, the -é / -ó past (Tomé, Invité, Hablé, Compré) and Voy a / Va a; **Mezcla** in Armar (pick a piece from each column, every combination is correct, 5 new sentences = +10 XP); your "words to remember" (days of the week, verbs, everyday words) as a new **Vocabulario** bed in El Jardín, exactly as you wrote them.
 
+- [x] **More book notes**: LY = MENTE and Y = ÍA twins; lessons for the -í / -ió past (leí, leyó), we / they in the past (-amos / -aron, -imos / -ieron), Estoy + how you feel (-o / -a), Estoy + -ando / -iendo; Mezcla tables for those; house, beach and everyday words in Vocabulario.
+
 **Rule from you:** content you send is added exactly as written. I only ask, never change it myself.
 
 - [ ] M10. El Café
