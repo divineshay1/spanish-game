@@ -180,11 +180,60 @@ await tapGame(6 * 2 + bw2 + bw2 / 2, H - 32 + 12); // Progreso
 await page.waitForSelector('#panel .chart', { timeout: 5000 });
 await page.screenshot({ path: `${OUT}/progreso.png` });
 await page.click('#panel [data-act="close"]');
-// a locked door shows "pronto" and stays on El Cielo
-await tapGame(W / 2 + 36, Math.round(H * 0.44) - 26);
+// a locked door now: El Café
+await tapGame(Math.round(W * 0.72), Math.round(H * 0.74) - 38 / 2 + 14 - 8);
 await page.waitForTimeout(300);
 if (!(await isActive('Cielo'))) fail('locked door left El Cielo');
 console.log('cielo: hoy, phrase XP, route, progreso, locked door OK');
+
+// ---- La Clínica: play a full patient visit with the right answers ----
+await tapGame(W / 2 + 36, Math.round(H * 0.44) - 26);
+await page.waitForFunction(() => window.__game.scene.isActive('Clinica'), null, { timeout: 5000 });
+await page.waitForSelector('#clinic [data-act="go"]', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/clinica-menu.png` });
+await page.click('#clinic [data-act="go"][data-n="1"]');
+await page.waitForTimeout(900);
+for (let step = 0; step < 10; step++) {
+  const c = await page.evaluate(() => window.__clinic());
+  const { p, t } = c;
+  if (t.kind === 'checkin') {
+    for (const [f, v] of [['name', p.name], ['day', p.day], ['mo', p.mo], ['year', p.year]]) await page.click(`#clinic [data-act="pick"][data-f="${f}"][data-v="${v}"]`);
+    await page.screenshot({ path: `${OUT}/clinica-checkin.png` });
+    await page.click('#clinic [data-act="submit"]');
+  } else if (t.kind === 'sym') {
+    if (p.body[3] === 'back') await page.click('#clinic [data-act="turn"]');
+    const pos = await page.evaluate((part) => {
+      const sc = window.__game.scene.getScene('Clinica');
+      const HOT = { cabeza: [20, 9], garganta: [20, 19], pecho: [20, 26], 'estómago': [20, 39], brazo: [7, 34], pierna: [15, 62], espalda: [20, 33] };
+      const [hx, hy] = HOT[part];
+      return { x: sc.pat.x - sc.pat.width / 2 + hx, y: sc.pat.y + hy };
+    }, p.body[0]);
+    await tapGame(pos.x, pos.y);
+    await page.waitForTimeout(150);
+    await page.click(`#clinic [data-act="pick"][data-f="sym"][data-v="${p.sym[0]}"]`);
+    await page.click(`#clinic [data-act="pick"][data-f="days"][data-v="${p.days}"]`);
+    await page.screenshot({ path: `${OUT}/clinica-sym.png` });
+    await page.click('#clinic [data-act="submit"]');
+  } else if (t.kind === 'chips') {
+    await page.click(`#clinic [data-act="chipv"][data-v="${t.correct}"]`);
+  } else {
+    if (t.kind === 'vital') await page.click('#clinic [data-act="tool"]');
+    const i = t.opts.findIndex((o) => o.ok);
+    await page.click(`#clinic [data-act="opt"][data-i="${i}"]`);
+    if (t.id === 'cmd1') await page.screenshot({ path: `${OUT}/clinica-cmd.png` });
+  }
+  const bad = await page.locator('#clinic .feedback.no').count();
+  if (bad) fail(`clinic step ${t.id} was marked wrong`);
+  await page.click('#clinic [data-act="next"]');
+  await page.waitForTimeout(120);
+}
+await page.waitForSelector('#clinic [data-act="nextp"]', { timeout: 5000 });
+await page.click('#clinic [data-act="nextp"]');
+await page.waitForSelector('#clinic [data-act="menu"]');
+await page.screenshot({ path: `${OUT}/clinica-end.png` });
+const clin = await page.evaluate(() => window.__state().clin);
+if (clin.shifts !== 1 || clin.stars !== 5) fail('clinic shift not recorded: ' + JSON.stringify(clin));
+console.log('clínica: full visit, 5 stars OK');
 await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 

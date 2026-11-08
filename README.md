@@ -22,10 +22,16 @@ You can watch it in the **Actions** tab (green check = live).
 
 ## Around El Cielo
 
-- Tap a **door** to enter a realm (El Jardín is open; the others arrive in later steps).
+- Tap a **door** to enter a realm (El Jardín and La Clínica are open; the others arrive in later steps).
 - **Hoy**: today's XP, streak, level, the phrase of the day and your daily route.
 - **Progreso**: your 14-day chart, strong and weak skills, word strength and milestones.
 - Tap the little cloud creature for some encouragement. The gear opens **Ajustes** (sound, music, text size, backups).
+
+## La Clínica
+
+Patients speak Spanish only. Listen (▶ Escuchar, or Lento for slow), then fill in the form, tap where it hurts,
+take vitals and give instructions using **usted**. Mistakes cost patience (♥); hearts left become stars.
+"Show text" and "English" are there when you need them.
 
 ## Real art
 

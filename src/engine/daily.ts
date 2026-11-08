@@ -19,7 +19,7 @@ export interface Realm {
 
 export const REALMS: Realm[] = [
   { key: 'jardin', name: 'El Jardín', door: PAL.mint, scene: 'Jardin', milestone: 'M3' },
-  { key: 'clinica', name: 'La Clínica', door: PAL.blush, scene: null, milestone: 'M5' },
+  { key: 'clinica', name: 'La Clínica', door: PAL.blush, scene: 'Clinica', milestone: 'M5' },
   { key: 'observatorio', name: 'Observatorio', door: PAL.lavender, scene: null, milestone: 'M8' },
   { key: 'biblioteca', name: 'Biblioteca', door: PAL.sand, scene: null, milestone: 'M6' },
   { key: 'isla', name: 'La Isla', door: '#7cc8ff', scene: null, milestone: 'M7' },
@@ -33,7 +33,7 @@ export interface Task {
   t: string;
   d: string;
   /** what to do when tapped */
-  go: 'phrase' | 'plant' | 'water' | 'focus' | null;
+  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | null;
   icon: string;
 }
 
@@ -42,11 +42,11 @@ export const TASKS: Task[] = [
   { id: 'plant', t: 'Sembrar', d: "Plant today's new words", go: 'plant', icon: '🌱' },
   { id: 'review', t: 'Regar', d: 'Water your thirsty plants', go: 'water', icon: '💧' },
   { id: 'focus', t: 'Focus', d: 'Rescue words you keep missing', go: 'focus', icon: '✦' },
+  { id: 'clinic', t: 'La Clínica', d: 'See a patient, all in Spanish', go: 'clinic', icon: '✚' },
 ];
 
 /** Steps coming with later realms, shown greyed out. */
 export const SOON_TASKS: [string, string][] = [
-  ['La Clínica', 'See a patient, all in Spanish'],
   ['Leer', 'Read a story, tap any word'],
   ['Inmersión', '10 minutes, Spanish only'],
   ['Observatorio', 'One grammar lesson'],

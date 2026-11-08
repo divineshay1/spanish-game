@@ -189,3 +189,15 @@
 .lvl span:first-child { width: 92px; color: var(--deep); }
 .lvl .bar { flex: 1; margin: 0; }
 .lvl span:last-child { width: 30px; text-align: right; }
+
+/* ---- clinic: a sheet over the bottom of the screen, the room stays visible ---- */
+.ui-layer.sheet { background: none; pointer-events: none; }
+.ui-layer.sheet .panel { pointer-events: auto; box-sizing: border-box; height: 47dvh; max-height: 47dvh; min-height: 0; padding-top: 12px; }
+.title { font-size: calc(17px * var(--text-scale)); margin: 0 0 8px; }
+.say-line { font-size: calc(20px * var(--text-scale)); color: var(--plum); margin: 8px 0 0; }
+.reading { text-align: center; font-size: calc(26px * var(--text-scale)); color: var(--plum); background: var(--white); border: 3px solid var(--plum); padding: 6px; margin: 8px 0; }
+.symgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.symgrid .opt { margin: 0; text-align: center; padding: 6px; }
+.symgrid img { width: 52px; height: 52px; display: block; margin: 0 auto 2px; border: 2px solid var(--plum); object-fit: cover; }
+.stars { font-size: 28px; color: #d39b1f; text-shadow: 1px 1px 0 var(--plum); letter-spacing: 3px; }
+.stars .off { opacity: 0.25; }

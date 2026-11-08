@@ -4,7 +4,7 @@
  * Both right = it leaves the rescue list.
  */
 import { EXTRA, IMG, PHR, VERBS } from '../content';
-import { allCards } from './cards';
+import { allCards, cardById } from './cards';
 import { dueIn, lapse, MAXBOX } from './srs';
 import { dayKey } from './clock';
 import { syllabify } from './pronunciation';
@@ -115,18 +115,20 @@ export function focusResult(S: State, it: FocusItem, mcOk: boolean, buildOk: boo
   recMod(S, 'focus', buildOk);
   if (buildOk && mcOk) delete S.miss[it.mk];
   else recWord(S, it.mk, it.es, it.en, buildOk);
+  let xp = mcOk ? 2 : 0;
+  if (buildOk) xp += Math.max(2, 5 - hints);
+  recMod(S, 'focus', mcOk);
+  // clinic phrases live only in the rescue list, not as plants
+  if (!cardById(S, it.ck)) return xp;
   const st = S.cards[it.ck] ? { ...S.cards[it.ck] } : { box: 0, due: '', seen: 0 };
   st.seen++;
-  let xp = mcOk ? 2 : 0;
   if (buildOk) {
     st.box = Math.min(MAXBOX, st.box + 1);
     st.due = dueIn(st.box);
-    xp += Math.max(2, 5 - hints);
   } else {
     st.box = lapse(st.box);
     st.due = dayKey();
   }
   S.cards[it.ck] = st;
-  recMod(S, 'focus', mcOk);
   return xp;
 }
