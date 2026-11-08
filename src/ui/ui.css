@@ -216,3 +216,7 @@
 .wordcard h3 { margin: 0; font-size: calc(26px * var(--text-scale)); color: var(--plum); }
 .order { counter-reset: n; }
 .order .chip { display: block; width: 100%; text-align: left; margin: 6px 0; font-size: calc(16px * var(--text-scale)); }
+.ui-layer.sheet.tall .panel { height: 70dvh; max-height: 70dvh; }
+.bub { background: var(--white); border: 3px solid var(--plum); padding: 8px 10px; margin: 8px 0; font-size: calc(18px * var(--text-scale)); }
+textarea.pinput { min-height: 96px; resize: vertical; }
+.timer { font-size: calc(18px * var(--text-scale)); background: var(--star); border: 2px solid var(--plum); padding: 2px 8px; }

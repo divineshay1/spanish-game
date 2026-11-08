@@ -22,7 +22,7 @@ You can watch it in the **Actions** tab (green check = live).
 
 ## Around El Cielo
 
-- Tap a **door** to enter a realm (El Jardín, La Clínica and La Biblioteca are open; the others arrive in later steps).
+- Tap a **door** to enter a realm (El Jardín, La Clínica, La Biblioteca and La Isla are open; the others arrive in later steps).
 - **Hoy**: today's XP, streak, level, the phrase of the day and your daily route.
 - **Progreso**: your 14-day chart, strong and weak skills, word strength and milestones.
 - Tap the little cloud creature for some encouragement. The gear opens **Ajustes** (sound, music, text size, backups).
@@ -37,6 +37,11 @@ take vitals and give instructions using **usted**. Mistakes cost patience (♥);
 
 Tap a book on the shelf. Tap any word for its meaning, ▶ to hear a sentence, "Escuchar todo" for the whole story.
 **Normal / Inmersión** switches English on or off. Save words to grow them in your garden. "Ordena" puts a story back in order.
+
+## La Isla de Inmersión
+
+A timed session, all in Spanish: pictures, listening, replies, speaking, dictation, story order and writing.
+Speaking uses your phone's speech recognition when it works; otherwise answer out loud and tap "Ya contesté".
 
 ## Real art
 

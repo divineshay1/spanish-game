@@ -282,6 +282,47 @@ await page.click('#reader [data-act="close"] >> nth=0');
 const read = await page.evaluate(() => Object.keys(window.__state().stories).length);
 if (read < 1) fail('story not counted as read');
 console.log('biblioteca: words, save, finish, recap, order, immersion OK');
+
+// ---- La Isla de Inmersión: one round of every activity ----
+await page.goto(URL);
+await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
+await page.waitForTimeout(400);
+await tapGame(Math.round(W * 0.27) + 15, Math.round(H * 0.66) - 12);
+await page.waitForFunction(() => window.__game.scene.isActive('Isla'), null, { timeout: 5000 });
+await page.waitForSelector('#isla [data-act="start"]', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/isla-menu.png` });
+await page.click('#isla [data-act="start"]');
+const kinds = [];
+for (let n = 0; n < 10; n++) {
+  const { it } = await page.evaluate(() => window.__isla());
+  kinds.push(it.k);
+  if (it.k === 'img' || it.k === 'oye' || it.k === 'dial') {
+    const opts = it.wOpts || it.lOpts || it.dOpts;
+    const i = opts.findIndex((o) => (it.k === 'img' ? o.id === it.w.id : it.k === 'oye' ? o.es === it.line.es : o[1] === it.b[1]));
+    await page.click(`#isla [data-act="pick"][data-i="${i}"]`);
+  } else if (it.k === 'dicta') {
+    await page.fill('#isin', it.line.es);
+    await page.click('#isla [data-act="check"]');
+  } else if (it.k === 'orden') {
+    for (let k = 0; k < it.sents.length; k++) await page.click(`#isla [data-act="place"][data-id="${k}"]`);
+    await page.click('#isla [data-act="check"]');
+  } else if (it.k === 'habla') {
+    await page.click('#isla [data-act="spoke"]');
+  } else {
+    await page.fill('#isin', 'Me siento cansada porque trabajé mucho, pero estoy feliz hoy.');
+    await page.screenshot({ path: `${OUT}/isla-escribe.png` });
+    await page.click('#isla [data-act="check"]');
+  }
+  if (n === 1) await page.screenshot({ path: `${OUT}/isla-oye.png` });
+  if (await page.locator('#isla .feedback.no').count()) fail(`immersion ${it.k} marked wrong`);
+  await page.click('#isla [data-act="next"]');
+}
+await page.click('#isla [data-act="end"]');
+await page.waitForSelector('#isla [data-act="menu"]');
+await page.screenshot({ path: `${OUT}/isla-end.png` });
+const imm = await page.evaluate(() => window.__state().immData);
+if (imm.sess !== 1 || imm.right !== 10) fail('immersion session not recorded: ' + JSON.stringify(imm));
+console.log('isla: ' + [...new Set(kinds)].join(',') + ' OK');
 await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 
