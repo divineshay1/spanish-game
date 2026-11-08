@@ -23,7 +23,7 @@ export const REALMS: Realm[] = [
   { key: 'observatorio', name: 'Observatorio', door: PAL.lavender, scene: 'Observatorio', milestone: 'M8' },
   { key: 'biblioteca', name: 'Biblioteca', door: PAL.sand, scene: 'Biblioteca', milestone: 'M6' },
   { key: 'isla', name: 'La Isla', door: '#7cc8ff', scene: 'Isla', milestone: 'M7' },
-  { key: 'duelo', name: 'El Duelo', door: PAL.deepLav, scene: null, milestone: 'M9' },
+  { key: 'duelo', name: 'El Duelo', door: PAL.deepLav, scene: 'Duelo', milestone: 'M9' },
   { key: 'cafe', name: 'El Café', door: PAL.clay, scene: null, milestone: 'M10' },
   { key: 'barrio', name: 'El Barrio', door: PAL.pink, scene: null, milestone: 'M11' },
 ];
@@ -33,7 +33,7 @@ export interface Task {
   t: string;
   d: string;
   /** what to do when tapped */
-  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | 'read' | 'imm' | 'grammar' | null;
+  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | 'read' | 'imm' | 'grammar' | 'duel' | null;
   icon: string;
 }
 
@@ -46,11 +46,11 @@ export const TASKS: Task[] = [
   { id: 'read', t: 'Leer', d: 'Read a story, tap any word', go: 'read', icon: '❀' },
   { id: 'inmersion', t: 'Inmersión', d: '10 minutes, Spanish only', go: 'imm', icon: '☾' },
   { id: 'grammar', t: 'Observatorio', d: 'One grammar drill', go: 'grammar', icon: '✧' },
+  { id: 'duel', t: 'El Duelo', d: 'A card battle powered by your words', go: 'duel', icon: '⚔' },
 ];
 
 /** Steps coming with later realms, shown greyed out. */
 export const SOON_TASKS: [string, string][] = [
-  ['El Duelo', 'A card battle powered by your words'],
   ['El Café', 'Listen to orders and serve them'],
   ['El Barrio', 'Walk the neighbourhood and talk'],
 ];

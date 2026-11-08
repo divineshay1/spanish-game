@@ -22,7 +22,7 @@ You can watch it in the **Actions** tab (green check = live).
 
 ## Around El Cielo
 
-- Tap a **door** to enter a realm (El Jardín, La Clínica, La Biblioteca, La Isla and El Observatorio are open; the others arrive in later steps).
+- Tap a **door** to enter a realm (El Jardín, La Clínica, La Biblioteca, La Isla, El Observatorio and El Duelo are open; El Café and El Barrio arrive next).
 - **Hoy**: today's XP, streak, level, the phrase of the day and your daily route.
 - **Progreso**: your 14-day chart, strong and weak skills, word strength and milestones.
 - Tap the little cloud creature for some encouragement. The gear opens **Ajustes** (sound, music, text size, backups).
@@ -47,6 +47,11 @@ Speaking uses your phone's speech recognition when it works; otherwise answer ou
 
 Tap a star: Conjugar, 100 Verbos, Tiempos, Preguntas, Conectores, Temas, Diferencias, Cimientos, Armar, Oído fino, Sonidos.
 Each page has the explanation and a ✦ Practice drill.
+
+## El Duelo
+
+Your picture words are tarot cards. Tap a card and answer to Strike, Ward or Mend. Answer every card right for a shield bonus.
+Win to unlock the next enemy and earn coins for talismans in the Shop.
 
 ## Real art
 

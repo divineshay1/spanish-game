@@ -218,7 +218,7 @@ function pickWords(S: State, n: number, r: R) {
   return due.concat(rest).slice(0, n);
 }
 
-function wordItem(w: ReturnType<typeof pickWords>[number], r: R): BItem {
+export function wordItem(w: { key: string; es: string; en: string; ico: string; mn: string; art: string }, r: R = Math.random): BItem {
   const lw = w.es.toLowerCase();
   let syl = syllabify(lw);
   let letters = false;

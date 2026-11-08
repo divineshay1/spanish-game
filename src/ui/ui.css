@@ -220,3 +220,16 @@
 .bub { background: var(--white); border: 3px solid var(--plum); padding: 8px 10px; margin: 8px 0; font-size: calc(18px * var(--text-scale)); }
 textarea.pinput { min-height: 96px; resize: vertical; }
 .timer { font-size: calc(18px * var(--text-scale)); background: var(--star); border: 2px solid var(--plum); padding: 2px 8px; }
+.hand { display: flex; gap: 8px; justify-content: center; margin: 8px 0; }
+.tcard { flex: 1; max-width: 110px; min-height: 120px; font: inherit; border: 3px solid var(--plum); background: linear-gradient(var(--lav), var(--deep)); color: var(--white);
+  box-shadow: 0 4px 0 #2a1438, inset 0 0 0 3px var(--star); border-radius: 0; padding: 6px 4px; cursor: pointer; display: flex; flex-direction: column; justify-content: space-between; align-items: center; }
+.tcard .ty { font-size: calc(16px * var(--text-scale)); color: var(--star); text-shadow: 1px 1px 0 var(--plum); }
+.tcard .mid { font-size: 28px; }
+.tcard .lbl { font-size: calc(13px * var(--text-scale)); }
+.tcard.atk { background: linear-gradient(var(--pink), var(--deep)); }
+.tcard.def { background: linear-gradient(#7cc8ff, var(--deep)); }
+.tcard.heal { background: linear-gradient(var(--mint), var(--deep)); }
+.tcard.used { opacity: 0.35; box-shadow: none; }
+.picgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.picgrid .opt { margin: 0; padding: 4px; }
+.picgrid img { width: 100%; display: block; border: 2px solid var(--plum); }

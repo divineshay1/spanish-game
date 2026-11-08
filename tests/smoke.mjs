@@ -394,6 +394,45 @@ await page.click('#grammar [data-act="close"]');
 const mods = await page.evaluate(() => Object.keys(window.__state().mod));
 for (const k of ['vrb', 'g_q', 'bld', 'fino']) if (!mods.includes(k)) fail('observatorio skill not recorded: ' + k);
 console.log('observatorio: conjugar build, drill, armar, sonidos, oído fino OK');
+
+// ---- El Duelo: win the first duel with right answers ----
+await page.goto(URL);
+await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
+await page.waitForTimeout(400);
+await tapGame(Math.round(W * 0.72) - 24, Math.round(H * 0.74) - 13);
+await page.waitForFunction(() => window.__game.scene.isActive('Duelo'), null, { timeout: 5000 });
+await page.waitForSelector('#duel [data-act="go"]', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/duelo-map.png` });
+await page.click('#duel [data-act="go"][data-i="0"]');
+let shotHand = false, shotQ = false;
+for (let turn = 0; turn < 20; turn++) {
+  const st = await page.evaluate(() => window.__duel().stage);
+  if (st !== 'battle') break;
+  if (!shotHand) { await page.screenshot({ path: `${OUT}/duelo-hand.png` }); shotHand = true; }
+  const hand = await page.evaluate(() => window.__duel().b.hand.map((c) => c.used));
+  for (let i = 0; i < hand.length; i++) {
+    if (hand[i]) continue;
+    await page.click(`#duel [data-act="play"][data-i="${i}"]`);
+    const { b } = await page.evaluate(() => window.__duel());
+    const ch = b.ch, c = b.hand[ch.i];
+    if (ch.k === 'mc') await page.click(`#duel [data-act="opt"][data-i="${ch.opts.indexOf(c.w.en)}"]`);
+    else if (ch.k === 'ear') await page.click(`#duel [data-act="opt"][data-i="${ch.pics.findIndex((p) => p.id === c.id)}"]`);
+    else {
+      for (let k = 0; k < ch.tokens.length; k++) await page.click('#duel [data-act="hint"]');
+      await page.click('#duel [data-act="cast"]');
+    }
+    if (!shotQ) { await page.screenshot({ path: `${OUT}/duelo-q.png` }); shotQ = true; }
+    await page.click('#duel [data-act="cont"]');
+    if ((await page.evaluate(() => window.__duel().stage)) !== 'battle') break;
+  }
+  if ((await page.evaluate(() => window.__duel().stage)) !== 'battle') break;
+  await page.click('#duel [data-act="endturn"]');
+}
+await page.waitForSelector('#duel [data-act="map"]', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/duelo-win.png` });
+const game = await page.evaluate(() => window.__state().game);
+if (game.wins !== 1 || game.cleared !== 1) fail('duel not won: ' + JSON.stringify(game));
+console.log('duelo: first duel won OK');
 await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 
