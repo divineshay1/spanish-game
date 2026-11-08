@@ -86,6 +86,27 @@ export const MORE_LESSONS: MoreLesson[] = [
       ["I'm listening", 'Estoy escuchando'], ['The patient is resting', 'El paciente está descansando'],
     ],
   },
+  {
+    id: 'b-espero',
+    title: 'Espero + verb (I hope to…)',
+    rule: '"Espero" means "I hope" and is followed by the infinitive. Espero que sí = I hope so. Espero que no = I hope not.',
+    items: [
+      ['I hope to see the film', 'Espero ver la película'], ['I hope to understand', 'Espero comprender'],
+      ['I hope to dance a lot', 'Espero bailar mucho'], ['I hope to work a lot', 'Espero trabajar mucho'],
+      ['I hope to sell the house', 'Espero vender la casa'], ['I hope to buy a car', 'Espero comprar un auto'],
+      ['I hope so', 'Espero que sí'], ['I hope not', 'Espero que no'],
+    ],
+  },
+  {
+    id: 'b-presente',
+    title: 'Hablo / ¿Habla? (present: -o and -a)',
+    rule: 'Right now or usually: I = -o (hablo, trabajo, estudio). You / he / she = -a (habla, trabaja). As a question: ¿Habla usted…?',
+    items: [
+      ['I speak Spanish', 'Hablo español'], ['Do you speak Italian?', '¿Habla italiano?'], ['I work at the bank', 'Trabajo en el banco'],
+      ['Do you work at the store?', '¿Trabaja en la tienda?'], ['I study after dinner', 'Estudio después de la cena'],
+      ['I work at the clinic', 'Trabajo en la clínica'], ['Do you speak English?', '¿Habla inglés?'],
+    ],
+  },
 ];
 
 /**
@@ -177,6 +198,24 @@ export const MEZCLA: MezclaTable[] = [
       [['anoche', 'last night'], ['esta mañana', 'this morning'], ['la semana pasada', 'last week'], ['el sábado', 'on Saturday']],
     ],
   },
+  {
+    id: 'm-presente',
+    title: 'Trabajo / ¿Trabaja?',
+    cols: [
+      [['Trabajo', 'I work'], ['No trabajo', "I don't work"], ['Estudio', 'I study'], ['¿Trabaja usted', 'Do you work'], ['¿Estudia usted', 'Do you study']],
+      [['en el banco', 'at the bank'], ['en la tienda', 'at the store'], ['en el hospital', 'at the hospital'], ['en casa', 'at home']],
+      [['después de la cena', 'after dinner'], ['el sábado', 'on Saturday'], ['el lunes', 'on Monday'], ['mucho', 'a lot']],
+    ],
+  },
+  {
+    id: 'm-espero',
+    title: 'Espero ___',
+    cols: [
+      [['Espero', 'I hope to']],
+      [['ver la película', 'see the film'], ['comprender', 'understand'], ['bailar mucho', 'dance a lot'], ['vender la casa', 'sell the house'], ['comprar un auto', 'buy a car'], ['trabajar mucho', 'work a lot']],
+      [['mañana', 'tomorrow'], ['el sábado', 'on Saturday'], ['esta noche', 'tonight'], ['pronto', 'soon']],
+    ],
+  },
 ];
 
 /**
@@ -220,4 +259,10 @@ export const VOCAB: [string, string][] = [
   ['Está muy enfermo.', "He's very sick."], ['dictar', 'to dictate'], ['la frase', 'the sentence'], ['perezoso (masc.)', 'lazy'],
   ['perezosa (fem.)', 'lazy'], ['una pipa', 'a pipe'], ['un cigarrillo', 'a cigarette'], ['¡Qué idea!', 'What an idea!'],
   ['un puro', 'a cigar'], ['mi abuelo', 'my grandfather'],
+  ['una vez', 'one time, once'], ['dos veces', 'two times, twice'], ['tres veces', 'three times'], ['otra vez', 'again (another time)'],
+  ['tal vez', 'maybe'], ['muchas veces', 'many times, often'], ['unas veces', 'sometimes'], ['una servilleta', 'a napkin'],
+  ['un mantel', 'a tablecloth'], ['el plato', 'the plate, the dish'], ['los platos', 'the dishes'], ['el vaso', 'the glass'],
+  ['un vaso de leche', 'a glass of milk'], ['un vaso de agua', 'a glass of water'], ['una taza', 'a cup'],
+  ['una taza de café', 'a cup of coffee'], ['azúcar', 'sugar'], ['una propina', 'a tip'],
+  ['Espero que sí.', 'I hope so.'], ['Espero que no.', 'I hope not.'],
 ];

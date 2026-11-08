@@ -27,7 +27,7 @@ describe('palabras gemelas', () => {
     expect(pron('práctico').say).toBe('PRAHK-tee-koh');
   });
   it('lessons: prototype 8, 3 more lessons, 10 patterns; rounds of up to 10; XP like the prototype', () => {
-    expect(THINK).toHaveLength(27);
+    expect(THINK).toHaveLength(29);
     expect(thinkRound(THINK.find((l) => l.id === 'g-ble')!, rng(1))).toHaveLength(10);
     const S = defaults();
     expect(finishThink(S, THINK[0], 4)).toBe(23);
