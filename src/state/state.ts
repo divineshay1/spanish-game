@@ -50,6 +50,7 @@ export interface State {
   game: { coins: number; cleared: number; perks: Record<string, unknown>; wins: number; losses: number; played: number };
   clin: { patients: number; stars: number; coins: number; shifts: number };
   cafe: { shifts: number; served: number; stars: number; tips: number };
+  barrio: { talks: Record<string, number> };
   settings: Settings;
   /** new seeds planted per day: { "YYYY-MM-DD": count } */
   planted: Record<string, number>;
@@ -85,6 +86,7 @@ export const defaults = (): State => ({
   game: { coins: 0, cleared: 0, perks: {}, wins: 0, losses: 0, played: 0 },
   clin: { patients: 0, stars: 0, coins: 0, shifts: 0 },
   cafe: { shifts: 0, served: 0, stars: 0, tips: 0 },
+  barrio: { talks: {} },
   settings: { reduceMotion: false, textSize: 1, sfx: true, music: false, newPerDay: 5 },
   planted: {},
 });
@@ -101,6 +103,7 @@ export function mergeState(raw: unknown): State {
   out.game = { ...d.game, ...(isObj(raw.game) ? raw.game : {}) } as State['game'];
   out.clin = { ...d.clin, ...(isObj(raw.clin) ? raw.clin : {}) } as State['clin'];
   out.cafe = { ...d.cafe, ...(isObj(raw.cafe) ? raw.cafe : {}) } as State['cafe'];
+  out.barrio = { talks: isObj(raw.barrio) && isObj(raw.barrio.talks) ? (raw.barrio.talks as Record<string, number>) : {} };
   out.settings = { ...d.settings, ...(isObj(raw.settings) ? raw.settings : {}) } as Settings;
   out.sevNew = { ...d.sevNew, ...(isObj(raw.sevNew) ? raw.sevNew : {}) } as State['sevNew'];
   if (out.accent !== 'mx' && out.accent !== 'co') out.accent = 'mx';

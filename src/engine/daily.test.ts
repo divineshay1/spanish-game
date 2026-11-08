@@ -6,7 +6,7 @@ describe('daily route', () => {
   it('nothing done on a fresh day', () => {
     const S = defaults();
     expect(tasksDone(S, '2026-11-06')).toBe(0);
-    expect(TASKS.length).toBe(10);
+    expect(TASKS.length).toBe(11);
   });
   it('steps tick off', () => {
     const S = defaults();
@@ -27,7 +27,8 @@ describe('daily route', () => {
     expect(a).toEqual(b);
     expect(a).not.toEqual(c);
   });
-  it('eight realms, garden is open', () => {
+  it('eight realms, all open', () => {
+    expect(REALMS.every((r) => r.scene)).toBe(true);
     expect(REALMS).toHaveLength(8);
     expect(REALMS.find((r) => r.key === 'jardin')!.scene).toBe('Jardin');
   });

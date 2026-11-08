@@ -25,7 +25,7 @@ export const REALMS: Realm[] = [
   { key: 'isla', name: 'La Isla', door: '#7cc8ff', scene: 'Isla', milestone: 'M7' },
   { key: 'duelo', name: 'El Duelo', door: PAL.deepLav, scene: 'Duelo', milestone: 'M9' },
   { key: 'cafe', name: 'El Café', door: PAL.clay, scene: 'Cafe', milestone: 'M10' },
-  { key: 'barrio', name: 'El Barrio', door: PAL.pink, scene: null, milestone: 'M11' },
+  { key: 'barrio', name: 'El Barrio', door: PAL.pink, scene: 'Barrio', milestone: 'M11' },
 ];
 
 export interface Task {
@@ -33,7 +33,7 @@ export interface Task {
   t: string;
   d: string;
   /** what to do when tapped */
-  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | 'read' | 'imm' | 'grammar' | 'duel' | 'cafe' | null;
+  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | 'read' | 'imm' | 'grammar' | 'duel' | 'cafe' | 'barrio' | null;
   icon: string;
 }
 
@@ -48,11 +48,11 @@ export const TASKS: Task[] = [
   { id: 'grammar', t: 'Observatorio', d: 'One grammar drill', go: 'grammar', icon: '✧' },
   { id: 'duel', t: 'El Duelo', d: 'A card battle powered by your words', go: 'duel', icon: '⚔' },
   { id: 'cafe', t: 'El Café', d: 'Listen to orders and serve them', go: 'cafe', icon: '☕' },
+  { id: 'talk', t: 'El Barrio', d: 'Have a conversation in the neighbourhood', go: 'barrio', icon: '☺' },
 ];
 
 /** Steps coming with later realms, shown greyed out. */
 export const SOON_TASKS: [string, string][] = [
-  ['El Barrio', 'Walk the neighbourhood and talk'],
 ];
 
 /** Whether a step counts as done today. Nothing due or no seeds left also counts. */

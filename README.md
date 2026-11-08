@@ -22,7 +22,7 @@ You can watch it in the **Actions** tab (green check = live).
 
 ## Around El Cielo
 
-- Tap a **door** to enter a realm (El Jardín, La Clínica, La Biblioteca, La Isla, El Observatorio, El Duelo and El Café are open; El Barrio arrives next).
+- Tap a **door** to enter a realm. All eight are open: El Jardín, La Clínica, La Biblioteca, La Isla, El Observatorio, El Duelo, El Café and El Barrio.
 - **Hoy**: today's XP, streak, level, the phrase of the day and your daily route.
 - **Progreso**: your 14-day chart, strong and weak skills, word strength and milestones.
 - Tap the little cloud creature for some encouragement. The gear opens **Ajustes** (sound, music, text size, backups).
@@ -57,6 +57,11 @@ Win to unlock the next enemy and earn coins for talismans in the Shop.
 
 Listen to the order, tap the items onto the tray and press Servir. Then tell the customer the total in Spanish.
 Perfect service earns a tip. The level goes up every 2 shifts.
+
+## El Barrio
+
+Tap the street to walk, tap a person to talk. Reply by choosing (Elegir) or building (Armar). 🎧 hides their words until you've listened.
+At the end, say your lines out loud.
 
 ## Real art
 

@@ -18,6 +18,7 @@ import { IslaScene } from './scenes/IslaScene';
 import { ObservatorioScene } from './scenes/ObservatorioScene';
 import { DueloScene } from './scenes/DueloScene';
 import { CafeScene } from './scenes/CafeScene';
+import { BarrioScene } from './scenes/BarrioScene';
 import { fitPixels } from './game/pixelScale';
 import { PAL } from './game/palette';
 
@@ -69,7 +70,7 @@ async function start() {
     antialias: false,
     scale: { mode: Phaser.Scale.NONE },
     fps: { target: 60 },
-    scene: [BootScene, CieloScene, JardinScene, JardinHud, ClinicaScene, BibliotecaScene, IslaScene, ObservatorioScene, DueloScene, CafeScene],
+    scene: [BootScene, CieloScene, JardinScene, JardinHud, ClinicaScene, BibliotecaScene, IslaScene, ObservatorioScene, DueloScene, CafeScene, BarrioScene],
     callbacks: { preBoot: (g) => storeView(g, fit) },
   });
   game.events.once(Phaser.Core.Events.READY, () => applyCss(game, fit));
@@ -85,7 +86,7 @@ async function start() {
       if (sizeChanged) {
         storeView(game, fit);
         game.scale.resize(fit.width * fit.zoom, fit.height * fit.zoom);
-        for (const key of ['Cielo', 'Jardin', 'Clinica', 'Biblioteca', 'Isla', 'Observatorio', 'Duelo', 'Cafe']) {
+        for (const key of ['Cielo', 'Jardin', 'Clinica', 'Biblioteca', 'Isla', 'Observatorio', 'Duelo', 'Cafe', 'Barrio']) {
           const sc = game.scene.getScene(key);
           if (sc?.scene.isActive()) sc.scene.restart();
         }
