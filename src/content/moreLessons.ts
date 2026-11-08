@@ -107,6 +107,24 @@ export const MORE_LESSONS: MoreLesson[] = [
       ['I work at the clinic', 'Trabajo en la clínica'], ['Do you speak English?', '¿Habla inglés?'],
     ],
   },
+  {
+    id: 'b-numeros',
+    title: 'Los números (the numbers)',
+    rule: 'The numbers as you wrote them in your notes, from cero to dos millones de dólares.',
+    items: [["0", "cero"], ["1", "uno"], ["2", "dos"], ["3", "tres"], ["4", "cuatro"], ["5", "cinco"], ["6", "seis"], ["7", "siete"], ["8", "ocho"], ["9", "nueve"], ["10", "diez"], ["11", "once"], ["12", "doce"], ["13", "trece"], ["14", "catorce"], ["15", "quince"], ["16", "diez y seis"], ["17", "diez y siete"], ["18", "diez y ocho"], ["19", "diez y nueve"], ["20", "veinte"], ["21", "veintiuno"], ["22", "veintidós"], ["23", "veintitrés"], ["24", "veinticuatro"], ["25", "veinticinco"], ["26", "veintiséis"], ["27", "veintisiete"], ["28", "veintiocho"], ["29", "veintinueve"], ["30", "treinta"], ["31", "treinta y uno"], ["32", "treinta y dos"], ["40", "cuarenta"], ["41", "cuarenta y uno"], ["42", "cuarenta y dos"], ["50", "cincuenta"], ["51", "cincuenta y uno"], ["60", "sesenta"], ["61", "sesenta y uno"], ["70", "setenta"], ["71", "setenta y uno"], ["80", "ochenta"], ["81", "ochenta y uno"], ["90", "noventa"], ["91", "noventa y uno"], ["100", "cien"], ["101", "ciento uno"], ["102", "ciento dos"], ["103", "ciento tres"], ["104", "ciento cuatro"], ["150", "ciento cincuenta"], ["175", "ciento setenta y cinco"], ["200", "doscientos"], ["300", "trescientos"], ["400", "cuatrocientos"], ["500", "quinientos"], ["600", "seiscientos"], ["700", "setecientos"], ["800", "ochocientos"], ["900", "novecientos"], ["1,000", "mil"], ["1,300", "mil trescientos"], ["2,000", "dos mil"], ["50,000", "cincuenta mil"], ["1,000,000", "un millón"], ["$2,000,000", "dos millones de dólares"]],
+  },
+  {
+    id: 'b-pasado-irr',
+    title: 'Eighteen verbs with a special past',
+    rule: 'I, you/he/she, we, they. In oír and caer the i changes to y between vowels. Dar is an -ar verb with -er endings in the past. The past of ir and ser is identical.',
+    items: [["tener, to have", "tuve tuvo tuvimos tuvieron"], ["estar, to be", "estuve estuvo estuvimos estuvieron"], ["andar, to walk", "anduve anduvo anduvimos anduvieron"], ["poner, to put", "puse puso pusimos pusieron"], ["poder, to be able", "pude pudo pudimos pudieron"], ["saber, to know", "supe supo supimos supieron"], ["venir, to come", "vine vino vinimos vinieron"], ["hacer, to do", "hice hizo hicimos hicieron"], ["querer, to want", "quise quiso quisimos quisieron"], ["decir, to say", "dije dijo dijimos dijeron"], ["traer, to bring", "traje trajo trajimos trajeron"], ["salir, to go out", "salí salió salimos salieron"], ["ver, to see", "ví vió vimos vieron"], ["oír, to hear", "oí oyó oímos oyeron"], ["caer, to fall", "caí cayó caímos cayeron"], ["dar, to give", "dí dió dimos dieron"], ["ir, to go", "fuí fué fuimos fueron"], ["ser, to be", "fuí fué fuimos fueron"]],
+  },
+  {
+    id: 'b-vio',
+    title: 'Me vió, lo vió, la vió, nos vió, los vió',
+    rule: 'me = me, lo = him, la = her, nos = us, los = them. The same words also make the question.',
+    items: [["you saw me, he saw me, she saw me / did you see me? did he see me? did she see me?", "ME VIÓ"], ["you saw him, he saw him, she saw him / did you see him? did he see him? did she see him?", "LO VIÓ"], ["you saw her, he saw her, she saw her / did you see her? did he see her? did she see her?", "LA VIÓ"], ["you saw us, he saw us, she saw us / did you see us? did he see us? did she see us?", "NOS VIÓ"], ["you saw them, he saw them, she saw them / did you see them? did he see them? did she see them?", "LOS VIÓ"]],
+  },
 ];
 
 /**
@@ -265,4 +283,5 @@ export const VOCAB: [string, string][] = [
   ['un vaso de leche', 'a glass of milk'], ['un vaso de agua', 'a glass of water'], ['una taza', 'a cup'],
   ['una taza de café', 'a cup of coffee'], ['azúcar', 'sugar'], ['una propina', 'a tip'],
   ['Espero que sí.', 'I hope so.'], ['Espero que no.', 'I hope not.'],
+  ["ayer", "yesterday"], ["antier", "day before yesterday"], ["el mes pasado", "last month"], ["el año pasado", "last year"], ["ayer en la tarde", "yesterday afternoon"], ["ayer en la mañana", "yesterday morning"], ["antenoche", "night before last"], ["el sábado pasado", "last Saturday"], ["el domingo pasado", "last Sunday"], ["el fin de semana", "the week end"], ["durante", "during"], ["después", "afterward"], ["pasado mañana", "day after tomorrow"], ["en un mes", "in a month"], ["en dos meses", "in two months"], ["en un año", "in a year"], ["en una semana", "in a week"], ["la semana entrante", "next week"], ["el año entrante", "next year"], ["hoy", "today"], ["esta semana", "this week"], ["este mes", "this month"], ["este año", "this year"], ["mientras", "while"], ["mientras tanto", "meanwhile"],
 ];
