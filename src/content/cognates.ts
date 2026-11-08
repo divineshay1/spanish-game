@@ -1,9 +1,8 @@
 /**
  * "Palabras gemelas": English and Spanish word patterns, from the word lists
- * you shared, plus a clinic set using the same patterns.
- * Fixes made while adding them: "re ector" → reflector, "in amable" →
- * inflamable, "economico" → económico. "impregnable" was left out: in Spanish
- * it means "able to be soaked", a false friend, not a twin.
+ * you shared (kept exactly as you wrote them), plus a clinic set using the
+ * same patterns. Only letters lost in copying were restored:
+ * "re ector" → reflector, "in amable" → inflamable.
  */
 export interface Pattern {
   id: string;
@@ -36,7 +35,7 @@ export const COGNATES: Pattern[] = [
     title: '-ble: often identical',
     rule: 'Words ending in -ble are usually spelled the same (el cable = the cable). Say -ble as "bleh" and stress the syllable before it: a-do-RA-ble.',
     items: [
-      ...same(['cable', 'abominable', 'adorable', 'afable', 'adaptable', 'comparable', 'admirable', 'curable', 'deplorable', 'formidable', 'detestable', 'honorable', 'durable', 'ilimitable', 'explicable', 'imaginable', 'favorable', 'impenetrable', 'intolerable', 'improbable', 'irreparable', 'inalterable', 'incalculable', 'irrevocable', 'incomparable', 'irritable', 'incurable', 'lamentable', 'inefable', 'laudable', 'inestimable', 'miserable', 'inevitable', 'navegable', 'inexplicable', 'noble', 'inflamable', 'notable', 'inimitable', 'presentable', 'insaciable', 'probable', 'inseparable', 'interminable', 'imperceptible', 'sociable', 'incompatible', 'tolerable', 'infalible', 'variable', 'intangible', 'venerable', 'invisible', 'vulnerable', 'irresistible']),
+      ...same(['cable', 'abominable', 'adorable', 'afable', 'adaptable', 'comparable', 'admirable', 'curable', 'deplorable', 'formidable', 'detestable', 'honorable', 'durable', 'ilimitable', 'explicable', 'imaginable', 'favorable', 'impenetrable', 'impregnable', 'intolerable', 'improbable', 'irreparable', 'inalterable', 'incalculable', 'irrevocable', 'incomparable', 'irritable', 'incurable', 'lamentable', 'inefable', 'laudable', 'inestimable', 'miserable', 'inevitable', 'navegable', 'inexplicable', 'noble', 'inflamable', 'notable', 'inimitable', 'presentable', 'insaciable', 'probable', 'inseparable', 'interminable', 'imperceptible', 'sociable', 'incompatible', 'tolerable', 'infalible', 'variable', 'intangible', 'venerable', 'invisible', 'vulnerable', 'irresistible']),
       ['acceptable', 'aceptable'], ['respectable', 'respetable'], ['responsible', 'responsable'], ['impossible', 'imposible'], ['irreproachable', 'irreprochable'],
     ],
   },
@@ -46,7 +45,7 @@ export const COGNATES: Pattern[] = [
     rule: 'Many English words ending in -cal end in -co in Spanish, usually with an accent three syllables from the end: práctical → PRÁC-ti-co.',
     items: [
       ['classical', 'clásico'], ['physical', 'físico'], ['mechanical', 'mecánico'], ['political', 'político'], ['comical', 'cómico'],
-      ['practical', 'práctico'], ['economical', 'económico'], ['hysterical', 'histérico'], ['medical', 'médico'], ['technical', 'técnico'],
+      ['practical', 'práctico'], ['economical', 'economico'], ['hysterical', 'histérico'], ['medical', 'médico'], ['technical', 'técnico'],
       ['ethical', 'ético'], ['identical', 'idéntico'], ['methodical', 'metódico'], ['typical', 'típico'],
     ],
   },
@@ -68,6 +67,37 @@ export const COGNATES: Pattern[] = [
       ['different', 'diferente'], ['intelligent', 'inteligente'], ['ingredient', 'ingrediente'], ['evident', 'evidente'],
       ['permanent', 'permanente'], ['elegant', 'elegante'], ['instant', 'instante'], ['constant', 'constante'],
       ['abundant', 'abundante'], ['brilliant', 'brillante'], ['elephant', 'elefante'],
+    ],
+  },
+  {
+    id: 'g-ista',
+    title: '-ist becomes -ista',
+    rule: 'English -ist becomes -ista, for men and women alike: el dentista, la dentista.',
+    items: [
+      ['dentist', 'dentista'], ['artist', 'artista'], ['oculist', 'oculista'], ['pianist', 'pianista'], ['violinist', 'violinista'],
+      ['novelist', 'novelista'], ['capitalist', 'capitalista'], ['socialist', 'socialista'], ['optimist', 'optimista'], ['pessimist', 'pesimista'],
+      ['specialist', 'especialista'], ['tourist', 'turista'],
+    ],
+  },
+  {
+    id: 'g-oso',
+    title: '-ous becomes -oso',
+    rule: 'English -ous becomes -oso: famous → famoso, delicious → delicioso. For a woman or a feminine word it ends in -osa.',
+    items: [
+      ['curious', 'curioso'], ['famous', 'famoso'], ['generous', 'generoso'], ['ambitious', 'ambicioso'], ['pompous', 'pomposo'],
+      ['delicious', 'delicioso'], ['industrious', 'industrioso'], ['nervous', 'nervioso'], ['religious', 'religioso'], ['precious', 'precioso'],
+      ['furious', 'furioso'], ['mysterious', 'misterioso'], ['contagious', 'contagioso'], ['infectious', 'infeccioso'],
+    ],
+  },
+  {
+    id: 'g-sion',
+    title: '-tion and -sion become -ción and -sión',
+    rule: 'Words ending in -ión are feminine: la invitación, una opinión. The accent sits on the ó.',
+    items: [
+      ['the invitation', 'la invitación'], ['the conversation', 'la conversación'], ['the nation', 'la nación'], ['the action', 'la acción'],
+      ['the discussion', 'la discusión'], ['the celebration', 'la celebración'], ['the opinion', 'la opinión'], ['the lesson', 'la lección'],
+      ['the decision', 'la decisión'], ['the television', 'la televisión'],
+      ['the injection', 'la inyección'], ['the operation', 'la operación'], ['the prescription', 'la prescripción'],
     ],
   },
   {

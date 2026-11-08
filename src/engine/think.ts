@@ -5,6 +5,7 @@
  */
 import { LESSONS } from '../content';
 import { COGNATES } from '../content/cognates';
+import { MORE_LESSONS } from '../content/moreLessons';
 import { shuffle } from './text';
 import type { State } from '../state/state';
 import { addXP, recMod } from '../state/progress';
@@ -14,6 +15,7 @@ export interface ThinkLesson { id: string; title: string; rule: string; items: [
 /** All lessons; prototype items are [English, Spanish] too. */
 export const THINK: ThinkLesson[] = [
   ...LESSONS.map((l) => ({ id: l.id, title: l.title, rule: l.rule, items: l.items, twin: false })),
+  ...MORE_LESSONS.map((l) => ({ ...l, twin: false })),
   ...COGNATES.map((c) => ({ ...c, twin: true })),
 ];
 

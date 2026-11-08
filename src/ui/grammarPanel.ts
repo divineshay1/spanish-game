@@ -15,6 +15,8 @@ import {
 import { CNOTE, CONN, DIFS, PCATS, PHR, QW, RAIZ, RGRP, SOUNDS, TENSES, TOPICS, VGROUPS, VERBS } from '../content';
 import { EXTRA_SOUNDS } from '../content/extraSounds';
 import { THINK, thinkRound, thinkAnswer, finishThink, type ThinkLesson } from '../engine/think';
+import { MEZCLA, type MezclaTable } from '../content/moreLessons';
+import { sentence, combos, made } from '../engine/mezcla';
 import { shield } from './shield';
 import { toast } from './toast';
 
@@ -26,6 +28,7 @@ type View =
   | { k: 'build'; back: View; kind: BItem['kind']; items: BItem[]; i: number; placed: number[]; res: 'good' | 'bad' | null; hints: number; right: number; xp: number; again: () => View }
   | { k: 'fino'; items: FinoItem[]; i: number; ans: number | null; right: number; xp: number }
   | { k: 'think'; back: View; lesson: ThinkLesson; items: [string, string][]; i: number; show: boolean; got: number }
+  | { k: 'mezcla'; back: View; t: MezclaTable; pick: (number | null)[]; seen: Set<string> }
   | { k: 'done'; back: View; title: string; right: number; total: number; xp: number; again: () => View };
 
 let layer: HTMLDivElement | null = null;
@@ -157,6 +160,8 @@ function secHtml(sec: Section, sub?: string): string {
     h += card('oido', '♪', 'Oído', 'Listen first, then build what you heard. English stays hidden until you finish.');
     h += card('palabra', '❖', 'Palabras', 'Build a word syllable by syllable. Words you are about to forget show up first.');
     h += card('verbo', '☾', 'Verbos', 'Build conjugations from pieces: stem and ending, or helper plus participle.');
+    h += `<h3>Mezcla</h3><p class="muted">Pick one piece from each column and make as many sentences as you can. Every combination is correct Spanish. Say each one out loud.</p>`;
+    h += MEZCLA.map((t) => `<button class="task" data-act="mezcla" data-id="${t.id}"><span class="dot">⁂</span><span>${esc(t.title)}<small>${combos(t)} possible sentences</small></span></button>`).join('');
   } else if (sec === 'pensar') {
     const l = sub ? THINK.find((x) => x.id === sub) : null;
     const S = state();
@@ -235,6 +240,19 @@ function render(): void {
     }).join('');
     if (v.ans !== null)
       h += `<div class="story">${it.p.w.map((w) => `<b>${esc(w[0])}</b> · ${esc(w[1])} ${sayBtn(w[0])}`).join('<br>')}<br><span class="muted">${esc(it.p.tip)}</span></div><button class="pbtn gold wide" data-act="fnext">${v.i + 1 < v.items.length ? 'Next →' : 'Finish'}</button>`;
+  } else if (v.k === 'mezcla') {
+    h += header('Mezcla', v.t.title, 'qback');
+    v.t.cols.forEach((col, c) => {
+      h += `<p class="muted">${c + 1}</p><div class="chips">${col.map(([es], i) => `<button class="chip${v.pick[c] === i ? ' good' : ''}" data-act="mpick" data-c="${c}" data-i="${i}">${esc(es)}</button>`).join('')}</div>`;
+    });
+    if (v.pick.every((p) => p !== null)) {
+      const st = sentence(v.t, v.pick as number[]);
+      h += `<div class="story"><div class="big" style="text-align:left;margin:0">${esc(st.es)}</div><p class="muted">${esc(st.en)}</p><button class="pbtn small" data-act="say" data-t="${esc(st.es)}">▶ Escuchar</button></div>`;
+    }
+    const left = 5 - (v.seen.size % 5);
+    h += `<p class="muted">${v.seen.size} sentence${v.seen.size === 1 ? '' : 's'} made · ${left} more for +10 XP</p>`;
+    if (v.seen.size) h += `<div class="story">${[...v.seen].slice(-6).map((x) => esc(x)).join('<br>')}</div>`;
+    h += `<button class="pbtn wide" data-act="mrandom">🎲 Surprise me</button>`;
   } else if (v.k === 'think') {
     const [en, es] = v.items[v.i];
     h += header('Pensar', v.lesson.title, 'qback') + bar(v.i, v.items.length) + `<p class="muted center">${esc(v.lesson.rule)}</p>`;
@@ -344,6 +362,30 @@ function onClick(e: Event): void {
       }
       break;
     }
+    case 'mezcla': {
+      const t = MEZCLA.find((x) => x.id === btn.dataset.id)!;
+      view = { k: 'mezcla', back: v, t, pick: t.cols.map(() => null), seen: new Set() };
+      break;
+    }
+    case 'mpick':
+    case 'mrandom': {
+      if (v.k !== 'mezcla') return;
+      if (act === 'mrandom') v.pick = v.t.cols.map((col) => Math.floor(Math.random() * col.length));
+      else v.pick[Number(btn.dataset.c)] = Number(btn.dataset.i);
+      sfx('tap');
+      if (v.pick.every((p) => p !== null)) {
+        const st = sentence(v.t, v.pick as number[]);
+        const xp = made(S, v.seen, st.es);
+        commit();
+        say(st.es);
+        if (xp) {
+          sfx('done');
+          toast(`+${xp} XP ✦`);
+        }
+      }
+      render();
+      return;
+    }
     case 'tofino':
       view = startFino();
       break;
@@ -355,7 +397,7 @@ function onClick(e: Event): void {
       break;
     case 'qback':
       stopSpeaking();
-      view = v.k === 'quiz' || v.k === 'build' || v.k === 'done' || v.k === 'think' ? v.back : { k: 'sec', sec: 'sonidos' };
+      view = v.k === 'quiz' || v.k === 'build' || v.k === 'done' || v.k === 'think' || v.k === 'mezcla' ? v.back : { k: 'sec', sec: 'sonidos' };
       break;
     case 'again':
       if (v.k === 'done') view = v.again();

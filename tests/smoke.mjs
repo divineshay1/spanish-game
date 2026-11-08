@@ -378,6 +378,15 @@ for (let k = 0; k < n0; k++) await page.click('#grammar [data-act="bhint"]');
 await page.click('#grammar [data-act="bcheck"]');
 await page.screenshot({ path: `${OUT}/armar.png` });
 await page.click('#grammar [data-act="qback"]');
+// Mezcla: make 5 sentences
+await page.click('#grammar [data-act="mezcla"][data-id="m-tome"]');
+for (let i = 0; i < 6; i++) {
+  await page.click(`#grammar [data-act="mpick"][data-c="0"][data-i="${i % 3}"]`);
+  await page.click(`#grammar [data-act="mpick"][data-c="1"][data-i="${i}"]`);
+  await page.click(`#grammar [data-act="mpick"][data-c="2"][data-i="${i % 4}"]`);
+}
+await page.screenshot({ path: `${OUT}/mezcla.png` });
+await page.click('#grammar [data-act="qback"]');
 await page.click('#grammar [data-act="close"]');
 // Sonidos page and Oído fino
 await tapStar('sonidos');
@@ -410,7 +419,7 @@ await page.click('#grammar [data-act="qback"]');
 await page.click('#grammar [data-act="secback"]');
 await page.click('#grammar [data-act="close"]');
 const mods = await page.evaluate(() => Object.keys(window.__state().mod));
-for (const k of ['vrb', 'g_q', 'bld', 'fino', 'think']) if (!mods.includes(k)) fail('observatorio skill not recorded: ' + k);
+for (const k of ['vrb', 'g_q', 'bld', 'fino', 'think', 'mezcla']) if (!mods.includes(k)) fail('observatorio skill not recorded: ' + k);
 console.log('observatorio: conjugar build, drill, armar, sonidos, oído fino OK');
 
 // ---- El Duelo: win the first duel with right answers ----

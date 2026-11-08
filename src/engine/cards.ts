@@ -8,10 +8,11 @@
  * Each card also has a "family" that decides its flower type in El Jardín.
  */
 import { CARDS, IMG, PHR, RAIZ, SIETE, VERBS } from '../content';
+import { VOCAB } from '../content/moreLessons';
 import type { State } from '../state/state';
 import { dayKey } from './clock';
 
-export type Family = 'frases' | 'paciente' | 'raices' | 'imagen' | 'verbos' | 'siete' | 'mias' | 'tarjetas';
+export type Family = 'frases' | 'paciente' | 'raices' | 'imagen' | 'verbos' | 'siete' | 'mias' | 'tarjetas' | 'vocab';
 
 export interface Card {
   id: string;
@@ -40,6 +41,7 @@ export function catalog(S: State): Card[] {
     ...RAIZ.map<Card>((r) => ({ id: 'r:' + r.id, es: r.es, en: r.en, tag: 'Raíces', family: 'raices' })),
     ...VERBS.map<Card>((v) => ({ id: 'v:' + v.n, es: v.es, en: v.en, tag: 'Verbos', family: 'verbos' })),
     ...SIETE.map<Card>((w) => ({ id: 'sv:' + w.id, es: withArt(w.art, w.es), en: w.en, tag: 'Siete pasos', family: 'siete', ico: w.ico, mn: w.mn, pic: w.pid })),
+    ...VOCAB.map<Card>(([es, en]) => ({ id: 'b:' + es, es, en, tag: 'Vocabulario', family: 'vocab' })),
     ...Object.values(S.saved).map<Card>((w) => ({ id: 'w:' + w.es, es: w.es, en: w.en, tag: 'Mis palabras', family: 'mias' })),
   ];
 }
@@ -68,7 +70,7 @@ export const dueList = (S: State, key: string = dayKey()): Card[] =>
 
 /** Cards not planted yet, in a gentle order: patient phrases and picture words first. */
 export function seedList(S: State): Card[] {
-  const order: Family[] = ['paciente', 'imagen', 'tarjetas', 'frases', 'raices', 'verbos', 'siete', 'mias'];
+  const order: Family[] = ['paciente', 'imagen', 'vocab', 'tarjetas', 'frases', 'raices', 'verbos', 'siete', 'mias'];
   return catalog(S)
     .filter((c) => !S.cards[c.id])
     .sort((a, b) => order.indexOf(a.family) - order.indexOf(b.family));

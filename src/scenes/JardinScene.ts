@@ -13,7 +13,7 @@ import { skyCanvas } from '../art/sky';
 import { cloudLayer } from '../art/clouds';
 import { sfx } from '../audio/sfx';
 
-const ORDER: Family[] = ['paciente', 'imagen', 'tarjetas', 'frases', 'raices', 'verbos', 'siete', 'mias'];
+const ORDER: Family[] = ['paciente', 'imagen', 'vocab', 'tarjetas', 'frases', 'raices', 'verbos', 'siete', 'mias'];
 const CELL_W = 22;
 const CELL_H = 30;
 /** the garden is drawn at 2x so plants are easy to see and tap */

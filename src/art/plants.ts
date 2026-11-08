@@ -28,6 +28,7 @@ export const FAMILY_LOOK: Record<Family, Look> = {
   verbos: { shape: 'star', main: PAL.deepLav, light: PAL.lilac, center: PAL.star },
   siete: { shape: 'tulip', main: '#f7b58a', light: '#fbd3b5', center: PAL.star },
   mias: { shape: 'daisy', main: PAL.lilac, light: PAL.white, center: PAL.pink },
+  vocab: { shape: 'round', main: PAL.star, light: PAL.white, center: PAL.clay },
 };
 
 /** Spanish names for the flower beds. */
@@ -40,6 +41,7 @@ export const FAMILY_NAME: Record<Family, string> = {
   verbos: 'Verbos',
   siete: 'Siete pasos',
   mias: 'Mis palabras',
+  vocab: 'Vocabulario',
 };
 
 export const STAGE_NAME = ['Semilla', 'Brote', 'Dos hojas', 'Plantita', 'Frondosa', 'Capullo', 'Flor', 'Flor plena', 'Flor estrella'];

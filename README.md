@@ -45,7 +45,7 @@ Speaking uses your phone's speech recognition when it works; otherwise answer ou
 
 ## El Observatorio
 
-Tap a star: Conjugar, 100 Verbos, Tiempos, Preguntas, Conectores, Temas, Diferencias, Cimientos, Armar, Oído fino, Sonidos, Pensar (patterns and twin words).
+Tap a star: Conjugar, 100 Verbos, Tiempos, Preguntas, Conectores, Temas, Diferencias, Cimientos, Armar, Oído fino, Sonidos, Pensar (patterns and twin words). Armar also has **Mezcla**: build as many sentences as you can from columns.
 Each page has the explanation and a ✦ Practice drill.
 
 ## El Duelo

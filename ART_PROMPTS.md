@@ -147,3 +147,12 @@ same picture when a plant is thirsty, so you only draw the healthy version.
 | `plant-mias-6.png` | 16×26 | the plant with one small open flower; flower: lilac daisy (#d9c6f7 petals), pink centre. Soil mound in the bottom 3 rows. |
 | `plant-mias-7.png` | 16×26 | the plant in full bloom with a big flower and a little side bud; flower: lilac daisy (#d9c6f7 petals), pink centre. Soil mound in the bottom 3 rows. |
 | `plant-mias-8.png` | 16×26 | the plant in full bloom with a glowing star-shaped flower and four tiny gold sparkles around it; flower: lilac daisy (#d9c6f7 petals), pink centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-0.png` | 16×26 | a single seed peeking out of a small mound of soil, no plant yet; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-1.png` | 16×26 | a tiny sprout with two baby leaves; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-2.png` | 16×26 | a seedling with two proper leaves; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-3.png` | 16×26 | a small plant with three leaves; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-4.png` | 16×26 | a leafy plant with four leaves; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-5.png` | 16×26 | a tall leafy plant with a closed flower bud on top; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-6.png` | 16×26 | the plant with one small open flower; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-7.png` | 16×26 | the plant in full bloom with a big flower and a little side bud; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
+| `plant-vocab-8.png` | 16×26 | the plant in full bloom with a glowing star-shaped flower and four tiny gold sparkles around it; flower: star-yellow round flower (#ffe066) with white highlights and a clay centre. Soil mound in the bottom 3 rows. |
