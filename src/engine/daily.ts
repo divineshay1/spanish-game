@@ -21,7 +21,7 @@ export const REALMS: Realm[] = [
   { key: 'jardin', name: 'El Jardín', door: PAL.mint, scene: 'Jardin', milestone: 'M3' },
   { key: 'clinica', name: 'La Clínica', door: PAL.blush, scene: 'Clinica', milestone: 'M5' },
   { key: 'observatorio', name: 'Observatorio', door: PAL.lavender, scene: null, milestone: 'M8' },
-  { key: 'biblioteca', name: 'Biblioteca', door: PAL.sand, scene: null, milestone: 'M6' },
+  { key: 'biblioteca', name: 'Biblioteca', door: PAL.sand, scene: 'Biblioteca', milestone: 'M6' },
   { key: 'isla', name: 'La Isla', door: '#7cc8ff', scene: null, milestone: 'M7' },
   { key: 'duelo', name: 'El Duelo', door: PAL.deepLav, scene: null, milestone: 'M9' },
   { key: 'cafe', name: 'El Café', door: PAL.clay, scene: null, milestone: 'M10' },
@@ -33,7 +33,7 @@ export interface Task {
   t: string;
   d: string;
   /** what to do when tapped */
-  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | null;
+  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | 'read' | null;
   icon: string;
 }
 
@@ -43,11 +43,11 @@ export const TASKS: Task[] = [
   { id: 'review', t: 'Regar', d: 'Water your thirsty plants', go: 'water', icon: '💧' },
   { id: 'focus', t: 'Focus', d: 'Rescue words you keep missing', go: 'focus', icon: '✦' },
   { id: 'clinic', t: 'La Clínica', d: 'See a patient, all in Spanish', go: 'clinic', icon: '✚' },
+  { id: 'read', t: 'Leer', d: 'Read a story, tap any word', go: 'read', icon: '❀' },
 ];
 
 /** Steps coming with later realms, shown greyed out. */
 export const SOON_TASKS: [string, string][] = [
-  ['Leer', 'Read a story, tap any word'],
   ['Inmersión', '10 minutes, Spanish only'],
   ['Observatorio', 'One grammar lesson'],
 ];

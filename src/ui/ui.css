@@ -201,3 +201,18 @@
 .symgrid img { width: 52px; height: 52px; display: block; margin: 0 auto 2px; border: 2px solid var(--plum); object-fit: cover; }
 .stars { font-size: 28px; color: #d39b1f; text-shadow: 1px 1px 0 var(--plum); letter-spacing: 3px; }
 .stars .off { opacity: 0.25; }
+
+/* ---- reader ---- */
+.sent { padding: 6px 8px; margin: 4px -4px; border-left: 4px solid transparent; }
+.sent.cur { background: var(--white); border-left-color: var(--pink); }
+.sent p { font-size: calc(22px * var(--text-scale)); line-height: 1.5; margin: 0; color: var(--plum); }
+.sent p.hidden { filter: blur(6px); user-select: none; }
+.w { border-bottom: 2px dotted var(--lav); cursor: pointer; padding: 0 1px; }
+.w.kn { border-bottom-color: var(--mint); background: rgba(166, 220, 180, 0.35); }
+.w:active { background: var(--star); }
+.srow { display: flex; gap: 6px; margin-top: 4px; flex-wrap: wrap; }
+.tr { color: var(--deep); font-size: calc(15px * var(--text-scale)); margin-top: 4px; }
+.wordcard { position: sticky; bottom: -22px; margin: 12px -18px -22px; padding: 12px 18px calc(16px + env(safe-area-inset-bottom)); background: var(--white); border-top: 4px solid var(--plum); box-shadow: 0 -4px 0 var(--blush); }
+.wordcard h3 { margin: 0; font-size: calc(26px * var(--text-scale)); color: var(--plum); }
+.order { counter-reset: n; }
+.order .chip { display: block; width: 100%; text-align: left; margin: 6px 0; font-size: calc(16px * var(--text-scale)); }

@@ -135,7 +135,7 @@ function renderProgreso(): string {
     return { k, name: MODN[k], n: m.n, r: m.r, acc: m.n ? m.r / m.n : 0 };
   });
   // garden skills are new: name them too
-  for (const [k, name] of [['plant', 'Sembrar']] as const) {
+  for (const [k, name] of [['plant', 'Sembrar'], ['orden', 'Ordena la historia']] as const) {
     const m = S.mod[k] || { n: 0, r: 0 };
     used.push({ k, name, n: m.n, r: m.r, acc: m.n ? m.r / m.n : 0 });
   }
