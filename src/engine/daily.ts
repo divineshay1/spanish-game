@@ -20,7 +20,7 @@ export interface Realm {
 export const REALMS: Realm[] = [
   { key: 'jardin', name: 'El Jardín', door: PAL.mint, scene: 'Jardin', milestone: 'M3' },
   { key: 'clinica', name: 'La Clínica', door: PAL.blush, scene: 'Clinica', milestone: 'M5' },
-  { key: 'observatorio', name: 'Observatorio', door: PAL.lavender, scene: null, milestone: 'M8' },
+  { key: 'observatorio', name: 'Observatorio', door: PAL.lavender, scene: 'Observatorio', milestone: 'M8' },
   { key: 'biblioteca', name: 'Biblioteca', door: PAL.sand, scene: 'Biblioteca', milestone: 'M6' },
   { key: 'isla', name: 'La Isla', door: '#7cc8ff', scene: 'Isla', milestone: 'M7' },
   { key: 'duelo', name: 'El Duelo', door: PAL.deepLav, scene: null, milestone: 'M9' },
@@ -33,7 +33,7 @@ export interface Task {
   t: string;
   d: string;
   /** what to do when tapped */
-  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | 'read' | 'imm' | null;
+  go: 'phrase' | 'plant' | 'water' | 'focus' | 'clinic' | 'read' | 'imm' | 'grammar' | null;
   icon: string;
 }
 
@@ -45,11 +45,14 @@ export const TASKS: Task[] = [
   { id: 'clinic', t: 'La Clínica', d: 'See a patient, all in Spanish', go: 'clinic', icon: '✚' },
   { id: 'read', t: 'Leer', d: 'Read a story, tap any word', go: 'read', icon: '❀' },
   { id: 'inmersion', t: 'Inmersión', d: '10 minutes, Spanish only', go: 'imm', icon: '☾' },
+  { id: 'grammar', t: 'Observatorio', d: 'One grammar drill', go: 'grammar', icon: '✧' },
 ];
 
 /** Steps coming with later realms, shown greyed out. */
 export const SOON_TASKS: [string, string][] = [
-  ['Observatorio', 'One grammar lesson'],
+  ['El Duelo', 'A card battle powered by your words'],
+  ['El Café', 'Listen to orders and serve them'],
+  ['El Barrio', 'Walk the neighbourhood and talk'],
 ];
 
 /** Whether a step counts as done today. Nothing due or no seeds left also counts. */

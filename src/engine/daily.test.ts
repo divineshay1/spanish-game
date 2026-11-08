@@ -6,7 +6,7 @@ describe('daily route', () => {
   it('nothing done on a fresh day', () => {
     const S = defaults();
     expect(tasksDone(S, '2026-11-06')).toBe(0);
-    expect(TASKS.length).toBe(7);
+    expect(TASKS.length).toBe(8);
   });
   it('steps tick off', () => {
     const S = defaults();

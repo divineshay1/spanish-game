@@ -323,6 +323,77 @@ await page.screenshot({ path: `${OUT}/isla-end.png` });
 const imm = await page.evaluate(() => window.__state().immData);
 if (imm.sess !== 1 || imm.right !== 10) fail('immersion session not recorded: ' + JSON.stringify(imm));
 console.log('isla: ' + [...new Set(kinds)].join(',') + ' OK');
+
+// ---- El Observatorio ----
+await page.goto(URL);
+await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
+await page.waitForTimeout(400);
+await tapGame(W / 2 - 36, Math.round(H * 0.44) - 26);
+await page.waitForFunction(() => window.__game.scene.isActive('Observatorio'), null, { timeout: 5000 });
+await page.waitForTimeout(400);
+await page.screenshot({ path: `${OUT}/observatorio.png` });
+const STARS = { conj: [0.22, 0.16], qw: [0.4, 0.34], armar: [0.54, 0.8], sonidos: [0.76, 0.94], fino: [0.16, 0.86] };
+const tapStar = async (k) => {
+  const [fx, fy] = STARS[k];
+  const dh = H - 40 - 34 - 28;
+  await tapGame(Math.round(10 + fx * (W - 20)), Math.round(34 + fy * dh) + 2);
+  await page.waitForSelector('#grammar .panel', { timeout: 5000 });
+};
+// Conjugar: pick tener, build it with hints
+await tapStar('conj');
+await page.fill('#cjq', 'ten');
+await page.click('#grammar [data-act="cjpick"][data-es="tener"]');
+await page.click('#grammar [data-act="cjt"][data-t="fut"]');
+await page.screenshot({ path: `${OUT}/conjugar.png` });
+await page.click('#grammar [data-act="cjbuild"]');
+for (let i = 0; i < 8; i++) {
+  const n = await page.evaluate(() => window.__grammar().items[window.__grammar().i].ans.length);
+  for (let k = 0; k < n; k++) await page.click('#grammar [data-act="bhint"]');
+  await page.click('#grammar [data-act="bcheck"]');
+  if (await page.locator('#grammar .feedback.no').count()) fail('verb build marked wrong');
+  await page.click('#grammar [data-act="bnext"]');
+}
+await page.waitForSelector('#grammar [data-act="again"]');
+await page.click('#grammar [data-act="qback"]');
+await page.click('#grammar [data-act="close"]');
+// Preguntas drill: answer everything right
+await tapStar('qw');
+await page.click('#grammar [data-act="drill"]');
+for (let i = 0; i < 12; i++) {
+  const v = await page.evaluate(() => window.__grammar());
+  if (v.k !== 'quiz') break;
+  const it = v.items[v.i];
+  await page.click(`#grammar [data-act="qopt"][data-i="${it.opts.indexOf(it.a)}"]`);
+  if (i === 0) await page.screenshot({ path: `${OUT}/drill.png` });
+  await page.click('#grammar [data-act="qnext"]');
+}
+await page.waitForSelector('#grammar [data-act="again"]');
+await page.click('#grammar [data-act="qback"]');
+await page.click('#grammar [data-act="close"]');
+// Armar frases: one sentence with hints
+await tapStar('armar');
+await page.click('#grammar [data-act="bstart"][data-k="frase"]');
+const n0 = await page.evaluate(() => window.__grammar().items[0].ans.length);
+for (let k = 0; k < n0; k++) await page.click('#grammar [data-act="bhint"]');
+await page.click('#grammar [data-act="bcheck"]');
+await page.screenshot({ path: `${OUT}/armar.png` });
+await page.click('#grammar [data-act="qback"]');
+await page.click('#grammar [data-act="close"]');
+// Sonidos page and Oído fino
+await tapStar('sonidos');
+await page.screenshot({ path: `${OUT}/sonidos.png` });
+await page.click('#grammar [data-act="tofino"]');
+for (let i = 0; i < 10; i++) {
+  const v = await page.evaluate(() => window.__grammar());
+  await page.click(`#grammar [data-act="fopt"][data-k="${v.items[v.i].t}"]`);
+  await page.click('#grammar [data-act="fnext"]');
+}
+await page.waitForSelector('#grammar [data-act="again"]');
+await page.click('#grammar [data-act="qback"]');
+await page.click('#grammar [data-act="close"]');
+const mods = await page.evaluate(() => Object.keys(window.__state().mod));
+for (const k of ['vrb', 'g_q', 'bld', 'fino']) if (!mods.includes(k)) fail('observatorio skill not recorded: ' + k);
+console.log('observatorio: conjugar build, drill, armar, sonidos, oído fino OK');
 await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 

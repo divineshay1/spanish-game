@@ -13,6 +13,7 @@ import { openSettings, settingsOpen } from '../ui/settings';
 import { openHoy, openProgreso, panelOpen } from '../ui/panels';
 import { sessionOpen } from '../ui/session';
 import { readerOpen } from '../ui/reader';
+import { grammarOpen } from '../ui/grammarPanel';
 import { REALMS, TASKS, tasksDone, type Realm } from '../engine/daily';
 import { curStreak, today } from '../state/progress';
 import { speak } from '../audio/speech';
@@ -33,7 +34,7 @@ const CHEERS: [string, string][] = [
   ['¡Qué gusto verte!', 'So nice to see you!'],
 ];
 
-const uiBusy = () => settingsOpen() || panelOpen() || sessionOpen() || readerOpen();
+const uiBusy = () => settingsOpen() || panelOpen() || sessionOpen() || readerOpen() || grammarOpen();
 
 /** El Cielo: the floating sky-island hub with a door to every realm. */
 export class CieloScene extends Phaser.Scene {
@@ -143,6 +144,7 @@ export class CieloScene extends Phaser.Scene {
       if (what === 'clinic') goTo(this, 'Clinica');
       if (what === 'read') goTo(this, 'Biblioteca', { open: 'read' });
       if (what === 'imm') goTo(this, 'Isla');
+      if (what === 'grammar') goTo(this, 'Observatorio');
     };
     c.add(
       pixelButton(this, gap, H - 32, bw, 24, 'Hoy', () => !uiBusy() && openHoy(go), {
