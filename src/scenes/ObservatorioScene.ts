@@ -23,8 +23,9 @@ const STARS: [Section, string, number, number][] = [
   ['armar', 'Armar', 0.54, 0.8],
   ['fino', 'Oído fino', 0.16, 0.86],
   ['sonidos', 'Sonidos', 0.76, 0.94],
+  ['pensar', 'Pensar', 0.9, 0.47],
 ];
-const LINKS: [number, number][] = [[0, 1], [1, 2], [0, 3], [3, 2], [0, 4], [3, 5], [4, 6], [5, 7], [6, 8], [5, 8], [6, 9], [8, 10], [7, 10]];
+const LINKS: [number, number][] = [[0, 1], [1, 2], [0, 3], [3, 2], [0, 4], [3, 5], [4, 6], [5, 7], [6, 8], [5, 8], [6, 9], [8, 10], [7, 10], [2, 11], [11, 7]];
 
 function telescope(): HTMLCanvasElement {
   const [c, ctx] = makeCanvas(30, 30);

@@ -14,16 +14,18 @@ import {
 } from '../engine/grammar';
 import { CNOTE, CONN, DIFS, PCATS, PHR, QW, RAIZ, RGRP, SOUNDS, TENSES, TOPICS, VGROUPS, VERBS } from '../content';
 import { EXTRA_SOUNDS } from '../content/extraSounds';
+import { THINK, thinkRound, thinkAnswer, finishThink, type ThinkLesson } from '../engine/think';
 import { shield } from './shield';
 import { toast } from './toast';
 
-export type Section = 'conj' | 'verbs' | 'tenses' | 'qw' | 'conn' | 'topics' | 'difs' | 'cimientos' | 'armar' | 'fino' | 'sonidos';
+export type Section = 'conj' | 'verbs' | 'tenses' | 'qw' | 'conn' | 'topics' | 'difs' | 'cimientos' | 'armar' | 'fino' | 'sonidos' | 'pensar';
 
 type View =
   | { k: 'sec'; sec: Section; sub?: string }
   | { k: 'quiz'; back: View; title: string; skill: string; items: QItem[]; i: number; ans: number | null; right: number; xp: number; again: () => View }
   | { k: 'build'; back: View; kind: BItem['kind']; items: BItem[]; i: number; placed: number[]; res: 'good' | 'bad' | null; hints: number; right: number; xp: number; again: () => View }
   | { k: 'fino'; items: FinoItem[]; i: number; ans: number | null; right: number; xp: number }
+  | { k: 'think'; back: View; lesson: ThinkLesson; items: [string, string][]; i: number; show: boolean; got: number }
   | { k: 'done'; back: View; title: string; right: number; total: number; xp: number; again: () => View };
 
 let layer: HTMLDivElement | null = null;
@@ -43,7 +45,7 @@ const bar = (i: number, n: number) => `<div class="bar"><i style="width:${Math.r
 
 const TITLES: Record<Section, string> = {
   conj: 'Conjugar', verbs: '100 Verbos', tenses: 'Tiempos', qw: 'Preguntas', conn: 'Conectores', topics: 'Temas',
-  difs: 'Diferencias', cimientos: 'Cimientos', armar: 'Armar', fino: 'Oído fino', sonidos: 'Sonidos',
+  difs: 'Diferencias', cimientos: 'Cimientos', armar: 'Armar', fino: 'Oído fino', sonidos: 'Sonidos', pensar: 'Pensar',
 };
 
 export const grammarOpen = (): boolean => !!layer && !layer.hidden;
@@ -155,6 +157,18 @@ function secHtml(sec: Section, sub?: string): string {
     h += card('oido', '♪', 'Oído', 'Listen first, then build what you heard. English stays hidden until you finish.');
     h += card('palabra', '❖', 'Palabras', 'Build a word syllable by syllable. Words you are about to forget show up first.');
     h += card('verbo', '☾', 'Verbos', 'Build conjugations from pieces: stem and ending, or helper plus participle.');
+  } else if (sec === 'pensar') {
+    const l = sub ? THINK.find((x) => x.id === sub) : null;
+    const S = state();
+    if (!l) {
+      h += `<p class="muted">Think it through: patterns that turn English you already know into Spanish. See the English, think of the Spanish, then check.</p>`;
+      h += `<h3>Patrones</h3>` + THINK.filter((x) => !x.twin).map((x) => `<button class="task${S.lessons[x.id] ? ' on' : ''}" data-act="sub" data-s="${x.id}"><span class="dot">${S.lessons[x.id] ? '✓' : '✎'}</span><span>${esc(x.title)}<small>${esc(x.rule)}</small></span></button>`).join('');
+      h += `<h3>Palabras gemelas</h3><p class="muted">Twin words: often spelled the same or almost the same. The trick is saying them the Spanish way.</p>`;
+      h += THINK.filter((x) => x.twin).map((x) => `<button class="task${S.lessons[x.id] ? ' on' : ''}" data-act="sub" data-s="${x.id}"><span class="dot">${S.lessons[x.id] ? '✓' : '≈'}</span><span>${esc(x.title)}<small>${x.items.length} words</small></span></button>`).join('');
+    } else {
+      h += `<h3>${esc(l.title)}</h3><p>${esc(l.rule)}</p><button class="pbtn gold wide" data-act="think" data-id="${l.id}">✦ Practice (${Math.min(10, l.items.length)} words)</button>`;
+      h += `<div class="chips">${l.items.map(([en, es]) => `<button class="chip" data-act="say" data-t="${esc(es)}">${esc(es)}${en !== es ? `<br><small class="muted">${esc(en)}</small>` : ''}<br><small class="say">${esc(es.split(' ').length === 1 ? pron(es.toLowerCase()).say : '')}</small></button>`).join('')}</div>`;
+    }
   } else if (sec === 'sonidos') {
     h += `<p class="muted">The rules that cover almost every word. Tap any example to hear it.</p>`;
     const rule = (s: (typeof SOUNDS)[number]) =>
@@ -221,6 +235,16 @@ function render(): void {
     }).join('');
     if (v.ans !== null)
       h += `<div class="story">${it.p.w.map((w) => `<b>${esc(w[0])}</b> · ${esc(w[1])} ${sayBtn(w[0])}`).join('<br>')}<br><span class="muted">${esc(it.p.tip)}</span></div><button class="pbtn gold wide" data-act="fnext">${v.i + 1 < v.items.length ? 'Next →' : 'Finish'}</button>`;
+  } else if (v.k === 'think') {
+    const [en, es] = v.items[v.i];
+    h += header('Pensar', v.lesson.title, 'qback') + bar(v.i, v.items.length) + `<p class="muted center">${esc(v.lesson.rule)}</p>`;
+    h += `<div class="big en">${esc(en)}</div><p class="muted center">Think it in Spanish first.</p>`;
+    if (!v.show) h += `<button class="pbtn gold wide" data-act="tshow">Show the Spanish</button>`;
+    else {
+      h += `<div class="big">${esc(es)}</div>${es.split(' ').length <= 4 ? `<p class="center">${es.split(' ').map((w) => pronLine(w.replace(/[¿?¡!,.]/g, '').toLowerCase())).join(' &nbsp; ')}</p>` : ''}`;
+      h += `<div class="row center"><button class="pbtn" data-act="say" data-t="${esc(es)}">▶ Escuchar</button></div>`;
+      h += `<div class="row"><button class="pbtn" style="flex:1" data-act="tnext" data-r="0">Todavía no</button><button class="pbtn gold" style="flex:1" data-act="tnext" data-r="1">¡Lo sabía!</button></div>`;
+    }
   } else {
     h += `<div class="center"><div class="big spark">✦</div><h2>¡Listo!</h2><p class="muted">${v.right} of ${v.total} correct.</p><p class="spark">+${v.xp} XP</p></div>`;
     h += `<div class="row"><button class="pbtn gold" style="flex:1" data-act="again">Practice again</button><button class="pbtn" style="flex:1" data-act="qback">Back</button></div>`;
@@ -290,6 +314,36 @@ function onClick(e: Event): void {
     case 'lvl':
       lvl = Number(btn.dataset.n);
       break;
+    case 'think': {
+      const l = THINK.find((x) => x.id === btn.dataset.id)!;
+      view = { k: 'think', back: v, lesson: l, items: thinkRound(l), i: 0, show: false, got: 0 };
+      break;
+    }
+    case 'tshow':
+      if (v.k !== 'think') return;
+      v.show = true;
+      say(v.items[v.i][1]);
+      break;
+    case 'tnext': {
+      if (v.k !== 'think') return;
+      const knew = btn.dataset.r === '1';
+      thinkAnswer(S, knew);
+      if (knew) v.got++;
+      sfx(knew ? 'good' : 'tap');
+      if (v.i + 1 >= v.items.length) {
+        const xp = finishThink(S, v.lesson, v.got);
+        commit();
+        sfx('done');
+        toast(`+${xp} XP ✦`);
+        const lesson = v.lesson;
+        const back = v.back;
+        view = { k: 'done', back, title: lesson.title, right: v.got, total: v.items.length, xp, again: () => ({ k: 'think', back, lesson, items: thinkRound(lesson), i: 0, show: false, got: 0 }) };
+      } else {
+        v.i++;
+        v.show = false;
+      }
+      break;
+    }
     case 'tofino':
       view = startFino();
       break;
@@ -301,7 +355,7 @@ function onClick(e: Event): void {
       break;
     case 'qback':
       stopSpeaking();
-      view = v.k === 'quiz' || v.k === 'build' || v.k === 'done' ? v.back : { k: 'sec', sec: 'sonidos' };
+      view = v.k === 'quiz' || v.k === 'build' || v.k === 'done' || v.k === 'think' ? v.back : { k: 'sec', sec: 'sonidos' };
       break;
     case 'again':
       if (v.k === 'done') view = v.again();

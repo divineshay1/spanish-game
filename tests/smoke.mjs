@@ -391,8 +391,26 @@ for (let i = 0; i < 10; i++) {
 await page.waitForSelector('#grammar [data-act="again"]');
 await page.click('#grammar [data-act="qback"]');
 await page.click('#grammar [data-act="close"]');
+// Pensar: a twin-word lesson
+const STAR_P = [0.9, 0.47];
+{
+  const dh = H - 40 - 34 - 28;
+  await tapGame(Math.round(10 + STAR_P[0] * (W - 20)), Math.round(34 + STAR_P[1] * dh) + 2);
+  await page.waitForSelector('#grammar .panel', { timeout: 5000 });
+}
+await page.click('#grammar [data-act="sub"][data-s="g-clinica"]');
+await page.screenshot({ path: `${OUT}/pensar.png` });
+await page.click('#grammar [data-act="think"]');
+for (let i = 0; i < 10; i++) {
+  await page.click('#grammar [data-act="tshow"]');
+  await page.click('#grammar [data-act="tnext"][data-r="1"]');
+}
+await page.waitForSelector('#grammar [data-act="again"]');
+await page.click('#grammar [data-act="qback"]');
+await page.click('#grammar [data-act="secback"]');
+await page.click('#grammar [data-act="close"]');
 const mods = await page.evaluate(() => Object.keys(window.__state().mod));
-for (const k of ['vrb', 'g_q', 'bld', 'fino']) if (!mods.includes(k)) fail('observatorio skill not recorded: ' + k);
+for (const k of ['vrb', 'g_q', 'bld', 'fino', 'think']) if (!mods.includes(k)) fail('observatorio skill not recorded: ' + k);
 console.log('observatorio: conjugar build, drill, armar, sonidos, oído fino OK');
 
 // ---- El Duelo: win the first duel with right answers ----
