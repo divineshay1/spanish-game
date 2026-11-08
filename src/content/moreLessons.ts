@@ -125,6 +125,42 @@ export const MORE_LESSONS: MoreLesson[] = [
     rule: 'me = me, lo = him, la = her, nos = us, los = them. The same words also make the question.',
     items: [["you saw me, he saw me, she saw me / did you see me? did he see me? did she see me?", "ME VIÓ"], ["you saw him, he saw him, she saw him / did you see him? did he see him? did she see him?", "LO VIÓ"], ["you saw her, he saw her, she saw her / did you see her? did he see her? did she see her?", "LA VIÓ"], ["you saw us, he saw us, she saw us / did you see us? did he see us? did she see us?", "NOS VIÓ"], ["you saw them, he saw them, she saw them / did you see them? did he see them? did she see them?", "LOS VIÓ"]],
   },
+  {
+    id: "b-me-se",
+    title: "ME, SE, NOS, SE",
+    rule: "The reflexive pronouns: what you do to yourself.",
+    items: [["myself", "ME"], ["yourself, himself, herself, itself", "SE"], ["ourselves", "NOS"], ["yourselves, themselves", "SE"]],
+  },
+  {
+    id: "b-subj-que",
+    title: "Subjunctive after Quiero que, Espero que…",
+    rule: "The subjunctive is used after certain definite expressions: QUIERO QUE, ESPERO QUE, DUDO QUE, TEMO QUE, PREFIERO QUE, SIENTO QUE. Remember that in the command and in the subjunctive \"ar\" verbs change their a to e, and \"er\" and \"ir\" verbs change to a: compre, venda, escriba.",
+    items: [["I want you to / I want him, her, it to", "QUIERO QUE"], ["I hope that you will / I hope that he, she, it will", "ESPERO QUE"], ["I doubt that you will / I doubt that he, she, it will", "DUDO QUE"], ["I fear that you will / I fear that he, she, it will / I am afraid that you, he, she, it will", "TEMO QUE"], ["I prefer that you, he, she, it", "PREFIERO QUE"], ["I am sorry, I regret that you, he, she, it will", "SIENTO QUE"], ["I want you to buy a hat.", "Quiero que compre un sombrero."], ["I want you to sell the house.", "Quiero que venda la casa."], ["Albert wants you to write the article.", "Alberto quiere que escriba el artículo."], ["Albert wants you to finish the work.", "Alberto quiere que termine el trabajo."], ["I hope you read the poem.", "Espero que lea el poema."], ["I hope you send the package.", "Espero que mande el paquete."], ["Edward hopes you answer the letter.", "Eduardo espera que conteste la carta."], ["I hope you come to the party.", "Espero que venga a la fiesta."], ["Albert wants you to come to the party.", "Alberto quiere que venga a la fiesta."], ["Albert wants you to send the package.", "Alberto quiere que mande el paquete."], ["I want you to finish the work.", "Quiero que termine el trabajo."], ["I hope you sell the house.", "Espero que venda la casa."]],
+  },
+  {
+    id: "b-subj-se-lo",
+    title: "Subjunctive with se, lo, la, me",
+    rule: "With reflexive verbs and with direct and indirect object pronouns.",
+    items: [["I want you to get up.", "Quiero que se levante."], ["I want you to go to bed.", "Quiero que se acueste."], ["I want you bathe.", "Quiero que se bañe."], ["I hope he’ll get better.", "Espero que se mejore."], ["I don’t want you to get tired.", "No quiero que se canse."], ["I want you to get ready.", "Quiero que se aliste."], ["I want you to do it.", "Quiero que lo haga."], ["I want you to see it.", "Quiero que lo vea."], ["I want you to bring it.", "Quiero que lo traiga."], ["I want you to give it to me.", "Quiero que me lo dé."], ["I want you to bring it to me.", "Quiero que me lo traiga."], ["I hope that you will invite him.", "Espero que lo invite."], ["I hope that you will invite her.", "Espero que la invite."]],
+  },
+  {
+    id: "b-subj-deseo",
+    title: "Que cante, que tenga suerte",
+    rule: "Let him / her / them… and May he / she / they… The expression \"May they\" (que) belongs to a whole subjunctive family that expresses hope, desire, or a sincere wish.",
+    items: [["Let him sing. Let her sing.", "Que cante."], ["Let him come. Let her come.", "Que venga."], ["Let him do it. Let her do it.", "Que lo haga."], ["Let him do what he wants. Let her do what she wants.", "Que haga lo que quiera."], ["Let him buy it. Let her buy it.", "Que lo compre."], ["Let him, her think it over.", "Que lo piense."], ["Let him go out. Let her go out.", "Que salga."], ["May he, she have luck.", "Que tenga suerte."], ["May he, she get there on time.", "Que llegue a tiempo."], ["May he come back soon.", "Que vuelva pronto."], ["Let them sing.", "Que canten."], ["Let them come.", "Que vengan."], ["Let them do it.", "Que lo hagan."], ["Let them think it over.", "Que lo piensen."], ["May they have luck.", "Que tengan suerte."], ["I hope that you’ll have luck.", "Espero que tenga suerte."], ["May you have luck.", "Que tenga suerte."], ["God grant that you have luck.", "Dios quiera que tenga suerte."], ["I certainly hope that you’ll have luck.", "Ojalá que tenga suerte."]],
+  },
+  {
+    id: "b-subj-pide",
+    title: "Quiere que, pide que, exige que… mande",
+    rule: "More expressions followed by the subjunctive.",
+    items: [["He wants you to send.", "QUIERE QUE mande."], ["He says that you should send.", "DICE QUE mande."], ["He prefers that you should send.", "PREFIERE QUE mande."], ["He asks you to send.", "PIDE QUE mande."], ["He demands that you send.", "EXIGE QUE mande."], ["He begs you to send.", "LE RUEGA QUE mande."], ["He begs you to send. (suplica)", "LE SUPLICA QUE mande."], ["He proposes that you send.", "PROPONE QUE mande."], ["He forbids you to send.", "PROHIBE QUE mande."]],
+  },
+  {
+    id: "b-subj-quiza",
+    title: "Tal vez, quizás, es posible que… / creo que",
+    rule: "All expressions that mean \"maybe\" are followed by the subjunctive, and so are expressions of probability. NO CREO QUE is ALWAYS followed by the subjunctive. CREO QUE is NEVER followed by the subjunctive.",
+    items: [["Maybe he’ll come.", "Tal vez venga."], ["Maybe he’ll do it.", "Quizá lo haga."], ["Maybe he’ll come. (quizás)", "Quizás venga."], ["It’s possible that he will finish.", "Es posible que termine."], ["It may be that he will talk to my uncle.", "Puede ser que hable con mi tío."], ["It may be that he will visit my uncle.", "Puede que visite a mi tío."], ["It’s probable that he will do it.", "Es probable que lo haga."], ["Probably he will win (He’ll probably win).", "Probablemente gane."], ["I don’t think he’ll buy the house.", "No creo que compre la casa."], ["I think that he is going to buy the house.", "Creo que va a comprar la casa."], ["I don’t think he studies.", "No creo que estudie."], ["I think he studies a lot.", "Creo que estudia mucho."]],
+  },
 ];
 
 /**
