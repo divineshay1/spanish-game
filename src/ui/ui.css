@@ -233,3 +233,8 @@ textarea.pinput { min-height: 96px; resize: vertical; }
 .picgrid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
 .picgrid .opt { margin: 0; padding: 4px; }
 .picgrid img { width: 100%; display: block; border: 2px solid var(--plum); }
+.menugrid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin: 8px 0; }
+.menugrid button { font: inherit; font-size: calc(12px * var(--text-scale)); border: 3px solid var(--plum); background: var(--white); color: var(--plum); box-shadow: 0 3px 0 var(--deep); border-radius: 0; padding: 4px 2px; cursor: pointer; min-height: 56px; position: relative; }
+.menugrid img { width: 36px; height: 36px; image-rendering: pixelated; display: block; margin: 0 auto; }
+.menugrid .q { position: absolute; top: -8px; right: -6px; background: var(--pink); color: var(--white); border: 2px solid var(--plum); min-width: 18px; font-size: 12px; }
+.receipt { background: var(--white); border: 3px dashed var(--plum); padding: 8px 12px; margin: 8px 0; font-size: calc(16px * var(--text-scale)); }

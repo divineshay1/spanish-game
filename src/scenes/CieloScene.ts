@@ -146,6 +146,7 @@ export class CieloScene extends Phaser.Scene {
       if (what === 'imm') goTo(this, 'Isla');
       if (what === 'grammar') goTo(this, 'Observatorio');
       if (what === 'duel') goTo(this, 'Duelo');
+      if (what === 'cafe') goTo(this, 'Cafe');
     };
     c.add(
       pixelButton(this, gap, H - 32, bw, 24, 'Hoy', () => !uiBusy() && openHoy(go), {

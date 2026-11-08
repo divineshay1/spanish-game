@@ -180,8 +180,8 @@ await tapGame(6 * 2 + bw2 + bw2 / 2, H - 32 + 12); // Progreso
 await page.waitForSelector('#panel .chart', { timeout: 5000 });
 await page.screenshot({ path: `${OUT}/progreso.png` });
 await page.click('#panel [data-act="close"]');
-// a locked door now: El Café
-await tapGame(Math.round(W * 0.72), Math.round(H * 0.74) - 38 / 2 + 14 - 8);
+// a locked door now: El Barrio
+await tapGame(Math.round(W * 0.72) + 24, Math.round(H * 0.74) - 38 / 2 + 14 - 8);
 await page.waitForTimeout(300);
 if (!(await isActive('Cielo'))) fail('locked door left El Cielo');
 console.log('cielo: hoy, phrase XP, route, progreso, locked door OK');
@@ -460,6 +460,35 @@ await page.screenshot({ path: `${OUT}/duelo-win.png` });
 const game = await page.evaluate(() => window.__state().game);
 if (game.wins !== 1 || game.cleared !== 1) fail('duel not won: ' + JSON.stringify(game));
 console.log('duelo: first duel won OK');
+
+// ---- El Café: one customer, served and charged correctly ----
+await page.goto(URL);
+await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
+await page.waitForTimeout(400);
+await tapGame(Math.round(W * 0.72), Math.round(H * 0.74) - 13);
+await page.waitForFunction(() => window.__game.scene.isActive('Cafe'), null, { timeout: 5000 });
+await page.waitForSelector('#cafe [data-act="go"]', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/cafe-menu.png` });
+await page.click('#cafe [data-act="go"][data-n="1"]');
+await page.waitForTimeout(800);
+const { cu } = await page.evaluate(() => window.__cafe());
+for (const l of cu.o.lines) for (let k = 0; k < l.qty; k++) await page.click(`#cafe [data-act="add"][data-id="${l.id}"]`);
+if (cu.o.sugar) await page.click(`#cafe [data-act="sugar"][data-v="${cu.o.sugar}"]`);
+if (cu.o.napkin) await page.click('#cafe [data-act="napkin"]');
+await page.click('#cafe [data-act="show"]');
+await page.screenshot({ path: `${OUT}/cafe-order.png` });
+await page.click('#cafe [data-act="serve"]');
+if (await page.locator('#cafe .feedback.no').count()) fail('café order marked wrong');
+await page.click('#cafe [data-act="topay"]');
+const pay = await page.evaluate(() => window.__cafe().cu.pay);
+await page.click(`#cafe [data-act="pay"][data-i="${pay.findIndex((p) => p.ok)}"]`);
+await page.screenshot({ path: `${OUT}/cafe-pay.png` });
+await page.click('#cafe [data-act="bye"]');
+await page.click('#cafe [data-act="nextc"]');
+await page.waitForSelector('#cafe [data-act="menu"]');
+const cafe = await page.evaluate(() => window.__state().cafe);
+if (cafe.shifts !== 1 || cafe.stars !== 3 || cafe.tips !== 1) fail('café shift not recorded: ' + JSON.stringify(cafe));
+console.log('café: served, charged, tipped OK');
 await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 

@@ -201,7 +201,8 @@ Every realm gets a smoke test that plays it start to finish automatically.
 
 **Rule from you:** content you send is added exactly as written. I only ask, never change it myself.
 
-- [ ] M10. El Café
+- [x] **M10. El Café**: a pink café with a counter; customers walk in and order in Spanish ("Quisiera un pan dulce, por favor"). Tap the right items (pixel icons) onto the tray, then pick the total in Spanish ("Son cuatro dólares con cincuenta centavos"). Level 1: one thing; level 2: two things; level 3: amounts, con/sin azúcar and a servilleta. 3 ★ per customer; perfect service earns a propina. Added to the daily route.
+- [ ] M11. El Barrio
 
 ### Things I noticed in the prototype (not changed yet)
 - **Fixed (you approved):** a c or g at the end of a syllable now keeps its hard sound: doctor → dohk-TOHR (was dohs-TOHR), seguro → seh-GOO-roh (was seh-G-roh).
