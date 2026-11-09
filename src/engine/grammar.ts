@@ -336,4 +336,5 @@ export function answerFino(S: State, it: FinoItem, k: number): boolean {
 }
 
 /** Banks a drill's XP (+5 for finishing), as the prototype did. */
-export const finishDrill = (S: State, xp: number, task: 'grammar' | 'build' | 'listen') => addXP(S, xp + 5, task);
+/** Every Observatorio activity ticks the Observatorio step on the daily route. */
+export const finishDrill = (S: State, xp: number, _task?: 'grammar' | 'build' | 'listen') => addXP(S, xp + 5, 'grammar');

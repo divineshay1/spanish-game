@@ -206,6 +206,11 @@ Every realm gets a smoke test that plays it start to finish automatically.
 
 **All 11 milestones done.**
 
+### Next ideas (from your feedback)
+- La Clínica, El Café and El Barrio: grow into freer, more conversational versions as your level goes up.
+- Small, easy graphics touch-ups; maybe a softer font later.
+- Fixed: Focus now ticks off its daily step; Armar, Oído fino and Mezcla tick off Observatorio.
+
 ### Things I noticed in the prototype (not changed yet)
 - **Fixed (you approved):** a c or g at the end of a syllable now keeps its hard sound: doctor → dohk-TOHR (was dohs-TOHR), seguro → seh-GOO-roh (was seh-G-roh).
 - **Changed (English text only):** the prototype thanked you as "doctora/doctor" based on the patient's gender. Now it says "Thank you for your help."

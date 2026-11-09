@@ -19,7 +19,7 @@ export function made(S: State, seen: Set<string>, es: string): number {
   seen.add(es);
   recMod(S, 'mezcla', true);
   if (seen.size % 5 === 0) {
-    addXP(S, 10, 'build');
+    addXP(S, 10, 'grammar');
     return 10;
   }
   return 0;

@@ -38,3 +38,23 @@ describe('daily route', () => {
     expect(levelProgress(S)).toEqual({ level: 2, into: 10, of: 250 });
   });
 });
+
+describe('finishing activities ticks the right daily step', () => {
+  it('Focus ticks focus; Armar, Oído fino and Mezcla tick Observatorio', async () => {
+    const { addXP } = await import('../state/progress');
+    const { finishDrill } = await import('./grammar');
+    const { made } = await import('./mezcla');
+    const { defaults: d } = await import('../state/state');
+    const { taskDone: done } = await import('./daily');
+    const S = d();
+    addXP(S, 7, 'focus');
+    expect(done(S, 'focus')).toBe(true);
+    const S2 = d();
+    finishDrill(S2, 10, 'build');
+    expect(done(S2, 'grammar')).toBe(true);
+    const S3 = d();
+    const seen = new Set<string>();
+    for (const x of ['a', 'b', 'c', 'd', 'e']) made(S3, seen, x);
+    expect(done(S3, 'grammar')).toBe(true);
+  });
+});

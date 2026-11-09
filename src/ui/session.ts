@@ -510,7 +510,7 @@ function onClick(e: Event): void {
       if (v.k !== 'focus') return;
       if (v.i + 1 >= v.items.length) {
         const xp = v.xp + 5;
-        addXP(S, xp, 'review');
+        addXP(S, xp, 'focus'); // ticks the Focus step on the daily route
         commit();
         result.grew.push(...v.grew);
         result.xp += xp;
