@@ -75,6 +75,7 @@ export class CieloScene extends Phaser.Scene {
 
     this.addHeader(W);
     this.addBottomBar(W, H);
+    pixelText(this, W - 4, H - 40, 'v' + __APP_VERSION__, 8, PAL.deepLav, PAL.white).setDepth(46).setAlpha(0.8).list.forEach((t) => (t as Phaser.GameObjects.Text).setOrigin(1, 0.5));
 
     // tap the sky for sparkles
     const burst = this.add.particles(0, 0, 'sparkle-s', {

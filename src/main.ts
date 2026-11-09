@@ -73,7 +73,10 @@ async function start() {
     scene: [BootScene, CieloScene, JardinScene, JardinHud, ClinicaScene, BibliotecaScene, IslaScene, ObservatorioScene, DueloScene, CafeScene, BarrioScene],
     callbacks: { preBoot: (g) => storeView(g, fit) },
   });
-  game.events.once(Phaser.Core.Events.READY, () => applyCss(game, fit));
+  game.events.once(Phaser.Core.Events.READY, () => {
+    applyCss(game, fit);
+    document.getElementById('boot')?.remove();
+  });
   Object.assign(window as object, { __game: game, __state: state });
 
   let timer = 0;

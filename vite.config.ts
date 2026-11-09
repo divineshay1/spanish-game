@@ -4,6 +4,7 @@ import { artManifest } from './src/art/manifestPlugin.ts';
 
 // GitHub Pages serves the site at /spanish-game/
 export default defineConfig({
+  define: { __APP_VERSION__: JSON.stringify('1.11.' + new Date().toISOString().slice(0, 10).replace(/-/g, '')) },
   base: '/spanish-game/',
   build: { target: 'es2022', chunkSizeWarningLimit: 2000 },
   plugins: [

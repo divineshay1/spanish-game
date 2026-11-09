@@ -107,6 +107,7 @@ function render(): void {
       ${chip('music', st.music ? 0 : 1, st.music ? 'Música: sí' : 'Música: no', st.music)}
     </div>
 
+    <p class="muted">Versión ${esc(__APP_VERSION__)}</p>
     <h3>Tu progreso</h3>
     <p class="muted">Saved on this phone only. Nothing leaves your device. Make a backup now and then.</p>
     <div class="row">

@@ -59,7 +59,8 @@ function lsSet(json: string): void {
 export async function loadState(): Promise<State> {
   let a: unknown = null;
   try {
-    a = await idbGet();
+    // some iPhone browser modes never answer IndexedDB; don't wait forever
+    a = await Promise.race([idbGet(), new Promise((res) => setTimeout(() => res(null), 1500))]);
   } catch {
     /* ignore */
   }
@@ -88,7 +89,7 @@ export async function flush(): Promise<void> {
   const json = JSON.stringify(S);
   lsSet(json);
   try {
-    await idbSet(JSON.parse(json));
+    await Promise.race([idbSet(JSON.parse(json)), new Promise((res) => setTimeout(res, 1500))]);
   } catch {
     /* localStorage copy is enough */
   }

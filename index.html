@@ -14,6 +14,15 @@
   </head>
   <body>
     <div id="game"></div>
+    <div id="boot" style="position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font:16px system-ui,sans-serif;color:#6b4fa8;pointer-events:none">Cargando… ✦</div>
+    <script>
+      // If anything breaks while starting, show it on screen so a screenshot explains the problem.
+      window.addEventListener('error', function (e) {
+        var b = document.getElementById('boot');
+        if (b) { b.style.pointerEvents = 'auto'; b.style.padding = '24px'; b.style.textAlign = 'center';
+          b.textContent = 'Something went wrong: ' + (e.message || e) + ' — please send a screenshot.'; }
+      });
+    </script>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
