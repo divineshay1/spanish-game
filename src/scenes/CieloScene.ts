@@ -14,6 +14,7 @@ import { openHoy, openProgreso, panelOpen } from '../ui/panels';
 import { sessionOpen } from '../ui/session';
 import { readerOpen } from '../ui/reader';
 import { grammarOpen } from '../ui/grammarPanel';
+import { openEstrellas, starsOpen } from '../ui/estrellas';
 import { REALMS, TASKS, tasksDone, type Realm } from '../engine/daily';
 import { curStreak, today } from '../state/progress';
 import { speak } from '../audio/speech';
@@ -34,7 +35,7 @@ const CHEERS: [string, string][] = [
   ['¡Qué gusto verte!', 'So nice to see you!'],
 ];
 
-const uiBusy = () => settingsOpen() || panelOpen() || sessionOpen() || readerOpen() || grammarOpen();
+const uiBusy = () => settingsOpen() || panelOpen() || sessionOpen() || readerOpen() || grammarOpen() || starsOpen();
 
 /** El Cielo: the floating sky-island hub with a door to every realm. */
 export class CieloScene extends Phaser.Scene {
@@ -137,7 +138,7 @@ export class CieloScene extends Phaser.Scene {
     const S = state();
     const c = this.add.container(0, 0).setDepth(45);
     const gap = 6;
-    const bw = Math.floor((W - gap * 3) / 2);
+    const bw = Math.floor((W - gap * 4) / 3);
     const left = TASKS.length - tasksDone(S);
     const go = (what: string | null) => {
       if (!what) return;
@@ -156,7 +157,12 @@ export class CieloScene extends Phaser.Scene {
         face: PAL.white,
       }),
     );
-    c.add(pixelButton(this, gap * 2 + bw, H - 32, bw, 24, 'Progreso', () => !uiBusy() && openProgreso()));
+    c.add(
+      pixelButton(this, gap * 2 + bw, H - 32, bw, 24, 'Estrellas', () => !uiBusy() && openEstrellas(() => this.scene.restart()), {
+        face: PAL.star,
+      }),
+    );
+    c.add(pixelButton(this, gap * 3 + bw * 2, H - 32, bw, 24, 'Progreso', () => !uiBusy() && openProgreso()));
     this.bottom = c;
   }
 

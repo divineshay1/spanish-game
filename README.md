@@ -103,3 +103,11 @@ node scripts/plant_sheet.mjs out.png  # picture of every plant stage
 
 See `PLAN.md` for milestones and `SPEC.md` for the full brief.
 `mi-espanol-legacy.html` is the original prototype and the source of truth for content.
+
+## Estrellas Fugaces
+
+Tap **Estrellas** at the bottom of El Cielo. Words fall like shooting stars; tap the one with the right Spanish before it lands. Three hearts, and it speeds up as you go.
+
+- **Mi jardín** uses your own plants (thirsty ones first). Each right zap waters that plant.
+- Other sets: En la clínica, Números, Pasado.
+- **Auto voice** says each new word out loud for you (turn it off for a harder round). 🔊 repeats it.

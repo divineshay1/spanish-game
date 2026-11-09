@@ -18,6 +18,8 @@ export interface Settings {
   music: boolean;
   /** new seeds offered per day in El Jardín */
   newPerDay: number;
+  /** Estrellas Fugaces: say each new word out loud automatically */
+  starsAuto: boolean;
 }
 
 export interface State {
@@ -87,7 +89,7 @@ export const defaults = (): State => ({
   clin: { patients: 0, stars: 0, coins: 0, shifts: 0 },
   cafe: { shifts: 0, served: 0, stars: 0, tips: 0 },
   barrio: { talks: {} },
-  settings: { reduceMotion: false, textSize: 1, sfx: true, music: false, newPerDay: 5 },
+  settings: { reduceMotion: false, textSize: 1, sfx: true, music: false, newPerDay: 5, starsAuto: true },
   planted: {},
 });
 

@@ -66,7 +66,7 @@ console.log('settings, backup, restore, save OK');
 
 // ---- El Jardín ----
 const tapGame = async (gx, gy) => {
-  const b = await page.locator('canvas').boundingBox();
+  const b = await page.locator('#game canvas').boundingBox();
   const u = b.width / info.w;
   await page.mouse.click(b.x + gx * u, b.y + gy * u);
 };
@@ -160,8 +160,8 @@ await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 await page.waitForTimeout(400);
 await page.screenshot({ path: `${OUT}/cielo-hub.png` });
-const bw2 = Math.floor((W - 18) / 2);
-await tapGame(6 + bw2 / 2, H - 32 + 12); // Hoy
+const bw3 = Math.floor((W - 24) / 3);
+await tapGame(6 + bw3 / 2, H - 32 + 12); // Hoy
 await page.waitForSelector('#panel [data-act="phrase"]', { timeout: 5000 });
 const xp0 = await page.evaluate(() => window.__state().xp);
 await page.click('#panel [data-act="phrase"] >> nth=0');
@@ -176,11 +176,37 @@ await page.click('#session [data-act="close"]');
 await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
 await page.waitForTimeout(300);
-await tapGame(6 * 2 + bw2 + bw2 / 2, H - 32 + 12); // Progreso
+await tapGame(6 * 3 + bw3 * 2 + bw3 / 2, H - 32 + 12); // Progreso
 await page.waitForSelector('#panel .chart', { timeout: 5000 });
 await page.screenshot({ path: `${OUT}/progreso.png` });
 await page.click('#panel [data-act="close"]');
 console.log('cielo: hoy, phrase XP, route, progreso OK');
+
+// ---- Estrellas Fugaces: play a round, zap the right meteor, close ----
+await tapGame(6 * 2 + bw3 + bw3 / 2, H - 32 + 12); // Estrellas
+await page.waitForSelector('#estrellas [data-act="go"]', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/estrellas-menu.png` });
+await page.click('#estrellas [data-act="set"][data-set="clinic"]');
+await page.click('#estrellas [data-act="go"]');
+let zapped = false;
+for (let i = 0; i < 40 && !zapped; i++) {
+  await page.waitForTimeout(150);
+  const g = await page.evaluate(() => window.__estrellas());
+  const m = g.target && g.meteors.find((x) => x.es === g.target[1] && x.y > 20);
+  if (m) {
+    await page.mouse.click(m.x, m.y);
+    await page.waitForTimeout(100);
+    zapped = (await page.evaluate(() => window.__estrellas().score)) > 0;
+  }
+}
+if (!zapped) fail('estrellas: could not zap the right meteor');
+await page.screenshot({ path: `${OUT}/estrellas-play.png` });
+const xpS = await page.evaluate(() => window.__state().xp);
+await page.click('#estrellas [data-act="close"]');
+if ((await page.evaluate(() => window.__state().xp)) <= xpS) fail('estrellas: no XP on close');
+await page.waitForFunction(() => window.__game.scene.isActive('Cielo'), null, { timeout: 5000 });
+await page.waitForTimeout(300);
+console.log('estrellas: play, zap, XP OK');
 
 // ---- La Clínica: play a full patient visit with the right answers ----
 await tapGame(W / 2 + 36, Math.round(H * 0.44) - 26);
