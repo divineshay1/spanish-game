@@ -9,6 +9,7 @@ import { dueList, seedsLeftToday } from '../engine/cards';
 import { focusPool } from '../engine/focus';
 import { openFocus, openPlant, openWater, sessionOpen, type SessionResult } from '../ui/session';
 import { openSettings } from '../ui/settings';
+import { openCoaster, coasterOpen } from '../ui/coaster';
 import { getDayOffset, setDayOffset } from '../engine/clock';
 import { toast } from '../ui/toast';
 import { BOTTOM_BAR, type JardinScene } from './JardinScene';
@@ -36,7 +37,7 @@ export class JardinHud extends Phaser.Scene {
       top.fillStyle(hex(PAL.lilac)).fillRect(0, 0, W, 1);
       const back = this.add.image(13, 13, 'back-arrow');
       this.add.zone(14, 13, 30, 28).setInteractive({ useHandCursor: true }).on('pointerup', () => {
-        if (!sessionOpen()) goTo(this.scene.get('Jardin'), 'Cielo');
+        if (!sessionOpen() && !coasterOpen()) goTo(this.scene.get('Jardin'), 'Cielo');
       });
       void back;
       pixelText(this, W / 2, 9, 'El Jardín', 8, PAL.white, PAL.plum);
@@ -66,6 +67,9 @@ export class JardinHud extends Phaser.Scene {
         badge: rescue ? String(Math.min(rescue, 99)) : undefined,
         face: focusPool(S).length ? PAL.cream : PAL.rose,
       });
+
+      // La Montaña Rusa: a 10-word ride with Brote
+      pixelButton(this, 4, 32, 62, 18, 'Montaña ✦', () => !sessionOpen() && !coasterOpen() && openCoaster(after), { face: PAL.star });
 
       // hidden test tool: add ?debug to the address to travel in time
       if (new URLSearchParams(location.search).has('debug')) {

@@ -265,3 +265,40 @@ textarea.pinput { min-height: 96px; resize: vertical; }
 .stars-layer .chipbtn { background: var(--cream); font-size: 15px; min-height: 40px; padding: 6px 10px; }
 .stars-layer .chipbtn[aria-pressed="true"] { background: var(--pink); color: #fff; }
 @media (prefers-reduced-motion: reduce) { .stars-layer button:active { transform: none; } }
+
+/* ---- La Montaña Rusa: coaster world on top, question card below ---- */
+.co-layer { position: fixed; inset: 0; z-index: 12; display: flex; flex-direction: column; background: var(--cream); color: var(--plum); font-family: 'Pixelify Sans', monospace; overflow: hidden; touch-action: manipulation; -webkit-user-select: none; user-select: none; }
+.co-layer[hidden], .co-layer [hidden] { display: none !important; }
+.co-stage { position: relative; flex: 1 1 auto; min-height: 0; overflow: hidden; background: #b29ee2; }
+.co-stage canvas { position: absolute; left: 0; top: 0; image-rendering: pixelated; image-rendering: crisp-edges; }
+.co-hud { position: absolute; top: 0; left: 0; right: 0; display: flex; align-items: center; gap: 8px; padding: calc(10px + env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) 0 max(12px, env(safe-area-inset-left)); }
+.co-pill { display: inline-flex; align-items: center; gap: 6px; background: var(--white); border: 3px solid var(--plum); box-shadow: 0 3px 0 var(--lav); padding: 4px 10px; font-size: 18px; font-variant-numeric: tabular-nums; }
+.co-pill .heart { color: var(--pink); font-size: 20px; line-height: 1; text-shadow: 1px 1px 0 var(--plum); }
+.co-pill.bump { animation: co-bump .35s ease-out; }
+@keyframes co-bump { 40% { transform: scale(1.18); } }
+.co-stops { margin-left: auto; font-size: 15px; }
+.co-layer button { font: inherit; color: var(--plum); background: var(--star); border: 3px solid var(--plum); box-shadow: 0 4px 0 var(--lav); padding: 6px 12px; cursor: pointer; border-radius: 0; min-height: 44px; font-size: 17px; }
+.co-layer button:active { transform: translateY(3px); box-shadow: 0 1px 0 var(--lav); }
+.co-layer button:disabled { cursor: default; }
+.co-hud .co-x, .co-hud .co-auto { background: var(--white); font-size: 15px; min-height: 40px; padding: 4px 10px; }
+.co-hud .co-auto[aria-pressed="true"] { background: var(--pink); color: var(--white); }
+.co-quiz { flex: 0 0 auto; border-top: 4px solid var(--plum); box-shadow: inset 0 4px 0 var(--white); padding: 12px max(16px, env(safe-area-inset-right)) calc(14px + env(safe-area-inset-bottom)) max(16px, env(safe-area-inset-left)); display: flex; flex-direction: column; gap: 10px; }
+.co-quiz.idle .co-choices { min-height: 136px; }
+.co-ask { display: flex; align-items: center; justify-content: center; gap: 10px; }
+.co-ask .word { text-align: center; min-width: 0; }
+.co-ask small { display: block; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; color: var(--deep); }
+.co-ask b.long { font-size: calc(20px * var(--text-scale)); }
+.co-ask b { display: block; font-size: calc(26px * var(--text-scale)); text-shadow: 2px 2px 0 var(--blush); overflow-wrap: anywhere; }
+.co-choices { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; max-width: 460px; width: 100%; margin: 0 auto; }
+.co-choices button { background: var(--white); font-size: calc(16px * var(--text-scale)); min-height: 64px; min-width: 0; overflow-wrap: anywhere; padding: 4px 8px; }
+.co-choices button.good { background: var(--mint); }
+.co-choices button.bad { background: var(--blush); }
+.co-note { min-height: 18px; text-align: center; font-size: 14px; color: var(--deep); margin: 0; }
+.co-over { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; padding: 0 max(16px, env(safe-area-inset-right)) 0 max(16px, env(safe-area-inset-left)); background: rgba(107, 79, 168, .45); }
+.co-over .box { background: var(--cream); border: 4px solid var(--plum); box-shadow: inset 0 0 0 4px var(--white), 0 6px 0 var(--lav); padding: 20px 18px; max-width: 360px; display: flex; flex-direction: column; gap: 12px; align-items: center; text-align: center; }
+.co-over h2 { margin: 0; font-size: clamp(28px, 8vw, 38px); text-shadow: 3px 3px 0 var(--blush); }
+.co-over p { margin: 0; font-size: 16px; line-height: 1.45; max-width: 30ch; }
+.co-over p.small { font-size: 13px; color: var(--deep); }
+.co-over .row { display: flex; gap: 8px; flex-wrap: wrap; justify-content: center; }
+.co-over button:not(.go) { background: var(--white); }
+@media (prefers-reduced-motion: reduce) { .co-layer button:active { transform: none; } .co-pill.bump { animation: none; } }

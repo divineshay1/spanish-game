@@ -111,3 +111,12 @@ Tap **Estrellas** at the bottom of El Cielo. Words fall like shooting stars; tap
 - **Mi jardín** uses your own plants (thirsty ones first). Each right zap waters that plant.
 - Other sets: En la clínica, Números, Pasado.
 - **Auto voice** says each new word out loud for you (turn it off for a harder round). 🔊 repeats it.
+
+## La Montaña Rusa
+
+In El Jardín, tap the yellow **Montaña ✦** button at the top left. Brote, a little sprout, rides a heart-backed cart along a pastel roller coaster.
+
+- Ten words per ride: your plants first (thirsty ones at the front), topped up with clinic words while your garden is small.
+- **Right answer:** the cart rolls to the next flag with sparkles, and a thirsty plant gets watered.
+- **Wrong answer:** Brote wobbles. The cart never rolls back, and the word comes round again later in the ride.
+- Reach the flower gate to finish: confetti, a fanfare and XP. **🔊 Auto** says each word out loud (it shares the Auto voice setting with Estrellas).

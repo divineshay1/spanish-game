@@ -155,6 +155,38 @@ await page.screenshot({ path: `${OUT}/plant-info.png` });
 await page.click('#session [data-act="close"]');
 console.log('jardín: plant, time travel, water, typed, focus, info OK');
 
+// ---- La Montaña Rusa: ride all ten stops with one miss, reach the gate ----
+await page.waitForTimeout(300);
+await tapGame(4 + 31, 32 + 9); // Montaña
+await page.waitForSelector('#coaster [data-act="go"]', { timeout: 5000 });
+await page.screenshot({ path: `${OUT}/coaster-menu.png` });
+await page.click('#coaster [data-act="go"]');
+let missed = false;
+for (let i = 0; i < 14; i++) {
+  if ((await page.evaluate(() => window.__coaster().stopIx)) >= 10) break;
+  await page.waitForSelector('#coaster .co-choices button:not([disabled])', { timeout: 5000 });
+  const c = await page.evaluate(() => window.__coaster());
+  if (!missed && c.stopIx === 2) {
+    missed = true;
+    await page.click(`#coaster .co-choices button:not([data-a="${c.cur[1].replace(/"/g, '\\"')}"]) >> nth=0`);
+    await page.waitForTimeout(300);
+    if ((await page.evaluate(() => window.__coaster().stopIx)) !== 2) fail('coaster: a miss moved the cart');
+    await page.screenshot({ path: `${OUT}/coaster-miss.png` });
+    await page.waitForTimeout(1500);
+    continue;
+  }
+  await page.click(`#coaster .co-choices button[data-a="${c.cur[1].replace(/"/g, '\\"')}"]`);
+  if (c.stopIx === 4) { await page.waitForTimeout(700); await page.screenshot({ path: `${OUT}/coaster-ride.png` }); }
+  await page.waitForTimeout(1550);
+}
+await page.waitForSelector('#coaster [data-act="again"]', { timeout: 6000 });
+await page.screenshot({ path: `${OUT}/coaster-end.png` });
+const cz = await page.evaluate(() => window.__coaster());
+if (cz.stopIx !== cz.n || cz.right !== cz.n) fail('coaster: did not reach the gate');
+await page.click('#coaster .co-over [data-act="close"]');
+await page.waitForTimeout(300);
+console.log('montaña rusa: ride, miss holds, gate, XP OK');
+
 // ---- El Cielo: Hoy, phrase of the day, daily route, Progreso, locked door ----
 await page.goto(URL);
 await page.waitForFunction(() => window.__game?.scene.isActive('Cielo'), null, { timeout: 15000 });
